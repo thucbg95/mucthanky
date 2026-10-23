@@ -1,0 +1,10 @@
+.git/
+.github/
+node_modules/
+.wrangler/
+.env*
+.dev.vars*
+wrangler.jsonc
+wrangler.toml
+.assetsignore
+*.log
