@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#0b161b"/><rect x="5" y="5" width="54" height="54" fill="none" stroke="#d9b676"/><text x="32" y="45" font-size="40" text-anchor="middle" fill="#d9b676" font-family="serif">牧</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+ <defs><radialGradient id="jade" cx="35%" cy="25%"><stop stop-color="#a8d1b7"/><stop offset=".52" stop-color="#438a75"/><stop offset="1" stop-color="#1d514d"/></radialGradient><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f1d99d"/><stop offset="1" stop-color="#a87537"/></linearGradient></defs>
+ <path d="M27 5a5 5 0 0 1 10 0v6h-4V5a1 1 0 0 0-2 0v6h-4z" fill="url(#gold)"/>
+ <circle cx="32" cy="36" r="24" fill="#d7ba80" opacity=".28"/><circle cx="32" cy="34" r="22" fill="url(#jade)" stroke="url(#gold)" stroke-width="2.2"/>
+ <circle cx="32" cy="34" r="18" fill="none" stroke="#d4c28c" stroke-opacity=".55" stroke-width=".7"/>
+ <path d="M19 25h26M18 42h28" stroke="#d9c78f" stroke-opacity=".22" stroke-width=".6"/>
+ <text x="32" y="41" text-anchor="middle" font-family="serif" font-size="22" font-weight="700" fill="#f2e2b4" stroke="#224d45" stroke-width=".45" paint-order="stroke">秦</text>
+</svg>
