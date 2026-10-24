@@ -378,3 +378,36 @@ html:not([data-theme=dark]) .btn.primary:hover{background:#236255;border-color:#
 html:not([data-theme=dark]) .cultivation-steps{background:transparent!important}
 html:not([data-theme=dark]) .cultivation-steps>a{background:linear-gradient(160deg,#fffdf7,#f4f3eb);border-color:#d9d2c3;color:#1c302f}
 html:not([data-theme=dark]) .realm-no,html:not([data-theme=dark]) .cultivation-steps>a:last-child .realm-no{background:#fffdf7;color:#805d2b;border-color:#b89963}
+
+/* Porcelain and jade light theme with stronger text contrast. */
+html:not([data-theme=dark]){color-scheme:light;--bg:#f2f6f5;--panel:#fff;--text:#172d33;--muted:#43575d;--line:#cbd8d7;--gold:#744b15;--green:#15594f;--green-2:#24766a;--soft:#e6efec;--soft-blue:#e8f0f1;--accent:#8a6428}
+html:not([data-theme=dark]) body{background:#f2f6f5;color:#172d33}
+html:not([data-theme=dark]) h1,html:not([data-theme=dark]) h2,html:not([data-theme=dark]) h3{color:#183e39}
+html:not([data-theme=dark]) .eyebrow{color:#704812}
+html:not([data-theme=dark]) header{background:#fff;border-color:#cbd8d7}
+html:not([data-theme=dark]) .nav nav a{color:#263e43}
+html:not([data-theme=dark]) .nav nav a:hover,html:not([data-theme=dark]) .nav nav a[aria-current=page]{color:#15594f}
+html:not([data-theme=dark]) .icon-button,html:not([data-theme=dark]) .menu-toggle,html:not([data-theme=dark]) .theme-toggle{background:#fff;color:#193b3b;border-color:#bfcfcd}
+html:not([data-theme=dark]) .quickbar,html:not([data-theme=dark]) .card,html:not([data-theme=dark]) .category-tile,html:not([data-theme=dark]) .overview-card,html:not([data-theme=dark]) .toc,html:not([data-theme=dark]) .search-dialog,html:not([data-theme=dark]) .comment-root,html:not([data-theme=dark]) .account-bar,html:not([data-theme=dark]) .gallery-grid a,html:not([data-theme=dark]) .video-link,html:not([data-theme=dark]) .schedule-item,html:not([data-theme=dark]) .schedule-more,html:not([data-theme=dark]) .feature,html:not([data-theme=dark]) .feature-content{background:#fff;border-color:#cbd8d7;color:#172d33}
+html:not([data-theme=dark]) .page-hero,html:not([data-theme=dark]) .aside,html:not([data-theme=dark]) .reading-note,html:not([data-theme=dark]) .quote-panel,html:not([data-theme=dark]) .notice{background:#e6efec;border-color:#c5d5d1;color:#1b3938}
+html:not([data-theme=dark]) p,html:not([data-theme=dark]) .card p,html:not([data-theme=dark]) .page-hero p,html:not([data-theme=dark]) .entry-deck,html:not([data-theme=dark]) .facts dt,html:not([data-theme=dark]) .facts dd,html:not([data-theme=dark]) .prose,html:not([data-theme=dark]) .source-list,html:not([data-theme=dark]) .breadcrumb,html:not([data-theme=dark]) .toc nav a,html:not([data-theme=dark]) .schedule-item span,html:not([data-theme=dark]) .definition-row p,html:not([data-theme=dark]) .category-tile small,html:not([data-theme=dark]) .comment-meta small{color:#43575d}
+html:not([data-theme=dark]) .card h3,html:not([data-theme=dark]) .category-tile h3,html:not([data-theme=dark]) .overview-card h2,html:not([data-theme=dark]) .feature h2,html:not([data-theme=dark]) .feature-content h2{color:#183e39}
+html:not([data-theme=dark]) .card-foot,html:not([data-theme=dark]) .text-link,html:not([data-theme=dark]) .content-layout>.aside a,html:not([data-theme=dark]) .article-aside>.aside a{color:#15594f}
+html:not([data-theme=dark]) .start-guide .guide-grid>a,html:not([data-theme=dark]) .start-guide .guide-grid>a:nth-child(2),html:not([data-theme=dark]) .start-guide .guide-grid>a:nth-child(3){background:#e7efed;border-color:#c6d5d2;color:#172d33}
+html:not([data-theme=dark]) .start-guide .guide-grid h3,html:not([data-theme=dark]) .start-guide .guide-grid b{color:#17473f}
+html:not([data-theme=dark]) .start-guide .guide-grid p,html:not([data-theme=dark]) .start-guide .guide-grid span{color:#43575d}
+html:not([data-theme=dark]) .schedule-summary{background:#e7efed;color:#183e39;border-color:#c6d5d2}
+html:not([data-theme=dark]) .schedule-badge{background:#edf2ef;color:#344a47;border-color:#cbd8d7}
+html:not([data-theme=dark]) .schedule-item[data-upcoming=true]{background:#f6f0e4;border-color:#d8c49d}
+html:not([data-theme=dark]) .episode-status-card{background:linear-gradient(120deg,#e5efeb,#edf2ee);border-color:#c4d5d0;color:#172d33}
+html:not([data-theme=dark]) .episode-status-card h2{color:#183e39!important}
+html:not([data-theme=dark]) .episode-status-card p{color:#43575d!important}
+html:not([data-theme=dark]) .episode-status-card .eyebrow{color:#704812}
+html:not([data-theme=dark]) footer{background:#e7efed;border-color:#c6d5d2;color:#243d3c}
+html:not([data-theme=dark]) .footer-links,html:not([data-theme=dark]) .footer-bottom{color:#43575d}
+html:not([data-theme=dark]) .footer-links a,html:not([data-theme=dark]) .footer-bottom a{color:#174d46}
+html:not([data-theme=dark]) input,html:not([data-theme=dark]) textarea,html:not([data-theme=dark]) select{background:#fff;color:#172d33;border-color:#b8cbca}
+html:not([data-theme=dark]) .filters button,html:not([data-theme=dark]) .entry-tools .btn{background:#fff;color:#23433f;border-color:#c1d1cf}
+html:not([data-theme=dark]) .filters button.selected{background:#15594f;color:#fff;border-color:#15594f}
+html:not([data-theme=dark]) .font-floater button,html:not([data-theme=dark]) .font-floater .float-social{background:#fff;color:#15594f;border-color:#aebfbc}
+@media(max-width:760px){.font-floater{opacity:.6}.back-top{opacity:.8}footer .wrap{padding-right:68px}}
