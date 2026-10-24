@@ -411,3 +411,15 @@ html:not([data-theme=dark]) .filters button,html:not([data-theme=dark]) .entry-t
 html:not([data-theme=dark]) .filters button.selected{background:#15594f;color:#fff;border-color:#15594f}
 html:not([data-theme=dark]) .font-floater button,html:not([data-theme=dark]) .font-floater .float-social{background:#fff;color:#15594f;border-color:#aebfbc}
 @media(max-width:760px){.font-floater{opacity:.6}.back-top{opacity:.8}footer .wrap{padding-right:68px}}
+/* Keep character profile artwork and its caption in step with the active theme. */
+html[data-theme="dark"] .profile-picture{background:#1b262c;color:#ecf0ed}
+html[data-theme="dark"] .profile-picture figcaption{background:#1b262c;color:#bac3c2;border-top:1px solid #3a494e}
+html[data-theme="dark"] .profile-picture figcaption a{color:#f1d69b}
+html[data-theme="dark"] .facts{background:#1b262c;color:#ecf0ed}
+html[data-theme="dark"] .facts dl>div{border-color:#3a494e}
+html[data-theme="dark"] .facts dt{color:#bac3c2}
+html[data-theme="dark"] .facts dd{color:#ecf0ed}
+html[data-theme="dark"] .quickbar a:hover,html[data-theme="dark"] .quickbar a:focus-visible{background:#293a40;color:#f0d7a2}
+html[data-theme="dark"] .quickbar a:hover strong,html[data-theme="dark"] .quickbar a:focus-visible strong{color:#f0d7a2}
+html[data-theme="dark"] .quickbar a:hover small,html[data-theme="dark"] .quickbar a:focus-visible small{color:#d0d9d6}
+html[data-theme="dark"] .quickbar a:hover .quick-icon,html[data-theme="dark"] .quickbar a:focus-visible .quick-icon{color:#f0c979}
