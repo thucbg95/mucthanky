@@ -423,3 +423,44 @@ html[data-theme="dark"] .quickbar a:hover,html[data-theme="dark"] .quickbar a:fo
 html[data-theme="dark"] .quickbar a:hover strong,html[data-theme="dark"] .quickbar a:focus-visible strong{color:#f0d7a2}
 html[data-theme="dark"] .quickbar a:hover small,html[data-theme="dark"] .quickbar a:focus-visible small{color:#d0d9d6}
 html[data-theme="dark"] .quickbar a:hover .quick-icon,html[data-theme="dark"] .quickbar a:focus-visible .quick-icon{color:#f0c979}
+/* Let visitors inspect locally stored gallery images without leaving the site. */
+.gallery-grid .gallery-image{display:block;width:100%;overflow:hidden;padding:0;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--muted);font:inherit;font-size:calc(12px * var(--font-scale,1));text-align:left;cursor:zoom-in;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.gallery-grid .gallery-image:hover{transform:translateY(-2px);border-color:var(--gold);box-shadow:0 8px 22px #1d30251a}
+.gallery-grid .gallery-image img{width:100%;height:190px;object-fit:cover;transition:transform .35s ease}
+.gallery-grid .gallery-image:hover img{transform:scale(1.035)}
+.gallery-grid .gallery-image>span{display:block;padding:10px 12px}
+.gallery-grid .gallery-image small{display:block;margin-top:4px;color:var(--muted);font-size:calc(10px * var(--font-scale,1))}
+.gallery-lightbox{position:fixed;inset:0;width:min(94vw,1050px);max-width:none;max-height:92dvh;margin:auto;padding:18px;border:1px solid var(--line);border-radius:16px;background:var(--panel);color:var(--text);box-shadow:0 28px 100px #0008}
+.gallery-lightbox::backdrop{background:#071117d9;backdrop-filter:blur(7px)}
+.gallery-lightbox figure{margin:0}
+.gallery-lightbox img{display:block;width:100%;max-height:calc(92dvh - 120px);object-fit:contain;border-radius:9px;background:#10181d}
+.gallery-lightbox figcaption{display:flex;justify-content:space-between;gap:16px;padding:12px 4px 2px;color:var(--text);font-size:calc(13px * var(--font-scale,1))}
+.gallery-lightbox figcaption small{color:var(--muted);text-align:right}
+.gallery-close{position:absolute;top:10px;right:10px;z-index:1;width:42px;height:42px;border:1px solid var(--line);border-radius:50%;background:var(--panel);color:var(--text);font-size:25px;line-height:1}
+.film-player{display:grid;grid-template-columns:minmax(220px,.7fr) minmax(0,1.3fr);align-items:center;gap:24px;margin-top:24px;padding:22px;border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--text)}
+.film-player h3{margin:7px 0;font-size:calc(21px * var(--font-scale,1));color:var(--green)}
+.film-player p{margin:0;color:var(--muted);font-size:calc(13px * var(--font-scale,1))}
+.video-frame{position:relative;overflow:hidden;aspect-ratio:16/9;border-radius:10px;background:#0c1418}
+.video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+@media(max-width:760px){
+ .schedule-toolbar #schedule-count{flex:0 0 100%;font-size:max(15px,calc(15px * var(--font-scale,1)));margin-bottom:1px}
+ html:not([data-theme=dark]) .hero{background:#f1ede3;color:#20343a;box-shadow:0 12px 30px #243a4012}
+ html:not([data-theme=dark]) .hero-shade{background:linear-gradient(180deg,transparent 34%,#f1ede3 58%,#f1ede3 100%)}
+ html:not([data-theme=dark]) .hero h1{color:#213b42;text-shadow:none}
+ html:not([data-theme=dark]) .hero p{color:#344a4c}
+ html:not([data-theme=dark]) .hero-kicker{color:#77551f}
+ html:not([data-theme=dark]) .hero-caption{color:#50615e;opacity:1}
+ html:not([data-theme=dark]) .hero .ghost{background:#fffdf5e8;border-color:#c6b995;color:#25433e}
+ .gallery-lightbox{width:calc(100vw - 20px);padding:9px;border-radius:12px}
+ .gallery-lightbox img{max-height:72dvh}
+ .gallery-lightbox figcaption{display:grid;gap:3px;padding:9px 3px}
+ .gallery-lightbox figcaption small{text-align:left}
+ .film-player{grid-template-columns:1fr;gap:12px;padding:15px}
+ .film-player h3{font-size:max(19px,calc(19px * var(--font-scale,1)))}
+}
+@media(max-width:760px) and (hover:none){
+ .font-floater:hover,.font-floater:focus-within{opacity:.8;transform:none}
+ .font-floater button:hover,.font-floater .float-social:hover{transform:none;background:#fff;color:#15594f}
+ html[data-theme=dark] .font-floater button:hover,html[data-theme=dark] .font-floater .float-social:hover{background:#1a272e;color:#f1d69b}
+ .font-floater button:active,.font-floater .float-social:active{transform:scale(.94)}
+}
