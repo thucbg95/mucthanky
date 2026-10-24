@@ -56,3 +56,64 @@ html[data-theme="dark"]{color-scheme:dark;--bg:#111a20;--panel:#1b2830;--text:#e
 @media(max-width:900px){html[data-theme="dark"] .nav nav{background:#17232af5}}
 
 @media(max-width:900px){.theme-toggle span{display:inline!important}}
+
+/* Keep the three compact header actions aligned and make the return control legible. */
+.nav>.icon-button,.nav>.theme-toggle,.nav>.menu-toggle{box-sizing:border-box;width:44px;height:44px;min-width:44px;min-height:44px;max-height:44px;flex:0 0 44px;align-self:center;display:grid;place-items:center;padding:0;line-height:1;border-radius:12px}
+.nav>.icon-button{width:auto;min-width:44px;flex-basis:auto;padding:0 13px;display:flex}
+.nav>.theme-toggle span{display:grid!important;place-items:center;width:20px;height:20px;margin:0;font:500 20px/1 'Manrope','Be Vietnam Pro',sans-serif}
+.nav>.menu-toggle{font-size:19px}
+.back-top{box-sizing:border-box;width:50px;height:50px;right:22px;bottom:22px;padding:0;display:grid;place-items:center;border:1px solid #ffffff90;border-radius:50%;background:#174c47;color:#fffdf5;box-shadow:0 5px 18px #173b3538;isolation:isolate}
+.back-top:hover{transform:translateY(-2px);background:#206258;box-shadow:0 8px 22px #173b3540}
+.top-progress{position:absolute;inset:0;width:50px;height:50px;overflow:visible;pointer-events:none}
+.top-progress circle{fill:none;stroke-width:1.7}
+.top-track{stroke:#ffffff70}
+.top-meter{stroke:#e4c58c;stroke-dasharray:100;stroke-dashoffset:calc(100 - var(--scroll-progress,0));transform:rotate(-90deg);transform-origin:24px 24px;transition:stroke-dashoffset .12s linear}
+.top-arrow{position:relative;width:19px;height:19px;z-index:1;stroke:#fffdf5;stroke-width:1.8}
+.top-label{right:58px;z-index:2}
+html[data-theme="dark"] .back-top{background:#245c56;color:#fffdf5;border-color:#6d9586}
+html[data-theme="dark"] .top-track{stroke:#ffffff75}
+html[data-theme="dark"] .top-arrow{stroke:#fffdf5}
+@media(max-width:900px){.nav>.icon-button span{display:none}.nav>.icon-button{width:44px;padding:0}.nav nav.open{max-height:calc(100dvh - 116px);overflow-y:auto;overscroll-behavior:contain}}
+@media(max-width:760px){
+ .wrap{padding-left:16px;padding-right:16px}
+ .nav{height:72px;gap:8px}
+ .nav>.icon-button,.nav>.theme-toggle,.nav>.menu-toggle{width:42px;height:42px;min-width:42px;min-height:42px;max-height:42px;flex-basis:42px;border-radius:11px}
+ .nav>.theme-toggle span{font-size:19px}
+ .nav nav{top:72px;left:0;right:0;padding:10px 20px}
+ .brand-art{width:104px;height:48px;flex:0 0 104px}
+ .home-intro{align-items:flex-start;gap:10px}
+ .hero{min-height:520px}
+ .hero-image{height:290px}
+ .hero-content{left:20px;right:20px;bottom:65px}
+ .hero .actions{flex-direction:row;flex-wrap:wrap;align-items:center}
+ .hero .btn{min-height:42px;font-size:11px}
+ .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .card-art,.character-grid .card-art{height:clamp(150px,48vw,220px)}
+ .card-content{padding:13px 11px}
+ .card h3{font-size:16px;overflow-wrap:anywhere}
+ .character-alias{font-size:9px;line-height:1.5;overflow-wrap:anywhere}
+ .card p{font-size:11px;line-height:1.65}
+ .card-foot{font-size:8px}
+ .category-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .category-tile{min-width:0;align-items:flex-start;overflow-wrap:anywhere}
+ .overview-card{min-width:0}
+ .article-main,.facts{min-width:0}
+ .facts dl>div{grid-template-columns:minmax(82px, .7fr) minmax(0,1.3fr);gap:8px}
+ .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .schedule-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .episode-actions .btn{min-width:0;white-space:normal}
+ .back-top{width:48px;height:48px;right:13px;bottom:14px}
+ .top-progress{width:48px;height:48px}
+}
+@media(max-width:380px){
+ .wrap{padding-left:13px;padding-right:13px}
+ .nav{gap:6px}
+ .brand-art{width:88px;height:44px;flex-basis:88px}
+ .nav>.icon-button,.nav>.theme-toggle,.nav>.menu-toggle{width:40px;height:40px;min-width:40px;min-height:40px;max-height:40px;flex-basis:40px}
+ .grid{gap:8px}
+ .card-art,.character-grid .card-art{height:150px}
+ .hero .actions{flex-direction:column;align-items:stretch}
+ .hero .btn{justify-content:center}
+ .schedule-list,.gallery-grid{grid-template-columns:1fr}
+ .home-intro .eyebrow{font-size:8px;letter-spacing:1px}
+}
