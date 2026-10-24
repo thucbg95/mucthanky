@@ -30,7 +30,7 @@ footer{background:#f0efeb;border-color:#e3e1dc;margin-top:85px;padding-top:48px}
 .hero .btn.ghost{background:#233f50e8!important;border-color:#d5dfe5!important;color:#fff!important}
 .hero .btn{box-shadow:0 2px 12px #0d1c2830}
 .hero .btn:hover{filter:brightness(1.06)}
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Noto+Serif:wght@500;600;700&display=swap');
+
 :root{--bg:#f7f6f2;--panel:#fffefa;--text:#20313d;--muted:#5e6d75;--line:#dedfd7;--gold:#a97732;--green:#183e46;--green-2:#245968;--soft:#edf0e9;--soft-blue:#eaf0f1;--accent:#c59b5d;color-scheme:light}
 body{font-family:'Be Vietnam Pro',Arial,sans-serif;background:var(--bg);color:var(--text)}h1,h2,h3,.brand strong,.realm-track strong{font-family:'Manrope','Be Vietnam Pro',sans-serif;letter-spacing:-.035em;color:var(--green)}h1{font-weight:800}h2{font-weight:750}h3{font-weight:700}.hero h1,.spoiler-section summary{font-family:'Noto Serif',Georgia,serif;letter-spacing:0}.top-strip{background:#e7ece8;color:#425960}.nav nav a.active,.text-link:hover{color:#8a602a}.quickbar,.card,.category-tile,.overview-card,.toc,.search-dialog{background:var(--panel);color:var(--text)}.quickbar a:hover,.category-tile:hover{background:var(--soft)}
 .nav{gap:12px}.theme-toggle{min-width:42px;justify-content:center;padding:9px}.theme-toggle span{font-size:18px}.menu-toggle{min-width:42px;justify-content:center}
@@ -42,3 +42,17 @@ html[data-theme="dark"]{color-scheme:dark;--bg:#111a20;--panel:#1b2830;--text:#e
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.gallery-grid img,.back-top{transition:none}}
 
 
+
+/* Category illustrations are clearly labeled so they are not mistaken for verified portraits. */
+.category-illustration .card-art img{filter:saturate(.82)}
+.category-illustration .tag{background:#183e46ed;color:#fff9ec;border:1px solid #ffffff38}
+.profile-illustration{position:relative}
+.profile-illustration img{object-position:center 30%;filter:saturate(.82)}
+.profile-illustration figcaption{font-size:11px;line-height:1.65;color:var(--muted);padding:12px 15px;background:var(--soft)}
+@media(max-width:760px){.profile-illustration img{height:250px}.category-illustration .card-art img{object-position:center 30%}}
+
+/* Tablet navigation keeps every link readable until the compact mobile layout starts. */
+@media(max-width:900px) and (min-width:761px){.nav{height:76px;gap:8px}.brand-art{width:110px;height:50px}.brand-name{display:none}.menu-toggle{display:flex;min-width:42px;min-height:42px;justify-content:center;padding:9px 12px}.nav nav{display:none;position:absolute;top:76px;left:0;right:0;padding:12px 28px;background:#fffefb;border-bottom:1px solid var(--line);box-shadow:0 12px 22px #1232}.nav nav.open{display:flex;flex-direction:column;gap:0}.nav nav a{padding:12px 0}.icon-button{padding:10px}.icon-button span{display:none}}
+@media(max-width:900px){html[data-theme="dark"] .nav nav{background:#17232af5}}
+
+@media(max-width:900px){.theme-toggle span{display:inline!important}}
