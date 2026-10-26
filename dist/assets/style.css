@@ -520,3 +520,8 @@ html:not([data-theme=dark]) .hero .actions .btn.primary:is(:hover,:focus-visible
 html:not([data-theme=dark]) .hero .actions .btn.ghost{background:#fff!important;border-color:#aab9ae!important;color:#193d37!important;box-shadow:0 4px 14px #183b3312}
 html:not([data-theme=dark]) .hero .actions .btn.ghost:is(:hover,:focus-visible){background:#f3f7f3!important;border-color:#718d7f!important;color:#123c34!important}
 @media(max-width:760px){html:not([data-theme=dark]) .hero{background:#fff}html:not([data-theme=dark]) .hero-shade{top:0;bottom:auto;height:290px;background:linear-gradient(180deg,transparent 54%,rgba(255,255,255,.16) 72%,rgba(255,255,255,.82) 94%,#fff 100%)}}
+
+/* Custom sort direction icon */
+.sort-direction-icon{display:inline-block;width:1em;height:1em;margin:0 .12em;vertical-align:-.14em;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;transition:transform .18s ease}
+.sort-button:hover .sort-direction-icon{transform:translateX(2px)}
+
