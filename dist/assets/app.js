@@ -39,6 +39,18 @@ if($('#schedule-list')){
  const namesPromise=fetch('/assets/episode-titles-vi.json').then(r=>r.ok?r.json():{}).catch(()=>({}));
  fetch('/api/schedule').then(r=>{if(!r.ok)throw Error();return r.json()}).then(async d=>{if(!Array.isArray(d.episodes)||!d.episodes.length)throw Error();titleLookup=await namesPromise;schedule=d.episodes;updateLatest();renderSchedule()}).catch(async()=>fetch('/assets/episode-schedule.json').then(async r=>{if(!r.ok)throw Error();schedule=await r.json();titleLookup=await namesPromise;updateLatest();renderSchedule()}).catch(()=>{if(count)count.textContent='Không tải được lịch. Mở trang phim Bilibili chính thức để xem lịch mới nhất.'}));input?.addEventListener('input',renderSchedule);
 }
+if($('#schedule-list')){
+ const syncRecentEpisodeLinks=()=>{
+  const items=$$('.schedule-item',$('#schedule-list'));
+  const released=items.filter(item=>!item.dataset.upcoming).sort((a,b)=>Number(b.dataset.episode)-Number(a.dataset.episode));
+  const latest=released[0];if(!latest)return;
+  const number=Number(latest.dataset.episode),previous=released.find(item=>Number(item.dataset.episode)===number-1);
+  const previousLink=$('#previous-episode-link'),currentLink=$('#current-episode-link');
+  if(previousLink&&previous){previousLink.href=previous.href;previousLink.textContent=`Trang tập ${number-1} ↗`}
+  if(currentLink){currentLink.href=latest.href;currentLink.textContent=`Trang tập ${number} ↗`}
+ };
+ new MutationObserver(syncRecentEpisodeLinks).observe($('#schedule-list'),{childList:true});syncRecentEpisodeLinks();
+}
 if($('#comment-form')){
  const form=$('#comment-form'),status=$('#comment-status'),submit=$('#comment-submit'),signin=$('#google-signin'),signout=$('#account-signout'),account=$('#account-state');let token='',widget,ready=false,user=null;
  async function load(){const box=$('#comment-list');try{const {comments}=await api('comments');box.replaceChildren();const roots=comments.filter(c=>!c.parent_id).sort((a,b)=>Date.parse(b.created_at)-Date.parse(a.created_at));const index=await getIndex().catch(()=>[]);if(!roots.length){box.append(el('p','Chưa có bình luận. Hãy mở đầu cuộc trò chuyện chung.','empty'));return}for(const root of roots){const thread=el('article',undefined,'comment-root');thread.id='comment-'+root.id;const children=comments.filter(c=>c.parent_id===root.id).sort((a,b)=>Date.parse(b.created_at)-Date.parse(a.created_at));thread.append(renderComment(root,true,index));if(children.length){const replies=el('div',undefined,'comment-replies');children.forEach(c=>replies.append(renderComment(c,false,index)));thread.append(replies)}const actions=el('div',undefined,'comment-actions');const reply=el('button','Trả lời');reply.type='button';reply.addEventListener('click',()=>openReply(thread,root));actions.append(reply);thread.append(actions);box.append(thread)}}catch{box.textContent='Thảo luận chưa tải được. Hãy thử làm mới trang.'}}

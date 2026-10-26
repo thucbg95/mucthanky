@@ -498,3 +498,7 @@ html:not([data-theme=dark]) .hero .actions .btn.ghost:is(:hover,:focus-visible){
 .episode-search input::placeholder{color:var(--muted);opacity:.92}
 html[data-theme=dark] .episode-search input{background:#1b2830;border-color:#405158;box-shadow:0 5px 20px #050a0d30}
 @media(max-width:760px){.episode-search{max-width:none}.episode-search input{min-height:54px;font-size:calc(16px * var(--font-scale,1))}}
+
+/* Keep the preview action on one line beside the schedule heading. */
+#next-episode-link{flex:0 0 auto;white-space:nowrap}
+@media(max-width:760px){#next-episode-link{align-self:flex-start;max-width:100%}}
