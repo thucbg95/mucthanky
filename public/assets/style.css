@@ -476,17 +476,17 @@ html[data-theme="dark"] .quickbar a:hover .quick-icon,html[data-theme="dark"] .q
 }
 
 /* Light hero: warm parchment, clear artwork, and a controlled image fade. */
-html:not([data-theme=dark]) .hero{--hero-paper:#f5f1e8;background:var(--hero-paper);color:#1d3937;border:1px solid #ddd4c3;box-shadow:0 16px 40px #392f1c18}
-html:not([data-theme=dark]) .hero-shade{background:linear-gradient(180deg,rgba(20,32,32,.02) 0%,rgba(20,32,32,.03) 52%,rgba(245,241,232,.45) 73%,rgba(245,241,232,.9) 87%,#f5f1e8 100%)}
-html:not([data-theme=dark]) .hero h1{color:#183d37;text-shadow:none}
-html:not([data-theme=dark]) .hero p{color:#354b48}
-html:not([data-theme=dark]) .hero-kicker{color:#815b24}
-html:not([data-theme=dark]) .hero-caption{color:#3d5651;opacity:1}
+html:not([data-theme=dark]) .hero{--hero-paper:#e5efeb;background:linear-gradient(120deg,#e5efeb,#edf2ee);color:#183e39;border:1px solid #c4d5d0;box-shadow:0 16px 40px #183b3318}
+html:not([data-theme=dark]) .hero-shade{background:linear-gradient(180deg,rgba(20,32,32,.02) 0%,rgba(20,32,32,.03) 52%,rgba(229,239,235,.4) 73%,rgba(229,239,235,.9) 87%,#e5efeb 100%)}
+html:not([data-theme=dark]) .hero h1{color:#183e39;text-shadow:none}
+html:not([data-theme=dark]) .hero p{color:#43575d}
+html:not([data-theme=dark]) .hero-kicker{color:#704812;font-weight:750}
+html:not([data-theme=dark]) .hero-caption{color:#43575d;opacity:1}
 html:not([data-theme=dark]) .hero .actions .btn.primary{background:#174c41!important;border-color:#174c41!important;color:#fff!important;box-shadow:0 5px 16px #123e3538}
 html:not([data-theme=dark]) .hero .actions .btn.primary:is(:hover,:focus-visible){background:#103c35!important;border-color:#103c35!important;color:#fff!important}
 html:not([data-theme=dark]) .hero .actions .btn.ghost{background:#fffdf7!important;border-color:#8d9a88!important;color:#193d37!important;box-shadow:0 4px 14px #392f1c18}
 html:not([data-theme=dark]) .hero .actions .btn.ghost:is(:hover,:focus-visible){background:#fff!important;border-color:#55786d!important;color:#123c34!important}
-@media(max-width:760px){html:not([data-theme=dark]) .hero{background:#f5f1e8}html:not([data-theme=dark]) .hero-image{height:290px;bottom:auto}html:not([data-theme=dark]) .hero-shade{top:0;bottom:auto;height:290px;background:linear-gradient(180deg,transparent 56%,rgba(245,241,232,.12) 72%,rgba(245,241,232,.78) 94%,#f5f1e8 100%)}}
+@media(max-width:760px){html:not([data-theme=dark]) .hero{background:linear-gradient(120deg,#e5efeb,#edf2ee)}html:not([data-theme=dark]) .hero-image{height:290px;bottom:auto}html:not([data-theme=dark]) .hero-shade{top:0;bottom:auto;height:290px;background:linear-gradient(180deg,transparent 56%,rgba(229,239,235,.12) 72%,rgba(229,239,235,.78) 94%,#e5efeb 100%)}}
 /* Restore the original typographic theme symbols while retaining true box centering. */
 .nav>.theme-toggle>span{display:grid!important;place-items:center;width:22px;height:22px;margin:0;font:500 20px/1 'Segoe UI Symbol','Arial Unicode MS',sans-serif;transform:translateY(-1px)}
 
