@@ -525,3 +525,12 @@ html:not([data-theme=dark]) .hero .actions .btn.ghost:is(:hover,:focus-visible){
 .sort-direction-icon{display:inline-block;width:1em;height:1em;margin:0 .12em;vertical-align:-.14em;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;transition:transform .18s ease}
 .sort-button:hover .sort-direction-icon{transform:translateX(2px)}
 
+
+/* Refined component alignment requested on the encyclopedia pages. */
+.schedule-badge{border-radius:8px}
+.theme-toggle span{display:grid;place-items:center;width:22px;height:22px;line-height:1}
+.theme-icon{display:block;width:20px;height:20px;flex:none}
+@media(max-width:760px){.brand strong{font-size:calc(17px * var(--font-scale,1))}}
+body:has(.article-main) .reading-progress{display:none!important}
+.card[href="/bach-khoa/nguoi-cam/"] .card-art img{object-position:center 12%}
+.article-main .profile-picture img[src*="nguoi-cam.webp"]{object-position:center 12%}
