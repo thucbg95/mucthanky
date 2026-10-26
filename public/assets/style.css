@@ -502,3 +502,5 @@ html[data-theme=dark] .episode-search input{background:#1b2830;border-color:#405
 /* Keep the preview action on one line beside the schedule heading. */
 #next-episode-link{flex:0 0 auto;white-space:nowrap}
 @media(max-width:760px){#next-episode-link{align-self:flex-start;max-width:100%}}
+
+.episode-sort-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:12px 0 15px}.episode-sort-controls>span{color:var(--muted);font-size:calc(13px * var(--font-scale,1));font-weight:600}.episode-sort-controls .sort-button{min-height:40px;padding:7px 12px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--text);font-size:calc(13px * var(--font-scale,1));font-weight:600;transition:background .18s,color .18s,border-color .18s}.episode-sort-controls .sort-button:hover{border-color:var(--gold);color:var(--gold)}.episode-sort-controls .sort-button[aria-pressed=true]{background:var(--green);border-color:var(--green);color:#fff}
