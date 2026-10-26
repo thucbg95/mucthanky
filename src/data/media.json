@@ -1,0 +1,616 @@
+{
+  "hero": {
+    "src": "/assets/film/banner.webp",
+    "alt": "Banner quảng bá phim Mục Thần Ký trên Bilibili",
+    "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1524247",
+    "assetUrl": "https://i0.hdslb.com/bfs/bangumi/image/ab42c7cf7bc8efebc8de889653d1424a4eb8ebe6.png",
+    "credit": "Bilibili / 玄机科技",
+    "width": 1920,
+    "height": 1080
+  },
+  "images": {
+    "tap-45": {
+      "src": "/assets/film/tap-45.webp",
+      "alt": "Hình giới thiệu tập 45 Mục Thần Ký trên Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1524227",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/4cdc0d2a9ebe31bbf2c3638f50b18b767cd64565.png",
+      "credit": "Bilibili / 玄机科技",
+      "width": 960,
+      "height": 600
+    },
+    "tu-ba-ba": {
+      "src": "/assets/film/si-ba-ba.webp",
+      "alt": "Tư Bà Bà trong phim hoạt hình Mục Thần Ký",
+      "sourceUrl": "https://www.bilibili.com/video/BV1V6QxYAEEK/",
+      "assetUrl": "https://i2.hdslb.com/bfs/archive/ac0fa92ca8dbea7b3ff1aa40997bdb0522440677.jpg",
+      "credit": "Khung hình phim / video cộng đồng Bilibili",
+      "width": 1920,
+      "height": 1080
+    },
+    "linh-duc-tu": {
+      "src": "/assets/film/linh-duc-tu.webp",
+      "alt": "Poster Linh Dục Tú trong phim hoạt hình Mục Thần Ký",
+      "sourceUrl": "https://x.com/AnimePowered/status/1943412159888634278",
+      "assetUrl": "https://pbs.twimg.com/media/GvhU5jjWsAAfWYG.jpg",
+      "credit": "Bilibili / 玄机科技; bản đăng lại AnimePowered",
+      "width": 711,
+      "height": 1200
+    },
+    "ho-linh-nhi": {
+      "src": "/assets/film/ho-linh-nhi.webp",
+      "alt": "Hồ Linh Nhi trong phim hoạt hình Mục Thần Ký",
+      "sourceUrl": "https://id.pinterest.com/pin/774126623486670873/",
+      "assetUrl": "https://i.pinimg.com/736x/ed/b5/7e/edb57e5ad35aec68a2098a556973ac69.jpg",
+      "credit": "Hình phim; bản đăng lại Pinterest",
+      "width": 735,
+      "height": 420
+    },
+    "poster": {
+      "src": "/assets/film/poster.webp",
+      "alt": "Poster Mục Thần Ký trên trang phim Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961",
+      "assetUrl": "https://i0.hdslb.com/bfs/bangumi/image/1a321192dd267265573b6f198d025d2da9e75ae1.png",
+      "credit": "Bilibili / 玄机科技",
+      "width": 480,
+      "height": 640
+    },
+    "canh-gioi": {
+      "src": "/assets/film/canh-gioi.webp",
+      "alt": "Không gian huyền huyễn trong hình giới thiệu tập 24 Mục Thần Ký",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1112300",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/4038e7b1dd1a414b73d204115a3043ad023788ad.png",
+      "credit": "Bilibili / 玄机科技",
+      "width": 960,
+      "height": 600
+    },
+    "ky-ngo": {
+      "src": "/assets/film/ky-ngo.webp",
+      "alt": "Khung cảnh trong hình giới thiệu tập 36 Mục Thần Ký",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1524218",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/50450afcc6cd5b168141e4ced7ffce49057902b5.png",
+      "credit": "Bilibili / 玄机科技",
+      "width": 960,
+      "height": 600
+    },
+    "hanh-trinh": {
+      "src": "/assets/film/hanh-trinh.webp",
+      "alt": "Khung hình giới thiệu tập 53 Mục Thần Ký",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1524235",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/85bb43d6837852108c5e59bd98681b9b73eba423.png",
+      "credit": "Bilibili / 玄机科技",
+      "width": 960,
+      "height": 600
+    },
+    "banner": {
+      "src": "/assets/film/banner.webp",
+      "alt": "Banner quảng bá phim Mục Thần Ký trên Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1524247",
+      "assetUrl": "https://i0.hdslb.com/bfs/bangumi/image/ab42c7cf7bc8efebc8de889653d1424a4eb8ebe6.png",
+      "credit": "Bilibili / 玄机科技",
+      "width": 1920,
+      "height": 1080
+    },
+    "tan-muc-poster": {
+      "src": "/assets/film/tan-muc-poster.webp",
+      "alt": "Tần Mục trong hình quảng bá ngày ra mắt Mục Thần Ký",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep836715",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/6faed5762e765488b31e8a9b949deb2a7203f13a.png",
+      "credit": "Bilibili / 玄机科技",
+      "width": 960,
+      "height": 600
+    },
+    "thon-truong": {
+      "src": "/assets/film/truong-thon.webp",
+      "alt": "Thiết kế nhân vật Trưởng thôn trong phim Mục Thần Ký",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i5.hoopchina.com.cn/score/t65z3l1i-3098d497b8e5a4cddec169daf783bfc0_w_1080_h_2400.jpg",
+      "credit": "Hình thiết kế phim; bản đăng lại Hupu",
+      "width": 686,
+      "height": 686
+    },
+    "tan-muc": {
+      "src": "/assets/film/tan-muc-poster.webp",
+      "alt": "Tần Mục trong hình quảng bá ngày ra mắt Mục Thần Ký",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep836715",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/6faed5762e765488b31e8a9b949deb2a7203f13a.png",
+      "credit": "Bilibili / 玄机科技",
+      "width": 960,
+      "height": 600
+    },
+    "do-phu": {
+      "src": "/assets/film-v3/do-phu.webp",
+      "alt": "Thiết kế nhân vật Đồ Phu trong Mục Thần Ký",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i5.hoopchina.com.cn/score/8t3ibo5j-79adb5f4b412ebd3a8e0325cfd6485e3_w_1080_h_2400.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Hupu",
+      "width": 658,
+      "height": 658
+    },
+    "nguoi-mu": {
+      "src": "/assets/film-v3/nguoi-mu.webp",
+      "alt": "Thiết kế nhân vật Người Mù trong Mục Thần Ký",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i3.hoopchina.com.cn/score/74bhxkqx-5fe947e8f11d6d76e2b4a9038107695e_w_1080_h_2400.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Hupu",
+      "width": 670,
+      "height": 670
+    },
+    "ma-gia": {
+      "src": "/assets/film-v3/ma-gia.webp",
+      "alt": "Thiết kế nhân vật Mã gia trong Mục Thần Ký",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i5.hoopchina.com.cn/score/s1t8o0vo-6c3e429a9ad8aa19aa8a700fb4f6b0d1_w_1080_h_2400.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Hupu",
+      "width": 680,
+      "height": 680
+    },
+    "nguoi-que": {
+      "src": "/assets/film-v3/nguoi-que.webp",
+      "alt": "Thiết kế nhân vật Người Què trong Mục Thần Ký",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i5.hoopchina.com.cn/score/o8fb4rgk-e0a66bfc6bd06cca52d5009ab2a6257b_w_1080_h_2400.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Hupu",
+      "width": 672,
+      "height": 672
+    },
+    "nguoi-cam": {
+      "src": "/assets/film-v3/nguoi-cam.webp",
+      "alt": "Tạo hình Người Câm, thợ rèn Tàn Lão Thôn trong poster nhân vật Mục Thần Ký",
+      "sourceUrl": "https://www.imdb.com/title/tt33501934/mediaindex/",
+      "assetUrl": "https://m.media-amazon.com/images/M/MV5BY2U4MzllZDYtM2E3OC00Y2VjLWJkYWQtMWIyZDYzOTA2YTAyXkEyXkFqcGc%40._V1_.jpg",
+      "credit": "Bilibili / 玄机科技; khung tạo hình nhân vật đăng trên IMDb",
+      "width": 495,
+      "height": 1560
+    },
+    "tu-ba-ba-concept": {
+      "src": "/assets/film-v3/tu-ba-ba-concept.webp",
+      "alt": "Thiết kế nhân vật Tư Bà Bà trong Mục Thần Ký",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i5.hoopchina.com.cn/score/duxhn75b-5cd4ef4577bb7e37be32d3ed63dd4064_w_1080_h_2400.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Hupu",
+      "width": 664,
+      "height": 664
+    },
+    "nguoi-diec": {
+      "src": "/assets/film-v3/nguoi-diec.webp",
+      "alt": "Thiết kế nhân vật Người Điếc trong Mục Thần Ký",
+      "sourceUrl": "https://www.pinterest.com/pin/1126674031787680427/",
+      "assetUrl": "https://i.pinimg.com/736x/ce/db/a2/cedba211e472c8893cbec759aac594cd.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Pinterest",
+      "width": 736,
+      "height": 1307
+    },
+    "long-ky-lan": {
+      "src": "/assets/film-v3/long-ky-lan.webp",
+      "alt": "Thiết kế Long Kỳ Lân trong Mục Thần Ký",
+      "sourceUrl": "https://x.com/yoyanimation/status/1994289078830067789",
+      "assetUrl": "https://pbs.twimg.com/media/G60jHdbacAANivI.jpg",
+      "credit": "Bilibili / 玄机科技; bản đăng lại YOY ANIMATION",
+      "width": 675,
+      "height": 1200
+    },
+    "duoc-su": {
+      "src": "/assets/film-v3/duoc-su.webp",
+      "alt": "Thiết kế Dược Sư trong Mục Thần Ký",
+      "sourceUrl": "https://m.douyin.com/shipin/7608034228579698697",
+      "assetUrl": "https://p3-pc-sign.douyinpic.com/obj/tos-cn-p-0015/osgifnEhioumAi97AAeEmwEcG5o4CuB2AIUf9J?from=1516005123&x-expires=2087272800&x-signature=rvflOD2EyHbmfFC2mLARdghfhA0%3D",
+      "credit": "Thiết kế phim; bản đăng lại Douyin",
+      "width": 1080,
+      "height": 1080
+    },
+    "tan-lao-thon-concept": {
+      "src": "/assets/film-v3/tan-lao-thon-concept.webp",
+      "alt": "Bộ thiết kế nhân vật Tàn Lão thôn trong Mục Thần Ký",
+      "sourceUrl": "https://www.imdb.com/title/tt33501934/mediaindex/",
+      "assetUrl": "https://m.media-amazon.com/images/M/MV5BY2U4MzllZDYtM2E3OC00Y2VjLWJkYWQtMWIyZDYzOTA2YTAyXkEyXkFqcGc%40._V1_.jpg",
+      "credit": "Bilibili / 玄机科技; bản đăng lại IMDb",
+      "width": 1600,
+      "height": 715
+    },
+    "dien-khang-quoc-su": {
+      "src": "/assets/film-v3/dien-khang-quoc-su.webp",
+      "alt": "Quốc sư Giang Bạch Khuê và Cẩm Nương trong poster Mục Thần Ký",
+      "sourceUrl": "https://yule.360.com/detail/4952064",
+      "assetUrl": "https://p0.qhimg.com/t11508c75c8b4f744ccef7897d6.jpg",
+      "credit": "Bilibili / 玄机科技; bản đăng lại 360 Entertainment",
+      "width": 1440,
+      "height": 784
+    },
+    "tan-lao-thon": {
+      "src": "/assets/film-v3/tan-lao-thon.webp",
+      "alt": "Thiết kế Tàn Lão thôn và cảm hứng văn hóa Lương Chử",
+      "sourceUrl": "https://caifuhao.eastmoney.com/news/20241229144058568028030",
+      "assetUrl": "https://gbres.dfcfw.com/Files/iimage/20241229/71D0BAF23976A12A94F4B3D1BA7A8D6E_w640h355.png",
+      "credit": "Tư liệu thiết kế Mục Thần Ký / bài viết 精彩汇娱乐, Eastmoney (29/12/2024)",
+      "width": 640,
+      "height": 355
+    },
+    "kien-truc-tan-lao-thon": {
+      "src": "/assets/film-v3/kien-truc-tan-lao-thon.webp",
+      "alt": "Kiến trúc mái tranh và bố cục Tàn Lão thôn",
+      "sourceUrl": "https://caifuhao.eastmoney.com/news/20241229144058568028030",
+      "assetUrl": "https://gbres.dfcfw.com/Files/iimage/20241229/0565F85F8825C11D6FF247A90659A260_w640h351.png",
+      "credit": "Tư liệu thiết kế Mục Thần Ký / bài viết 精彩汇娱乐, Eastmoney (29/12/2024)",
+      "width": 640,
+      "height": 351
+    },
+    "te-dan-linh-the": {
+      "src": "/assets/film-v3/te-dan-linh-the.webp",
+      "alt": "Thiết kế tế đàn thức tỉnh linh thể lấy cảm hứng hình dáng ngọc tông Lương Chử",
+      "sourceUrl": "https://caifuhao.eastmoney.com/news/20241229144058568028030",
+      "assetUrl": "https://gbres.dfcfw.com/Files/iimage/20241229/EF0B52170442386C4B7942CC47CCE030_w640h272.jpg",
+      "credit": "Tư liệu thiết kế Mục Thần Ký / bài viết 精彩汇娱乐, Eastmoney (29/12/2024)",
+      "width": 640,
+      "height": 272
+    },
+    "ngoc-boi-tan-muc": {
+      "src": "/assets/film-v3/ngoc-boi-tan-muc.webp",
+      "alt": "Thiết kế ngọc bội Tần Mục và hoa văn thần nhân thú diện Lương Chử",
+      "sourceUrl": "https://caifuhao.eastmoney.com/news/20241229144058568028030",
+      "assetUrl": "https://gbres.dfcfw.com/Files/iimage/20241229/8EE2A4FE5CE7DA534D159FA13D8EDEB4_w640h249.png",
+      "credit": "Tư liệu thiết kế Mục Thần Ký / bài viết 精彩汇娱乐, Eastmoney (29/12/2024)",
+      "width": 640,
+      "height": 249
+    },
+    "phuc-trang-tu-ba-ba": {
+      "src": "/assets/film-v3/phuc-trang-tu-ba-ba.webp",
+      "alt": "Phục trang Tư Bà Bà và chi tiết thêu Tô Châu",
+      "sourceUrl": "https://caifuhao.eastmoney.com/news/20241229144058568028030",
+      "assetUrl": "https://gbres.dfcfw.com/Files/iimage/20241229/E8005D6C1A1A5C1A31314F148678DF38_w640h426.jpg",
+      "credit": "Tư liệu thiết kế Mục Thần Ký / bài viết 精彩汇娱乐, Eastmoney (29/12/2024)",
+      "width": 640,
+      "height": 426
+    },
+    "thuyen-mat-troi": {
+      "src": "/assets/film-v3/thuyen-mat-troi.png",
+      "alt": "Khung hình thuyền mặt trời trong tập 24 Mục Thần Ký",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1192450",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/3e9d53d733c39afcb44225db89dd5590b165d7c2.png",
+      "credit": "Bilibili / 玄机科技 · hình tập 24",
+      "width": 960,
+      "height": 540
+    },
+    "nguyet-luong-thu": {
+      "src": "/assets/film-v3/nguyet-luong-thu.png",
+      "alt": "Khung hình tập Nguyệt Lượng Thủ trong Mục Thần Ký",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1524212",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/a2824305c64ad8a2c7c4628bd1946e0f1191c35e.png",
+      "credit": "Bilibili / 玄机科技 · hình tập 30",
+      "width": 960,
+      "height": 540
+    },
+    "thuyen-than": {
+      "src": "/assets/film-v3/thuyen-than.png",
+      "alt": "Khung hình thần thuyền trong tập 84 Mục Thần Ký",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3537930",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/0882d7fada28513e91ac5d6f39f30372988b071e.png",
+      "credit": "Bilibili / 玄机科技 · hình tập 84",
+      "width": 960,
+      "height": 540
+    },
+    "thuyen-mat-trang": {
+      "src": "/assets/film-v3/thuyen-mat-trang.jpeg",
+      "alt": "Tạo hình thuyền lưỡi liềm gắn với tuyến Mặt Trăng trong Mục Thần Ký",
+      "sourceUrl": "https://www.sohu.com/a/887988443_120842324",
+      "assetUrl": "https://q9.itc.cn/images01/20250423/c1200ec43ecf44e786e9650d4fc1e622.jpeg",
+      "credit": "Sohu · khung hình phim được báo đăng lại",
+      "width": 1200,
+      "height": 675
+    },
+    "tui-thao-thiet": {
+      "src": "/assets/objects/tui-thao-thiet.svg",
+      "alt": "Minh họa khái niệm Túi Thao Thiết, túi không gian trong Mục Thần Ký",
+      "sourceUrl": "https://www.biquge321.com/zhangjie/33624/65512320.html",
+      "assetUrl": "",
+      "credit": "Minh họa biên tập · đối chiếu nguyên tác chương 157",
+      "width": 640,
+      "height": 420
+    },
+    "kiem-hoan": {
+      "src": "/assets/objects/kiem-hoan.svg",
+      "alt": "Minh họa khái niệm Kiếm Hoàn và kiếm trận trong Mục Thần Ký",
+      "sourceUrl": "https://czbooks.net/n/ueo4d/ubjg7",
+      "assetUrl": "",
+      "credit": "Minh họa biên tập · đối chiếu nguyên tác chương 490",
+      "width": 640,
+      "height": 420
+    },
+    "ao-tan-muc": {
+      "src": "/assets/objects/ao-tan-muc.svg",
+      "alt": "Minh họa phục trang hành trình của Tần Mục trong phim",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep836727",
+      "assetUrl": "",
+      "credit": "Minh họa biên tập theo tạo hình phim Bilibili",
+      "width": 640,
+      "height": 420
+    },
+    "gio-kim-tu-ba-ba": {
+      "src": "/assets/film-v3/phuc-trang-tu-ba-ba.webp",
+      "alt": "Phục trang Tư Bà Bà với chi tiết thêu và bộ kim chỉ",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1751634",
+      "assetUrl": "",
+      "credit": "Bilibili / tư liệu phim · họa tiết phục trang",
+      "width": 960,
+      "height": 600
+    },
+    "viem-tinh-tinh": {
+      "src": "/assets/film-v3/viem-tinh-tinh.jpg",
+      "alt": "Ảnh giới thiệu nhân vật Viêm Tinh Tinh do tài khoản phim công bố",
+      "sourceUrl": "https://www.sina.cn/news/detail/5151663091614226.html",
+      "assetUrl": "https://viem-tinh-tinh.sinaimg.cn/large/",
+      "credit": "Tư liệu do tài khoản hoạt hình Mục Thần Ký công bố, dẫn lại trên Sina News",
+      "width": 720,
+      "height": 1200
+    },
+    "viem-tinh-tinh-poster": {
+      "src": "/assets/film-v3/viem-tinh-tinh-poster.jpg",
+      "alt": "Thiết kế tạo hình Viêm Tinh Tinh trong phim",
+      "sourceUrl": "https://www.sina.cn/news/detail/5151663091614226.html",
+      "assetUrl": "https://viem-tinh-tinh-poster.sinaimg.cn/large/",
+      "credit": "Tư liệu do tài khoản hoạt hình Mục Thần Ký công bố, dẫn lại trên Sina News",
+      "width": 720,
+      "height": 1200
+    },
+    "viem-tinh-tinh-model": {
+      "src": "/assets/film-v3/viem-tinh-tinh-model.jpg",
+      "alt": "Mô hình nhân vật Thái Dương Thủ Viêm Tinh Tinh",
+      "sourceUrl": "https://www.sina.cn/news/detail/5151663091614226.html",
+      "assetUrl": "https://viem-tinh-tinh-model.sinaimg.cn/large/",
+      "credit": "Tư liệu do tài khoản hoạt hình Mục Thần Ký công bố, dẫn lại trên Sina News",
+      "width": 720,
+      "height": 1200
+    },
+    "viem-tinh-tinh-god": {
+      "src": "/assets/film-v3/viem-tinh-tinh-god.jpg",
+      "alt": "Tạo hình Kim Thân của Viêm Tinh Tinh",
+      "sourceUrl": "https://www.sina.cn/news/detail/5151663091614226.html",
+      "assetUrl": "https://viem-tinh-tinh-god.sinaimg.cn/large/",
+      "credit": "Tư liệu do tài khoản hoạt hình Mục Thần Ký công bố, dẫn lại trên Sina News",
+      "width": 720,
+      "height": 1200
+    }
+  },
+  "gallery": [
+    {
+      "src": "/assets/film/tap-45.webp",
+      "alt": "Hình giới thiệu tập 45 Mục Thần Ký trên Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1524227",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/4cdc0d2a9ebe31bbf2c3638f50b18b767cd64565.png",
+      "credit": "Bilibili / 玄机科技",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "src": "/assets/film/si-ba-ba.webp",
+      "alt": "Tư Bà Bà trong phim hoạt hình Mục Thần Ký",
+      "sourceUrl": "https://www.bilibili.com/video/BV1V6QxYAEEK/",
+      "assetUrl": "https://i2.hdslb.com/bfs/archive/ac0fa92ca8dbea7b3ff1aa40997bdb0522440677.jpg",
+      "credit": "Khung hình phim / video cộng đồng Bilibili",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "src": "/assets/film/linh-duc-tu.webp",
+      "alt": "Poster Linh Dục Tú trong phim hoạt hình Mục Thần Ký",
+      "sourceUrl": "https://x.com/AnimePowered/status/1943412159888634278",
+      "assetUrl": "https://pbs.twimg.com/media/GvhU5jjWsAAfWYG.jpg",
+      "credit": "Bilibili / 玄机科技; bản đăng lại AnimePowered",
+      "width": 711,
+      "height": 1200
+    },
+    {
+      "src": "/assets/film/ho-linh-nhi.webp",
+      "alt": "Hồ Linh Nhi trong phim hoạt hình Mục Thần Ký",
+      "sourceUrl": "https://id.pinterest.com/pin/774126623486670873/",
+      "assetUrl": "https://i.pinimg.com/736x/ed/b5/7e/edb57e5ad35aec68a2098a556973ac69.jpg",
+      "credit": "Hình phim; bản đăng lại Pinterest",
+      "width": 735,
+      "height": 420
+    },
+    {
+      "src": "/assets/film/poster.webp",
+      "alt": "Poster Mục Thần Ký trên trang phim Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961",
+      "assetUrl": "https://i0.hdslb.com/bfs/bangumi/image/1a321192dd267265573b6f198d025d2da9e75ae1.png",
+      "credit": "Bilibili / 玄机科技",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "src": "/assets/film/canh-gioi.webp",
+      "alt": "Không gian huyền huyễn trong hình giới thiệu tập 24 Mục Thần Ký",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1112300",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/4038e7b1dd1a414b73d204115a3043ad023788ad.png",
+      "credit": "Bilibili / 玄机科技",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "src": "/assets/film/ky-ngo.webp",
+      "alt": "Khung cảnh trong hình giới thiệu tập 36 Mục Thần Ký",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1524218",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/50450afcc6cd5b168141e4ced7ffce49057902b5.png",
+      "credit": "Bilibili / 玄机科技",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "src": "/assets/film/hanh-trinh.webp",
+      "alt": "Khung hình giới thiệu tập 53 Mục Thần Ký",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1524235",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/85bb43d6837852108c5e59bd98681b9b73eba423.png",
+      "credit": "Bilibili / 玄机科技",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "src": "/assets/film/banner.webp",
+      "alt": "Banner quảng bá phim Mục Thần Ký trên Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1524247",
+      "assetUrl": "https://i0.hdslb.com/bfs/bangumi/image/ab42c7cf7bc8efebc8de889653d1424a4eb8ebe6.png",
+      "credit": "Bilibili / 玄机科技",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "src": "/assets/film/tan-muc-poster.webp",
+      "alt": "Tần Mục trong hình quảng bá ngày ra mắt Mục Thần Ký",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep836715",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/6faed5762e765488b31e8a9b949deb2a7203f13a.png",
+      "credit": "Bilibili / 玄机科技",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "src": "/assets/film/truong-thon.webp",
+      "alt": "Thiết kế nhân vật Trưởng thôn trong phim Mục Thần Ký",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i5.hoopchina.com.cn/score/t65z3l1i-3098d497b8e5a4cddec169daf783bfc0_w_1080_h_2400.jpg",
+      "credit": "Hình thiết kế phim; bản đăng lại Hupu",
+      "width": 686,
+      "height": 686
+    },
+    {
+      "src": "/assets/film-v3/do-phu.webp",
+      "alt": "Thiết kế nhân vật Đồ Phu trong Mục Thần Ký",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i5.hoopchina.com.cn/score/8t3ibo5j-79adb5f4b412ebd3a8e0325cfd6485e3_w_1080_h_2400.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Hupu",
+      "width": 658,
+      "height": 658
+    },
+    {
+      "src": "/assets/film-v3/nguoi-mu.webp",
+      "alt": "Thiết kế nhân vật Người Mù trong Mục Thần Ký",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i3.hoopchina.com.cn/score/74bhxkqx-5fe947e8f11d6d76e2b4a9038107695e_w_1080_h_2400.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Hupu",
+      "width": 670,
+      "height": 670
+    },
+    {
+      "src": "/assets/film-v3/ma-gia.webp",
+      "alt": "Thiết kế nhân vật Mã gia trong Mục Thần Ký",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i5.hoopchina.com.cn/score/s1t8o0vo-6c3e429a9ad8aa19aa8a700fb4f6b0d1_w_1080_h_2400.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Hupu",
+      "width": 680,
+      "height": 680
+    },
+    {
+      "src": "/assets/film-v3/nguoi-que.webp",
+      "alt": "Thiết kế nhân vật Người Què trong Mục Thần Ký",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i5.hoopchina.com.cn/score/o8fb4rgk-e0a66bfc6bd06cca52d5009ab2a6257b_w_1080_h_2400.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Hupu",
+      "width": 672,
+      "height": 672
+    },
+    {
+      "src": "/assets/film-v3/tu-ba-ba-concept.webp",
+      "alt": "Thiết kế nhân vật Tư Bà Bà trong Mục Thần Ký",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i5.hoopchina.com.cn/score/duxhn75b-5cd4ef4577bb7e37be32d3ed63dd4064_w_1080_h_2400.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Hupu",
+      "width": 664,
+      "height": 664
+    },
+    {
+      "src": "/assets/film-v3/nguoi-diec.webp",
+      "alt": "Thiết kế nhân vật Người Điếc trong Mục Thần Ký",
+      "sourceUrl": "https://www.pinterest.com/pin/1126674031787680427/",
+      "assetUrl": "https://i.pinimg.com/736x/ce/db/a2/cedba211e472c8893cbec759aac594cd.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Pinterest",
+      "width": 736,
+      "height": 1307
+    },
+    {
+      "src": "/assets/film-v3/long-ky-lan.webp",
+      "alt": "Thiết kế Long Kỳ Lân trong Mục Thần Ký",
+      "sourceUrl": "https://x.com/yoyanimation/status/1994289078830067789",
+      "assetUrl": "https://pbs.twimg.com/media/G60jHdbacAANivI.jpg",
+      "credit": "Bilibili / 玄机科技; bản đăng lại YOY ANIMATION",
+      "width": 675,
+      "height": 1200
+    },
+    {
+      "src": "/assets/film-v3/duoc-su.webp",
+      "alt": "Thiết kế Dược Sư trong Mục Thần Ký",
+      "sourceUrl": "https://m.douyin.com/shipin/7608034228579698697",
+      "assetUrl": "https://p3-pc-sign.douyinpic.com/obj/tos-cn-p-0015/osgifnEhioumAi97AAeEmwEcG5o4CuB2AIUf9J?from=1516005123&x-expires=2087272800&x-signature=rvflOD2EyHbmfFC2mLARdghfhA0%3D",
+      "credit": "Thiết kế phim; bản đăng lại Douyin",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "/assets/film-v3/tan-lao-thon-concept.webp",
+      "alt": "Bộ thiết kế nhân vật Tàn Lão thôn trong Mục Thần Ký",
+      "sourceUrl": "https://www.imdb.com/title/tt33501934/mediaindex/",
+      "assetUrl": "https://m.media-amazon.com/images/M/MV5BY2U4MzllZDYtM2E3OC00Y2VjLWJkYWQtMWIyZDYzOTA2YTAyXkEyXkFqcGc%40._V1_.jpg",
+      "credit": "Bilibili / 玄机科技; bản đăng lại IMDb",
+      "width": 1600,
+      "height": 715
+    },
+    {
+      "src": "/assets/film-v3/dien-khang-quoc-su.webp",
+      "alt": "Quốc sư Giang Bạch Khuê và Cẩm Nương trong poster Mục Thần Ký",
+      "sourceUrl": "https://yule.360.com/detail/4952064",
+      "assetUrl": "https://p0.qhimg.com/t11508c75c8b4f744ccef7897d6.jpg",
+      "credit": "Bilibili / 玄机科技; bản đăng lại 360 Entertainment",
+      "width": 1440,
+      "height": 784
+    },
+    {
+      "src": "/assets/film-v3/tan-lao-thon.webp",
+      "alt": "Thiết kế Tàn Lão thôn và cảm hứng văn hóa Lương Chử",
+      "sourceUrl": "https://caifuhao.eastmoney.com/news/20241229144058568028030",
+      "assetUrl": "https://gbres.dfcfw.com/Files/iimage/20241229/71D0BAF23976A12A94F4B3D1BA7A8D6E_w640h355.png",
+      "credit": "Tư liệu thiết kế Mục Thần Ký / bài viết 精彩汇娱乐, Eastmoney (29/12/2024)",
+      "width": 640,
+      "height": 355
+    },
+    {
+      "src": "/assets/film-v3/kien-truc-tan-lao-thon.webp",
+      "alt": "Kiến trúc mái tranh và bố cục Tàn Lão thôn",
+      "sourceUrl": "https://caifuhao.eastmoney.com/news/20241229144058568028030",
+      "assetUrl": "https://gbres.dfcfw.com/Files/iimage/20241229/0565F85F8825C11D6FF247A90659A260_w640h351.png",
+      "credit": "Tư liệu thiết kế Mục Thần Ký / bài viết 精彩汇娱乐, Eastmoney (29/12/2024)",
+      "width": 640,
+      "height": 351
+    },
+    {
+      "src": "/assets/film-v3/te-dan-linh-the.webp",
+      "alt": "Thiết kế tế đàn thức tỉnh linh thể lấy cảm hứng hình dáng ngọc tông Lương Chử",
+      "sourceUrl": "https://caifuhao.eastmoney.com/news/20241229144058568028030",
+      "assetUrl": "https://gbres.dfcfw.com/Files/iimage/20241229/EF0B52170442386C4B7942CC47CCE030_w640h272.jpg",
+      "credit": "Tư liệu thiết kế Mục Thần Ký / bài viết 精彩汇娱乐, Eastmoney (29/12/2024)",
+      "width": 640,
+      "height": 272
+    },
+    {
+      "src": "/assets/film-v3/ngoc-boi-tan-muc.webp",
+      "alt": "Thiết kế ngọc bội Tần Mục và hoa văn thần nhân thú diện Lương Chử",
+      "sourceUrl": "https://caifuhao.eastmoney.com/news/20241229144058568028030",
+      "assetUrl": "https://gbres.dfcfw.com/Files/iimage/20241229/8EE2A4FE5CE7DA534D159FA13D8EDEB4_w640h249.png",
+      "credit": "Tư liệu thiết kế Mục Thần Ký / bài viết 精彩汇娱乐, Eastmoney (29/12/2024)",
+      "width": 640,
+      "height": 249
+    },
+    {
+      "src": "/assets/film-v3/phuc-trang-tu-ba-ba.webp",
+      "alt": "Phục trang Tư Bà Bà và chi tiết thêu Tô Châu",
+      "sourceUrl": "https://caifuhao.eastmoney.com/news/20241229144058568028030",
+      "assetUrl": "https://gbres.dfcfw.com/Files/iimage/20241229/E8005D6C1A1A5C1A31314F148678DF38_w640h426.jpg",
+      "credit": "Tư liệu thiết kế Mục Thần Ký / bài viết 精彩汇娱乐, Eastmoney (29/12/2024)",
+      "width": 640,
+      "height": 426
+    }
+  ],
+  "logo": {
+    "src": "/assets/film/logo-film.png",
+    "alt": "Logo phim Mục Thần Ký – 牧神记",
+    "sourceUrl": null,
+    "credit": "Ảnh logo phim do người dùng cung cấp"
+  },
+  "notice": "Hình ảnh phim và thiết kế nhân vật có ghi nguồn; quyền hình ảnh thuộc chủ sở hữu tương ứng."
+}
