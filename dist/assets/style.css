@@ -504,3 +504,19 @@ html[data-theme=dark] .episode-search input{background:#1b2830;border-color:#405
 @media(max-width:760px){#next-episode-link{align-self:flex-start;max-width:100%}}
 
 .episode-sort-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:12px 0 15px}.episode-sort-controls>span{color:var(--muted);font-size:calc(13px * var(--font-scale,1));font-weight:600}.episode-sort-controls .sort-button{min-height:40px;padding:7px 12px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--text);font-size:calc(13px * var(--font-scale,1));font-weight:600;transition:background .18s,color .18s,border-color .18s}.episode-sort-controls .sort-button:hover{border-color:var(--gold);color:var(--gold)}.episode-sort-controls .sort-button[aria-pressed=true]{background:var(--green);border-color:var(--green);color:#fff}
+
+html[data-theme=dark] .episode-sort-controls .sort-button[aria-pressed=true]{background:#31544e;border-color:#75958b;color:#f7f2e6}
+html[data-theme=dark] .episode-sort-controls .sort-button[aria-pressed=true]:hover{background:#3d665e;border-color:#90afa2;color:#fffaf0}
+
+/* Light theme hero: white canvas with the site's calm blue palette. */
+html:not([data-theme=dark]) .hero{--hero-paper:#fff;background:#fff;color:#183c56;border:1px solid #d6e2e9;box-shadow:0 16px 40px #183c5612}
+html:not([data-theme=dark]) .hero-shade{background:linear-gradient(180deg,rgba(18,45,65,.02) 0%,rgba(18,45,65,.03) 48%,rgba(255,255,255,.42) 70%,rgba(255,255,255,.91) 87%,#fff 100%)}
+html:not([data-theme=dark]) .hero h1{color:#173e5d;text-shadow:none}
+html:not([data-theme=dark]) .hero p{color:#35566f}
+html:not([data-theme=dark]) .hero-kicker{color:#426b89;font-weight:750}
+html:not([data-theme=dark]) .hero-caption{color:#4d6980;opacity:1}
+html:not([data-theme=dark]) .hero .actions .btn.primary{background:#285b7b!important;border-color:#285b7b!important;color:#fff!important;box-shadow:0 5px 16px #173e5d30}
+html:not([data-theme=dark]) .hero .actions .btn.primary:is(:hover,:focus-visible){background:#1f4d6b!important;border-color:#1f4d6b!important;color:#fff!important}
+html:not([data-theme=dark]) .hero .actions .btn.ghost{background:#fff!important;border-color:#a9c1d1!important;color:#244f6d!important;box-shadow:0 4px 14px #173e5d12}
+html:not([data-theme=dark]) .hero .actions .btn.ghost:is(:hover,:focus-visible){background:#f1f7fa!important;border-color:#779bb2!important;color:#173e5d!important}
+@media(max-width:760px){html:not([data-theme=dark]) .hero{background:#fff}html:not([data-theme=dark]) .hero-shade{top:0;bottom:auto;height:290px;background:linear-gradient(180deg,transparent 54%,rgba(255,255,255,.16) 72%,rgba(255,255,255,.82) 94%,#fff 100%)}}
