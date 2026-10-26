@@ -1,0 +1,17 @@
+name = "mucthanky-sync"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[triggers]
+crons = ["0 * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mucthanky"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+# Configure only after verifying the channel and playlist are official.
+# [vars]
+# YOUTUBE_PLAYLIST_ID = ""
+# YOUTUBE_CHANNEL_ID = ""
+
