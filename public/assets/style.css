@@ -588,3 +588,22 @@ html[data-theme=dark] .post-reaction{background:var(--panel);color:var(--muted)}
 .like-button:disabled{opacity:.65;cursor:wait;transform:none}
 @media(max-width:760px){.post-reaction{align-items:flex-start;flex-wrap:wrap;padding:12px;border-radius:13px}.post-reaction>span{flex:1 1 100%}.post-reaction .like-button{min-height:38px}}
 @media(prefers-reduced-motion:reduce){.like-button{transition:none}}
+
+/* Sign-in prompt for comment and like interactions */
+.auth-prompt{width:min(440px,calc(100% - 28px));max-width:440px;padding:0;border:1px solid var(--line);border-radius:18px;background:var(--panel);color:var(--text);box-shadow:0 24px 80px #07151965}
+.auth-prompt::backdrop{background:#0b171bd1;backdrop-filter:blur(5px)}
+.auth-prompt-card{position:relative;display:grid;gap:12px;padding:28px}
+.auth-prompt-card h3,.auth-prompt-card p{margin:0}.auth-prompt-card p{color:var(--muted)}
+.auth-prompt-close{position:absolute;top:12px;right:14px;width:34px;height:34px;border:1px solid var(--line);border-radius:50%;background:var(--soft);color:var(--text);font-size:22px;line-height:1}
+#comment-auth-cta{margin:14px 0}
+@media(max-width:520px){.auth-prompt-card{padding:24px 20px}.auth-prompt-card h3{padding-right:28px}}
+
+/* Make the mobile utility menu a single, reliable toggle */
+.font-floater .float-menu-toggle{display:none!important}
+@media(max-width:760px){
+ .font-floater .float-menu-toggle{display:grid!important;position:relative;z-index:2;touch-action:manipulation}
+ .font-floater .float-menu{height:0;max-height:0;visibility:hidden;opacity:0;pointer-events:none;overflow:hidden;transition:height .28s ease,max-height .28s ease,opacity .18s ease,transform .28s ease,visibility 0s linear .28s}
+ .font-floater[data-open="true"] .float-menu{height:auto;max-height:260px;visibility:visible;opacity:1;pointer-events:auto;transition:height .28s ease,max-height .28s ease,opacity .18s ease,transform .28s ease,visibility 0s}
+ .font-floater[data-open="true"] .float-menu>*{visibility:visible}
+ .font-floater:not([data-open="true"]) .float-menu>*{visibility:hidden}
+}
