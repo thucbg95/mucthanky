@@ -714,3 +714,9 @@ html:not([data-theme=dark]) .community-confirm-dialog,html:not([data-theme=dark]
 .saved-profile-remove svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
 .saved-profile-remove:hover{border-color:#be6870;background:#f8e9e9;color:#a53d48}
 html[data-theme=dark] .saved-profile-remove:hover{border-color:#8d545a;background:#3b272b;color:#f09aa4}
+
+/* Make an already locked account easy to distinguish from the normal lock action. */
+.admin-row-actions .btn.is-chat-locked,.admin-user-row .btn.is-chat-locked{border-color:#d7a1a0;background:#f8e9e8;color:#8e3438}
+.admin-row-actions .btn.is-chat-locked:hover,.admin-user-row .btn.is-chat-locked:hover{border-color:#b9676b;background:#f2d7d6;color:#75272c}
+html[data-theme=dark] .admin-row-actions .btn.is-chat-locked,html[data-theme=dark] .admin-user-row .btn.is-chat-locked{border-color:#85545b;background:#39272c;color:#ffc0b8}
+html[data-theme=dark] .admin-row-actions .btn.is-chat-locked:hover,html[data-theme=dark] .admin-user-row .btn.is-chat-locked:hover{border-color:#b76e72;background:#4a2d33;color:#ffe0da}
