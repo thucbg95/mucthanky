@@ -59,8 +59,8 @@
   try{await load()}catch(e){status.textContent=e.message;token=''}
  });
  document.getElementById('admin-role-form').addEventListener('submit',async e=>{
-  e.preventDefault();const email=document.getElementById('admin-user-email').value.trim();const role=document.getElementById('admin-user-role').value;
-  try{const result=await call('set-role',{email,role});status.textContent=result.role==='admin'?'Đã cấp quyền quản trị. Tài khoản cần đăng xuất rồi đăng nhập lại để thấy huy hiệu mới.':'Đã gỡ quyền quản trị.';e.currentTarget.reset();await load()}
+  e.preventDefault();const roleForm=e.currentTarget;const email=document.getElementById('admin-user-email').value.trim();const role=document.getElementById('admin-user-role').value;
+  try{const result=await call('set-role',{email,role});roleForm.reset();await load();status.textContent=result.role==='admin'?'Đã cấp quyền quản trị. Tài khoản cần đăng xuất rồi đăng nhập lại để thấy huy hiệu mới.':'Đã gỡ quyền quản trị.'}
   catch(error){status.textContent=error.message}
  });
  document.getElementById('admin-lock').addEventListener('click',()=>{token='';form.reset();controls.hidden=true;comments.replaceChildren();reports.replaceChildren();users.replaceChildren();status.textContent='Đã khóa phiên quản trị.'});
