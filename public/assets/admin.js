@@ -1,98 +1,25 @@
 (()=>{
- const form=document.getElementById('admin-form');
- if(!form)return;
- const status=document.getElementById('admin-status');
- const comments=document.getElementById('admin-comments');
- const reports=document.getElementById('admin-reports');
- const users=document.getElementById('admin-users');
- const controls=document.getElementById('admin-controls');
- const tokenInput=document.getElementById('admin-token');
- const loginPanel=document.getElementById('admin-login');
- const dashboard=document.getElementById('admin-dashboard');
- const authMessage=document.getElementById('admin-auth-message');
- const sessionAccount=document.getElementById('admin-session-account');
- let token='';
- const make=(tag,text)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n};
- async function readJson(response){try{return await response.json()}catch{throw Error('API quản trị chỉ hoạt động trên Cloudflare Pages có bật Functions. Bản xem trước tĩnh không có kết nối D1.')}}
- async function call(route,body={}){
-  const headers={'Content-Type':'application/json'};
-  if(token)headers.Authorization='Bearer '+token;
-  const r=await fetch('/api/admin/'+route,{method:'POST',headers,body:JSON.stringify(body)});
-  const d=await readJson(r);
-  if(!r.ok)throw Error(d.error||'Không thể truy cập quản trị.');
-  return d;
- }
- async function remove(id){
-  if(!confirm('Xóa bình luận này? Nếu đây là bình luận gốc, các câu trả lời bên dưới cũng sẽ bị xóa.'))return;
-  try{await call('delete',{id});status.textContent='Đã xóa bình luận.';await load()}
-  catch(e){status.textContent=e.message}
- }
- function renderUsers(items){
-  users.replaceChildren();
-  if(!items.length){users.append(make('p','Chưa có tài khoản nào đăng nhập.'));return}
-  const table=make('div');table.className='admin-user-list';
-  for(const item of items){
-   const row=make('div');row.className='admin-user-row';
-   const info=make('span');info.append(make('strong',item.name),make('small',item.email+' · '+item.comment_count+' bình luận'));
-   const role=make('span',item.role==='admin'?'Quản trị viên':'Thành viên');role.className='comment-badge '+(item.role==='admin'?'admin':'member');
-   const choose=make('button','Chọn');choose.type='button';choose.className='btn small';choose.addEventListener('click',()=>{document.getElementById('admin-user-email').value=item.email;document.getElementById('admin-user-role').value=item.role||'member';document.getElementById('admin-user-email').focus()});
-   row.append(info,role,choose);table.append(row);
-  }
-  users.append(table);
- }
- async function load(){
-  status.textContent='Đang tải công cụ quản trị…';
-  const [c,r,u]=await Promise.all([call('comments'),call('reports'),call('users')]);
-  comments.replaceChildren();reports.replaceChildren();renderUsers(u.users||[]);
-  for(const item of c.comments){
-   const row=make('article');row.className='comment';
-   const date=new Date(item.created_at).toLocaleString('vi-VN',{dateStyle:'short',timeStyle:'short'});
-   row.append(make('strong',item.name),make('small',` · ${item.status==='pending'?'Bình luận cũ':'Đã đăng'} · ${item.parent_id?'Trả lời':'Bình luận gốc'} · ${item.page} · ${date}`),make('p',item.body));
-   const del=make('button','Xóa bình luận');del.className='btn';del.addEventListener('click',()=>remove(item.id));row.append(del);comments.append(row);
-  }
-  if(!c.comments.length)comments.append(make('p','Chưa có bình luận nào được đăng.'));
-  for(const item of r.reports){
-   const row=make('article');row.className='comment';row.append(make('strong','Báo cáo bình luận: '+item.comment_id),make('p',item.reason));
-   const del=make('button','Xóa bình luận được báo cáo');del.className='btn';del.addEventListener('click',()=>remove(item.comment_id));row.append(del);reports.append(row);
-  }
-  if(!r.reports.length)reports.append(make('p','Chưa có báo cáo.'));
-  controls.hidden=false;status.textContent=`${u.users.length} tài khoản · ${c.comments.length} bình luận · ${r.reports.length} báo cáo.`;
- }
- async function checkGoogleSession(){
-  loginPanel.hidden=false;dashboard.hidden=true;controls.hidden=true;token='';
-  try{
-   const response=await fetch('/api/auth/me',{cache:'no-store'}),auth=await readJson(response);if(!response.ok)throw Error(auth.error||'Không kiểm tra được tài khoản quản trị.');
-   if(auth.authenticated&&auth.user?.role==='admin'){
-    loginPanel.hidden=true;dashboard.hidden=false;
-    sessionAccount.textContent=`Google · ${auth.user.name} · Quản trị viên`;
-    await load();return;
-   }
-   authMessage.textContent=auth.authenticated
-    ?`Tài khoản ${auth.user?.name||''} chưa có quyền quản trị. Hãy chọn tài khoản Google Admin hoặc dùng quyền chủ website để cấp quyền.`
-    :'Đăng nhập bằng tài khoản Google đã được cấp quyền quản trị. Chủ website có thể mở phần token để cấp quyền ban đầu.';
-  }catch(error){authMessage.textContent=error.message}
- }
- form.addEventListener('submit',async e=>{
-  e.preventDefault();token=tokenInput.value.trim();tokenInput.value='';
-  try{
-   await load();loginPanel.hidden=true;dashboard.hidden=false;
-   sessionAccount.textContent='Phiên chủ website · ADMIN_TOKEN';
-   form.closest('details')?.removeAttribute('open');
-  }catch(error){authMessage.textContent=error.message;token=''}
- });
- document.getElementById('admin-role-form').addEventListener('submit',async e=>{
-  e.preventDefault();const roleForm=e.currentTarget;const email=document.getElementById('admin-user-email').value.trim();const role=document.getElementById('admin-user-role').value;
-  try{const result=await call('set-role',{email,role});roleForm.reset();await load();status.textContent=result.role==='admin'?'Đã cấp quyền quản trị. Tài khoản cần đăng xuất rồi đăng nhập lại để thấy huy hiệu mới.':'Đã gỡ quyền quản trị.'}
-  catch(error){status.textContent=error.message}
- });
- document.getElementById('admin-signout').addEventListener('click',async()=>{
-  token='';try{await fetch('/api/auth/logout',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'})}catch{}
-  form.reset();comments.replaceChildren();reports.replaceChildren();users.replaceChildren();status.textContent='';await checkGoogleSession();
- });
- document.getElementById('admin-google-signin').addEventListener('click',async()=>{
-  try{const response=await fetch('/api/auth/google',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({returnTo:'/quan-tri/'})});const d=await readJson(response);if(!response.ok)throw Error(d.error||'Không thể bắt đầu đăng nhập.');location.href=d.url}
-  catch(error){authMessage.textContent=error.message}
- });
- window.addEventListener('pagehide',()=>{token=''});
+ const form=document.getElementById('admin-form');if(!form)return;
+ const status=document.getElementById('admin-status'),comments=document.getElementById('admin-comments'),reports=document.getElementById('admin-reports'),users=document.getElementById('admin-users'),controls=document.getElementById('admin-controls'),tokenInput=document.getElementById('admin-token'),loginPanel=document.getElementById('admin-login'),dashboard=document.getElementById('admin-dashboard'),authMessage=document.getElementById('admin-auth-message'),sessionAccount=document.getElementById('admin-session-account'),roleSection=document.getElementById('admin-role-section');
+ const commentSearch=document.getElementById('admin-comment-search'),commentCategory=document.getElementById('admin-comment-category'),commentSize=document.getElementById('admin-comment-page-size'),userSearch=document.getElementById('admin-user-search'),userSize=document.getElementById('admin-user-page-size');
+ let token='',isOwner=false,commentPage=0,commentLimit=10,userPage=0,userLimit=10,searchTimer;
+ const make=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n};
+ async function readJson(response){try{return await response.json()}catch{throw Error('API quản trị chỉ hoạt động trên Cloudflare Pages đã bật Functions và D1.')}}
+ async function call(route,body={}){const headers={'Content-Type':'application/json'};if(token)headers.Authorization='Bearer '+token;const response=await fetch('/api/admin/'+route,{method:'POST',headers,body:JSON.stringify(body)}),data=await readJson(response);if(!response.ok)throw Error(data.error||'Không thể thực hiện thao tác quản trị.');return data}
+ function pager(prefix,total,page,size,load){const nav=document.getElementById(prefix+'-pagination'),state=document.getElementById(prefix+'-page-state'),prev=document.getElementById(prefix+'-prev'),next=document.getElementById(prefix+'-next'),pages=Math.max(1,Math.ceil(total/size));nav.hidden=total<=size;state.textContent='Trang '+(page+1)+'/'+pages+' · '+total+' mục';prev.disabled=page<=0;next.disabled=page>=pages-1;prev.onclick=()=>{if(page>0){if(prefix==='admin-comments')commentPage--;else userPage--;load()}};next.onclick=()=>{if(page<pages-1){if(prefix==='admin-comments')commentPage++;else userPage++;load()}}}
+ async function removeComment(id){if(!confirm('Xóa bình luận này? Nếu đây là bình luận gốc, mọi câu trả lời bên dưới cũng sẽ bị xóa.'))return;try{await call('delete',{id});status.textContent='Đã xóa bình luận.';await loadComments()}catch(error){status.textContent=error.message}}
+ async function setLock(userId,locked){if(!confirm(locked?'Khóa chức năng chat và bình luận của tài khoản này?':'Mở khóa chức năng chat của tài khoản này?'))return;try{await call('set-lock',{userId,locked});status.textContent=locked?'Đã khóa chat tài khoản.':'Đã mở khóa chat tài khoản.';await Promise.all([loadComments(),isOwner?loadUsers():Promise.resolve()])}catch(error){status.textContent=error.message}}
+ function modButtons(container,item){if(item.user_id){const lock=make('button',Number(item.chat_locked)?'Mở khóa chat':'Khóa chat','btn small');lock.type='button';lock.addEventListener('click',()=>setLock(item.user_id,!Number(item.chat_locked)));container.append(lock)}const del=make('button','Xóa bình luận','btn small');del.type='button';del.addEventListener('click',()=>removeComment(item.id));container.append(del)}
+ async function loadComments(){const query=commentSearch.value.trim();const data=await call('comments',{limit:commentLimit,offset:commentPage*commentLimit,query,category:commentCategory.value});comments.replaceChildren();for(const item of data.comments||[]){const row=make('article',undefined,'admin-comment-card');const title=make('div',undefined,'admin-comment-heading');title.append(make('strong',item.name),make('span',item.email||'Tài khoản chưa xác định','source-list'));const date=new Date(item.created_at).toLocaleString('vi-VN',{dateStyle:'short',timeStyle:'short'});row.append(title,make('p',(item.parent_id?'Trả lời':'Bình luận gốc')+' · '+item.page+' · '+date+(Number(item.chat_locked)?' · Đã khóa chat':''),'admin-comment-meta'),make('p',item.body,'admin-comment-body'));const actions=make('div',undefined,'admin-row-actions');modButtons(actions,item);row.append(actions);comments.append(row)}if(!data.comments?.length)comments.append(make('p','Không tìm thấy bình luận phù hợp.','empty'));pager('admin-comments',Number(data.total)||0,commentPage,commentLimit,loadComments)}
+ async function loadUsers(){if(!isOwner)return;const data=await call('users',{limit:userLimit,offset:userPage*userLimit,query:userSearch.value.trim()});users.replaceChildren();for(const item of data.users||[]){const row=make('div',undefined,'admin-user-row'),info=make('span',undefined,'admin-user-info');info.append(make('strong',item.name),make('small',item.email+' · '+item.comment_count+' bình luận'));const role=make('span',item.role==='admin'?'Quản trị viên':'Thành viên','comment-badge '+(item.role==='admin'?'admin':'member'));const lockState=make('span',Number(item.chat_locked)?'Đã khóa chat':'Chat đang mở','admin-lock-state');const choose=make('button','Chọn','btn small');choose.type='button';choose.addEventListener('click',()=>{document.getElementById('admin-user-email').value=item.email;document.getElementById('admin-user-role').value=item.role||'member';document.getElementById('admin-user-email').focus()});const action=make('button',Number(item.chat_locked)?'Mở khóa':'Khóa chat','btn small');action.type='button';action.addEventListener('click',()=>setLock(item.id,!Number(item.chat_locked)));row.append(info,role,lockState,choose,action);users.append(row)}if(!data.users?.length)users.append(make('p','Không tìm thấy tài khoản.','empty'));pager('admin-users',Number(data.total)||0,userPage,userLimit,loadUsers)}
+ async function loadReports(){const data=await call('reports');reports.replaceChildren();for(const item of data.reports||[]){const row=make('article',undefined,'admin-comment-card');row.append(make('strong','Báo cáo bình luận'),make('p',item.reason,'admin-comment-body'),make('small','Mã bình luận: '+item.comment_id,'admin-comment-meta'));const del=make('button','Xóa bình luận được báo cáo','btn small');del.addEventListener('click',()=>removeComment(item.comment_id));row.append(del);reports.append(row)}if(!data.reports?.length)reports.append(make('p','Chưa có báo cáo nào.','empty'))}
+ async function load(){status.textContent='Đang tải công cụ quản trị…';try{await Promise.all([loadComments(),loadReports(),isOwner?loadUsers():Promise.resolve()]);roleSection.hidden=!isOwner;controls.hidden=false;status.textContent=isOwner?'Phiên chủ website · đầy đủ quyền quản trị.':'Quản trị viên · quản lý bình luận và khóa chat.'}catch(error){status.textContent=error.message;throw error}}
+ async function checkGoogleSession(){loginPanel.hidden=false;dashboard.hidden=true;controls.hidden=true;token='';isOwner=false;try{const response=await fetch('/api/auth/me',{cache:'no-store'}),auth=await readJson(response);if(!response.ok)throw Error(auth.error||'Không kiểm tra được tài khoản.');if(auth.authenticated&&auth.user?.role==='admin'){loginPanel.hidden=true;dashboard.hidden=false;sessionAccount.textContent='Google · '+auth.user.name+' · Quản trị viên';await load();return}authMessage.textContent=auth.authenticated?'Tài khoản Google này chưa được cấp quyền quản trị. Hãy đăng nhập đúng tài khoản admin hoặc quay về trang chủ.':'Đăng nhập bằng Google quản trị hoặc dùng ADMIN_TOKEN của chủ website.'}catch(error){authMessage.textContent=error.message}}
+ form.addEventListener('submit',async event=>{event.preventDefault();token=tokenInput.value.trim();tokenInput.value='';isOwner=true;try{await load();loginPanel.hidden=true;dashboard.hidden=false;sessionAccount.textContent='Admin · Chủ website (ADMIN_TOKEN)'}catch(error){authMessage.textContent=error.message;token='';isOwner=false}});
+ document.getElementById('admin-role-form').addEventListener('submit',async event=>{event.preventDefault();if(!isOwner){status.textContent='Chỉ chủ website dùng ADMIN_TOKEN mới có quyền thay đổi vai trò.';return}const roleForm=event.currentTarget;try{const result=await call('set-role',{email:document.getElementById('admin-user-email').value.trim(),role:document.getElementById('admin-user-role').value});roleForm.reset();status.textContent=result.role==='admin'?'Đã cấp quyền quản trị. Tài khoản cần đăng xuất rồi đăng nhập lại.':'Đã gỡ quyền quản trị.';await loadUsers()}catch(error){status.textContent=error.message}});
+ document.getElementById('admin-google-signin').addEventListener('click',async event=>{const button=event.currentTarget;button.disabled=true;authMessage.textContent='Đang chuyển đến Google…';try{const response=await fetch('/api/auth/google',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({returnTo:'/quan-tri/'})}),data=await readJson(response);if(!response.ok)throw Error(data.error||'Không thể bắt đầu đăng nhập.');location.href=data.url}catch(error){authMessage.textContent=error.message;button.disabled=false}});
+ document.getElementById('admin-signout').addEventListener('click',async()=>{token='';isOwner=false;try{await fetch('/api/auth/logout',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'})}catch{}form.reset();comments.replaceChildren();reports.replaceChildren();users.replaceChildren();dashboard.hidden=true;controls.hidden=true;await checkGoogleSession()});
+ commentSize.addEventListener('change',()=>{commentLimit=Number(commentSize.value)||10;commentPage=0;loadComments().catch(e=>status.textContent=e.message)});commentCategory.addEventListener('change',()=>{commentPage=0;loadComments().catch(e=>status.textContent=e.message)});commentSearch.addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>{commentPage=0;loadComments().catch(e=>status.textContent=e.message)},250)});
+ userSize.addEventListener('change',()=>{userLimit=Number(userSize.value)||10;userPage=0;loadUsers().catch(e=>status.textContent=e.message)});userSearch.addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>{userPage=0;loadUsers().catch(e=>status.textContent=e.message)},250)});
  checkGoogleSession();
 })();

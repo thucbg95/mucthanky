@@ -1,6 +1,6 @@
 # Tài khoản, bình luận và lịch phim trên Cloudflare
 
-Website đăng bình luận ngay sau khi gửi. Người dùng cần đăng nhập Google bằng email đã xác minh và vượt Turnstile; không có hàng chờ duyệt. Chủ website có thể dùng trang `/quan-tri/` để xem tối đa 300 bình luận mới nhất, xử lý báo cáo và xóa bình luận. Xóa một bình luận gốc sẽ xóa cả các câu trả lời bên dưới.
+Website đăng bình luận ngay sau khi gửi. Người dùng cần đăng nhập Google bằng email đã xác minh và vượt Turnstile; không có hàng chờ duyệt. Trang `/quan-tri/` hỗ trợ Google admin và chủ website đăng nhập bằng `ADMIN_TOKEN`. Admin quản lý/xóa bình luận, xử lý báo cáo và khóa chat thành viên; chủ website có thêm quản lý vai trò tài khoản. Danh sách bình luận và tài khoản có tìm kiếm và phân trang. Xóa một bình luận gốc sẽ xóa cả các câu trả lời bên dưới.
 
 Lịch phim tự lấy từ Bilibili qua Pages Function, không cần D1/Worker riêng. Nếu Pages Function không chạy hoặc nguồn phim tạm lỗi, website dùng lịch JSON tĩnh dự phòng.
 
@@ -65,7 +65,7 @@ Tạo Turnstile widget cho `mucthanky.com`, sau đó cấu hình:
 
 Mỗi bình luận cần tài khoản Google đã xác minh và Turnstile; nội dung được đăng công khai ngay. Bình luận gốc được xếp mới nhất trước, trả lời nằm dưới bình luận gốc. Trang bình luận gốc được gắn làm liên kết ngữ cảnh trên toàn website.
 
-Trước khi triển khai bản có phân quyền tài khoản, chạy migration `db/migrations/0003_admin_roles.sql` một lần trên D1 đang dùng. Tại `/quan-tri/`, quản trị viên đăng nhập bằng Google để mở công cụ. Lần đầu cấp quyền, chủ website có thể mở mục “Thiết lập quyền lần đầu” và nhập `ADMIN_TOKEN`; trong mục “Cấp hoặc gỡ quyền quản trị”, nhập email Google đã từng đăng nhập trên website và chọn “Quản trị viên”. Tài khoản cần đăng xuất rồi đăng nhập lại để huy hiệu quản trị xuất hiện. Từ lần sau, tài khoản quản trị chỉ cần Google; token là phương án thiết lập/khôi phục quyền chủ website. Không gửi token cho người khác và không commit token vào Git. Không thể gỡ quyền của quản trị viên cuối cùng. Khi xóa bình luận gốc, hệ thống xóa cả các trả lời bên dưới và báo cáo liên quan.
+Trước khi triển khai, hãy bảo đảm migration `0003_admin_roles.sql` đã chạy trước đây, rồi chạy thêm migration `db/migrations/0004_chat_moderation.sql` một lần để bật khóa chat. Ở `/quan-tri/`, chủ website có thể đăng nhập bằng `ADMIN_TOKEN` hoặc tài khoản Google đã là admin. Tài khoản Google thường không có quyền sẽ thấy thông báo “chưa được cấp quyền” và nút về trang chủ. Chỉ phiên `ADMIN_TOKEN` được cấp/gỡ vai trò tài khoản. Quản trị viên Google có thể tìm và xóa bình luận, xem báo cáo, khóa/mở chat của thành viên; không thể quản lý vai trò. Hai loại phiên đều có nút đăng xuất. Tài khoản admin Google đã đăng nhập sẽ thấy lối tắt Quản trị ở đầu menu công cụ nổi. Khi xóa bình luận gốc, hệ thống xóa cả các câu trả lời bên dưới và báo cáo liên quan.
 
 Có thể chạy migration bằng Wrangler:
 
@@ -73,7 +73,13 @@ Có thể chạy migration bằng Wrangler:
 npx wrangler d1 execute data-mucthanky --remote --file=db/migrations/0003_admin_roles.sql
 ```
 
-Hoặc mở Cloudflare Dashboard → D1 → `data-mucthanky` → Console, dán nội dung file migration và bấm Execute. Chỉ chạy migration này một lần; chạy lại sẽ báo cột `role` đã tồn tại.
+Nếu `0003_admin_roles.sql` chưa từng chạy, chạy lệnh trên trước một lần. Nếu đã chạy ở bản trước thì bỏ qua, không chạy lại. Sau đó chạy `0004_chat_moderation.sql` đúng một lần:
+
+```sh
+npx wrangler d1 execute data-mucthanky --remote --file=db/migrations/0004_chat_moderation.sql
+```
+
+Hoặc mở Cloudflare Dashboard → D1 → `data-mucthanky` → Console, dán nội dung file `0004_chat_moderation.sql` rồi bấm Execute. Đừng deploy bản mới trước khi migration hoàn tất.
 
 Giới hạn tốc độ áp dụng theo hash IP có salt; website không lưu IP thô. Email không được trả về trong API công khai.
 
@@ -99,11 +105,12 @@ Cron Worker chạy mỗi giờ. Nếu chỉ cần lịch tập mới trên websi
 - `GET /api/likes?type=post&id=/phim/`: đọc số lượt thích trang và trạng thái tài khoản hiện tại.
 - `POST /api/likes`: đăng nhập Google để thích hoặc bỏ thích một trang/bình luận.
 - `POST /api/comments`: cần tài khoản, trang ngữ cảnh và Turnstile; đăng công khai ngay.
-- `POST /api/admin/comments`: trả tối đa 300 bình luận mới nhất cho chủ website.
-- `POST /api/admin/users`: liệt kê tối đa 300 tài khoản đã đăng nhập và quyền của họ.
-- `POST /api/admin/set-role`: cấp hoặc gỡ quyền thành viên/quản trị viên theo email Google; cần token chủ website hoặc phiên Google quản trị.
-- `POST /api/admin/delete`: xóa bình luận; cần `ADMIN_TOKEN`.
-- `POST /api/admin/reports`: đọc báo cáo; cần `ADMIN_TOKEN`.
+- `POST /api/admin/comments`: bình luận có phân trang, bộ lọc theo chuyên mục và tìm theo tên/email/nội dung; dùng được với Google admin hoặc `ADMIN_TOKEN`.
+- `POST /api/admin/users`: tài khoản có phân trang và tìm kiếm; chỉ `ADMIN_TOKEN`.
+- `POST /api/admin/set-role`: cấp hoặc gỡ quyền thành viên/quản trị viên theo email Google; chỉ `ADMIN_TOKEN`.
+- `POST /api/admin/set-lock`: khóa/mở chức năng chat của thành viên; dùng được với Google admin hoặc `ADMIN_TOKEN`.
+- `POST /api/admin/delete`: xóa bình luận; dùng được với Google admin hoặc `ADMIN_TOKEN`.
+- `POST /api/admin/reports`: đọc báo cáo; dùng được với Google admin hoặc `ADMIN_TOKEN`.
 - `GET /api/schedule`: đọc lịch tập chính thức từ Bilibili, cache khoảng một giờ.
 - `GET /api/episodes`: metadata video YouTube tùy chọn từ cấu hình cũ.
 
