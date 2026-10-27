@@ -704,3 +704,4 @@ html:not([data-theme=dark]) .community-confirm-dialog,html:not([data-theme=dark]
 .emoji-choice{width:36px;height:36px;border:0;border-radius:8px;background:transparent;font-size:21px;cursor:pointer}
 .emoji-choice:hover,.emoji-choice:focus-visible{background:var(--soft)}
 @media(max-width:760px){.community-confirm-card,.admin-confirm-card{padding:20px}.comment-reply-pagination{gap:4px}.comment-page-number{min-width:30px;height:30px}.emoji-picker-panel{grid-template-columns:repeat(6,38px)}.emoji-choice{width:38px;height:38px}}
+.comment-replies[hidden]{display:none!important}
