@@ -7,13 +7,18 @@
  const users=document.getElementById('admin-users');
  const controls=document.getElementById('admin-controls');
  const tokenInput=document.getElementById('admin-token');
+ const loginPanel=document.getElementById('admin-login');
+ const dashboard=document.getElementById('admin-dashboard');
+ const authMessage=document.getElementById('admin-auth-message');
+ const sessionAccount=document.getElementById('admin-session-account');
  let token='';
  const make=(tag,text)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n};
+ async function readJson(response){try{return await response.json()}catch{throw Error('API quản trị chỉ hoạt động trên Cloudflare Pages có bật Functions. Bản xem trước tĩnh không có kết nối D1.')}}
  async function call(route,body={}){
   const headers={'Content-Type':'application/json'};
   if(token)headers.Authorization='Bearer '+token;
   const r=await fetch('/api/admin/'+route,{method:'POST',headers,body:JSON.stringify(body)});
-  let d;try{d=await r.json()}catch{throw Error('API quản trị chỉ hoạt động trên Cloudflare Pages có bật Functions. Bản xem trước tĩnh không có kết nối D1.')}
+  const d=await readJson(r);
   if(!r.ok)throw Error(d.error||'Không thể truy cập quản trị.');
   return d;
  }
@@ -53,18 +58,41 @@
   if(!r.reports.length)reports.append(make('p','Chưa có báo cáo.'));
   controls.hidden=false;status.textContent=`${u.users.length} tài khoản · ${c.comments.length} bình luận · ${r.reports.length} báo cáo.`;
  }
- async function trySession(){try{await load()}catch(e){status.textContent=e.message;controls.hidden=true}}
+ async function checkGoogleSession(){
+  loginPanel.hidden=false;dashboard.hidden=true;controls.hidden=true;token='';
+  try{
+   const response=await fetch('/api/auth/me',{cache:'no-store'}),auth=await readJson(response);if(!response.ok)throw Error(auth.error||'Không kiểm tra được tài khoản quản trị.');
+   if(auth.authenticated&&auth.user?.role==='admin'){
+    loginPanel.hidden=true;dashboard.hidden=false;
+    sessionAccount.textContent=`Google · ${auth.user.name} · Quản trị viên`;
+    await load();return;
+   }
+   authMessage.textContent=auth.authenticated
+    ?`Tài khoản ${auth.user?.name||''} chưa có quyền quản trị. Hãy chọn tài khoản Google Admin hoặc dùng quyền chủ website để cấp quyền.`
+    :'Đăng nhập bằng tài khoản Google đã được cấp quyền quản trị. Chủ website có thể mở phần token để cấp quyền ban đầu.';
+  }catch(error){authMessage.textContent=error.message}
+ }
  form.addEventListener('submit',async e=>{
   e.preventDefault();token=tokenInput.value.trim();tokenInput.value='';
-  try{await load()}catch(e){status.textContent=e.message;token=''}
+  try{
+   await load();loginPanel.hidden=true;dashboard.hidden=false;
+   sessionAccount.textContent='Phiên chủ website · ADMIN_TOKEN';
+   form.closest('details')?.removeAttribute('open');
+  }catch(error){authMessage.textContent=error.message;token=''}
  });
  document.getElementById('admin-role-form').addEventListener('submit',async e=>{
   e.preventDefault();const roleForm=e.currentTarget;const email=document.getElementById('admin-user-email').value.trim();const role=document.getElementById('admin-user-role').value;
   try{const result=await call('set-role',{email,role});roleForm.reset();await load();status.textContent=result.role==='admin'?'Đã cấp quyền quản trị. Tài khoản cần đăng xuất rồi đăng nhập lại để thấy huy hiệu mới.':'Đã gỡ quyền quản trị.'}
   catch(error){status.textContent=error.message}
  });
- document.getElementById('admin-lock').addEventListener('click',()=>{token='';form.reset();controls.hidden=true;comments.replaceChildren();reports.replaceChildren();users.replaceChildren();status.textContent='Đã khóa phiên quản trị.'});
- document.getElementById('admin-google-signin').addEventListener('click',async()=>{try{const d=await fetch('/api/auth/google',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({returnTo:'/quan-tri/'})}).then(async r=>{const body=await r.json();if(!r.ok)throw Error(body.error||'Không thể bắt đầu đăng nhập.');return body});location.href=d.url}catch(e){status.textContent=e.message}});
+ document.getElementById('admin-signout').addEventListener('click',async()=>{
+  token='';try{await fetch('/api/auth/logout',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'})}catch{}
+  form.reset();comments.replaceChildren();reports.replaceChildren();users.replaceChildren();status.textContent='';await checkGoogleSession();
+ });
+ document.getElementById('admin-google-signin').addEventListener('click',async()=>{
+  try{const response=await fetch('/api/auth/google',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({returnTo:'/quan-tri/'})});const d=await readJson(response);if(!response.ok)throw Error(d.error||'Không thể bắt đầu đăng nhập.');location.href=d.url}
+  catch(error){authMessage.textContent=error.message}
+ });
  window.addEventListener('pagehide',()=>{token=''});
- trySession();
+ checkGoogleSession();
 })();

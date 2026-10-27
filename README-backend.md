@@ -65,7 +65,7 @@ Tạo Turnstile widget cho `mucthanky.com`, sau đó cấu hình:
 
 Mỗi bình luận cần tài khoản Google đã xác minh và Turnstile; nội dung được đăng công khai ngay. Bình luận gốc được xếp mới nhất trước, trả lời nằm dưới bình luận gốc. Trang bình luận gốc được gắn làm liên kết ngữ cảnh trên toàn website.
 
-Trước khi triển khai bản có phân quyền tài khoản, chạy migration `db/migrations/0003_admin_roles.sql` một lần trên D1 đang dùng. Sau đó mở `https://mucthanky.com/quan-tri/`: đăng nhập Google bằng tài khoản muốn cấp quyền, đồng thời nhập `ADMIN_TOKEN` để mở công cụ lần đầu. Trong mục “Cấp hoặc gỡ quyền quản trị”, nhập email Google đã từng đăng nhập trên website và chọn “Quản trị viên”. Tài khoản cần đăng xuất rồi đăng nhập lại để huy hiệu quản trị xuất hiện. Từ lần sau, tài khoản quản trị có thể dùng đăng nhập Google để vào công cụ mà không cần token. `ADMIN_TOKEN` vẫn là cách khôi phục quyền chủ website; không gửi token cho người khác và không commit token vào Git. Không thể gỡ quyền của quản trị viên cuối cùng. Khi xóa bình luận gốc, hệ thống xóa cả các trả lời bên dưới và báo cáo liên quan.
+Trước khi triển khai bản có phân quyền tài khoản, chạy migration `db/migrations/0003_admin_roles.sql` một lần trên D1 đang dùng. Tại `/quan-tri/`, quản trị viên đăng nhập bằng Google để mở công cụ. Lần đầu cấp quyền, chủ website có thể mở mục “Thiết lập quyền lần đầu” và nhập `ADMIN_TOKEN`; trong mục “Cấp hoặc gỡ quyền quản trị”, nhập email Google đã từng đăng nhập trên website và chọn “Quản trị viên”. Tài khoản cần đăng xuất rồi đăng nhập lại để huy hiệu quản trị xuất hiện. Từ lần sau, tài khoản quản trị chỉ cần Google; token là phương án thiết lập/khôi phục quyền chủ website. Không gửi token cho người khác và không commit token vào Git. Không thể gỡ quyền của quản trị viên cuối cùng. Khi xóa bình luận gốc, hệ thống xóa cả các trả lời bên dưới và báo cáo liên quan.
 
 Có thể chạy migration bằng Wrangler:
 
@@ -95,7 +95,7 @@ Cron Worker chạy mỗi giờ. Nếu chỉ cần lịch tập mới trên websi
 - `GET /api/auth/me`: trạng thái đăng nhập, không trả email.
 - `POST /api/auth/google`: tạo luồng OAuth; callback tạo session.
 - `POST /api/auth/logout`: xóa session.
-- `GET /api/comments`: tối đa 300 bình luận công khai trên toàn website, gồm số lượt thích và trạng thái đã thích của tài khoản hiện tại.
+- `GET /api/comments?limit=10&offset=0&sort=newest&category=all`: phân trang bình luận cấp 1; `limit` chấp nhận 10, 20 hoặc 50; `sort` là `newest` hoặc `oldest`; `category` hỗ trợ `all`, `film`, `novel`, `encyclopedia` và `community`. Mỗi cuộc trò chuyện ban đầu hiển thị 2 câu trả lời gần nhất; khi có nhiều câu trả lời, người đọc có thể chuyển các phần cũ hơn/mới hơn theo nhóm 4. Phản hồi có tổng số cuộc trò chuyện để tính số trang.
 - `GET /api/likes?type=post&id=/phim/`: đọc số lượt thích trang và trạng thái tài khoản hiện tại.
 - `POST /api/likes`: đăng nhập Google để thích hoặc bỏ thích một trang/bình luận.
 - `POST /api/comments`: cần tài khoản, trang ngữ cảnh và Turnstile; đăng công khai ngay.
