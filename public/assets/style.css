@@ -729,3 +729,16 @@ html[data-theme=dark] .admin-row-actions .btn.is-chat-locked:hover,html[data-the
 #thao-luan .comment-moderator-actions .btn.is-chat-locked:hover{border-color:#b76e72;background:#4a2d33;color:#ffe0da}
 html:not([data-theme=dark]) #thao-luan .comment-moderator-actions .btn.is-chat-locked{border-color:#d7a1a0;background:#f8e9e8;color:#8e3438}
 html:not([data-theme=dark]) #thao-luan .comment-moderator-actions .btn.is-chat-locked:hover{border-color:#b9676b;background:#f2d7d6;color:#75272c}
+
+/* Keep shared page headings and profile facts from breaking into narrow fragments. */
+p{ text-wrap:pretty }
+.page-hero p{max-width:min(100%,1080px)}
+.facts dl>div{grid-template-columns:minmax(150px,.85fr) minmax(0,1.15fr);gap:14px}
+.profile-picture figcaption a{display:inline-flex;white-space:nowrap;align-items:baseline}
+.toc nav a span{min-width:0}
+@media(max-width:760px){
+ .page-hero p{max-width:100%;text-wrap:pretty}
+ .facts dl>div{grid-template-columns:minmax(118px,.8fr) minmax(0,1.2fr);gap:10px}
+ .facts dt{line-height:1.5}
+}
+@media(max-width:380px){.facts dl>div{grid-template-columns:minmax(108px,.8fr) minmax(0,1.2fr);gap:8px}}
