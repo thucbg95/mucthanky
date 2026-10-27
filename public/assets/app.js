@@ -54,7 +54,7 @@ if($('#comment-form')){
 const backTop=$('#back-top');
 if(backTop){const update=()=>{backTop.hidden=window.scrollY<500;const max=Math.max(1,document.documentElement.scrollHeight-innerHeight);const progress=Math.min(100,Math.max(0,window.scrollY/max*100));backTop.style.setProperty('--scroll-progress',progress);document.documentElement.style.setProperty('--reading-progress',progress+'%')};window.addEventListener('scroll',update,{passive:true});update();backTop.addEventListener('click',()=>window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}))}
 let fontScale=Math.max(.9,Math.min(1.25,Number(storage.get('mtk-global-font-scale',1))||1));const applyFontScale=()=>document.documentElement.style.setProperty('--font-scale',fontScale);applyFontScale();
-$('[data-font]').forEach(b=>b.addEventListener('click',()=>{fontScale=Math.max(.9,Math.min(1.25,Math.round((fontScale+(b.dataset.font==='larger'?.05:-.05))*100)/100));storage.set('mtk-global-font-scale',fontScale);applyFontScale()}));
+$$('[data-font]').forEach(b=>b.addEventListener('click',()=>{fontScale=Math.max(.9,Math.min(1.25,Math.round((fontScale+(b.dataset.font==='larger'?.05:-.05))*100)/100));storage.set('mtk-global-font-scale',fontScale);applyFontScale()}));
 
 $$('[data-copy-link]').forEach(b=>b.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(location.href);b.textContent='Đã sao chép ✓'}catch{b.textContent='Hãy sao chép địa chỉ trên trình duyệt'}}));
 $$('.toc a').forEach(a=>a.addEventListener('click',()=>{const target=document.getElementById(a.getAttribute('href').slice(1));if(target?.tagName==='DETAILS')target.open=true}));
