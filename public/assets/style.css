@@ -353,7 +353,7 @@ html:not([data-theme=dark]) .category-grid .category-tile h3{color:#1c4038}
 .font-floater{right:22px;bottom:72px;gap:7px;align-items:center}
 .font-floater button,.font-floater .float-social{box-sizing:border-box;display:grid;place-items:center;width:40px;height:40px;min-width:40px;min-height:40px;padding:0;border:1px solid #718a8090;border-radius:50%;background:#f5f2e9;color:#174c47;text-decoration:none;box-shadow:0 4px 14px #1b303224;transition:transform .2s ease,background-color .2s ease,color .2s ease,border-color .2s ease}
 .font-floater .float-social svg{display:block;width:19px;height:19px;fill:currentColor}
-.font-floater .float-social:nth-child(2) svg{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.font-floater .float-social:nth-child(3) svg{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.font-floater .float-social.float-community svg{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .font-floater button:hover,.font-floater .float-social:hover{transform:scale(1.08);background:#174c47;color:#fffdf5}
 .font-floater button:focus-visible,.font-floater .float-social:focus-visible{outline:2px solid #b38c4e;outline-offset:3px}
 .back-top{width:40px!important;height:40px!important;right:22px!important;bottom:22px!important}
@@ -537,3 +537,54 @@ body:has(.article-main) .reading-progress{display:none!important}
 
 /* Community reply controls, member levels, and compact thread expansion. */
 .comment-actions button.comment-reply-button{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:30px;height:30px;padding:4px 9px;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--green);font-size:12px;font-weight:650;line-height:1;transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease}.comment-actions button.comment-reply-button svg{display:block;width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.comment-actions button.comment-reply-button:hover{background:var(--soft);border-color:var(--green);transform:translateY(-1px)}.comment-badge{display:inline-flex;align-items:center;padding:2px 7px;border:1px solid var(--line);border-radius:999px;background:var(--soft);color:var(--muted);font-size:10px;line-height:1.35;font-weight:700;white-space:nowrap}.comment-badge.new{color:#536b68}.comment-badge.fan{background:#f5ead0;border-color:#d8bd7c;color:#72511d}.comment-badge.super{background:linear-gradient(120deg,#f2d58f,#dfb967);border-color:#bd9346;color:#443313}.comment-show-replies,.comment-load-more{display:inline-flex;align-items:center;min-height:30px;margin:7px 0;padding:5px 9px;border:1px solid var(--line);border-radius:8px;background:var(--soft);color:var(--green);font-size:12px;font-weight:650;cursor:pointer}.comment-load-more{margin:14px 0 4px}.comment-show-replies:hover,.comment-load-more:hover{border-color:var(--green);background:var(--panel)}html[data-theme=dark] .comment-badge.new{background:#26363b;border-color:#40545b;color:#bbc9c9}html[data-theme=dark] .comment-badge.fan{background:#3a3428;border-color:#776544;color:#e6cb8f}html[data-theme=dark] .comment-badge.super{background:linear-gradient(120deg,#685430,#493b24);border-color:#a3864d;color:#f4dfaa}
+
+/* Responsive community discussion and matching social icons */
+#thao-luan #comment-form{display:grid;width:100%;max-width:100%;gap:10px;padding:16px;border:1px solid var(--line);border-radius:14px;background:var(--panel);box-sizing:border-box}
+#thao-luan #comment-form textarea,#thao-luan .comment-reply-form textarea{display:block;width:100%;max-width:100%;min-width:0;box-sizing:border-box;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--text);resize:vertical}
+.comment-reply-form{display:grid;width:100%;max-width:100%;margin:8px 0 4px;gap:9px;box-sizing:border-box}
+.comment-node{min-width:0;max-width:100%}.comment-node-reply{padding-left:clamp(8px,2vw,22px)}
+.comment-node .comment-actions{margin-top:0}.comment-node .comment{min-width:0;overflow-wrap:anywhere}
+.comment-replies{min-width:0;max-width:100%;margin-left:clamp(8px,2vw,26px);padding-left:clamp(8px,1.4vw,15px)}
+.community-links .play-mark svg{display:block;width:22px;height:22px;fill:currentColor;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.community-links .play-mark svg path{stroke:none}
+@media(max-width:760px){#thao-luan #comment-form{padding:13px;border-radius:13px}.comment-replies{margin-left:8px;padding-left:9px}.comment-node-reply{padding-left:4px}.comment-reply-form{margin:7px 0}.community-links a{padding:16px;gap:12px}}
+
+/* Mobile floating utility menu */
+.float-menu-toggle{display:none}
+.font-floater .float-menu{display:contents}
+@media(max-width:760px){
+ .font-floater{display:flex;flex-direction:column;align-items:flex-end;gap:8px;opacity:.8;transform:none}
+ .font-floater:hover,.font-floater:focus-within{transform:none}
+ .font-floater .float-menu-toggle{display:grid;place-items:center;width:42px;height:42px;padding:0;border:1px solid #718a8090;border-radius:50%;background:#f5f2e9;color:#174c47;box-shadow:0 4px 14px #1b303224;transition:transform .2s ease,background-color .2s ease,color .2s ease}
+ .font-floater .float-menu-toggle svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+ .font-floater .float-menu-toggle:hover{background:#174c47;color:#fffdf5}
+ .font-floater .float-menu{display:flex;flex-direction:column;align-items:flex-end;gap:7px;max-height:0;overflow:hidden;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(14px);transition:max-height .28s ease,opacity .2s ease,transform .28s cubic-bezier(.2,.75,.25,1),visibility 0s linear .28s}
+ .font-floater.is-open .float-menu{max-height:260px;opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0);transition:max-height .3s ease,opacity .18s ease,transform .3s cubic-bezier(.2,.75,.25,1),visibility 0s}
+ .font-floater .float-menu>*{opacity:0;transform:translateY(10px) scale(.92);transition:opacity .16s ease,transform .22s cubic-bezier(.2,.75,.25,1)}
+ .font-floater.is-open .float-menu>*{opacity:1;transform:translateY(0) scale(1)}
+ .font-floater .float-menu>*:nth-child(1){transition-delay:0s}
+ .font-floater .float-menu>*:nth-child(2){transition-delay:.03s}
+ .font-floater .float-menu>*:nth-child(3){transition-delay:.06s}
+ .font-floater .float-menu>*:nth-child(4){transition-delay:.09s}
+ .font-floater .float-menu>*:nth-child(5){transition-delay:.12s}
+ .font-floater.is-open .float-menu>*:nth-child(1){transition-delay:.16s}
+ .font-floater.is-open .float-menu>*:nth-child(2){transition-delay:.12s}
+ .font-floater.is-open .float-menu>*:nth-child(3){transition-delay:.08s}
+ .font-floater.is-open .float-menu>*:nth-child(4){transition-delay:.04s}
+ .font-floater.is-open .float-menu>*:nth-child(5){transition-delay:0s}
+}
+@media(prefers-reduced-motion:reduce){.font-floater .float-menu,.font-floater .float-menu>*,.font-floater .float-menu-toggle{transition-duration:.01ms!important;transition-delay:0s!important}}
+.post-reaction{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:14px 0;padding:13px 15px;border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--muted)}
+.like-button{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:34px;padding:6px 11px;border:1px solid var(--line);border-radius:999px;background:var(--soft);color:var(--text);font:650 calc(12px * var(--font-scale,1)) 'Be Vietnam Pro',sans-serif;line-height:1.2;white-space:nowrap;cursor:pointer;transition:background-color .18s ease,color .18s ease,border-color .18s ease,transform .18s ease}
+.like-button svg{display:block;width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:0 0 auto}
+.like-button .like-count{min-width:1ch;font-variant-numeric:tabular-nums}
+.like-button:hover{border-color:#c46b77;color:#a83e51;transform:translateY(-1px)}
+.like-button.is-liked{border-color:#cb7580;background:#fbecef;color:#a83248}
+.like-button.is-liked svg{fill:currentColor}
+html[data-theme=dark] .like-button.is-liked{border-color:#884b59;background:#38252c;color:#f09aa4}
+html[data-theme=dark] .post-reaction{background:var(--panel);color:var(--muted)}
+.comment-actions .like-button{min-height:30px;margin-right:0;padding:4px 9px;font-size:calc(11px * var(--font-scale,1))}
+.comment-actions .like-button svg{width:15px;height:15px}
+.like-button:disabled{opacity:.65;cursor:wait;transform:none}
+@media(max-width:760px){.post-reaction{align-items:flex-start;flex-wrap:wrap;padding:12px;border-radius:13px}.post-reaction>span{flex:1 1 100%}.post-reaction .like-button{min-height:38px}}
+@media(prefers-reduced-motion:reduce){.like-button{transition:none}}

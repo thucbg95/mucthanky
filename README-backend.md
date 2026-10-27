@@ -24,6 +24,8 @@ Nếu đã có D1 từ bản cũ, dùng migration một lần:
 npx wrangler d1 execute mucthanky --remote --file=db/migrate-existing.sql
 ```
 
+Đã có D1 từ phiên bản trước thì cần tạo bảng lượt thích một lần trước khi cập nhật mã website. Trong Cloudflare Dashboard → D1 → chọn database → Console, chạy nội dung của `db/migrations/0002_likes.sql`. Bản build mới truy vấn bảng này để đếm lượt thích trang và bình luận.
+
 API mới cũng tự hiển thị các bình luận cũ đang ở trạng thái chờ duyệt. Nếu muốn chuẩn hóa trạng thái trong D1, có thể chạy migration một lần:
 
 ```sh
@@ -85,7 +87,9 @@ Cron Worker chạy mỗi giờ. Nếu chỉ cần lịch tập mới trên websi
 - `GET /api/auth/me`: trạng thái đăng nhập, không trả email.
 - `POST /api/auth/google`: tạo luồng OAuth; callback tạo session.
 - `POST /api/auth/logout`: xóa session.
-- `GET /api/comments`: tối đa 300 bình luận công khai trên toàn website.
+- `GET /api/comments`: tối đa 300 bình luận công khai trên toàn website, gồm số lượt thích và trạng thái đã thích của tài khoản hiện tại.
+- `GET /api/likes?type=post&id=/phim/`: đọc số lượt thích trang và trạng thái tài khoản hiện tại.
+- `POST /api/likes`: đăng nhập Google để thích hoặc bỏ thích một trang/bình luận.
 - `POST /api/comments`: cần tài khoản, trang ngữ cảnh và Turnstile; đăng công khai ngay.
 - `POST /api/admin/comments`: trả tối đa 300 bình luận mới nhất cho chủ website.
 - `POST /api/admin/delete`: xóa bình luận; cần `ADMIN_TOKEN`.

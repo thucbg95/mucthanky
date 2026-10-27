@@ -13,6 +13,10 @@ CREATE TABLE IF NOT EXISTS comments (
 );
 CREATE INDEX IF NOT EXISTS comments_page ON comments(page,status,created_at);
 CREATE INDEX IF NOT EXISTS comments_global ON comments(status,created_at);
+CREATE TABLE IF NOT EXISTS likes (target_type TEXT NOT NULL CHECK(target_type IN ('post','comment')),target_id TEXT NOT NULL,user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,PRIMARY KEY(target_type,target_id,user_id));
+CREATE INDEX IF NOT EXISTS likes_target ON likes(target_type,target_id);
+CREATE INDEX IF NOT EXISTS likes_user ON likes(user_id,created_at);
+
 CREATE TABLE IF NOT EXISTS rate_limits (key TEXT PRIMARY KEY,count INTEGER NOT NULL,expires INTEGER NOT NULL);
 CREATE TABLE IF NOT EXISTS reports (id TEXT PRIMARY KEY,comment_id TEXT NOT NULL REFERENCES comments(id),reason TEXT NOT NULL,created_at TEXT DEFAULT CURRENT_TIMESTAMP);
 CREATE TABLE IF NOT EXISTS episodes (id TEXT PRIMARY KEY,title TEXT NOT NULL,description TEXT NOT NULL,thumbnail TEXT,published_at TEXT NOT NULL,url TEXT NOT NULL,source TEXT NOT NULL,kind TEXT NOT NULL DEFAULT 'video',synced_at TEXT NOT NULL);
