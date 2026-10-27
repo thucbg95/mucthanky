@@ -592,7 +592,7 @@ body:has(.article-main) .reading-progress{display:none!important}
  .font-floater .float-menu-toggle svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
  .font-floater .float-menu-toggle:hover{background:#174c47;color:#fffdf5}
  .font-floater .float-menu{display:flex;flex-direction:column;align-items:flex-end;gap:7px;max-height:0;overflow:hidden;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(14px);transition:max-height .28s ease,opacity .2s ease,transform .28s cubic-bezier(.2,.75,.25,1),visibility 0s linear .28s}
- .font-floater.is-open .float-menu{max-height:340px;opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0);transition:max-height .3s ease,opacity .18s ease,transform .3s cubic-bezier(.2,.75,.25,1),visibility 0s}
+ .font-floater.is-open .float-menu{max-height:min(360px,calc(100dvh - 150px));overflow-y:auto;overscroll-behavior:contain;opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0);transition:max-height .3s ease,opacity .18s ease,transform .3s cubic-bezier(.2,.75,.25,1),visibility 0s}
  .font-floater .float-menu>*{opacity:0;transform:translateY(10px) scale(.92);transition:opacity .16s ease,transform .22s cubic-bezier(.2,.75,.25,1)}
  .font-floater.is-open .float-menu>*{opacity:1;transform:translateY(0) scale(1)}
  .font-floater .float-menu>*:nth-child(1){transition-delay:0s}
@@ -605,6 +605,7 @@ body:has(.article-main) .reading-progress{display:none!important}
  .font-floater.is-open .float-menu>*:nth-child(3){transition-delay:.08s}
  .font-floater.is-open .float-menu>*:nth-child(4){transition-delay:.04s}
  .font-floater.is-open .float-menu>*:nth-child(5){transition-delay:0s}
+ .font-floater.is-open .float-menu>*:nth-child(6){transition-delay:0s}
 }
 @media(prefers-reduced-motion:reduce){.font-floater .float-menu,.font-floater .float-menu>*,.font-floater .float-menu-toggle{transition-duration:.01ms!important;transition-delay:0s!important}}
 .post-reaction{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:14px 0;padding:13px 15px;border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--muted)}
@@ -636,7 +637,7 @@ html[data-theme=dark] .post-reaction{background:var(--panel);color:var(--muted)}
 @media(max-width:760px){
  .font-floater .float-menu-toggle{display:grid!important;position:relative;z-index:2;touch-action:manipulation}
  .font-floater .float-menu{height:0;max-height:0;visibility:hidden;opacity:0;pointer-events:none;overflow:hidden;transition:height .28s ease,max-height .28s ease,opacity .18s ease,transform .28s ease,visibility 0s linear .28s}
- .font-floater[data-open="true"] .float-menu{height:auto;max-height:260px;visibility:visible;opacity:1;pointer-events:auto;transition:height .28s ease,max-height .28s ease,opacity .18s ease,transform .28s ease,visibility 0s}
+ .font-floater[data-open="true"] .float-menu{height:auto;max-height:min(360px,calc(100dvh - 150px));overflow-y:auto;overscroll-behavior:contain;visibility:visible;opacity:1;pointer-events:auto;transition:height .28s ease,max-height .28s ease,opacity .18s ease,transform .28s ease,visibility 0s}
  .font-floater[data-open="true"] .float-menu>*{visibility:visible}
  .font-floater:not([data-open="true"]) .float-menu>*{visibility:hidden}
 }
@@ -720,3 +721,11 @@ html[data-theme=dark] .saved-profile-remove:hover{border-color:#8d545a;backgroun
 .admin-row-actions .btn.is-chat-locked:hover,.admin-user-row .btn.is-chat-locked:hover,.comment-moderator-actions .btn.is-chat-locked:hover{border-color:#b9676b;background:#f2d7d6;color:#75272c}
 html[data-theme=dark] .admin-row-actions .btn.is-chat-locked,html[data-theme=dark] .admin-user-row .btn.is-chat-locked,html[data-theme=dark] .comment-moderator-actions .btn.is-chat-locked{border-color:#85545b;background:#39272c;color:#ffc0b8}
 html[data-theme=dark] .admin-row-actions .btn.is-chat-locked:hover,html[data-theme=dark] .admin-user-row .btn.is-chat-locked:hover,html[data-theme=dark] .comment-moderator-actions .btn.is-chat-locked:hover{border-color:#b76e72;background:#4a2d33;color:#ffe0da}
+
+/* Inline moderator actions follow the same compact control style as reply/show-more. */
+#thao-luan .comment-moderator-actions .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:29px;height:29px;padding:4px 8px;border:1px solid var(--line);border-radius:8px;background:var(--soft);color:var(--green);font:650 calc(11px * var(--font-scale,1))/1 'Be Vietnam Pro',sans-serif;white-space:nowrap;transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease}
+#thao-luan .comment-moderator-actions .btn:hover{border-color:var(--green);background:var(--soft);color:var(--green);transform:translateY(-1px)}
+#thao-luan .comment-moderator-actions .btn.is-chat-locked{border-color:#85545b;background:#39272c;color:#ffc0b8}
+#thao-luan .comment-moderator-actions .btn.is-chat-locked:hover{border-color:#b76e72;background:#4a2d33;color:#ffe0da}
+html:not([data-theme=dark]) #thao-luan .comment-moderator-actions .btn.is-chat-locked{border-color:#d7a1a0;background:#f8e9e8;color:#8e3438}
+html:not([data-theme=dark]) #thao-luan .comment-moderator-actions .btn.is-chat-locked:hover{border-color:#b9676b;background:#f2d7d6;color:#75272c}
