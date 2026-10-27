@@ -417,6 +417,39 @@ html:not([data-theme=dark]) footer{background:#e7efed;border-color:#c6d5d2;color
 html:not([data-theme=dark]) .footer-links,html:not([data-theme=dark]) .footer-bottom{color:#43575d}
 html:not([data-theme=dark]) .footer-links a,html:not([data-theme=dark]) .footer-bottom a{color:#174d46}
 html:not([data-theme=dark]) input,html:not([data-theme=dark]) textarea,html:not([data-theme=dark]) select{background:#fff;color:#172d33;border-color:#b8cbca}
+
+/* Compact, readable discussion threads and reply controls. */
+#thao-luan #comment-form textarea,#thao-luan .comment-reply-form textarea{min-height:96px;max-height:260px;overflow-y:auto;resize:vertical;line-height:1.6}
+#thao-luan .comment-reply-form textarea{min-height:76px;max-height:180px}
+#thao-luan .comment-root{padding:13px 15px;margin:11px 0}
+#thao-luan .comment{padding:11px 0 7px}
+#thao-luan .comment-actions{gap:8px;margin-top:7px}
+#thao-luan .comment-actions button{min-height:32px;padding:5px 8px}
+#thao-luan .comment-replies{margin-top:6px}
+#thao-luan .comment-replies>.comment-node+.comment-node{margin-top:8px;padding-top:8px;border-top:1px solid var(--line)}
+#thao-luan .comment-replies .comment{padding:8px 0 5px}
+#thao-luan .comment-reply-form{display:grid;grid-template-columns:minmax(0,1fr);gap:7px;margin:8px 0 5px;width:100%;max-width:100%;box-sizing:border-box}
+#thao-luan .comment-reply-controls{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:8px}
+#thao-luan .comment-reply-controls .btn{min-height:34px;padding:6px 12px;white-space:nowrap}
+#thao-luan .reply-spoiler{display:inline-flex;align-items:center;gap:6px;margin:0;font-size:12px;color:var(--muted);white-space:normal}
+#thao-luan .reply-spoiler input{width:16px;height:16px;margin:0;accent-color:var(--green)}
+#thao-luan .comment-spoiler-toggle{min-height:28px;padding:4px 9px;border:1px solid var(--line);border-radius:7px;background:var(--soft);color:var(--green);font-family:inherit;font-size:12px;font-weight:600;cursor:pointer}
+.comment-badge.admin{background:#e8e0f5;border-color:#b8a4d5;color:#59447e}
+html[data-theme=dark] .comment-badge.admin{background:#332c40;border-color:#75618e;color:#e0d2f6}
+.bookmark-status{flex-basis:100%;min-height:1em;color:var(--muted);font-size:calc(11px * var(--font-scale, 1))}
+@media(max-width:760px){#thao-luan .comment-root{padding:11px;margin:9px 0}#thao-luan .comment-replies>.comment-node+.comment-node{margin-top:6px;padding-top:6px}#thao-luan .comment-reply-controls{gap:6px}#thao-luan .comment-reply-controls .btn{min-height:32px;padding:5px 9px}.bookmark-status{font-size:calc(10px * var(--font-scale, 1))}}
+.admin-access{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 16px;margin:10px 0 16px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.admin-access p{margin:0;color:var(--muted)}
+.admin-role-form{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.7fr) auto;align-items:end;gap:10px;margin:12px 0 18px}
+.admin-role-field{display:grid;gap:6px;min-width:0}
+.admin-role-field label{color:var(--muted);font-size:13px}
+.admin-role-field input,.admin-role-field select{min-width:0}
+.admin-role-form button{white-space:nowrap}
+.admin-user-list{display:grid;gap:6px;margin:10px 0 24px}
+.admin-user-row{display:flex;align-items:center;gap:12px;padding:9px 11px;border:1px solid var(--line);border-radius:9px;background:var(--panel)}
+.admin-user-row>span:first-child{display:grid;gap:2px;min-width:0;margin-right:auto}
+.admin-user-row small{color:var(--muted);overflow-wrap:anywhere}
+@media(max-width:620px){.admin-access{align-items:stretch;flex-direction:column}.admin-role-form{grid-template-columns:minmax(0,1fr) auto}.admin-role-form .admin-role-field:first-child{grid-column:1/-1}.admin-role-form button{grid-column:2;grid-row:2}.admin-user-row{flex-wrap:wrap}.admin-user-row>span:first-child{flex-basis:100%}}
 html:not([data-theme=dark]) .filters button,html:not([data-theme=dark]) .entry-tools .btn{background:#fff;color:#23433f;border-color:#c1d1cf}
 html:not([data-theme=dark]) .filters button.selected{background:#15594f;color:#fff;border-color:#15594f}
 html:not([data-theme=dark]) .font-floater button,html:not([data-theme=dark]) .font-floater .float-social{background:#fff;color:#15594f;border-color:#aebfbc}
