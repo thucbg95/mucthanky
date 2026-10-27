@@ -368,6 +368,24 @@
       "credit": "Tư liệu do tài khoản hoạt hình Mục Thần Ký công bố, dẫn lại trên Sina News",
       "width": 720,
       "height": 1200
+    },
+    "dien-phong-de": {
+      "src": "/assets/film-v3/dien-phong-de-official.jpg",
+      "alt": "Diên Phong Đế trong poster nhân vật Mục Thần Ký",
+      "sourceUrl": "https://x.com/madeby_bilibili/status/1944603510693318953",
+      "assetUrl": "https://pbs.twimg.com/media/GvyelUFWYAA6H6o.jpg",
+      "credit": "Poster nhân vật từ kênh Made By Bilibili",
+      "width": 713,
+      "height": 1200
+    },
+    "tu-van-huong": {
+      "src": "/assets/film-v3/tu-van-huong-official.webp",
+      "alt": "Tư Vân Hương (司芸香) trong poster nhân vật Mục Thần Ký",
+      "sourceUrl": "https://huaban.com/pins/6734878312",
+      "assetUrl": "https://gd-hbimg.huaban.com/438b8904ce17480aa977127342d883b2ce91ed3f2db994-4TRj8e_fw658webp",
+      "credit": "Poster nhân vật có nhận diện Bilibili / 玄机科技",
+      "width": 658,
+      "height": 1107
     }
   },
   "gallery": [

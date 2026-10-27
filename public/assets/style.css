@@ -742,3 +742,22 @@ p{ text-wrap:pretty }
  .facts dt{line-height:1.5}
 }
 @media(max-width:380px){.facts dl>div{grid-template-columns:minmax(108px,.8fr) minmax(0,1.2fr);gap:8px}}
+
+/* Keep episode search and sort on one compact row on desktop. */
+.schedule-controls-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:18px;margin:16px 0 14px}
+.schedule-controls-row .episode-search{max-width:none;margin:0;min-width:0}
+.schedule-controls-row .episode-sort-controls{flex-wrap:nowrap;margin:0;white-space:nowrap}
+@media(max-width:900px){.schedule-controls-row{grid-template-columns:minmax(0,1fr);gap:2px}.schedule-controls-row .episode-sort-controls{flex-wrap:wrap;margin:10px 0 0}}
+.schedule-sync-status{margin:.65rem 0 1rem;color:var(--muted);font-size:max(13px,calc(13px * var(--font-scale,1)))}
+.schedule-sync-status[data-state=stale]{color:var(--accent-strong,#b46f22)}
+#video-trailer[hidden]{display:none!important}
+
+/* Shared home hero palette across desktop and mobile. */
+html:not([data-theme=dark]) .hero{background:var(--soft,#e7efec);color:var(--text,#172d33)}
+html:not([data-theme=dark]) .hero h1{color:#173d33;text-shadow:none}
+html:not([data-theme=dark]) .hero .hero-kicker{color:#174c41}
+html:not([data-theme=dark]) .hero-shade{background:linear-gradient(180deg,rgba(12,28,31,.02) 0%,rgba(12,28,31,.02) 34%,rgba(231,239,236,.82) 60%,#e7efec 100%)}
+html:not([data-theme=dark]) .hero .actions .btn.primary{background:#174c41!important;color:#fff!important;border-color:#174c41!important}
+html:not([data-theme=dark]) .hero .actions .btn:not(.primary){background:#fff;color:#174c41;border-color:#b7cbc3}
+@media(max-width:760px){html:not([data-theme=dark]) .hero-shade{background:linear-gradient(180deg,transparent 34%,#f1ede3 58%,#f1ede3 100%)}}
+/* A single light-theme treatment now overrides earlier breakpoint-specific palette rules. */

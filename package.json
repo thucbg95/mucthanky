@@ -1,1 +1,1 @@
-{"name":"mucthanky","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","dev":"node scripts/serve.mjs","test":"node scripts/check.mjs"},"engines":{"node":">=20"}}
+{"name":"mucthanky","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","dev":"node scripts/serve.mjs","test":"node scripts/check.mjs","audit:content":"node scripts/audit-content.mjs"},"engines":{"node":">=20"}}
