@@ -21,6 +21,20 @@ CREATE INDEX IF NOT EXISTS likes_user ON likes(user_id,created_at);
 
 CREATE TABLE IF NOT EXISTS rate_limits (key TEXT PRIMARY KEY,count INTEGER NOT NULL,expires INTEGER NOT NULL);
 CREATE TABLE IF NOT EXISTS reports (id TEXT PRIMARY KEY,comment_id TEXT NOT NULL REFERENCES comments(id),reason TEXT NOT NULL,created_at TEXT DEFAULT CURRENT_TIMESTAMP);
+CREATE TABLE IF NOT EXISTS admin_audit (
+ id TEXT PRIMARY KEY,
+ action TEXT NOT NULL CHECK(action IN ('comment_deleted','chat_locked','chat_unlocked')),
+ actor_type TEXT NOT NULL CHECK(actor_type IN ('owner_token','admin')),
+ actor_user_id TEXT,
+ actor_label TEXT NOT NULL,
+ target_user_id TEXT,
+ target_comment_id TEXT,
+ target_page TEXT,
+ details TEXT NOT NULL DEFAULT '{}',
+ created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ','now'))
+);
+CREATE INDEX IF NOT EXISTS admin_audit_created ON admin_audit(created_at DESC);
+CREATE INDEX IF NOT EXISTS admin_audit_action ON admin_audit(action,created_at DESC);
 CREATE TABLE IF NOT EXISTS episodes (id TEXT PRIMARY KEY,title TEXT NOT NULL,description TEXT NOT NULL,thumbnail TEXT,published_at TEXT NOT NULL,url TEXT NOT NULL,source TEXT NOT NULL,kind TEXT NOT NULL DEFAULT 'video',synced_at TEXT NOT NULL);
 CREATE INDEX IF NOT EXISTS episodes_published ON episodes(published_at DESC);
 CREATE TABLE IF NOT EXISTS episode_schedule (

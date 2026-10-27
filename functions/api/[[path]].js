@@ -86,17 +86,29 @@ async function handle(context){const {request,env}=context;const url=new URL(req
    }
    if(route==='admin/set-lock'&&request.method==='POST'){
     const userId=clean(body.userId),locked=body.locked===true;if(!userId)return json({error:'Không xác định được tài khoản cần khóa.'},400);
-    const target=await env.DB.prepare('SELECT id,role FROM users WHERE id=?').bind(userId).first();if(!target)return json({error:'Không tìm thấy tài khoản.'},404);
+    const target=await env.DB.prepare('SELECT id,role,name,email FROM users WHERE id=?').bind(userId).first();if(!target)return json({error:'Không tìm thấy tài khoản.'},404);
     if(target.role==='admin')return json({error:'Không thể khóa chức năng chat của tài khoản quản trị.'},400);
     if(locked)await env.DB.prepare("UPDATE users SET chat_locked=1,chat_lock_reason=?,chat_locked_at=datetime('now'),chat_locked_by=?,updated_at=datetime('now') WHERE id=?").bind(clean(body.reason).slice(0,240)||'Vi phạm quy tắc cộng đồng',adminUser?.id||null,userId).run();
     else await env.DB.prepare("UPDATE users SET chat_locked=0,chat_lock_reason=NULL,chat_locked_at=NULL,chat_locked_by=NULL,updated_at=datetime('now') WHERE id=?").bind(userId).run();
+    await env.DB.prepare('INSERT INTO admin_audit(id,action,actor_type,actor_user_id,actor_label,target_user_id,details) VALUES(?,?,?,?,?,?,?)').bind(crypto.randomUUID(),locked?'chat_locked':'chat_unlocked',tokenAuthorized?'owner_token':'admin',tokenAuthorized?null:adminUser.id,tokenAuthorized?'ADMIN_TOKEN':adminUser.email,userId,JSON.stringify({name:target.name,email:target.email,reason:locked?(clean(body.reason).slice(0,240)||'Vi phạm quy tắc cộng đồng'):''})).run();
     return json({ok:true,chatLocked:locked});
    }
    if(route==='admin/delete'&&request.method==='POST'&&typeof body.id==='string'){
-    const row=await env.DB.prepare('SELECT id,parent_id FROM comments WHERE id=?').bind(body.id).first();if(!row)return json({error:'Không tìm thấy bình luận.'},404);
+    const row=await env.DB.prepare('SELECT c.id,c.parent_id,c.user_id,c.name,c.page,c.status,c.body,u.name AS account_name,u.email AS account_email FROM comments c LEFT JOIN users u ON u.id=c.user_id WHERE c.id=?').bind(body.id).first();if(!row)return json({error:'Không tìm thấy bình luận.'},404);
     await env.DB.prepare('WITH RECURSIVE thread(id) AS (SELECT id FROM comments WHERE id=? UNION ALL SELECT c.id FROM comments c JOIN thread t ON c.parent_id=t.id) DELETE FROM reports WHERE comment_id IN (SELECT id FROM thread)').bind(row.id).run();
     await env.DB.prepare("WITH RECURSIVE thread(id) AS (SELECT id FROM comments WHERE id=? UNION ALL SELECT c.id FROM comments c JOIN thread t ON c.parent_id=t.id) DELETE FROM likes WHERE target_type='comment' AND target_id IN (SELECT id FROM thread)").bind(row.id).run();
-    await env.DB.prepare('WITH RECURSIVE thread(id) AS (SELECT id FROM comments WHERE id=? UNION ALL SELECT c.id FROM comments c JOIN thread t ON c.parent_id=t.id) DELETE FROM comments WHERE id IN (SELECT id FROM thread)').bind(row.id).run();return json({ok:true})
+    await env.DB.prepare('WITH RECURSIVE thread(id) AS (SELECT id FROM comments WHERE id=? UNION ALL SELECT c.id FROM comments c JOIN thread t ON c.parent_id=t.id) DELETE FROM comments WHERE id IN (SELECT id FROM thread)').bind(row.id).run();
+    await env.DB.prepare('INSERT INTO admin_audit(id,action,actor_type,actor_user_id,actor_label,target_user_id,target_comment_id,target_page,details) VALUES(?,?,?,?,?,?,?,?,?)').bind(crypto.randomUUID(),'comment_deleted',tokenAuthorized?'owner_token':'admin',tokenAuthorized?null:adminUser.id,tokenAuthorized?'ADMIN_TOKEN':adminUser.email,row.user_id||null,row.id,row.page,JSON.stringify({name:row.name,accountName:row.account_name,email:row.account_email,body:row.body,parent:Boolean(row.parent_id),threadDeleted:!row.parent_id,status:row.status})).run();return json({ok:true})
+   }
+   if(route==='admin/audit'&&request.method==='POST'){
+    if(!tokenAuthorized)return json({error:'Nhật ký kiểm duyệt chỉ dành cho chủ website đăng nhập bằng ADMIN_TOKEN.'},403);
+    const requested=Number(body.limit),limit=[10,20,50].includes(requested)?requested:10,offset=Math.max(0,Math.min(100000,Number.parseInt(body.offset,10)||0)),query=clean(body.query).slice(0,100).toLowerCase(),action=clean(body.action)||'all',category=clean(body.category)||'all',term=`%${query}%`;
+    const actionSql={all:'1=1',comment_deleted:"a.action='comment_deleted'",chat_locked:"a.action='chat_locked'",chat_unlocked:"a.action='chat_unlocked'"}[action]||'1=1';
+    const categorySql={all:'1=1',film:"a.target_page='/phim/'",novel:"a.target_page='/truyen/'",encyclopedia:"(a.target_page='/bach-khoa/' OR a.target_page LIKE '/bach-khoa/%')",community:"a.target_page='/cong-dong/'"}[category]||'1=1';
+    const where=`${actionSql} AND ${categorySql} AND (?='' OR lower(a.actor_label) LIKE ? OR lower(a.details) LIKE ? OR lower(COALESCE(a.target_comment_id,'')) LIKE ?)`;
+    const totalRow=await env.DB.prepare(`SELECT COUNT(*) AS total FROM admin_audit a WHERE ${where}`).bind(query,term,term,term).first();
+    const rows=await env.DB.prepare(`SELECT a.id,a.action,a.actor_type,a.actor_label,a.target_user_id,a.target_comment_id,a.target_page,a.details,a.created_at,u.name AS target_user_name,u.email AS target_user_email FROM admin_audit a LEFT JOIN users u ON u.id=a.target_user_id WHERE ${where} ORDER BY julianday(a.created_at) DESC,a.id DESC LIMIT ? OFFSET ?`).bind(query,term,term,term,limit,offset).all();
+    return json({events:rows.results,total:Number(totalRow?.total)||0,limit,offset,query,action,category});
    }
    if(route==='admin/reports'){const rows=await env.DB.prepare('SELECT * FROM reports ORDER BY created_at DESC LIMIT 100').all();return json({reports:rows.results})}
    return json({error:'Không tìm thấy.'},404)

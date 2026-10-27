@@ -65,7 +65,7 @@ Tạo Turnstile widget cho `mucthanky.com`, sau đó cấu hình:
 
 Mỗi bình luận cần tài khoản Google đã xác minh và Turnstile; nội dung được đăng công khai ngay. Bình luận gốc được xếp mới nhất trước, trả lời nằm dưới bình luận gốc. Trang bình luận gốc được gắn làm liên kết ngữ cảnh trên toàn website.
 
-Trước khi triển khai, hãy bảo đảm migration `0003_admin_roles.sql` đã chạy trước đây, rồi chạy thêm migration `db/migrations/0004_chat_moderation.sql` một lần để bật khóa chat. Ở `/quan-tri/`, chủ website có thể đăng nhập bằng `ADMIN_TOKEN` hoặc tài khoản Google đã là admin. Tài khoản Google thường không có quyền sẽ thấy thông báo “chưa được cấp quyền” và nút về trang chủ. Chỉ phiên `ADMIN_TOKEN` được cấp/gỡ vai trò tài khoản. Quản trị viên Google có thể tìm và xóa bình luận, xem báo cáo, khóa/mở chat của thành viên; không thể quản lý vai trò. Hai loại phiên đều có nút đăng xuất. Tài khoản admin Google đã đăng nhập sẽ thấy lối tắt Quản trị ở đầu menu công cụ nổi. Khi xóa bình luận gốc, hệ thống xóa cả các câu trả lời bên dưới và báo cáo liên quan.
+Trước khi triển khai, hãy bảo đảm migrations `0003_admin_roles.sql`, `0004_chat_moderation.sql` và `0005_admin_audit.sql` đã chạy theo thứ tự. Migrations 0004 bật khóa chat; 0005 lưu lịch sử xóa bình luận và khóa/mở chat. Nhật ký chỉ chủ website xem được, có lọc hành động, chuyên mục, tìm kiếm và phân trang. Ở `/quan-tri/`, chủ website có thể đăng nhập bằng `ADMIN_TOKEN` hoặc tài khoản Google đã là admin. Tài khoản Google thường không có quyền sẽ thấy thông báo “chưa được cấp quyền” và nút về trang chủ. Chỉ phiên `ADMIN_TOKEN` được cấp/gỡ vai trò tài khoản. Quản trị viên Google có thể tìm và xóa bình luận, xem báo cáo, khóa/mở chat của thành viên; không thể quản lý vai trò. Hai loại phiên đều có nút đăng xuất. Phiên `ADMIN_TOKEN` được giữ trong `sessionStorage` của tab để không mất khi tải lại trang; bấm “Đăng xuất” để xóa phiên. Tài khoản admin Google đã đăng nhập sẽ thấy lối tắt Quản trị ở đầu menu công cụ nổi. Khi xóa bình luận gốc, hệ thống xóa cả các câu trả lời bên dưới và báo cáo liên quan.
 
 Có thể chạy migration bằng Wrangler:
 
@@ -80,6 +80,14 @@ npx wrangler d1 execute data-mucthanky --remote --file=db/migrations/0004_chat_m
 ```
 
 Hoặc mở Cloudflare Dashboard → D1 → `data-mucthanky` → Console, dán nội dung file `0004_chat_moderation.sql` rồi bấm Execute. Đừng deploy bản mới trước khi migration hoàn tất.
+
+Sau đó chạy `0005_admin_audit.sql` đúng một lần bằng lệnh:
+
+```sh
+npx wrangler d1 execute data-mucthanky --remote --file=db/migrations/0005_admin_audit.sql
+```
+
+Hoặc dán nội dung file này vào D1 Console. Không chạy lại các migration đã hoàn tất.
 
 Giới hạn tốc độ áp dụng theo hash IP có salt; website không lưu IP thô. Email không được trả về trong API công khai.
 
@@ -109,6 +117,7 @@ Cron Worker chạy mỗi giờ. Nếu chỉ cần lịch tập mới trên websi
 - `POST /api/admin/users`: tài khoản có phân trang và tìm kiếm; chỉ `ADMIN_TOKEN`.
 - `POST /api/admin/set-role`: cấp hoặc gỡ quyền thành viên/quản trị viên theo email Google; chỉ `ADMIN_TOKEN`.
 - `POST /api/admin/set-lock`: khóa/mở chức năng chat của thành viên; dùng được với Google admin hoặc `ADMIN_TOKEN`.
+- `POST /api/admin/audit`: nhật ký kiểm duyệt phân trang; chỉ `ADMIN_TOKEN`.
 - `POST /api/admin/delete`: xóa bình luận; dùng được với Google admin hoặc `ADMIN_TOKEN`.
 - `POST /api/admin/reports`: đọc báo cáo; dùng được với Google admin hoặc `ADMIN_TOKEN`.
 - `GET /api/schedule`: đọc lịch tập chính thức từ Bilibili, cache khoảng một giờ.
