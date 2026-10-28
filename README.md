@@ -40,7 +40,9 @@ Nguồn dữ liệu chính:
 
 ### Bổ sung chương truyện
 
-Trang Truyện tạo một trang riêng cho từng mục trong `novel-chapters.json`. Mỗi mục có `number`, `title`, `kind`, `summary`, `content`, `related` và `source`. Để đăng bản toàn văn, đặt `kind` thành `full` và đưa từng đoạn văn vào mảng `content`; chỉ thêm văn bản mà website có quyền xuất bản. Với mục tóm lược, dùng `kind: "summary"` và điền `summary`; trang đọc sẽ ghi rõ đó không phải toàn văn. Sau khi sửa dữ liệu, chạy `npm run build` rồi đẩy mã nguồn lên GitHub để Cloudflare Pages dựng lại website.
+Trang Truyện hiện có 1.492 chương toàn văn trong `src/data/novel-chapters.json`, mỗi chương có trang đọc riêng. Dữ liệu được nhập theo quyền xuất bản bạn đã xác nhận. Trang nguồn ghi 1.498 chương ở phần giới thiệu nhưng danh sách chương công khai hiện có từ 1 đến 1.492.
+
+Để đồng bộ lại dữ liệu khi bạn vẫn có quyền truy cập và xuất bản, chạy `npm run import:novel`; lệnh này tải lại danh sách và nội dung từ Vivutruyen, sau đó thay thế `src/data/novel-chapters.json`. Mỗi mục có `number`, `title`, `kind`, `content`, `related` và `source`. Nếu tự bổ sung chương, chỉ thêm nội dung mà website có quyền xuất bản. Với mục tóm lược, dùng `kind: "summary"` và điền `summary`; trang đọc sẽ ghi rõ đó không phải toàn văn. Sau khi cập nhật dữ liệu, đẩy mã nguồn lên GitHub để Cloudflare Pages dựng lại website.
 
 Ảnh nhân vật và hình phim có link nguồn ngay trên hồ sơ. Minh họa khái niệm được ghi rõ là minh họa, không giả làm ảnh chính thức. Favicon là minh họa vector ngọc bội chữ 秦. Tác phẩm, logo và ảnh phim thuộc chủ sở hữu tương ứng.
 
