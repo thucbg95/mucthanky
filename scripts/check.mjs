@@ -64,7 +64,7 @@ const floatingEnd=home.indexOf('</div>',floatingStart);
 const floating=home.slice(floatingStart,floatingEnd);
 assert(floating.indexOf('https://www.facebook.com/mucthanky.official')<floating.indexOf('https://www.facebook.com/groups/mucthanky'),'fanpage appears above Facebook group');
 assert(floating.indexOf('data-font="larger"')<floating.indexOf('data-font="smaller"'),'A+ appears above A−');
-assert(home.includes('Đã ẩn mục có spoiler')||fs.readFileSync('dist/assets/app.js','utf8').includes('Đã ẩn mục có spoiler'),'spoiler filter uses completed state label');
+assert(!home.includes('id="spoiler-toggle"')&&!home.includes('name="spoiler"')&&!fs.readFileSync('dist/assets/app.js','utf8').includes('Hiện spoiler'),'spoiler hiding controls are removed');
 assert(!htmlFiles.some(file=>fs.readFileSync(file,'utf8').includes('realm-track')),'legacy colliding cultivation class');
 assert(css.includes('html[data-theme=dark] .btn{background:#263840'),'dark mode button contrast');
 assert(css.includes('html[data-theme=dark] .schedule-toolbar .text-link{color:#eaf0ed'),'dark mode episode links');
