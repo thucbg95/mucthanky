@@ -761,3 +761,8 @@ html:not([data-theme=dark]) .hero .actions .btn.primary{background:#174c41!impor
 html:not([data-theme=dark]) .hero .actions .btn:not(.primary){background:#fff;color:#174c41;border-color:#b7cbc3}
 @media(max-width:760px){html:not([data-theme=dark]) .hero-shade{background:linear-gradient(180deg,transparent 34%,#f1ede3 58%,#f1ede3 100%)}}
 /* A single light-theme treatment now overrides earlier breakpoint-specific palette rules. */
+
+
+.toast.is-filter-warning{padding:12px 16px;border:1px solid #e4aaa0;border-left:4px solid #b94638;border-radius:8px;background:#fff0ed;color:#812d23;font-weight:650;line-height:1.55;box-shadow:0 5px 18px rgba(112,45,35,.10)}
+html[data-theme='dark'] .toast.is-filter-warning{border-color:#70433d;border-left-color:#f08d7e;background:#3a2524;color:#ffded8;box-shadow:0 5px 18px rgba(0,0,0,.18)}
+
