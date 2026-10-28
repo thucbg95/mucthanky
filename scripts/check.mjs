@@ -91,6 +91,8 @@ for(const [asset,attribute] of [['style.css','href'],['app.js','src']]){
   const hash=createHash('sha256').update(fs.readFileSync(path.join('dist','assets',asset))).digest('hex').slice(0,12);
   assert.equal(match[1],hash,`${asset} hash matches deployed bytes`);
 }
+for(const file of htmlFiles){const html=fs.readFileSync(file,'utf8');if(html.includes('data-post-like'))assert(html.indexOf('class=\"post-reaction\"')<html.indexOf('id=\"thao-luan\"'),`${file}: article rating is separate and above community discussion`)}
+
 const headers=fs.readFileSync('dist/_headers','utf8');
 assert(headers.includes('/assets/*\n  Cache-Control: public, max-age=86400'),'static assets have a bounded cache lifetime');
 assert(headers.includes('Cache-Control: no-cache, must-revalidate'),'HTML revalidation policy');
