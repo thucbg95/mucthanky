@@ -36,6 +36,11 @@ Nguồn dữ liệu chính:
 - `src/data/world-details.json` — vật dụng, phương tiện, vũ khí và hồ sơ mở rộng
 - `src/data/media.json` — hình ảnh và nguồn ghi công
 - `src/data/episode-schedule.json` — lịch tĩnh dự phòng; Pages Function đọc trực tiếp lịch Bilibili và cache khoảng một giờ
+- `src/data/novel-chapters.json` — mục lục và nội dung trang đọc tại `/truyen/`
+
+### Bổ sung chương truyện
+
+Trang Truyện tạo một trang riêng cho từng mục trong `novel-chapters.json`. Mỗi mục có `number`, `title`, `kind`, `summary`, `content`, `related` và `source`. Để đăng bản toàn văn, đặt `kind` thành `full` và đưa từng đoạn văn vào mảng `content`; chỉ thêm văn bản mà website có quyền xuất bản. Với mục tóm lược, dùng `kind: "summary"` và điền `summary`; trang đọc sẽ ghi rõ đó không phải toàn văn. Sau khi sửa dữ liệu, chạy `npm run build` rồi đẩy mã nguồn lên GitHub để Cloudflare Pages dựng lại website.
 
 Ảnh nhân vật và hình phim có link nguồn ngay trên hồ sơ. Minh họa khái niệm được ghi rõ là minh họa, không giả làm ảnh chính thức. Favicon là minh họa vector ngọc bội chữ 秦. Tác phẩm, logo và ảnh phim thuộc chủ sở hữu tương ứng.
 

@@ -65,7 +65,7 @@ Tạo Turnstile widget cho `mucthanky.com`, sau đó cấu hình:
 
 Mỗi bình luận cần tài khoản Google đã xác minh và Turnstile; nội dung được đăng công khai ngay. Bộ lọc ngôn từ chạy phía máy chủ trước khi lưu: không phân biệt chữ hoa/thường, không tự bỏ dấu hoặc tạo thêm dạng viết liền; chỉ so khớp chính xác các từ, token và cụm đã liệt kê (không chặn chuỗi con). Bình luận bị chặn trả về thông báo: “Bình luận chưa được gửi vì có từ ngữ không phù hợp. Vui lòng chỉnh sửa rồi thử lại.” Bình luận gốc được xếp mới nhất trước, trả lời nằm dưới bình luận gốc. Trang bình luận gốc được gắn làm liên kết ngữ cảnh trên toàn website.
 
-Trước khi triển khai, hãy bảo đảm migrations `0003_admin_roles.sql`, `0004_chat_moderation.sql` và `0005_admin_audit.sql` đã chạy theo thứ tự. Migrations 0004 bật khóa chat; 0005 lưu lịch sử xóa bình luận và khóa/mở chat. Nhật ký chỉ chủ website xem được, có lọc hành động, chuyên mục, tìm kiếm và phân trang. Ở `/quan-tri/`, chủ website có thể đăng nhập bằng `ADMIN_TOKEN` hoặc tài khoản Google đã là admin. Tài khoản Google thường không có quyền sẽ thấy thông báo “chưa được cấp quyền” và nút về trang chủ. Chỉ phiên `ADMIN_TOKEN` được cấp/gỡ vai trò tài khoản. Quản trị viên Google có thể tìm và xóa bình luận, xem báo cáo, khóa/mở chat của thành viên; không thể quản lý vai trò. Hai loại phiên đều có nút đăng xuất. Phiên `ADMIN_TOKEN` được giữ trong `sessionStorage` của tab để không mất khi tải lại trang; bấm “Đăng xuất” để xóa phiên. Tài khoản admin Google đã đăng nhập sẽ thấy lối tắt Quản trị ở đầu menu công cụ nổi. Khi xóa bình luận gốc, hệ thống xóa cả các câu trả lời bên dưới và báo cáo liên quan.
+Trước khi triển khai, hãy bảo đảm migrations `0003_admin_roles.sql`, `0004_chat_moderation.sql`, `0005_admin_audit.sql` và `0006_page_views.sql` đã chạy theo thứ tự. Migrations 0004 bật khóa chat; 0005 lưu lịch sử xóa bình luận và khóa/mở chat; 0006 tạo bộ đếm lượt xem dùng chung cho từng đường dẫn trang. Nhật ký chỉ chủ website xem được, có lọc hành động, chuyên mục, tìm kiếm và phân trang. Ở `/quan-tri/`, chủ website có thể đăng nhập bằng `ADMIN_TOKEN` hoặc tài khoản Google đã là admin. Tài khoản Google thường không có quyền sẽ thấy thông báo “chưa được cấp quyền” và nút về trang chủ. Chỉ phiên `ADMIN_TOKEN` được cấp/gỡ vai trò tài khoản. Quản trị viên Google có thể tìm và xóa bình luận, xem báo cáo, khóa/mở chat của thành viên; không thể quản lý vai trò. Hai loại phiên đều có nút đăng xuất. Phiên `ADMIN_TOKEN` được giữ trong `sessionStorage` của tab để không mất khi tải lại trang; bấm “Đăng xuất” để xóa phiên. Tài khoản admin Google đã đăng nhập sẽ thấy lối tắt Quản trị ở đầu menu công cụ nổi. Khi xóa bình luận gốc, hệ thống xóa cả các câu trả lời bên dưới và báo cáo liên quan.
 
 Có thể chạy migration bằng Wrangler:
 
@@ -89,6 +89,14 @@ npx wrangler d1 execute data-mucthanky --remote --file=db/migrations/0005_admin_
 
 Hoặc dán nội dung file này vào D1 Console. Không chạy lại các migration đã hoàn tất.
 
+Để bật bộ đếm lượt xem, chạy `0006_page_views.sql` đúng một lần:
+
+```sh
+npx wrangler d1 execute data-mucthanky --remote --file=db/migrations/0006_page_views.sql
+```
+
+Hoặc mở Cloudflare Dashboard → D1 → `data-mucthanky` → Console, dán nội dung file `db/migrations/0006_page_views.sql` rồi bấm Execute. Số lượt xem được lưu chung trong D1 theo từng URL; một trình duyệt chỉ cộng lại cùng trang sau 30 phút. Đây là bộ đếm lượt tải trang, không phải số người xem duy nhất.
+
 Giới hạn tốc độ áp dụng theo hash IP có salt; website không lưu IP thô. Email không được trả về trong API công khai.
 
 ## 4. Lịch tập tự cập nhật trên Cloudflare Pages
@@ -111,6 +119,7 @@ Cron Worker chạy mỗi giờ. Nếu chỉ cần lịch tập mới trên websi
 - `POST /api/auth/logout`: xóa session.
 - `GET /api/comments?limit=10&offset=0&sort=newest&category=all`: phân trang bình luận cấp 1; `limit` chấp nhận 10, 20 hoặc 50; `sort` là `newest` hoặc `oldest`; `category` hỗ trợ `all`, `film`, `novel`, `encyclopedia` và `community`. Mỗi cuộc trò chuyện ban đầu hiển thị 2 câu trả lời gần nhất; khi có nhiều câu trả lời, người đọc có thể chuyển các phần cũ hơn/mới hơn theo nhóm 4. Phản hồi có tổng số cuộc trò chuyện để tính số trang.
 - `GET /api/likes?type=post&id=/phim/`: đọc số lượt thích trang và trạng thái tài khoản hiện tại.
+- `GET /api/page-views?page=/phim/` và `POST /api/page-views`: đọc/tăng số lượt xem trang; cần migration `0006_page_views.sql`.
 - `POST /api/likes`: đăng nhập Google để thích hoặc bỏ thích một trang/bình luận.
 - `POST /api/comments`: cần tài khoản, trang ngữ cảnh và Turnstile; đăng công khai ngay.
 - `POST /api/admin/comments`: bình luận có phân trang, bộ lọc theo chuyên mục và tìm theo tên/email/nội dung; dùng được với Google admin hoặc `ADMIN_TOKEN`.
