@@ -1,10 +1,10 @@
 {
-  "auditedAt": "2026-10-28T03:41:28.724Z",
-  "entryCount": 99,
-  "entriesWithReferences": 99,
+  "auditedAt": "2026-10-28T05:01:07.423Z",
+  "entryCount": 225,
+  "entriesWithReferences": 225,
   "sourceHostCounts": {
-    "acts.qidian.com": 2,
-    "thuvienanime.net": 15,
+    "acts.qidian.com": 122,
+    "thuvienanime.net": 271,
     "www.bilibili.com": 18,
     "www.webnovel.com": 55,
     "tales-of-herding-gods.fandom.com": 56,
@@ -13,16 +13,17 @@
     "www.baike.com": 1,
     "www.youtube.com": 1,
     "czbooks.net": 3,
+    "zh.moegirl.org.cn": 8,
     "www.52shuku.net": 1,
-    "www.hetushu.com": 1,
+    "www.hetushu.com": 7,
     "luckynet.uzai.ca": 1,
     "www.biquge321.com": 3,
     "www.sohu.com": 1
   },
   "mediaImages": 42,
   "galleryImages": 26,
-  "entrySpecificImages": 27,
-  "categoryIllustrations": 72,
+  "entrySpecificImages": 28,
+  "categoryIllustrations": 197,
   "issues": [],
   "imageCoverage": [
     {
@@ -314,6 +315,266 @@
       "type": "minh họa chuyên mục"
     },
     {
+      "slug": "nguyen-than-dan",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "tam-nguyen-than-hoi-quyet",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "linh-nang-doi-thien-kieu",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "vo-lau-tao-hoa-huyen-kinh",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "vo-lau-dau-chien-than-cong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "dao-dan-cong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "van-kiep-bat-diet-dai-phap-su",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thai-vi-toan-kinh",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thanh-do-tai-thien-huyen-cong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "khien-hon-dan",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "dieu-quy-khien-than-phu-tu-lenh",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "tu-tieu-bich-lac-cong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "cuu-long-de-vuong-cong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "hoan-long-kinh",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "vat-chat-bat-dich",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "chat-nang-bat-dich",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "nguyen-tu-than-thong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thien-thu-phat-da",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "kiem-do",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "kiem-thap-bat-thuc",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "kiem-thap-cuu-thuc",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "kiem-kiep",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "tu-thien-mon",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thien-cung-canh",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "de-toa-canh",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "dao-canh",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "ngoc-kinh-canh",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "nhap-dao",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "phuc-trang-tu-ba-ba",
+      "type": "ảnh riêng"
+    },
+    {
+      "slug": "ca-sa-ma-gia",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "y-phuc-hanh-trinh-tan-muc",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "trang-phuc-thien-ma-giao",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "trang-phuc-dien-khang",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "trang-phuc-thien-dinh",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "phuc-trang-nguoi-sang-tao",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "trang-phuc-dai-loi-am-tu",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "long-thac-than-thuong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "that-thien-ton",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thap-thien-ton",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "nguoi-sang-tao",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thai-hu",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "long-han",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thoi-dai-xich-minh",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "vu-lam-quan",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thien-minh",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thien-am-gioi",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "hong-mong-phu-van",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "kiem-dao-nhi-thap-tam-thuc",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "di-la-cung",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thien-dinh",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "to-dinh",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "nguyen-gioi",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "minh-do",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "quy-khu",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "huyen-do",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "the-gioi-thu",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thuat-ngu",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "u-minh-thai-tu",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "tuyet-vo-tran",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "vo-dao-nhap-dao",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thuong-thuong-hoc-cung",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "bi-ngan-phuong-chau",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thai-so",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "dung-giang",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "tran-uong-cung",
+      "type": "minh họa chuyên mục"
+    },
+    {
       "slug": "khai-hoang-tan-nghiep",
       "type": "minh họa chuyên mục"
     },
@@ -391,6 +652,250 @@
     },
     {
       "slug": "chu-nhan-di-la-cung",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "tan-linh-quan",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "giang-bach-khue",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "cong-ton-yen",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "chien-khong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "van-nguyen",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "nguy-tu-phong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "lang-uyen-than-vuong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "trac-tra",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "yen-van-he",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "diem-vuong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "lac-vo-song",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "am-thien-tu",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "dia-mau-nguyen-quan",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thuong-quan",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "xich-khe",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "hao-thien-ton",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "hieu-thien-ton",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "cung-thien-ton",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "nguyen-mau-phu-nhan",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "de-hau-nguyen-hi",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thai-de",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thai-dich",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "vo-nhai-lao-nhan",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thien-am-nuong-nuong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "kinh-yen",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "tran-vuong-phi",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "tinh-han",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "te-cuu-nghi",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thien-de-thai-so",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thai-thuy-co-than",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thai-to-co-than",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "han-duong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "de-dich-nguyet",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "dien-thuc",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "ly-du-nhien",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "ta-vo-ky",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "hong-thien-ton",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "hu-thien-ton",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "to-than-vuong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thai-am-nuong-nuong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "te-ha-du",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "tu-he-thien-su",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "xich-minh-than-tu",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "xich-hoang",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "hong-quan-dao-ton",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "thai-thuong-di-la",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "lang-tieu-cong-tu",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "tu-tieu-cong-tu",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "vo-cuc-cong-tu",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "lam-ngu-dien",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "tan-vu",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "le-thien-hanh",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "ho-bat-quy",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "ba-duong-than-vuong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "dai-hong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "khuc-su-huynh",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "tinh-su-ty",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "te-nhan-bang",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "tien-thanh-nhi",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "moc-bi-phong",
+      "type": "minh họa chuyên mục"
+    },
+    {
+      "slug": "trang-liep-ho",
       "type": "minh họa chuyên mục"
     },
     {
