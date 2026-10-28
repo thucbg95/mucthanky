@@ -855,3 +855,8 @@ html[data-theme=dark] .novel-chapter-row:hover .novel-chapter-number{background:
 .novel-book-index:hover .novel-down-icon{transform:translateY(3px)}
 .error-page-actions{gap:14px}
 @media(max-width:760px){.novel-chapter-nav{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:9px}.novel-chapter-nav>span{display:none}.novel-chapter-nav>.btn{justify-self:stretch!important;white-space:normal;padding:9px 10px}.novel-chapter-nav>.btn:nth-child(2){grid-column:1/-1;grid-row:2;justify-self:center!important}.novel-chapter-nav>.btn:nth-child(2).novel-chapter-index{width:max-content;max-width:100%;white-space:nowrap}.novel-chapter-nav>.btn:nth-child(3){grid-column:2;grid-row:1}.novel-chapter-nav>.btn:first-child{grid-column:1;grid-row:1}}
+
+/* One shared content width for the homepage, encyclopedia, novel catalogue and chapter reader. */
+:root{--site-content-width:1560px;--site-content-gutter:clamp(18px,2.6vw,40px)}
+.wrap{width:calc(100% - var(--site-content-gutter) - var(--site-content-gutter));max-width:var(--site-content-width);margin-inline:auto;padding:0}
+.novel-library,.novel-reader-wrap{width:calc(100% - var(--site-content-gutter) - var(--site-content-gutter));max-width:var(--site-content-width);margin-inline:auto;padding-left:0;padding-right:0}
