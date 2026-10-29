@@ -916,3 +916,35 @@ html[data-theme=dark] .donate-card{background:var(--panel);border-color:var(--li
 #account-login-panel p{margin:0}
 #account-login-panel #account-google-signin{flex:0 0 auto;margin:0}
 @media(max-width:700px){#account-login-panel{align-items:stretch;flex-direction:column;gap:14px}#account-login-panel #account-google-signin{align-self:flex-start}}
+
+/* Dedicated, calm contribution page and a compact community entry point. */
+.support-cta{display:flex;align-items:center;justify-content:space-between;gap:28px;padding:clamp(20px,3vw,34px);border:1px solid var(--line);border-radius:14px;background:var(--panel);transition:border-color .2s ease,box-shadow .2s ease}
+.support-cta:hover{border-color:var(--gold);box-shadow:0 10px 28px rgba(24,54,43,.1)}
+.support-cta h2{margin:4px 0 7px;font-size:calc(25px * var(--font-scale,1))}
+.support-cta p{max-width:76ch;margin:0;color:var(--muted)}
+.support-page{padding-bottom:64px}
+.support-intro{max-width:900px;margin:0 auto 12px;text-align:center}
+.support-intro h2{max-width:780px;margin:10px auto 14px;font-size:clamp(27px,3.2vw,40px)}
+.support-intro p{max-width:78ch;margin:0 auto 13px;color:var(--muted);font-size:calc(16px * var(--font-scale,1));line-height:1.85}
+.support-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(200px,270px);gap:clamp(24px,5vw,70px);align-items:center;margin-top:38px;padding:clamp(22px,4vw,48px);border:1px solid var(--line);border-radius:18px;background:var(--panel);box-shadow:0 14px 38px rgba(12,33,35,.08)}
+.support-copy h2{margin:5px 0 10px;font-size:clamp(25px,3vw,36px)}
+.support-copy>p{max-width:72ch;color:var(--muted)}
+.support-bank-details{max-width:620px;margin:22px 0;padding:6px 18px;border:1px solid var(--line);border-radius:12px;background:var(--bg)}
+.support-bank-details>div{display:grid;grid-template-columns:minmax(110px,.4fr) minmax(0,1fr);gap:16px;padding:10px 0;border-bottom:1px solid var(--line)}
+.support-bank-details>div:last-child{border-bottom:0}
+.support-bank-details dt{color:var(--muted)}
+.support-bank-details dd{margin:0;font-weight:700}
+.support-bank-details .copy-account{color:var(--gold);font:750 23px/1.4 'Manrope','Be Vietnam Pro',sans-serif;letter-spacing:.08em}
+.support-safety{max-width:720px;margin:0;padding:12px 15px;border-left:3px solid var(--gold);border-radius:0 8px 8px 0;background:var(--soft,#edf1eb);color:var(--muted);font-size:calc(12px * var(--font-scale,1));line-height:1.7}
+.support-qr{margin:0;text-align:center}
+.support-qr img{width:100%;max-width:240px;margin:auto;padding:10px;border:1px solid var(--line);border-radius:14px;background:#fff;box-shadow:0 12px 28px rgba(12,33,35,.12)}
+.support-qr figcaption{margin:11px auto 0;color:var(--muted);font-size:calc(12px * var(--font-scale,1));line-height:1.6}
+.support-impact{padding-top:44px}
+.support-impact .section-head{margin-bottom:18px}
+.support-impact .section-head h2{font-size:clamp(25px,3vw,34px)}
+.support-impact-card{padding:22px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.support-impact-card>span{display:inline-grid;width:34px;height:34px;place-items:center;border-radius:50%;background:var(--soft,#edf1eb);color:var(--gold);font-weight:700}
+.support-impact-card h3{margin:14px 0 7px;font-size:calc(19px * var(--font-scale,1))}
+.support-impact-card p{margin:0;color:var(--muted);font-size:calc(14px * var(--font-scale,1));line-height:1.75}
+.support-thanks{max-width:780px;margin:35px auto 0;text-align:center;color:var(--muted);font-size:calc(15px * var(--font-scale,1));line-height:1.85}
+@media(max-width:760px){.support-cta{align-items:stretch;flex-direction:column;gap:16px}.support-cta .btn{align-self:flex-start}.support-card{grid-template-columns:1fr;gap:22px;margin-top:24px;padding:20px}.support-bank-details{padding-inline:12px}.support-bank-details>div{grid-template-columns:minmax(100px,.45fr) minmax(0,1fr);gap:10px}.support-qr img{max-width:190px}.support-impact .grid{grid-template-columns:1fr;gap:10px}.support-impact-card{padding:17px}}
