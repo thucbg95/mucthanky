@@ -21,6 +21,14 @@ CREATE INDEX IF NOT EXISTS likes_user ON likes(user_id,created_at);
 CREATE TABLE IF NOT EXISTS page_views (page TEXT PRIMARY KEY,views INTEGER NOT NULL DEFAULT 0 CHECK(views>=0),updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
 CREATE TABLE IF NOT EXISTS saved_pages (user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,slug TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,PRIMARY KEY(user_id,slug));
 CREATE INDEX IF NOT EXISTS saved_pages_user_created ON saved_pages(user_id,created_at DESC);
+CREATE TABLE IF NOT EXISTS supporter_registry (
+ id TEXT PRIMARY KEY,
+ display_name TEXT NOT NULL,
+ category TEXT NOT NULL DEFAULT 'Đồng hành',
+ created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ','now'))
+);
+CREATE INDEX IF NOT EXISTS supporter_registry_created ON supporter_registry(created_at DESC);
+CREATE INDEX IF NOT EXISTS supporter_registry_category ON supporter_registry(category,created_at DESC);
 
 CREATE TABLE IF NOT EXISTS rate_limits (key TEXT PRIMARY KEY,count INTEGER NOT NULL,expires INTEGER NOT NULL);
 CREATE TABLE IF NOT EXISTS reports (id TEXT PRIMARY KEY,comment_id TEXT NOT NULL REFERENCES comments(id),reason TEXT NOT NULL,created_at TEXT DEFAULT CURRENT_TIMESTAMP);

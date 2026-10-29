@@ -62,6 +62,10 @@ async function handle(context){const {request,env}=context;const url=new URL(req
  if(request.method==='GET'&&route==='likes'){const targetType=url.searchParams.get('type')||'',targetId=url.searchParams.get('id')||'';if(!['post','comment'].includes(targetType)||targetId.length>200||(targetType==='post'&&!pageOK(targetId)))return json({error:'Mục cần thả tim không hợp lệ.'},400);const viewer=await currentUser(env,request);const row=await env.DB.prepare('SELECT COUNT(*) AS count,EXISTS(SELECT 1 FROM likes WHERE target_type=? AND target_id=? AND user_id=?) AS liked FROM likes WHERE target_type=? AND target_id=?').bind(targetType,targetId,viewer?.id||'',targetType,targetId).first();return json({count:Number(row?.count)||0,liked:Boolean(row?.liked)})}
  if(request.method==='GET'&&route==='page-views'){const page=url.searchParams.get('page')||'';if(!pageOK(page))return json({error:'Trang cần đếm lượt xem không hợp lệ.'},400);const row=await env.DB.prepare('SELECT views FROM page_views WHERE page=?').bind(page).first();return json({page,views:Number(row?.views)||0})}
  if(request.method==='GET'&&route==='episodes'){const rows=await env.DB.prepare('SELECT id,title,description,thumbnail,published_at,url,source,kind FROM episodes ORDER BY published_at DESC LIMIT 100').all();return json({episodes:rows.results})}
+ if(request.method==='GET'&&route==='supporters'){
+  const rows=await env.DB.prepare('SELECT id,display_name,category,created_at FROM supporter_registry ORDER BY created_at DESC,id DESC LIMIT 500').all();
+  return json({supporters:rows.results||[]},200,{'Cache-Control':'no-store'});
+ }
  if(!['POST','PATCH'].includes(request.method))return json({error:'Không tìm thấy.'},404);if(request.headers.get('Origin')!==url.origin)return json({error:'Nguồn yêu cầu không hợp lệ.'},403);
  if(route==='auth/logout'&&request.method==='POST'){const session=cookie(request,'mtk_session');if(session)await env.DB.prepare('DELETE FROM sessions WHERE token_hash=?').bind(await hash(session)).run();return json({ok:true},200,{'Set-Cookie':cookieHeader('mtk_session','','HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=0')})}
  if(!request.headers.get('Content-Type')?.startsWith('application/json'))return json({error:'Yêu cầu JSON.'},415);const raw=await readBody(request);if(raw===null)return json({error:'Nội dung quá dài.'},413);let body;try{body=JSON.parse(raw)}catch{return json({error:'JSON không hợp lệ.'},400)}if(!body||typeof body!=='object'||Array.isArray(body))return json({error:'Dữ liệu không hợp lệ.'},400);
@@ -76,6 +80,38 @@ async function handle(context){const {request,env}=context;const url=new URL(req
    const adminUser=await currentUser(env,request);
    const ownerAuthorized=await ownerSession(request,env);
    if(!ownerAuthorized&&adminUser?.role!=='admin')return json({error:'Không được phép. Hãy đăng nhập bằng tài khoản quản trị hoặc chủ website.'},401);
+   if(route==='admin/supporters'&&request.method==='POST'){
+    if(!ownerAuthorized)return json({error:'Chỉ chủ website mới được quản lý danh sách ghi danh.'},403);
+    const action=clean(body.action)||'list';
+    if(action==='list'){
+     const requested=Number(body.limit),limit=[10,20,50].includes(requested)?requested:20,offset=Math.max(0,Math.min(100000,Number.parseInt(body.offset,10)||0)),query=clean(body.query).slice(0,100).toLocaleLowerCase('vi-VN'),category=clean(body.category)||'all',term=`%${query}%`;
+     const where="(?='all' OR category=?) AND (?='' OR lower(display_name) LIKE lower(?))";
+     const totalRow=await env.DB.prepare(`SELECT COUNT(*) AS total FROM supporter_registry WHERE ${where}`).bind(category,category,query,term).first();
+     const rows=await env.DB.prepare(`SELECT id,display_name,category,created_at FROM supporter_registry WHERE ${where} ORDER BY created_at DESC,id DESC LIMIT ? OFFSET ?`).bind(category,category,query,term,limit,offset).all();
+     const cats=await env.DB.prepare('SELECT DISTINCT category FROM supporter_registry ORDER BY category COLLATE NOCASE').all();
+     return json({supporters:rows.results||[],categories:(cats.results||[]).map(row=>row.category),total:Number(totalRow?.total)||0,limit,offset});
+    }
+    if(action==='add'){
+     const name=clean(body.displayName).replace(/\s+/g,' ').slice(0,80),category=clean(body.category).replace(/\s+/g,' ').slice(0,40)||'Đồng hành';
+     if(name.length<2)return json({error:'Tên ghi danh cần có ít nhất 2 ký tự.'},400);
+     await env.DB.prepare('INSERT INTO supporter_registry(id,display_name,category) VALUES(?,?,?)').bind(crypto.randomUUID(),name,category).run();
+     return json({ok:true},201);
+    }
+    if(action==='update'){
+     const id=clean(body.id),name=clean(body.displayName).replace(/\s+/g,' ').slice(0,80),category=clean(body.category).replace(/\s+/g,' ').slice(0,40)||'Đồng hành';
+     if(!id||name.length<2)return json({error:'Thông tin ghi danh chưa hợp lệ.'},400);
+     const result=await env.DB.prepare('UPDATE supporter_registry SET display_name=?,category=? WHERE id=?').bind(name,category,id).run();
+     if(!result.meta?.changes)return json({error:'Không tìm thấy mục ghi danh.'},404);
+     return json({ok:true});
+    }
+    if(action==='delete'){
+     const id=clean(body.id);if(!id)return json({error:'Không xác định được mục ghi danh.'},400);
+     const result=await env.DB.prepare('DELETE FROM supporter_registry WHERE id=?').bind(id).run();
+     if(!result.meta?.changes)return json({error:'Mục ghi danh không còn tồn tại.'},404);
+     return json({ok:true});
+    }
+    return json({error:'Thao tác ghi danh không hợp lệ.'},400);
+   }
    if(route==='admin/comments'&&request.method==='POST'){
     const requested=Number(body.limit),limit=[10,20,50].includes(requested)?requested:10,offset=Math.max(0,Math.min(100000,Number.parseInt(body.offset,10)||0)),query=clean(body.query).slice(0,100).toLowerCase(),category=clean(body.category)||'all';
     const categorySql={all:'1=1',film:"c.page='/phim/'",novel:"(c.page='/truyen/' OR c.page LIKE '/truyen/%')",encyclopedia:"(c.page='/bach-khoa/' OR c.page LIKE '/bach-khoa/%')",community:"c.page='/cong-dong/'"}[category]||'1=1',term=`%${query}%`;
