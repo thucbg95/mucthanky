@@ -437,6 +437,8 @@ html:not([data-theme=dark]) input,html:not([data-theme=dark]) textarea,html:not(
 .comment-badge.admin{background:#e8e0f5;border-color:#b8a4d5;color:#59447e}
 html[data-theme=dark] .comment-badge.admin{background:#332c40;border-color:#75618e;color:#e0d2f6}
 .bookmark-status{order:1;flex-basis:100%;min-height:1em;color:var(--muted);font-size:calc(11px * var(--font-scale, 1))}
+.bookmark-status:not([hidden]){display:block;width:fit-content;max-width:100%;margin-top:4px;padding:8px 12px;border:1px solid #a8c8b7;border-left:4px solid #27835d;border-radius:8px;background:#e9f5ed;color:#205b40;font-weight:650;line-height:1.5;box-shadow:0 3px 12px rgba(33,105,68,.08)}
+html[data-theme='dark'] .bookmark-status:not([hidden]){border-color:#45695a;border-left-color:#69c395;background:#1d3830;color:#b8efd0;box-shadow:0 3px 12px rgba(0,0,0,.16)}
 @media(max-width:760px){#thao-luan .comment-root{padding:11px;margin:9px 0}#thao-luan .comment-replies>.comment-node+.comment-node{margin-top:6px;padding-top:6px}#thao-luan .comment-reply-controls{gap:6px}#thao-luan .comment-reply-controls .btn{min-height:32px;padding:5px 9px}.bookmark-status{font-size:calc(10px * var(--font-scale, 1))}}
 .admin-access{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 16px;margin:10px 0 16px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
 .admin-access p{margin:0;color:var(--muted)}
@@ -698,6 +700,7 @@ html:not([data-theme=dark]) .community-confirm-dialog,html:not([data-theme=dark]
 .admin-google-button:disabled,.admin-owner-access button:disabled{opacity:.55;cursor:not-allowed}
 .admin-audit-time{display:inline-flex;width:max-content;max-width:100%;align-items:center;padding:4px 8px;border:1px solid var(--line);border-radius:8px;color:var(--green);text-decoration:none}
 .admin-audit-time:hover{background:var(--soft);text-decoration:underline}
+.admin-comment-context{color:var(--green);font-weight:650;text-decoration:none}.admin-comment-context:hover{color:var(--gold);text-decoration:underline}
 #thao-luan .comment-body{margin:5px 0 6px}
 #thao-luan .comment-actions{margin-top:2px;gap:6px}
 #thao-luan .comment-actions>.like-button,#thao-luan .comment-actions>.comment-reply-button,#thao-luan .comment-actions>.comment-replies-toggle{height:29px;min-height:29px;padding:4px 8px}
@@ -880,6 +883,8 @@ html[data-theme=dark] .novel-chapter-row:hover .novel-chapter-number{background:
 .font-floater .float-menu-toggle:hover{transform:scale(1.06);background:#174c47;color:#fffdf5}
 html[data-theme=dark] .font-floater .float-menu-toggle{background:#1a272e;color:#f1d69b;border-color:#768c8a}
 html[data-theme=dark] .font-floater .float-menu-toggle:hover{background:#32665e;color:#fff}
+.font-floater .float-menu{scrollbar-width:none}
+.font-floater .float-menu::-webkit-scrollbar{display:none;width:0;height:0}
 .font-floater .float-menu{display:flex!important;flex-direction:column;align-items:flex-end;gap:7px;height:0;max-height:0;overflow:hidden;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(14px);transition:height .28s ease,max-height .28s ease,opacity .18s ease,transform .28s ease,visibility 0s linear .28s}
 .font-floater[data-open="true"] .float-menu{height:auto;max-height:min(360px,calc(100dvh - 150px));overflow-y:auto;overscroll-behavior:contain;opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0);transition:height .28s ease,max-height .28s ease,opacity .18s ease,transform .28s ease,visibility 0s}
 .font-floater .float-menu>*{visibility:hidden;opacity:0;transform:translateY(10px) scale(.92);transition:opacity .16s ease,transform .22s cubic-bezier(.2,.75,.25,1)}
@@ -887,6 +892,6 @@ html[data-theme=dark] .font-floater .float-menu-toggle:hover{background:#32665e;
 .font-floater[data-open="true"] .float-menu>*:nth-child(1){transition-delay:.18s}.font-floater[data-open="true"] .float-menu>*:nth-child(2){transition-delay:.15s}.font-floater[data-open="true"] .float-menu>*:nth-child(3){transition-delay:.12s}.font-floater[data-open="true"] .float-menu>*:nth-child(4){transition-delay:.09s}.font-floater[data-open="true"] .float-menu>*:nth-child(5){transition-delay:.06s}.font-floater[data-open="true"] .float-menu>*:nth-child(6){transition-delay:.03s}.font-floater[data-open="true"] .float-menu>*:nth-child(7){transition-delay:0s}
 @media(max-width:760px){.font-floater{align-items:flex-end}.font-floater .float-menu-toggle{width:42px;height:42px;min-width:42px;min-height:42px}.font-floater .float-menu{max-height:0}.font-floater[data-open="true"] .float-menu{max-height:min(420px,calc(100dvh - 150px))}}
 /* Save and copy actions on the novel catalogue and chapter pages. */
-.novel-page-tools{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:16px}.novel-page-tools .bookmark-status{flex:1 1 100%;margin-top:2px;color:var(--green);font-size:calc(13px * var(--font-scale,1))}.novel-page-tools .btn{min-height:38px}.novel-reader-wrap .novel-page-tools{margin:0 0 20px}.novel-page-tools [data-copy-link]{white-space:nowrap}@media(max-width:600px){.novel-page-tools{gap:8px}.novel-page-tools .btn{min-height:40px;padding-inline:12px}}
+.novel-page-tools{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:16px}.novel-page-tools .bookmark-status{flex:1 1 100%;margin-top:2px;font-size:calc(13px * var(--font-scale,1))}.novel-page-tools .btn{min-height:38px}.novel-reader-wrap .novel-page-tools{margin:0 0 20px}.novel-page-tools [data-copy-link]{white-space:nowrap}@media(max-width:600px){.novel-page-tools{gap:8px}.novel-page-tools .btn{min-height:40px;padding-inline:12px}}
 /* Dedicated response for a Google account without administrator access. */
 #admin-denied[hidden]{display:none!important}.admin-denied-card{max-width:620px}.admin-denied-card h1{margin:8px 0;font-size:clamp(32px,5vw,48px)}.admin-denied-card>p{color:var(--muted);line-height:1.7}.admin-denied-email{font-weight:700;overflow-wrap:anywhere}.admin-access-actions{display:flex;gap:10px;margin-top:18px}.admin-access-actions>*{display:flex;align-items:center;justify-content:center;flex:1;min-height:46px;margin:0}.admin-denied-status{min-height:1.2em}.admin-denied-status:empty{display:none}@media(max-width:520px){.admin-access-actions{flex-direction:column}.admin-access-actions>*{width:100%}}
