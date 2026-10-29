@@ -1016,3 +1016,24 @@ html[data-theme=dark] .donate-card{background:var(--panel);border-color:var(--li
 html[data-theme=dark] .directory-toolbar>select{background:var(--panel);color:var(--text);border-color:var(--line)}
 @media(max-width:640px){.directory-toolbar{grid-template-columns:minmax(0,1fr) auto minmax(110px,130px);gap:8px}.directory-toolbar>input{grid-column:1/-1}.directory-pagination{gap:6px}.directory-pagination .btn.small{padding:7px 9px}.directory-page-numbers{gap:3px}.directory-page-number{min-width:34px}}
 @media(max-width:380px){.directory-toolbar{grid-template-columns:1fr auto}.directory-toolbar>input{grid-column:1/-1}.directory-toolbar>select{grid-column:2}.directory-page-state{display:none}}
+
+/* Tune directory controls to the admin toolbar and align their heading scale. */
+.page-hero h1{font-size:clamp(42px,5vw,58px);font-weight:650}
+.directory-toolbar{grid-template-columns:minmax(0,1fr) minmax(180px,.34fr) minmax(150px,.27fr);align-items:end;gap:12px;margin:18px 0 8px}
+.directory-toolbar label{display:grid;gap:5px;min-width:0;color:var(--muted);font-size:calc(12px * var(--font-scale,1));font-weight:650}
+.directory-toolbar input,.directory-toolbar select{box-sizing:border-box;width:100%;min-width:0;height:44px;min-height:44px;padding:0 12px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--text);font:inherit}
+.directory-toolbar input:focus,.directory-toolbar select:focus{border-color:var(--green);outline:none;box-shadow:0 0 0 1px var(--green)}
+.directory-pagination{scroll-margin-top:100px}
+/* The shine belongs to each supporter row, with all rows moving in sync. */
+.supporter-registry .supporter-list{position:static;isolation:auto;overflow:visible;border-radius:0}
+.supporter-registry .supporter-list::before{display:none!important;animation:none!important}
+.supporter-registry .supporter-entry{position:relative;isolation:isolate;overflow:hidden;z-index:auto;animation:supporter-entry-in .36s both,supporter-collective-glow 3.6s ease-in-out infinite!important}
+.supporter-registry .supporter-entry::before{display:block!important;position:absolute;z-index:0;inset:-20% auto -20% -70%;width:38%;background:linear-gradient(105deg,transparent,color-mix(in srgb,var(--gold) 45%,transparent) 43%,color-mix(in srgb,#fff 58%,var(--gold)) 50%,color-mix(in srgb,var(--gold) 45%,transparent) 57%,transparent);filter:blur(4px);content:"";pointer-events:none;transform:skewX(-16deg);animation:supporter-entry-shine 5.2s ease-in-out infinite}
+.supporter-registry .supporter-entry>*{position:relative;z-index:1}
+@keyframes supporter-entry-shine{0%,15%{left:-70%;opacity:0}25%{opacity:.9}58%,100%{left:135%;opacity:0}}
+@media(max-width:760px){.page-hero h1{font-size:calc(38px * var(--font-scale,1))}.directory-toolbar{grid-template-columns:minmax(0,1fr) minmax(135px,.7fr);gap:8px}.directory-toolbar label:first-child{grid-column:1/-1}}
+@media(max-width:380px){.directory-toolbar{grid-template-columns:minmax(0,1fr) minmax(125px,.75fr)}.directory-toolbar label:first-child{grid-column:1/-1}}
+@media(prefers-reduced-motion:reduce){.supporter-registry .supporter-entry,.supporter-registry .supporter-entry::before{animation:none!important;transition:none!important}}
+.not-found-page{min-height:100vh;min-height:100svh;display:flex;flex-direction:column}
+.not-found-page #main{flex:1 0 auto}
+.not-found-page>footer{margin-top:auto}

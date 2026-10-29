@@ -386,6 +386,15 @@
       "credit": "Poster nhân vật có nhận diện Bilibili / 玄机科技",
       "width": 658,
       "height": 1107
+    },
+    "hu-sinh-hoa": {
+      "src": "/assets/film-v3/hu-sinh-hoa-role-pv.png",
+      "alt": "Tạo hình Hư Sinh Hoa trong PV nhân vật chính thức của phim Mục Thần Ký",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep7154445",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/d942899f9b89300c04a8bbddf94f0cd054cda4d5.png",
+      "credit": "Bilibili · PV nhân vật Hư Sinh Hoa",
+      "width": 960,
+      "height": 600
     }
   },
   "gallery": [
@@ -632,3 +641,4 @@
   },
   "notice": "Hình ảnh phim và thiết kế nhân vật có ghi nguồn; quyền hình ảnh thuộc chủ sở hữu tương ứng."
 }
+
