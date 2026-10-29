@@ -895,3 +895,18 @@ html[data-theme=dark] .font-floater .float-menu-toggle:hover{background:#32665e;
 .novel-page-tools{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:16px}.novel-page-tools .bookmark-status{flex:1 1 100%;margin-top:2px;font-size:calc(13px * var(--font-scale,1))}.novel-page-tools .btn{min-height:38px}.novel-reader-wrap .novel-page-tools{margin:0 0 20px}.novel-page-tools [data-copy-link]{white-space:nowrap}@media(max-width:600px){.novel-page-tools{gap:8px}.novel-page-tools .btn{min-height:40px;padding-inline:12px}}
 /* Dedicated response for a Google account without administrator access. */
 #admin-denied[hidden]{display:none!important}.admin-denied-card{max-width:620px}.admin-denied-card h1{margin:8px 0;font-size:clamp(32px,5vw,48px)}.admin-denied-card>p{color:var(--muted);line-height:1.7}.admin-denied-email{font-weight:700;overflow-wrap:anywhere}.admin-access-actions{display:flex;gap:10px;margin-top:18px}.admin-access-actions>*{display:flex;align-items:center;justify-content:center;flex:1;min-height:46px;margin:0}.admin-denied-status{min-height:1.2em}.admin-denied-status:empty{display:none}@media(max-width:520px){.admin-access-actions{flex-direction:column}.admin-access-actions>*{width:100%}}
+
+/* Account page shares the full site content width; community cards use the site's standard lift hover. */
+.account-page{max-width:var(--site-content-width,1560px)}
+.community-links a{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease,background-color .2s ease,color .2s ease}
+.community-links a:hover{transform:translateY(-3px);border-color:var(--gold);background:var(--panel);color:var(--text);box-shadow:0 10px 28px rgba(24,54,43,.14)}
+.community-links a>b{transition:transform .2s ease,color .2s ease}
+.community-links a:hover>b{transform:translate(2px,-2px);color:var(--gold)}
+.donate-card{grid-template-columns:minmax(0,1fr) 144px;gap:18px;padding:17px 20px;border-color:var(--line);border-radius:10px;background:var(--panel);box-shadow:0 6px 22px rgba(15,35,35,.05)}
+.donate-card img{max-width:144px;border-color:var(--line)}
+.donate-card h3{margin:4px 0 7px;font-size:calc(19px * var(--font-scale,1))}
+.donate-card p{margin:0 0 6px;font-size:calc(12px * var(--font-scale,1));line-height:1.6}
+.donate-card .copy-account{font-size:calc(16px * var(--font-scale,1));color:var(--gold)}
+.donate-card .source-list{font-size:calc(11px * var(--font-scale,1));line-height:1.55}
+html[data-theme=dark] .donate-card{background:var(--panel);border-color:var(--line);box-shadow:none}
+@media(max-width:760px){.donate-card{grid-template-columns:1fr;gap:12px;padding:16px}.donate-card img{max-width:124px}}
