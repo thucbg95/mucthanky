@@ -87,10 +87,10 @@ async function handle(context){const {request,env}=context;const url=new URL(req
     if(!ownerAuthorized)return json({error:'Chỉ chủ website mới được quản lý danh sách ghi danh.'},403);
     const action=clean(body.action)||'list';
     if(action==='list'){
-     const requested=Number(body.limit),limit=[10,50,100].includes(requested)?requested:10,offset=Math.max(0,Math.min(100000,Number.parseInt(body.offset,10)||0)),query=clean(body.query).slice(0,100).toLocaleLowerCase('vi-VN'),term=`%${query}%`;
+     const requested=Number(body.limit),limit=[10,50,100].includes(requested)?requested:10,offset=Math.max(0,Math.min(100000,Number.parseInt(body.offset,10)||0)),query=clean(body.query).slice(0,100).toLocaleLowerCase('vi-VN'),term=`%${query}%`,sort=body.sort==='oldest'?'ASC':'DESC';
      const totalRow=await env.DB.prepare("SELECT COUNT(*) AS total FROM supporter_registry WHERE (?='' OR lower(display_name) LIKE lower(?))").bind(query,term).first();
-     const rows=await env.DB.prepare("SELECT id,display_name,category,created_at FROM supporter_registry WHERE (?='' OR lower(display_name) LIKE lower(?)) ORDER BY created_at DESC,id DESC LIMIT ? OFFSET ?").bind(query,term,limit,offset).all();
-     return json({supporters:rows.results||[],total:Number(totalRow?.total)||0,limit,offset});
+     const rows=await env.DB.prepare(`SELECT id,display_name,category,created_at FROM supporter_registry WHERE (?='' OR lower(display_name) LIKE lower(?)) ORDER BY created_at ${sort},id ${sort} LIMIT ? OFFSET ?`).bind(query,term,limit,offset).all();
+     return json({supporters:rows.results||[],total:Number(totalRow?.total)||0,limit,offset,sort:sort==='ASC'?'oldest':'newest'});
     }
     if(action==='add'){
      const name=clean(body.displayName).replace(/\s+/g,' ').slice(0,80);
