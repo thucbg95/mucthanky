@@ -97,6 +97,18 @@ npx wrangler d1 execute data-mucthanky --remote --file=db/migrations/0006_page_v
 
 Hoặc mở Cloudflare Dashboard → D1 → `data-mucthanky` → Console, dán nội dung file `db/migrations/0006_page_views.sql` rồi bấm Execute. Số lượt xem được lưu chung trong D1 theo từng URL; một trình duyệt chỉ cộng lại cùng trang sau 30 phút. Đây là bộ đếm lượt tải trang, không phải số người xem duy nhất.
 
+
+### Hồ sơ đã lưu và trang tài khoản
+
+Bản này có trang `/tai-khoan/` để đăng nhập Google, xem tên/email và quyền tài khoản, đăng xuất, xem hoặc bỏ lưu hồ sơ. Nút `Lưu vào tài khoản` yêu cầu đăng nhập và đồng bộ qua D1; dữ liệu theo tài khoản nên dùng được trên nhiều thiết bị. Các hồ sơ đã lưu cục bộ trong trình duyệt sẽ được chuyển lên D1 khi người dùng mở trang tài khoản sau khi đăng nhập.
+
+Trước khi deploy bản này, chạy migration `db/migrations/0007_saved_pages.sql` đúng một lần trên D1 `data-mucthanky` (Cloudflare Dashboard → D1 → database → Console). Nếu dùng CLI:
+
+```sh
+npx wrangler d1 execute data-mucthanky --remote --file=db/migrations/0007_saved_pages.sql
+```
+
+API: `GET /api/saved-pages` đọc danh sách của tài khoản đang đăng nhập; `POST /api/saved-pages` nhận `{"action":"add","slug":"tan-muc"}`, `{"action":"remove","slug":"tan-muc"}` hoặc danh sách `{"action":"import","slugs":[...]}` để đồng bộ tối đa 80 hồ sơ cũ. Mọi thao tác đều gắn với session Google hiện tại; người chưa đăng nhập không thể đọc hoặc sửa danh sách.
 Giới hạn tốc độ áp dụng theo hash IP có salt; website không lưu IP thô. Email không được trả về trong API công khai.
 
 ## 4. Lịch tập tự cập nhật trên Cloudflare Pages
@@ -121,6 +133,7 @@ Cron Worker chạy mỗi giờ. Nếu chỉ cần lịch tập mới trên websi
 - `GET /api/likes?type=post&id=/phim/`: đọc số lượt thích trang và trạng thái tài khoản hiện tại.
 - `GET /api/page-views?page=/phim/` và `POST /api/page-views`: đọc/tăng số lượt xem trang; cần migration `0006_page_views.sql`.
 - `POST /api/likes`: đăng nhập Google để thích hoặc bỏ thích một trang/bình luận.
+- GET /api/saved-pages và POST /api/saved-pages: lưu, đồng bộ và xóa hồ sơ trên trang /tai-khoan/; cần migration  007_saved_pages.sql.
 - `POST /api/comments`: cần tài khoản, trang ngữ cảnh và Turnstile; đăng công khai ngay.
 - `POST /api/admin/comments`: bình luận có phân trang, bộ lọc theo chuyên mục và tìm theo tên/email/nội dung; dùng được với Google admin hoặc `ADMIN_TOKEN`.
 - `POST /api/admin/users`: tài khoản có phân trang và tìm kiếm; chỉ `ADMIN_TOKEN`.
