@@ -1037,3 +1037,10 @@ html[data-theme=dark] .directory-toolbar>select{background:var(--panel);color:va
 .not-found-page{min-height:100vh;min-height:100svh;display:flex;flex-direction:column}
 .not-found-page #main{flex:1 0 auto}
 .not-found-page>footer{margin-top:auto}
+.directory-toolbar{scroll-margin-top:110px}
+.directory-toolbar-characters{grid-template-columns:minmax(0,1fr) minmax(150px,.27fr)}
+.directory-categories{margin:20px 0 12px}
+.directory-categories button{transition:background-color .18s ease,border-color .18s ease,color .18s ease,box-shadow .18s ease,transform .18s ease}
+.directory-categories button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+@media(max-width:760px){.directory-toolbar-characters{grid-template-columns:minmax(0,1fr) minmax(130px,.6fr)}}
+@media(max-width:420px){.directory-toolbar-characters{grid-template-columns:1fr}}
