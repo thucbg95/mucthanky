@@ -965,3 +965,24 @@ html[data-theme=dark] .donate-card{background:var(--panel);border-color:var(--li
 
 .admin-supporter-edit input{box-sizing:border-box;height:36px;min-height:36px;padding:6px 12px;align-self:center}
 
+
+/* Sổ ghi danh: hiệu ứng chuyển động liên tục, tiết chế và tôn trọng reduced-motion. */
+.supporter-registry{position:relative;isolation:isolate;overflow:hidden;margin-top:42px;padding:clamp(18px,2.4vw,34px);border:1px solid color-mix(in srgb,var(--gold) 42%,var(--line));border-radius:22px;background:linear-gradient(135deg,color-mix(in srgb,var(--panel) 96%,var(--gold)),var(--panel) 58%,color-mix(in srgb,var(--panel) 88%,var(--green)));animation:supporter-registry-pulse 6.8s ease-in-out infinite}
+.supporter-registry:before,.supporter-registry:after{position:absolute;z-index:0;content:"";pointer-events:none}
+.supporter-registry:before{inset:0;background:radial-gradient(ellipse at 12% 8%,color-mix(in srgb,var(--gold) 12%,transparent),transparent 38%),radial-gradient(ellipse at 92% 82%,color-mix(in srgb,var(--green) 16%,transparent),transparent 40%);animation:supporter-registry-aurora 11s ease-in-out infinite alternate}
+.supporter-registry:after{top:30px;right:-62px;width:238px;height:238px;border:1px solid color-mix(in srgb,var(--gold) 24%,transparent);border-radius:50%;box-shadow:0 0 0 16px color-mix(in srgb,var(--gold) 3%,transparent),0 0 44px color-mix(in srgb,var(--gold) 9%,transparent);animation:supporter-registry-orbit 34s linear infinite}
+.supporter-registry>*{position:relative;z-index:1}
+.supporter-registry>.section-head{margin-bottom:20px}
+.supporter-registry>.section-head h2{animation:supporter-registry-title 4.8s ease-in-out infinite alternate}
+.supporter-registry .supporter-instructions code{font-family:'Be Vietnam Pro',Arial,sans-serif;font-size:.98em;font-weight:700;letter-spacing:0}
+.supporter-registry .supporter-list{position:relative}
+.supporter-registry .supporter-entry{overflow:hidden;isolation:isolate;animation:supporter-entry-in .36s both}
+.supporter-registry .supporter-entry:before{position:absolute;z-index:-1;inset:0 auto 0 -70%;width:45%;background:linear-gradient(105deg,transparent,color-mix(in srgb,var(--gold) 17%,transparent),transparent);content:"";pointer-events:none;animation:supporter-entry-glint 8.5s ease-in-out infinite}
+.supporter-registry .supporter-entry:nth-child(2):before{animation-delay:1s}.supporter-registry .supporter-entry:nth-child(3):before{animation-delay:2s}.supporter-registry .supporter-entry:nth-child(4):before{animation-delay:3s}.supporter-registry .supporter-entry:nth-child(5):before{animation-delay:4s}.supporter-registry .supporter-entry:nth-child(6):before{animation-delay:5s}.supporter-registry .supporter-entry:nth-child(7):before{animation-delay:6s}.supporter-registry .supporter-entry:nth-child(8):before{animation-delay:7s}
+@keyframes supporter-registry-pulse{0%,100%{box-shadow:0 18px 46px color-mix(in srgb,var(--gold) 7%,transparent)}50%{box-shadow:0 22px 58px color-mix(in srgb,var(--gold) 17%,transparent)}}
+@keyframes supporter-registry-aurora{0%{transform:translate3d(-1%,0,0) scale(1);opacity:.62}100%{transform:translate3d(1.5%,1%,0) scale(1.035);opacity:1}}
+@keyframes supporter-registry-orbit{to{transform:rotate(360deg)}}
+@keyframes supporter-registry-title{from{text-shadow:0 0 0 color-mix(in srgb,var(--gold) 0%,transparent)}to{text-shadow:0 0 18px color-mix(in srgb,var(--gold) 28%,transparent)}}
+@keyframes supporter-entry-glint{0%,12%{transform:translateX(0);opacity:0}22%{opacity:.75}48%,100%{transform:translateX(390%);opacity:0}}
+@media(max-width:760px){.supporter-registry{margin-top:30px;padding:17px 13px;border-radius:17px}.supporter-registry:after{top:20px;right:-130px;opacity:.65}.supporter-registry>.section-head{margin-bottom:14px}}
+@media(prefers-reduced-motion:reduce){.supporter-registry,.supporter-registry:before,.supporter-registry:after,.supporter-registry>.section-head h2,.supporter-registry .supporter-entry:before{animation:none!important;transition:none!important}}
