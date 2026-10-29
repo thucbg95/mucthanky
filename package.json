@@ -1,0 +1,1 @@
+{"name":"mucthanky","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","dev":"node scripts/serve.mjs","import:novel":"node scripts/import-vivutruyen.mjs","import:truyenfull":"node scripts/import-truyenfull.mjs","test":"node scripts/check.mjs","audit:content":"node scripts/audit-content.mjs"},"engines":{"node":">=20"}}

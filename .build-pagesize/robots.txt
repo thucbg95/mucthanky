@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /quan-tri/
+Disallow: /nguyen-minh-duy/
+Sitemap: https://mucthanky.com/sitemap.xml
