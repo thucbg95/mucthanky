@@ -910,3 +910,7 @@ html[data-theme=dark] .font-floater .float-menu-toggle:hover{background:#32665e;
 .donate-card .source-list{font-size:calc(11px * var(--font-scale,1));line-height:1.55}
 html[data-theme=dark] .donate-card{background:var(--panel);border-color:var(--line);box-shadow:none}
 @media(max-width:760px){.donate-card{grid-template-columns:1fr;gap:12px;padding:16px}.donate-card img{max-width:124px}}
+#account-login-panel{display:block}
+#account-login-panel h2{margin:0 0 8px}
+#account-login-panel p{margin:0 0 14px}
+#account-login-panel #account-google-signin{margin:0}
