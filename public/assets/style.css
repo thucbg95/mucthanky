@@ -923,9 +923,10 @@ html[data-theme=dark] .donate-card{background:var(--panel);border-color:var(--li
 .support-cta h2{margin:4px 0 7px;font-size:calc(25px * var(--font-scale,1))}
 .support-cta p{max-width:76ch;margin:0;color:var(--muted)}
 .support-page{padding-bottom:64px}
-.support-intro{max-width:900px;margin:0 auto 12px;text-align:center}
-.support-intro h2{max-width:780px;margin:10px auto 14px;font-size:clamp(27px,3.2vw,40px)}
-.support-intro p{max-width:78ch;margin:0 auto 13px;color:var(--muted);font-size:calc(16px * var(--font-scale,1));line-height:1.85}
+.support-intro{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);align-items:center;gap:clamp(26px,5vw,74px);width:100%;max-width:none;margin:18px 0 12px;padding:clamp(24px,4vw,52px);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:16px;background:linear-gradient(125deg,var(--panel),var(--soft,#233139));box-shadow:0 12px 34px rgba(12,33,35,.07);text-align:left}
+.support-intro-heading h2{max-width:14ch;margin:10px 0 0;font-size:clamp(29px,3.4vw,44px);line-height:1.28}
+.support-intro-copy p{max-width:72ch;margin:0 0 13px;color:var(--muted);font-size:calc(16px * var(--font-scale,1));line-height:1.85}
+.support-intro-copy p:last-child{margin-bottom:0}
 .support-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(200px,270px);gap:clamp(24px,5vw,70px);align-items:center;margin-top:38px;padding:clamp(22px,4vw,48px);border:1px solid var(--line);border-radius:18px;background:var(--panel);box-shadow:0 14px 38px rgba(12,33,35,.08)}
 .support-copy h2{margin:5px 0 10px;font-size:clamp(25px,3vw,36px)}
 .support-copy>p{max-width:72ch;color:var(--muted)}
@@ -937,7 +938,7 @@ html[data-theme=dark] .donate-card{background:var(--panel);border-color:var(--li
 .support-bank-details .copy-account{color:var(--gold);font:750 23px/1.4 'Manrope','Be Vietnam Pro',sans-serif;letter-spacing:.08em}
 .support-safety{max-width:720px;margin:0;padding:12px 15px;border-left:3px solid var(--gold);border-radius:0 8px 8px 0;background:var(--soft,#edf1eb);color:var(--muted);font-size:calc(12px * var(--font-scale,1));line-height:1.7}
 .support-qr{margin:0;text-align:center}
-.support-qr img{width:100%;max-width:240px;margin:auto;padding:10px;border:1px solid var(--line);border-radius:14px;background:#fff;box-shadow:0 12px 28px rgba(12,33,35,.12)}
+.support-qr img{display:block;width:100%;height:auto;max-width:240px;margin:auto;padding:10px;border:1px solid var(--line);border-radius:14px;background:#fff;box-shadow:0 12px 28px rgba(12,33,35,.12)}
 .support-qr figcaption{margin:11px auto 0;color:var(--muted);font-size:calc(12px * var(--font-scale,1));line-height:1.6}
 .support-impact{padding-top:44px}
 .support-impact .section-head{margin-bottom:18px}
@@ -947,4 +948,4 @@ html[data-theme=dark] .donate-card{background:var(--panel);border-color:var(--li
 .support-impact-card h3{margin:14px 0 7px;font-size:calc(19px * var(--font-scale,1))}
 .support-impact-card p{margin:0;color:var(--muted);font-size:calc(14px * var(--font-scale,1));line-height:1.75}
 .support-thanks{max-width:780px;margin:35px auto 0;text-align:center;color:var(--muted);font-size:calc(15px * var(--font-scale,1));line-height:1.85}
-@media(max-width:760px){.support-cta{align-items:stretch;flex-direction:column;gap:16px}.support-cta .btn{align-self:flex-start}.support-card{grid-template-columns:1fr;gap:22px;margin-top:24px;padding:20px}.support-bank-details{padding-inline:12px}.support-bank-details>div{grid-template-columns:minmax(100px,.45fr) minmax(0,1fr);gap:10px}.support-qr img{max-width:190px}.support-impact .grid{grid-template-columns:1fr;gap:10px}.support-impact-card{padding:17px}}
+@media(max-width:760px){.support-cta{align-items:stretch;flex-direction:column;gap:16px}.support-cta .btn{align-self:flex-start}.support-intro{grid-template-columns:1fr;gap:15px;margin-top:8px;padding:22px 18px}.support-intro-heading h2{max-width:20ch;font-size:clamp(28px,8vw,36px)}.support-intro-copy p{font-size:calc(15px * var(--font-scale,1));line-height:1.75}.support-card{grid-template-columns:1fr;gap:22px;margin-top:24px;padding:20px}.support-bank-details{padding-inline:12px}.support-bank-details>div{grid-template-columns:minmax(100px,.45fr) minmax(0,1fr);gap:10px}.support-qr img{max-width:190px}.support-impact .grid{grid-template-columns:1fr;gap:10px}.support-impact-card{padding:17px}}
