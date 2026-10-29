@@ -660,6 +660,11 @@ html[data-theme=dark] .post-reaction{background:var(--panel);color:var(--muted)}
 .admin-owner-access summary{color:var(--text);font-weight:650;cursor:pointer}
 .admin-owner-access form{display:grid;gap:10px;padding-top:13px}
 .admin-owner-access .actions{margin:0}
+#admin-form[hidden]{display:none!important}
+.admin-owner-token-form{display:grid;gap:10px;margin:16px 0 8px}
+.admin-owner-token-form label{font-weight:650;color:var(--text)}
+.admin-owner-token-form input{box-sizing:border-box;width:100%;min-height:48px;padding:10px 13px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--text);font:inherit}
+.admin-owner-token-form .btn{width:100%;min-height:48px}
 .admin-dashboard-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:8px 0 14px;padding:18px 20px;border:1px solid var(--line);border-radius:13px;background:var(--panel)}
 .admin-dashboard-head h2,.admin-dashboard-head p{margin:4px 0}
 .admin-dashboard-head p{color:var(--muted)}
