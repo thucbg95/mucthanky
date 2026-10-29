@@ -1,0 +1,380 @@
+[
+  {
+    "slug": "thuyen-mat-troi",
+    "title": "Thuyền Mặt Trời",
+    "category": "phuong-tien",
+    "summary": "Phương tiện gắn với ánh sáng ban ngày và tuyến Thái Dương Thủ trong thế giới Mục Thần Ký.",
+    "aliases": [
+      "太阳船",
+      "Thuyền Thái Dương"
+    ],
+    "image": "thuyen-mat-troi",
+    "spoiler": true,
+    "sources": [
+      {
+        "title": "Bilibili chính thức — tập 24 太阳船",
+        "url": "https://www.bilibili.com/bangumi/play/ep1192450"
+      },
+      {
+        "title": "Nguyên tác — chương 80",
+        "url": "https://www.biquge321.com/zhangjie/33624/60412310.html"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Tên nguyên tác",
+        "value": "太阳船 (Tàiyáng Chuán)"
+      },
+      {
+        "label": "Liên hệ",
+        "value": "Thái Dương Thủ và chu kỳ ngày đêm"
+      },
+      {
+        "label": "Nhánh tư liệu",
+        "value": "Phim hoạt hình · nguyên tác"
+      }
+    ],
+    "sections": [
+      {
+        "id": "vai-tro",
+        "title": "Vai trò trong thế giới",
+        "paragraphs": [
+          "Thuyền Mặt Trời gắn với việc duy trì ánh sáng ban ngày trong một thế giới nơi ngày đêm không phải lúc nào cũng là quy luật tự nhiên ổn định. Tư liệu hoạt hình đặt tên tập 24 là 太阳船, tạo một điểm đối chiếu trực tiếp cho người xem.",
+          "Trong nguyên tác, con thuyền và người giữ thuyền liên hệ với nhau; nhiệm vụ ấy có sức nặng riêng chứ không chỉ là phương tiện di chuyển."
+        ],
+        "spoiler": true
+      },
+      {
+        "id": "doi-chieu",
+        "title": "Đọc hình ảnh và thuật ngữ",
+        "paragraphs": [
+          "Tên “Thuyền Mặt Trời” là cách dịch mô tả. Khi tra cứu nguồn Trung văn, dùng 太阳船 để tìm hình và lời giới thiệu chính thức. Hình bên cạnh là khung phim tập 24, không phải bản vẽ kỹ thuật của con thuyền."
+        ],
+        "spoiler": false
+      }
+    ]
+  },
+  {
+    "slug": "thuyen-mat-trang",
+    "title": "Thuyền Mặt Trăng",
+    "category": "phuong-tien",
+    "summary": "Con thuyền hình lưỡi liềm gắn với tuyến người giữ Mặt Trăng và Vô Ưu Hương.",
+    "aliases": [
+      "月亮船",
+      "Nguyệt thuyền"
+    ],
+    "image": "thuyen-mat-trang",
+    "spoiler": true,
+    "sources": [
+      {
+        "title": "Nguyên tác — chương 91",
+        "url": "https://czbooks.net/n/s6j97i/s6bm7c6l?chapterNumber=90"
+      },
+      {
+        "title": "Sohu — khung hình phim được đăng lại",
+        "url": "https://www.sohu.com/a/887988443_120842324"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Tên nguyên tác",
+        "value": "月亮船 (Yuèliang Chuán)"
+      },
+      {
+        "label": "Hình dáng được mô tả",
+        "value": "Thuyền lưỡi liềm bị hư hại"
+      },
+      {
+        "label": "Liên hệ",
+        "value": "Vô Ưu Hương · Phong Đô"
+      }
+    ],
+    "sections": [
+      {
+        "id": "vai-tro",
+        "title": "Con thuyền của tuyến Mặt Trăng",
+        "paragraphs": [
+          "Nguyên tác liên hệ con thuyền Mặt Trăng với người giữ Mặt Trăng và những vật tín vật được tạo ở Vô Ưu Hương. Con thuyền được mô tả trong tình trạng hư hại và gắn với hành trình đến Phong Đô.",
+          "Tên gọi “Nguyệt giả” thường bị nhầm. Từ nguyên tác 月亮守 nghĩa là người giữ Mặt Trăng; còn phương tiện là 月亮船."
+        ],
+        "spoiler": true
+      },
+      {
+        "id": "hinh-anh",
+        "title": "Ghi chú hình ảnh",
+        "paragraphs": [
+          "Ảnh này là khung hình phim được nguồn báo đăng lại, không phải ảnh quảng bá độc lập từ nhà sản xuất. Trang ghi rõ nguồn để phân biệt tư liệu minh họa với thiết kế gốc."
+        ],
+        "spoiler": false
+      }
+    ]
+  },
+  {
+    "slug": "thai-duong-thu",
+    "title": "Thái Dương Thủ · Viêm Tinh Tinh",
+    "category": "nhan-vat",
+    "summary": "Người gánh nhiệm vụ giữ Thái Dương Thuyền và duy trì ánh sáng ban ngày.",
+    "aliases": [
+      "太阳守",
+      "炎晶晶",
+      "Người giữ Mặt Trời"
+    ],
+    "image": "viem-tinh-tinh",
+    "realName": "Viêm Tinh Tinh (炎晶晶)",
+    "spoiler": true,
+    "sources": [
+      {
+        "title": "Bilibili chính thức — tập phim về Viêm Tinh Tinh",
+        "url": "https://www.bilibili.com/bangumi/play/ep1567194"
+      },
+      {
+        "title": "Nguyên tác — chương 80",
+        "url": "https://www.biquge321.com/zhangjie/33624/60412310.html"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Danh xưng",
+        "value": "Thái Dương Thủ (太阳守)"
+      },
+      {
+        "label": "Tên nhân vật",
+        "value": "Viêm Tinh Tinh (炎晶晶)"
+      },
+      {
+        "label": "Nhiệm vụ",
+        "value": "Canh giữ Thái Dương Thuyền"
+      }
+    ],
+    "sections": [
+      {
+        "id": "nhiem-vu",
+        "title": "Người giữ ánh sáng ban ngày",
+        "paragraphs": [
+          "Thái Dương Thủ là chức trách gắn với việc bảo vệ Thái Dương Thuyền. Nguyên tác mô tả nhiệm vụ này khiến người giữ thuyền phải trả giá bằng sức lực khi mặt trời bị dập tắt.",
+          "Viêm Tinh Tinh được xác định là người đang gánh vai trò ấy trong giai đoạn được kể. Đây là tuyến có spoiler; phim và truyện có thể tiết lộ ở nhịp khác nhau."
+        ],
+        "spoiler": true
+      }
+    ]
+  },
+  {
+    "slug": "nguyet-luong-thu",
+    "title": "Người Giữ Mặt Trăng",
+    "category": "nhan-vat",
+    "summary": "Người canh giữ Mặt Trăng, gắn với con thuyền lưỡi liềm và di sản Vô Ưu Hương.",
+    "aliases": [
+      "月亮守",
+      "Nguyệt Lượng Thủ"
+    ],
+    "image": "nguyet-luong-thu",
+    "spoiler": true,
+    "sources": [
+      {
+        "title": "Bilibili chính thức — tập 30 月亮守",
+        "url": "https://www.bilibili.com/bangumi/play/ep1524212"
+      },
+      {
+        "title": "Nguyên tác — chương 91",
+        "url": "https://czbooks.net/n/s6j97i/s6bm7c6l?chapterNumber=90"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Tên nguyên tác",
+        "value": "月亮守 (Yuèliang Shǒu)"
+      },
+      {
+        "label": "Dịch nghĩa",
+        "value": "Người giữ Mặt Trăng"
+      },
+      {
+        "label": "Liên hệ",
+        "value": "Thuyền Mặt Trăng · Vô Ưu Hương"
+      }
+    ],
+    "sections": [
+      {
+        "id": "vai-tro",
+        "title": "Danh xưng và nhiệm vụ",
+        "paragraphs": [
+          "月亮守 dịch sát là người giữ Mặt Trăng. Đây là cách gọi chức trách, không nên dịch thành “Nguyệt Giả” nếu muốn phân biệt rõ với người tu luyện hoặc một danh hiệu khác.",
+          "Tuyến nhân vật gắn với con thuyền Mặt Trăng, vật tín vật và lịch sử Vô Ưu Hương. Hình bên cạnh là khung hình tập 30, không được dùng thay cho ảnh chân dung riêng khi phim chưa cung cấp ảnh nhân vật tách nền."
+        ],
+        "spoiler": true
+      }
+    ]
+  },
+  {
+    "slug": "tui-thao-thiet",
+    "title": "Túi Thao Thiết",
+    "category": "bao-vat",
+    "summary": "Túi không gian của Tần Mục, được nhận ra qua hình thêu dị thú và chiếc miệng ở miệng túi.",
+    "aliases": [
+      "饕餮袋",
+      "Túi thần thông"
+    ],
+    "image": "tui-thao-thiet",
+    "spoiler": false,
+    "sources": [
+      {
+        "title": "Nguyên tác — chương 157",
+        "url": "https://www.biquge321.com/zhangjie/33624/65512320.html"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Tên nguyên tác",
+        "value": "饕餮袋 (Tāotiè dài)"
+      },
+      {
+        "label": "Loại",
+        "value": "Túi chứa không gian"
+      },
+      {
+        "label": "Dấu hiệu nhận biết",
+        "value": "Họa tiết Thao Thiết; miệng túi được tạo hình như miệng dị thú"
+      }
+    ],
+    "sections": [
+      {
+        "id": "mo-ta",
+        "title": "Cách nhận diện",
+        "paragraphs": [
+          "Chương 157 mô tả chiếc túi thêu hình Thao Thiết, phần miệng túi có thể mở như miệng thú và bên trong chứa được lượng đồ lớn. Đây là vật dụng giúp Tần Mục mang theo vật phẩm trong hành trình.",
+          "Ảnh tại đây là minh họa biên tập theo mô tả nguyên tác, không phải ảnh chụp chính thức từ phim."
+        ],
+        "spoiler": false
+      }
+    ]
+  },
+  {
+    "slug": "kiem-hoan",
+    "title": "Kiếm Hoàn",
+    "category": "vu-khi",
+    "summary": "Bảo vật có thể triển khai thành hàng nghìn thanh kiếm, dùng trong những trận chiến quy mô lớn.",
+    "aliases": [
+      "剑丸",
+      "Viên kiếm"
+    ],
+    "image": "kiem-hoan",
+    "spoiler": true,
+    "sources": [
+      {
+        "title": "Nguyên tác — chương 490",
+        "url": "https://czbooks.net/n/ueo4d/ubjg7"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Tên nguyên tác",
+        "value": "剑丸 (Jiànwán)"
+      },
+      {
+        "label": "Công dụng",
+        "value": "Triển khai thành kiếm trận quy mô lớn"
+      },
+      {
+        "label": "Nhánh tư liệu",
+        "value": "Nguyên tác · chương 490"
+      }
+    ],
+    "sections": [
+      {
+        "id": "cong-dung",
+        "title": "Vũ khí và cách dùng",
+        "paragraphs": [
+          "Nguyên tác chương 490 mô tả Kiếm Hoàn triển khai thành tám nghìn thanh kiếm. Cùng một đoạn còn có đại thiết chùy, trượng tre, túi độc và túi đao trong một bộ trang bị chiến đấu cụ thể.",
+          "Số lượng và cách xuất hiện cần đọc theo ngữ cảnh trận chiến; không nên hiểu mọi món trong cảnh đó là vũ khí luôn mang theo của Tần Mục. Hình là minh họa khái niệm, không phải mô hình chính thức."
+        ],
+        "spoiler": true
+      }
+    ]
+  },
+  {
+    "slug": "ao-hanh-trinh-tan-muc",
+    "title": "Phục trang hành trình của Tần Mục",
+    "category": "trang-phuc",
+    "summary": "Tạo hình thiếu niên Đại Khư với lớp áo chiến đấu nhiều tầng, họa tiết thêu và phụ kiện đi đường.",
+    "aliases": [
+      "秦牧服饰",
+      "Trang phục Tần Mục"
+    ],
+    "image": "ao-tan-muc",
+    "spoiler": false,
+    "sources": [
+      {
+        "title": "Bilibili chính thức — tập mở đầu",
+        "url": "https://www.bilibili.com/bangumi/play/ep836727"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Nhân vật",
+        "value": "Tần Mục"
+      },
+      {
+        "label": "Ngữ cảnh",
+        "value": "Tạo hình hoạt hình · giai đoạn đầu hành trình"
+      },
+      {
+        "label": "Lưu ý",
+        "value": "Phục trang thay đổi theo thời kỳ và cảnh phim"
+      }
+    ],
+    "sections": [
+      {
+        "id": "tao-hinh",
+        "title": "Đọc tạo hình",
+        "paragraphs": [
+          "Trang phục hoạt hình sử dụng lớp áo, đai lưng và phụ kiện để phân biệt dáng vẻ thiếu niên Đại Khư với các nhân vật trong triều đình hoặc tông môn. Tạo hình thay đổi theo hành trình và các giai đoạn câu chuyện.",
+          "Ảnh trên là minh họa biên tập theo hình quảng bá chính thức, không đại diện mọi bộ trang phục của nhân vật."
+        ],
+        "spoiler": false
+      }
+    ]
+  },
+  {
+    "slug": "gio-kim-tu-ba-ba",
+    "title": "Giỏ kim chỉ của Tư Bà Bà",
+    "category": "bao-vat",
+    "summary": "Vật dụng may vá đi cùng Tư Bà Bà; lớp vỏ đời thường che một người thầy tinh thông pháp thuật.",
+    "aliases": [
+      "针线篮",
+      "Giỏ thợ may"
+    ],
+    "image": "gio-kim-tu-ba-ba",
+    "spoiler": false,
+    "sources": [
+      {
+        "title": "Bilibili — danh sách nhân vật và thiết kế phim",
+        "url": "https://www.bilibili.com/bangumi/play/ep1751634"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Người sử dụng",
+        "value": "Tư Bà Bà"
+      },
+      {
+        "label": "Công dụng thường ngày",
+        "value": "Mang kim chỉ và đồ nghề may vá"
+      },
+      {
+        "label": "Ý nghĩa trong tạo hình",
+        "value": "Gắn nghề nghiệp đời thường với thân phận người thầy"
+      }
+    ],
+    "sections": [
+      {
+        "id": "tao-hinh",
+        "title": "Một vật dụng kể chuyện",
+        "paragraphs": [
+          "Giỏ kim chỉ nhắc đến nghề thợ may của Tư Bà Bà và cách Tàn Lão Thôn đưa những nghề bình dị vào quá trình nuôi dạy Tần Mục. Vật dụng không phải bảo vật thần thông; ý nghĩa của nó nằm ở tạo hình và cách nhân vật xuất hiện.",
+          "Ảnh dẫn đến nguồn ghi nhận phục trang trong phim."
+        ],
+        "spoiler": false
+      }
+    ]
+  }
+]
