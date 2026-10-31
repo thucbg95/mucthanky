@@ -1878,3 +1878,96 @@ body:has(.account-page) #main{flex:1 0 auto}
 
 /* Keep all encyclopedia category labels bold, matching the selected state. */
 .directory-categories button[data-directory-category]{font-weight:700}
+
+/* Keep community and moderation filters on one compact row at every viewport. */
+#comment-view-controls.comment-view-controls{
+  display:flex!important;
+  align-items:center!important;
+  flex-wrap:nowrap!important;
+  gap:clamp(6px,1.2vw,14px)!important;
+  overflow-x:auto;
+  overscroll-behavior-inline:contain;
+  scrollbar-width:thin;
+}
+#comment-view-controls .comment-filter-field,
+#comment-view-controls .comment-page-size-field{
+  display:flex!important;
+  flex:0 1 auto!important;
+  align-items:center;
+  gap:8px;
+  min-width:0;
+  white-space:nowrap;
+}
+#comment-view-controls .comment-filter-field select{width:clamp(112px,15vw,190px);flex:0 1 auto}
+#comment-view-controls .comment-page-size-field select{width:clamp(120px,16vw,200px);flex:0 1 auto}
+#comment-view-controls .comment-sort-field{
+  display:flex!important;
+  flex:0 0 auto;
+  align-items:center;
+  justify-items:initial;
+  gap:8px;
+  white-space:nowrap;
+}
+#comment-view-controls .comment-filter-field::after,
+#comment-view-controls .comment-page-size-field::after{
+  top:50%;
+  bottom:auto;
+  transform:translateY(-50%) rotate(45deg);
+}
+.admin-comment-toolbar{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) auto auto!important;
+  align-items:center!important;
+  flex-wrap:nowrap!important;
+  gap:12px;
+  overflow-x:auto;
+  overscroll-behavior-inline:contain;
+  scrollbar-width:thin;
+}
+.admin-comment-toolbar label{
+  display:flex!important;
+  flex-direction:row;
+  align-items:center;
+  gap:8px;
+  min-width:0;
+  width:auto!important;
+  white-space:nowrap;
+}
+.admin-comment-toolbar label:first-child{flex:initial!important;min-width:0}
+.admin-comment-toolbar label:not(:first-child){flex:initial!important}
+.admin-comment-toolbar label input{flex:1 1 220px;width:auto!important;min-width:160px}
+.admin-comment-toolbar label select{flex:0 0 auto;width:160px!important;min-width:145px}
+@media(max-width:760px){
+  #comment-view-controls.comment-view-controls{
+    display:flex!important;
+    flex-wrap:nowrap!important;
+    justify-content:flex-start;
+    gap:7px!important;
+    padding:8px;
+  }
+  #comment-view-controls .comment-filter-field,
+  #comment-view-controls .comment-page-size-field,
+  #comment-view-controls .comment-sort-field{
+    flex:0 0 auto!important;
+    gap:6px;
+    font-size:11px;
+  }
+  #comment-view-controls .comment-filter-field select{width:112px;min-width:112px;height:38px;min-height:38px;padding-left:8px;padding-right:26px;font-size:11px}
+  #comment-view-controls .comment-page-size-field select{width:122px;min-width:122px;height:38px;min-height:38px;padding-left:8px;padding-right:26px;font-size:11px}
+  #comment-view-controls .comment-filter-field::after,
+  #comment-view-controls .comment-page-size-field::after{right:10px}
+  #comment-view-controls .comment-sort-buttons{gap:4px}
+  #comment-view-controls .comment-sort-buttons .sort-control-button{width:34px;height:36px;min-width:34px;min-height:36px}
+  .admin-comment-toolbar{
+    display:flex!important;
+    flex-wrap:nowrap!important;
+    align-items:center!important;
+    justify-content:flex-start;
+    gap:8px;
+    width:100%;
+  }
+  .admin-comment-toolbar label{flex:0 0 auto!important;font-size:11px;gap:6px}
+  .admin-comment-toolbar label:first-child{grid-column:auto!important}
+  .admin-comment-toolbar label input{width:180px!important;min-width:180px;height:38px}
+  .admin-comment-toolbar label select{width:132px!important;min-width:132px;height:38px}
+}
