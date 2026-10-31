@@ -1275,3 +1275,70 @@ main p{margin-bottom:10px;line-height:1.58}
   .novel-page-tools{flex-wrap:wrap}
 }
 
+/* Compact spacing and controls refined from desktop/mobile review. */
+main section{padding-top:30px!important}
+.section-head{gap:12px;margin-bottom:11px}
+.feature-content{padding:clamp(18px,2vw,26px)}
+.episode-status-card{gap:10px;padding:18px}
+.episode-status-card h2{margin:3px 0 5px;line-height:1.22}
+.episode-status-card p{line-height:1.45}
+.schedule-controls-row{margin:11px 0 9px}
+.schedule-item{min-height:58px;padding:8px 11px;gap:9px}
+.schedule-item b{min-width:28px;font-size:14px}
+.schedule-item strong{font-size:13px;line-height:1.35}
+.schedule-item span{font-size:11px;line-height:1.35}
+.schedule-item>span[aria-hidden="true"]{display:none}
+.account-page{padding-top:24px;padding-bottom:54px}
+.account-panel{gap:14px;margin:16px 0;padding:17px 20px}
+.account-identity{min-height:132px}
+.post-reaction{margin:10px 0;padding:10px 12px}
+#thao-luan #comment-form{gap:8px;padding:12px}
+#thao-luan #comment-form textarea{min-height:84px;max-height:190px;padding:10px 12px}
+.comment-view-controls{gap:8px;margin:8px 0 10px;padding:9px 10px}
+.novel-book-card{gap:clamp(16px,2.4vw,28px);margin-top:16px;padding:clamp(16px,2vw,22px)}
+.novel-book-info>p:not(.novel-original-title){line-height:1.48}
+.novel-metadata{margin:10px 0 12px;column-gap:14px}
+.novel-metadata>div{gap:7px;padding:5px 0;font-size:14px;line-height:1.45}
+.novel-metadata dt,.novel-metadata dd{font-size:14px}
+.novel-chapter-tools{grid-template-columns:minmax(0,1fr) auto auto;gap:9px;margin:10px 0 6px}
+.novel-search{width:100%;max-width:none;min-width:0}
+.novel-page-size select{height:38px;min-height:38px}
+.novel-sort-button{min-height:36px}
+.novel-chapter-index .novel-index-icon,.novel-book-index .novel-down-icon{width:15px;height:15px;flex:none}
+.novel-page-numbers{gap:5px}
+.novel-page-button{min-width:34px;height:34px;padding:0 7px;font-size:13px}
+.novel-pagination{gap:7px;margin-top:12px}
+.novel-reading-guide{gap:14px;margin:22px 0 6px;padding:15px}
+.novel-reading-guide h2{margin:2px 0 5px;font-size:22px!important}
+.support-cta{gap:18px;padding:clamp(16px,2vw,23px)}
+.support-cta h2{font-size:22px;line-height:1.25}
+.support-cta p{line-height:1.5}
+@media(max-width:900px) and (min-width:761px){
+  .novel-chapter-tools{grid-template-columns:minmax(0,1fr) auto;gap:8px}
+  .novel-search{grid-column:1/-1}
+  .novel-page-size{grid-column:1;grid-row:2}
+  .novel-sort{grid-column:2;grid-row:2;justify-content:flex-end}
+}
+@media(max-width:760px){
+  main section{padding-top:22px!important}
+  .section-head{gap:8px;margin-bottom:9px}
+  .feature-content{padding:16px}
+  .episode-status-card{gap:9px;padding:14px}
+  .schedule-item{min-height:56px;padding:8px;gap:7px}
+  .schedule-item b{min-width:27px;font-size:13px}
+  .schedule-item strong{font-size:11.5px}
+  .schedule-item span{font-size:10.5px}
+  .account-page{padding-top:18px;padding-bottom:42px}
+  .account-panel{gap:12px;margin:12px 0;padding:14px}
+  .post-reaction{margin:8px 0;padding:9px 10px}
+  #thao-luan #comment-form{gap:7px;padding:10px}
+  #thao-luan #comment-form textarea{min-height:78px;max-height:170px;padding:9px 10px}
+  .comment-view-controls{gap:7px;margin:7px 0 9px;padding:8px}
+  .novel-metadata>div,.novel-metadata dt,.novel-metadata dd{font-size:13px}
+  .novel-reading-guide{gap:10px;margin-top:18px;padding:13px}
+  .novel-reading-guide h2{font-size:19px!important}
+  .novel-page-button{min-width:32px;height:32px;font-size:12px}
+  .support-cta{gap:12px;padding:15px}
+  .support-cta h2{font-size:20px}
+}
+
