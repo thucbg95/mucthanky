@@ -2027,45 +2027,51 @@ body:has(.account-page) #main{flex:1 0 auto}
   #comment-view-controls .comment-sort-buttons .sort-control-button{width:32px;height:36px;min-width:32px;min-height:36px}
 }
 
-/* Keep the shared comment toolbar inside the mobile viewport. */
+/* Keep the comment filters inside their section; never turn them into a page-level scroll row. */
+#comment-view-controls.comment-view-controls{
+  box-sizing:border-box;
+  width:100%;
+  max-width:100%;
+  min-width:0;
+  display:grid!important;
+  grid-template-areas:"category sort size";
+  grid-template-columns:minmax(0,1fr) auto minmax(0,auto);
+  align-items:end;
+  gap:8px;
+  overflow:visible!important;
+}
+#comment-view-controls .comment-filter-field,
+#comment-view-controls .comment-sort-field,
+#comment-view-controls .comment-page-size-field{
+  box-sizing:border-box;
+  min-width:0;
+  max-width:100%;
+}
+#comment-view-controls .comment-filter-field{grid-area:category;display:grid!important}
+#comment-view-controls .comment-sort-field{grid-area:sort;display:grid!important;justify-items:center}
+#comment-view-controls .comment-page-size-field{grid-area:size;display:grid!important;justify-self:end}
+#comment-view-controls .comment-filter-field select,
+#comment-view-controls .comment-page-size-field select{
+  box-sizing:border-box;
+  width:100%;
+  max-width:100%;
+  min-width:0;
+}
 @media(max-width:760px){
-  #thao-luan,
   #comment-view-controls.comment-view-controls{
-    box-sizing:border-box;
-    width:100%;
-    max-width:100%;
-    min-width:0;
+    grid-template-areas:"category category" "sort size";
+    grid-template-columns:minmax(0,1fr) auto;
+    align-items:center;
+    gap:8px;
+    overflow:visible!important;
   }
-  #comment-view-controls.comment-view-controls{
-    grid-template-areas:"category category" "sort size"!important;
-    grid-template-columns:minmax(0,1fr) auto!important;
-    overflow-x:visible!important;
-  }
-  #comment-view-controls .comment-filter-field,
-  #comment-view-controls .comment-sort-field,
-  #comment-view-controls .comment-page-size-field{
-    box-sizing:border-box;
-    min-width:0!important;
-    max-width:100%;
-  }
-  #comment-view-controls .comment-sort-field{
-    grid-area:sort;
-    width:auto;
-    justify-self:start;
-  }
-  #comment-view-controls .comment-page-size-field{
-    grid-area:size;
-    display:grid!important;
-    justify-self:end;
-    white-space:nowrap;
-  }
-  #comment-view-controls .comment-page-size-field select{
-    box-sizing:border-box;
-    width:112px!important;
-    min-width:0!important;
-    max-width:100%;
-  }
+  #comment-view-controls .comment-filter-field{width:100%}
+  #comment-view-controls .comment-filter-field select{width:100%;min-width:0}
+  #comment-view-controls .comment-sort-field{justify-self:start;justify-items:start}
+  #comment-view-controls .comment-page-size-field{justify-self:end}
+  #comment-view-controls .comment-page-size-field select{width:112px;min-width:0}
 }
 @media(max-width:380px){
-  #comment-view-controls .comment-page-size-field select{width:104px!important}
+  #comment-view-controls.comment-view-controls{grid-template-columns:minmax(0,1fr) auto;padding:8px}
+  #comment-view-controls .comment-page-size-field select{width:104px}
 }
