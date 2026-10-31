@@ -1198,3 +1198,80 @@ footer{margin-top:64px;padding-top:40px}
   .footer-bottom{margin-top:16px;padding-top:14px}
 }
 
+/* Final compact pass for oversized headings and remaining tall content blocks. */
+h1,.page-hero h1{font-size:calc(clamp(32px,2.9vw,35px) * min(var(--font-scale,1),1.06))!important}
+h2{font-size:calc(clamp(24px,2.2vw,27px) * min(var(--font-scale,1),1.06))!important;line-height:1.2}
+.hero h1{font-size:calc(clamp(38px,3.5vw,42px) * min(var(--font-scale,1),1.06))!important}
+.page-hero{padding-block:18px}
+main section{padding-top:39px!important}
+main p{margin-bottom:10px;line-height:1.58}
+.section-head{margin-bottom:13px}
+.novel-book-card{gap:clamp(20px,3vw,34px);margin-top:22px;padding:clamp(18px,2.4vw,28px)}
+.novel-book-info h2{font-size:calc(28px * min(var(--font-scale,1),1.06))!important;line-height:1.2}
+.novel-original-title{margin-bottom:10px}
+.novel-book-info>p:not(.novel-original-title){font-size:calc(15px * min(var(--font-scale,1),1.05));line-height:1.55}
+.novel-metadata{margin:13px 0 15px;column-gap:18px}
+.novel-metadata>div{gap:8px;padding:7px 0}
+.novel-book-actions{gap:8px}
+.novel-book-actions .btn{min-height:38px;padding:7px 12px}
+.novel-page-tools{width:max-content;max-width:100%;flex-wrap:nowrap;gap:7px;margin-top:8px}
+.novel-page-tools .btn{min-height:38px;padding:6px 10px;white-space:nowrap}
+.novel-read-notice{margin:16px 0 30px;padding:14px 16px}
+.novel-chapter-tools{grid-template-columns:minmax(0,1fr) auto auto;gap:10px;margin:12px 0 7px}
+.novel-page-size{display:flex;align-items:center;gap:7px;color:var(--muted);font-size:12px;font-weight:650;white-space:nowrap}
+.novel-page-size select{width:auto;min-width:112px;height:40px;min-height:40px;padding:0 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--text);font:inherit}
+.novel-search input{padding-block:8px}
+.novel-sort{gap:6px}
+.novel-sort-button{min-height:38px;padding:6px 9px;font-size:12px;white-space:nowrap}
+#novel-chapter-count{margin:5px 0 8px}
+.novel-chapter-list{gap:7px}
+.novel-chapter-row{gap:11px;padding:10px 12px;border-radius:9px}
+.novel-chapter-number{flex-basis:40px;width:40px;height:40px;border-radius:8px;font-size:14px}
+.novel-chapter-main strong{font-size:14px;line-height:1.4}
+.novel-pagination{gap:7px;margin-top:15px}
+.novel-reading-guide{gap:18px;margin:32px 0 8px;padding:19px}
+.novel-reading-guide h2{font-size:24px!important}
+.novel-reading-text{margin:25px auto;line-height:1.9}
+.novel-chapter-nav{margin-top:19px;padding-top:14px}
+.episode-search input{min-height:42px;height:42px;padding-block:7px}
+@media(max-width:900px){
+  .novel-chapter-tools{grid-template-columns:minmax(0,1fr) auto;gap:9px}
+  .novel-search{grid-column:1/-1}
+  .novel-sort{justify-content:flex-end}
+}
+@media(max-width:760px){
+  h1,.page-hero h1{font-size:calc(clamp(24px,5.8vw,27px) * min(var(--font-scale,1),1.05))!important}
+  h2{font-size:calc(clamp(19px,4.8vw,21px) * min(var(--font-scale,1),1.05))!important}
+  .hero h1{font-size:calc(clamp(27px,6vw,30px) * min(var(--font-scale,1),1.05))!important}
+  .page-hero{padding-block:13px}
+  main section{padding-top:26px!important}
+  .novel-book-card{gap:13px;padding:14px;margin-top:16px}
+  .novel-book-info h2{font-size:22px!important}
+  .novel-original-title{margin-bottom:8px}
+  .novel-metadata{margin:10px 0 12px}
+  .novel-book-actions .btn,.novel-page-tools .btn{min-height:38px;padding:7px 9px;font-size:12px}
+  .novel-page-tools{width:100%;flex-wrap:wrap}
+  .novel-chapter-tools{grid-template-columns:minmax(0,1fr) auto;gap:8px}
+  .novel-search{grid-column:1/-1;min-height:42px}
+  .novel-page-size{grid-column:1;grid-row:2}
+  .novel-page-size select{min-width:100px;height:38px;min-height:38px}
+  .novel-sort{grid-column:2;grid-row:2;display:flex;flex-wrap:wrap;justify-content:flex-end}
+  .novel-sort-button{min-height:36px;padding:5px 8px;font-size:11px}
+  .novel-chapter-row{padding:9px 10px;gap:9px}
+  .novel-chapter-number{flex-basis:36px;width:36px;height:36px;font-size:13px}
+  .novel-chapter-main strong{font-size:13px}
+  .novel-reading-guide{gap:12px;margin-top:23px;padding:15px}
+  .novel-reading-guide h2{font-size:20px!important}
+  .novel-reading-text{margin:19px auto;line-height:1.85}
+  .episode-search input{min-height:42px;height:42px;padding-block:7px;font-size:14px}
+}
+@media(max-width:420px){
+  h1,.page-hero h1{font-size:calc(clamp(23px,5.8vw,25px) * min(var(--font-scale,1),1.05))!important}
+  h2{font-size:calc(clamp(18px,4.6vw,20px) * min(var(--font-scale,1),1.05))!important}
+  .hero h1{font-size:calc(clamp(26px,6vw,28px) * min(var(--font-scale,1),1.05))!important}
+  .novel-chapter-tools{grid-template-columns:1fr}
+  .novel-search,.novel-page-size,.novel-sort{grid-column:1;grid-row:auto}
+  .novel-sort{justify-content:flex-start}
+  .novel-page-tools{flex-wrap:wrap}
+}
+

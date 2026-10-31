@@ -103,23 +103,23 @@ if($('.article-main')&&'IntersectionObserver' in window){const io=new Intersecti
 if($('#novel-chapter-list')){
   const list=$('#novel-chapter-list'),search=$('#novel-chapter-search'),count=$('#novel-chapter-count'),empty=$('#novel-chapter-empty');
   const pagination=$('#novel-pagination'),pageNumbers=$('#novel-page-numbers'),pageState=$('#novel-page-state'),previous=pagination.querySelector('[data-novel-page-step="prev"]'),next=pagination.querySelector('[data-novel-page-step="next"]');
-  const allRows=Array.from(list.querySelectorAll('.novel-chapter-row')),perPage=100;
+  const pageSizeSelect=$('#novel-page-size'),allRows=Array.from(list.querySelectorAll('.novel-chapter-row')),pageSize=()=>[20,50,100].includes(Number(pageSizeSelect?.value))?Number(pageSizeSelect.value):50;
   let order='desc',page=1;
   const render=()=>{
     const query=normal(search.value.trim()),rows=allRows.filter(row=>!query||normal(`${row.dataset.chapterNumber} ${row.dataset.chapterTitle}`).includes(query));
     rows.sort((a,b)=>order==='asc'?Number(a.dataset.chapterNumber)-Number(b.dataset.chapterNumber):Number(b.dataset.chapterNumber)-Number(a.dataset.chapterNumber));
-    const pages=Math.max(1,Math.ceil(rows.length/perPage));page=Math.min(page,pages);
-    const start=(page-1)*perPage,visible=rows.slice(start,start+perPage);
+    const size=pageSize(),pages=Math.max(1,Math.ceil(rows.length/size));page=Math.min(page,pages);
+    const start=(page-1)*size,visible=rows.slice(start,start+size);
     list.replaceChildren(...visible);empty.hidden=rows.length>0;
-    count.textContent=rows.length?`Hiển thị ${start+1}–${Math.min(start+perPage,rows.length)} trong ${rows.length} chương · Trang ${page}/${pages} (100 chương/trang)`:'0 chương phù hợp';
+    count.textContent=rows.length?`Hiển thị ${start+1}–${Math.min(start+size,rows.length)} trong ${rows.length} chương · Trang ${page}/${pages} (${size} chương/trang)`:'0 chương phù hợp';
     pagination.hidden=pages<=1;pageState.textContent=`Trang ${page}/${pages}`;previous.disabled=page<=1;next.disabled=page>=pages;
     pageNumbers.replaceChildren(...Array.from({length:pages},(_,index)=>{const number=index+1,button=document.createElement('button');button.type='button';button.className='novel-page-button';button.dataset.novelPage=String(number);button.textContent=String(number);button.setAttribute('aria-label',`Trang ${number}`);if(number===page){button.classList.add('is-current');button.setAttribute('aria-current','page')}return button}));
   };
-  const changePage=number=>{const pages=Math.max(1,Math.ceil(allRows.filter(row=>{const query=normal(search.value.trim());return !query||normal(`${row.dataset.chapterNumber} ${row.dataset.chapterTitle}`).includes(query)}).length/perPage));page=Math.max(1,Math.min(pages,number));render();$('#danh-sach-chuong')?.scrollIntoView({behavior:'smooth',block:'start'})};
+  const changePage=number=>{const pages=Math.max(1,Math.ceil(allRows.filter(row=>{const query=normal(search.value.trim());return !query||normal(`${row.dataset.chapterNumber} ${row.dataset.chapterTitle}`).includes(query)}).length/pageSize()));page=Math.max(1,Math.min(pages,number));render();$('#danh-sach-chuong')?.scrollIntoView({behavior:'smooth',block:'start'})};
   previous.addEventListener('click',()=>changePage(page-1));next.addEventListener('click',()=>changePage(page+1));
   pageNumbers.addEventListener('click',event=>{const button=event.target.closest('[data-novel-page]');if(button)changePage(Number(button.dataset.novelPage))});
   document.querySelectorAll('[data-novel-sort]').forEach(button=>button.addEventListener('click',()=>{order=button.dataset.novelSort;page=1;document.querySelectorAll('[data-novel-sort]').forEach(item=>{const active=item===button;item.classList.toggle('is-active',active);item.setAttribute('aria-pressed',String(active))});render()}));
-  search.addEventListener('input',()=>{page=1;render()});render();
+  search.addEventListener('input',()=>{page=1;render()});pageSizeSelect?.addEventListener('change',()=>{page=1;render()});render();
 }
 
 (()=>{
