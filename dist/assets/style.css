@@ -1684,3 +1684,48 @@ html[data-theme=dark] .novel-chapter-row.is-current .novel-chapter-number{
   color:#fff;
   box-shadow:0 2px 10px #0004;
 }
+
+/* Episode cards match novel chapter cards in their resting state as well. */
+.schedule-item{
+  gap:11px;
+  min-height:62px;
+  padding:10px 12px;
+  border-radius:9px;
+  background:var(--panel);
+  color:var(--text);
+}
+.schedule-item b{
+  flex:0 0 40px;
+  width:40px;
+  height:40px;
+  min-width:40px;
+  border-radius:8px;
+  background:var(--soft,#edf1eb);
+  color:var(--gold);
+  font-size:14px;
+}
+.schedule-item strong{font-size:14px;line-height:1.4}
+.schedule-item[data-upcoming=true]{background:var(--panel);border-color:var(--line)}
+html[data-theme=dark] .schedule-item[data-upcoming=true]{background:var(--panel);border-color:var(--line)}
+html:not([data-theme=dark]) .schedule-item[data-upcoming=true]{background:var(--panel);border-color:var(--line)}
+.schedule-item>svg{width:18px;height:18px;flex:0 0 18px;fill:none;stroke:var(--gold);stroke-width:1.8}
+html[data-theme=dark] .schedule-item:hover,
+html[data-theme=dark] .schedule-item:focus-visible,
+html[data-theme=dark] .schedule-item.is-current,
+html[data-theme=dark] .novel-chapter-row:hover,
+html[data-theme=dark] .novel-chapter-row:focus-visible,
+html[data-theme=dark] .novel-chapter-row.is-current,
+html:not([data-theme=dark]) .schedule-item[data-upcoming=true]:hover,
+html:not([data-theme=dark]) .schedule-item[data-upcoming=true]:focus-visible,
+html:not([data-theme=dark]) .schedule-item[data-upcoming=true].is-current{
+  transform:none;
+  border-color:var(--green);
+  background:var(--soft,#edf1eb);
+  box-shadow:0 6px 18px #091b1a14;
+  color:var(--text);
+}
+@media(max-width:760px){
+  .schedule-item{min-height:58px;padding:9px 10px;gap:9px}
+  .schedule-item b{flex-basis:36px;width:36px;height:36px;min-width:36px;font-size:13px}
+  .schedule-item strong{font-size:13px}
+}
