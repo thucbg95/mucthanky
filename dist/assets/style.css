@@ -1407,3 +1407,56 @@ html[data-theme=dark] .schedule-page-button.is-current{border-color:#729f92;back
   .schedule-page-numbers,.novel-page-numbers{gap:3px}
 }
 
+
+/* Compact support page spacing, with clearer impact cards. */
+.support-page{padding-bottom:30px}
+.support-page>section{padding-block:22px!important}
+.support-intro{margin:8px 0 10px;padding:clamp(18px,2.5vw,30px)}
+.support-intro-copy p{line-height:1.6}
+.support-card{margin-top:18px;padding:clamp(18px,2.5vw,30px)}
+.support-impact{padding-top:12px!important}
+.support-impact .section-head{margin-bottom:12px}
+.support-impact-card{min-height:158px;padding:19px 20px;border-color:color-mix(in srgb,var(--gold) 28%,var(--line));background:linear-gradient(145deg,var(--panel),color-mix(in srgb,var(--green) 9%,var(--panel)));box-shadow:0 8px 24px rgba(8,20,22,.12);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.support-impact-card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 13px 30px rgba(8,20,22,.2)}
+.support-impact-card>span{width:40px;height:40px;font-size:15px;box-shadow:0 0 0 5px color-mix(in srgb,var(--gold) 10%,transparent)}
+.support-impact-card h3{margin:11px 0 5px;font-size:calc(20px * var(--font-scale,1))}
+.support-impact-card p{font-size:calc(15px * var(--font-scale,1));line-height:1.55}
+.supporter-registry{margin-top:18px}
+.support-thanks{margin-top:20px}
+
+/* Episode list: slightly larger desktop text and a consistent, clear hover state. */
+@media(min-width:761px){
+  .schedule-item strong{font-size:calc(16px * var(--font-scale,1))}
+  .schedule-item span{font-size:calc(14px * var(--font-scale,1))}
+}
+.schedule-item{transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease,box-shadow .18s ease}
+.schedule-item:hover{background:var(--soft);border-color:var(--gold);transform:translateY(-2px);box-shadow:0 7px 18px rgba(8,20,22,.14)}
+.schedule-item:hover b{color:var(--gold)}
+@media(max-width:760px){
+  .schedule-list{grid-template-columns:minmax(0,1fr)!important}
+  .schedule-item{min-height:58px;padding:10px 12px}
+  .schedule-item strong{font-size:13px}
+  .schedule-item span{font-size:11px}
+}
+
+/* Center episode navigation and separate it from the player frame. */
+.episode-page-nav{justify-content:center;gap:14px;margin:16px auto 20px;padding:0 10px}
+.episode-page-nav .btn{flex:0 1 230px;min-width:150px}
+.episode-inline-schedule{scroll-margin-top:110px}
+@media(max-width:600px){
+  .episode-page-nav{justify-content:center;gap:10px;margin:14px auto 18px;padding:0 8px}
+  .episode-page-nav .btn{flex:1 1 0;min-width:0}
+}
+
+/* Keep novel page controls grouped around the centered page-number strip. */
+.novel-pagination{display:flex;justify-content:center;align-items:center;gap:7px;flex-wrap:nowrap;margin-top:14px}
+.novel-pagination>[data-novel-page-step="prev"]{order:1}
+.novel-page-numbers{order:2;justify-content:center;overflow:visible}
+.novel-pagination>[data-novel-page-step="next"]{order:3}
+.novel-page-state{order:4;margin-left:3px;white-space:nowrap;font-size:11px}
+@media(max-width:760px){
+  .novel-pagination{gap:4px;overflow-x:auto;justify-content:flex-start;scrollbar-width:none}
+  .novel-pagination::-webkit-scrollbar{display:none}
+  .novel-page-numbers{justify-content:center;gap:3px;overflow:visible}
+  .novel-pagination .btn{flex:none;padding:5px 7px}
+}
