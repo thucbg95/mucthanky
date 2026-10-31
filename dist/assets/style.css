@@ -1792,3 +1792,28 @@ html:not([data-theme=dark]) .schedule-item[data-upcoming=true].is-current{
 .directory-toolbar .directory-page-size{height:40px;align-self:center;line-height:1}
 .directory-toolbar .directory-page-size select{height:40px;min-height:40px}
 @media(max-width:760px){.directory-toolbar .directory-search-field{height:40px;min-height:40px}.directory-toolbar .directory-sort-controls{height:40px}.directory-toolbar .directory-page-size{height:38px}.directory-toolbar .directory-page-size select{height:38px;min-height:38px}}
+
+/* Match directory controls to the shared novel and film toolbar states. */
+.directory-toolbar .directory-search-field{width:100%;max-width:none;min-width:0;margin:0}
+.directory-toolbar .directory-search-field input{font-size:calc(14px * var(--font-scale,1));font-family:inherit;font-weight:400;line-height:normal}
+.directory-toolbar .directory-page-size select{min-width:112px;padding:0 32px 0 10px;background-image:none!important;transition:border-color .18s ease,background-color .18s ease,color .18s ease}
+.directory-toolbar .directory-page-size select:hover{border-color:var(--green);background-color:var(--soft);color:var(--text)}
+.directory-toolbar .directory-page-size select:focus-visible{border-color:var(--green);outline:2px solid color-mix(in srgb,var(--green) 34%,transparent);outline-offset:1px}
+html[data-theme=dark] .directory-toolbar .directory-page-size select{background-color:var(--panel);color:var(--text)}
+@media(max-width:760px){.directory-toolbar .directory-page-size select{min-width:94px;padding-inline:8px 30px}}
+
+/* Keep the account page footer at the viewport bottom when its content is short. */
+body:has(.account-page){min-height:100vh;min-height:100svh;display:flex;flex-direction:column}
+body:has(.account-page) #main{flex:1 0 auto}
+
+/* Comment filters follow the same select control states as the novel toolbar. */
+.comment-view-controls{flex-wrap:nowrap;align-items:end}
+.comment-view-controls label{position:relative;flex:1 1 0;min-width:0;font-size:calc(12px * var(--font-scale,1))}
+.comment-view-controls select{width:100%;height:40px;min-height:40px;padding:0 36px 0 12px;appearance:none;-webkit-appearance:none;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--text);font-family:inherit;font-size:calc(13px * var(--font-scale,1));font-weight:600;transition:border-color .18s ease,background-color .18s ease,color .18s ease,box-shadow .18s ease}
+.comment-view-controls label::after{content:"";position:absolute;right:14px;bottom:15px;width:7px;height:7px;border-right:1.7px solid var(--muted);border-bottom:1.7px solid var(--muted);transform:rotate(45deg);pointer-events:none;transition:border-color .18s ease}
+.comment-view-controls select:hover{border-color:var(--green);background-color:var(--soft);color:var(--text)}
+.comment-view-controls label:hover::after,.comment-view-controls label:focus-within::after{border-color:var(--green)}
+.comment-view-controls select:focus-visible{border-color:var(--green);outline:2px solid color-mix(in srgb,var(--green) 34%,transparent);outline-offset:1px}
+.comment-view-controls label.selection-complete::after,.comment-view-controls label.selection-complete:hover::after,.comment-view-controls label.selection-complete:focus-within::after{border-color:var(--muted)}
+.comment-view-controls label.selection-complete select:hover{border-color:var(--line);background-color:var(--panel);color:var(--text)}
+@media(max-width:620px){.comment-view-controls{display:grid;grid-template-columns:1fr 1fr;flex-wrap:wrap}.comment-view-controls label{min-width:0}.comment-view-controls label:first-child{grid-column:1/-1}}
