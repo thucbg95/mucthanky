@@ -1777,3 +1777,18 @@ html:not([data-theme=dark]) .schedule-item[data-upcoming=true].is-current{
 .directory-toolbar{grid-template-columns:minmax(0,1fr) auto auto!important;align-items:end}
 .directory-toolbar .directory-sort-controls{display:flex;align-items:center;gap:6px;white-space:nowrap}
 @media(max-width:760px){.directory-toolbar,.directory-toolbar.directory-toolbar-characters{grid-template-columns:auto minmax(0,1fr)!important;gap:8px}.directory-toolbar .directory-search-field{grid-column:1/-1!important;grid-row:1}.directory-toolbar .directory-sort-controls{grid-column:1;grid-row:2}.directory-toolbar .directory-page-size{grid-column:2;grid-row:2;justify-self:end}.directory-toolbar .directory-page-size select{min-width:94px}}
+
+/* Align directory search, sort arrows, and page-size controls on one axis. */
+.directory-toolbar{align-items:center!important}
+.directory-toolbar>label{margin:0!important}
+.directory-toolbar .directory-search-field{display:flex;align-items:center;gap:10px;height:40px;min-height:40px;padding:0 14px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--muted)}
+.directory-toolbar .directory-search-field:focus-within{border-color:var(--green);box-shadow:0 0 0 2px color-mix(in srgb,var(--green) 20%,transparent)}
+.directory-toolbar .directory-search-field>svg{display:block;width:19px;height:19px;flex:0 0 auto;fill:none;stroke:currentColor;stroke-width:1.8}
+.directory-toolbar .directory-search-field input{width:100%;height:auto;min-height:0;padding:0;border:0;outline:0!important;box-shadow:none!important;background:transparent;color:var(--text);font:inherit}
+.directory-toolbar .directory-search-field input:focus{border:0;box-shadow:none!important}
+.directory-toolbar .directory-search-field input::placeholder{color:var(--muted);opacity:.92}
+.directory-toolbar .directory-sort-controls{height:40px;align-items:center;align-self:center}
+.directory-toolbar .sort-control-button{flex:0 0 40px}
+.directory-toolbar .directory-page-size{height:40px;align-self:center;line-height:1}
+.directory-toolbar .directory-page-size select{height:40px;min-height:40px}
+@media(max-width:760px){.directory-toolbar .directory-search-field{height:40px;min-height:40px}.directory-toolbar .directory-sort-controls{height:40px}.directory-toolbar .directory-page-size{height:38px}.directory-toolbar .directory-page-size select{height:38px;min-height:38px}}
