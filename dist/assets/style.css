@@ -1823,3 +1823,10 @@ body:has(.account-page) #main{flex:1 0 auto}
 .directory-toolbar .directory-search-field>svg{width:20px;height:20px}
 .directory-toolbar .directory-search-field input{height:auto;min-height:0;padding:8px 0;font-size:calc(14px * var(--font-scale,1));line-height:1.8}
 @media(max-width:760px){.directory-toolbar .directory-search-field{height:auto;min-height:48px}.directory-toolbar .directory-search-field input{height:auto;min-height:0;padding:8px 0}}
+
+/* Episode watch layout: give the player breathing room and keep floating controls clear on phones. */
+@media(min-width:761px){
+  .episode-watch-page{padding-top:28px}
+  .episode-video-frame{width:min(100%,1120px);margin-inline:auto}
+  .episode-page-nav{width:min(100%,1120px)}
+}
