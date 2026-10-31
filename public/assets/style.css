@@ -1342,3 +1342,68 @@ main section{padding-top:30px!important}
   .support-cta h2{font-size:20px}
 }
 
+/* Shared search/filter/pagination layout and compact list navigation. */
+.schedule-controls-row{grid-template-columns:minmax(0,1fr) auto auto;gap:10px;margin:10px 0}
+.schedule-controls-row .episode-search{grid-column:1;grid-row:1}
+.schedule-controls-row .episode-sort-controls{grid-column:2;grid-row:1;gap:6px}
+.schedule-page-size{display:flex;align-items:center;gap:8px;white-space:nowrap;color:var(--muted);font-size:12px;font-weight:650}
+.schedule-page-size select{width:auto;min-width:105px;height:40px;min-height:40px;padding:0 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--text);font:inherit}
+.schedule-more{max-height:none;overflow:visible;padding:0;border-radius:12px;scrollbar-width:auto;overscroll-behavior:auto}
+.schedule-summary{position:static}
+.schedule-list{padding:10px;gap:8px}
+.schedule-pagination{display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;align-items:center;gap:8px;margin:10px 10px 12px}
+.schedule-pagination[hidden]{display:none}
+.schedule-page-numbers{display:flex;align-items:center;justify-content:center;gap:5px;min-width:0}
+.schedule-page-button{display:inline-grid;place-items:center;flex:none;min-width:32px;height:32px;padding:0 7px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--text);font-size:12px;font-weight:700;transition:background .18s,border-color .18s,color .18s,transform .18s}
+.schedule-page-button:hover{transform:translateY(-1px);border-color:var(--green);color:var(--green)}
+.schedule-page-button.is-current{border-color:var(--green);background:var(--green);color:#fff}
+html[data-theme=dark] .schedule-page-button.is-current{border-color:#729f92;background:#3b6d63;color:#fff}
+.schedule-page-ellipsis,.schedule-page-state{color:var(--muted);font-size:12px;white-space:nowrap}
+.novel-chapter-tools{grid-template-columns:minmax(0,1fr) auto auto}
+.novel-search{grid-column:1;grid-row:1}
+.novel-sort{grid-column:2;grid-row:1;justify-content:flex-start}
+.novel-page-size{grid-column:3;grid-row:1}
+.novel-pagination{display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;align-items:center;gap:8px;margin-top:12px;flex-wrap:nowrap}
+.novel-page-numbers{min-width:0;flex-wrap:nowrap;gap:5px}
+.novel-page-ellipsis{padding-inline:2px;color:var(--muted);font-size:13px}
+.novel-pagination .btn{min-height:34px;padding:5px 10px}
+.novel-page-state{font-size:11px}
+.novel-reading-guide{margin-top:10px;padding:13px;padding-top:13px!important}
+.novel-reading-guide h2{margin-top:0}
+#account-profile-panel .account-identity{margin-top:0;padding-top:13px!important;padding-bottom:13px}
+@media(max-width:900px){
+  .schedule-controls-row{grid-template-columns:minmax(0,1fr) auto;gap:8px}
+  .schedule-controls-row .episode-search{grid-column:1/-1;grid-row:1}
+  .schedule-controls-row .episode-sort-controls{grid-column:1;grid-row:2;justify-content:flex-start;flex-wrap:wrap}
+  .schedule-page-size{grid-column:2;grid-row:2;justify-self:end}
+  .novel-chapter-tools{grid-template-columns:minmax(0,1fr) auto auto}
+  .novel-search{grid-column:1/-1;grid-row:1}
+  .novel-sort{grid-column:1;grid-row:2;justify-content:flex-start}
+  .novel-page-size{grid-column:2;grid-row:2}
+}
+@media(max-width:760px){
+  .schedule-controls-row{grid-template-columns:minmax(0,1fr) auto;gap:7px}
+  .schedule-controls-row .episode-sort-controls{grid-column:1/-1;grid-row:2}
+  .schedule-page-size{grid-column:1/-1;grid-row:3;justify-self:start}
+  .schedule-page-size select{height:36px;min-height:36px}
+  .schedule-pagination{grid-template-columns:auto minmax(0,1fr) auto;gap:5px;margin:8px 7px 10px}
+  .schedule-page-numbers{justify-content:flex-start;overflow-x:auto;scrollbar-width:none}
+  .schedule-page-numbers::-webkit-scrollbar{display:none}
+  .schedule-page-state{display:none}
+  .schedule-page-button{min-width:29px;height:30px;padding:0 5px;font-size:11px}
+  .novel-chapter-tools{grid-template-columns:minmax(0,1fr) auto}
+  .novel-search{grid-column:1/-1;grid-row:1}
+  .novel-sort{grid-column:1/-1;grid-row:2;display:flex;justify-content:flex-start}
+  .novel-page-size{grid-column:1/-1;grid-row:3}
+  .novel-pagination{grid-template-columns:auto minmax(0,1fr) auto;gap:5px}
+  .novel-page-numbers{justify-content:flex-start;overflow-x:auto;scrollbar-width:none}
+  .novel-page-numbers::-webkit-scrollbar{display:none}
+  .novel-page-state{display:none}
+  .novel-page-button{min-width:29px;height:30px;padding:0 5px;font-size:11px}
+  .novel-reading-guide{margin-top:8px;padding:12px}
+}
+@media(max-width:420px){
+  .schedule-pagination .btn,.novel-pagination .btn{padding:5px 7px;font-size:11px}
+  .schedule-page-numbers,.novel-page-numbers{gap:3px}
+}
+
