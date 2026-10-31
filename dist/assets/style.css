@@ -2168,3 +2168,11 @@ body:has(.account-page) #main{flex:1 0 auto}
   .novel-chapter-row { padding-block: 6px; }
   .community-links a { padding-block: 12px; }
 }
+
+/* Chapter navigation uses the same horizontal direction cues as the film reader. */
+.novel-chapter-navigation{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px;margin:24px 0 4px;padding-top:18px;border-top:1px solid var(--line)}
+.novel-chapter-direction{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:40px;padding:8px 13px;white-space:nowrap}
+.novel-chapter-direction svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.novel-chapter-previous{justify-self:start}.novel-chapter-next{justify-self:end}.novel-chapter-current{color:var(--muted);font-size:calc(13px * var(--font-scale,1));text-align:center;white-space:nowrap}.novel-chapter-direction.is-disabled{opacity:.45;cursor:not-allowed;pointer-events:none}
+.trailer-watch-page{padding-top:28px}.trailer-watch-page .latest-review-frame{width:min(100%,1120px);margin:0 auto}.trailer-watch-page .episode-player-status{width:min(100%,1120px);margin:10px auto 18px;color:var(--muted)}.trailer-watch-page .episode-player-status:empty{display:none}
+@media(max-width:760px){.novel-chapter-navigation{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:9px;margin-top:18px;padding-top:14px}.novel-chapter-current{grid-column:1/-1;grid-row:1}.novel-chapter-previous{grid-column:1;grid-row:2}.novel-chapter-next{grid-column:2;grid-row:2}.novel-chapter-direction{min-width:0;padding:8px 9px;font-size:calc(13px * var(--font-scale,1))}.trailer-watch-page{padding-top:10px}}
