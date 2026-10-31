@@ -1488,3 +1488,63 @@ html[data-theme=dark] .schedule-page-button.is-current{border-color:#729f92;back
 .episode-nav-arrow{width:17px;height:17px;flex:0 0 17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;transition:transform .18s ease}
 .episode-page-nav [data-episode-prev]:hover .episode-nav-arrow{transform:translateX(-2px)}
 .episode-page-nav [data-episode-next]:hover .episode-nav-arrow{transform:translateX(2px)}
+
+/* Pagination controls share one centered layout and responsive labels site-wide. */
+.page-label-narrow{display:none}
+.comment-pagination,.directory-pagination,.schedule-pagination,.supporter-pagination,.admin-list-pagination,.novel-pagination{display:flex;justify-content:center;align-items:center;flex-wrap:nowrap;gap:7px;scroll-margin-top:110px}
+.comment-pagination .page-label-wide,.directory-pagination .page-label-wide,.schedule-pagination .page-label-wide,.supporter-pagination .page-label-wide,.admin-list-pagination .page-label-wide{display:inline}
+.directory-pagination>#entry-prev,.schedule-pagination>#schedule-prev,.novel-pagination>[data-novel-page-step="prev"]{order:1}
+.directory-pagination>.directory-page-numbers,.schedule-pagination>.schedule-page-numbers,.novel-pagination>.novel-page-numbers{order:2;justify-content:center;overflow:visible}
+.directory-pagination>#entry-next,.schedule-pagination>#schedule-next,.novel-pagination>[data-novel-page-step="next"]{order:3}
+.directory-pagination>.directory-page-state,.schedule-pagination>.schedule-page-state,.novel-pagination>.novel-page-state{order:4;margin-left:3px;white-space:nowrap;font-size:11px}
+.comment-pagination,.supporter-pagination,.admin-list-pagination{gap:7px}
+@media(max-width:760px){
+  .page-label-wide{display:none!important}
+  .page-label-narrow{display:inline}
+  .comment-pagination,.directory-pagination,.schedule-pagination,.supporter-pagination,.admin-list-pagination,.novel-pagination{gap:5px;overflow-x:auto;justify-content:flex-start;scrollbar-width:none}
+  .comment-pagination::-webkit-scrollbar,.directory-pagination::-webkit-scrollbar,.schedule-pagination::-webkit-scrollbar,.supporter-pagination::-webkit-scrollbar,.admin-list-pagination::-webkit-scrollbar,.novel-pagination::-webkit-scrollbar{display:none}
+  .directory-pagination .directory-page-numbers,.schedule-pagination .schedule-page-numbers,.novel-pagination .novel-page-numbers{flex:0 0 auto;justify-content:center;gap:4px}
+}
+
+/* Novel reader navigation stays on one row at every viewport width. */
+.novel-chapter-nav{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:10px}
+.novel-chapter-nav>.btn{min-width:0;white-space:nowrap}
+.novel-chapter-nav>.btn:first-child{justify-self:start}
+.novel-chapter-nav>.btn:nth-child(2){justify-self:center}
+.novel-chapter-nav>.btn:last-child{justify-self:end}
+@media(max-width:760px){
+  .novel-chapter-nav{grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:6px}
+  .novel-chapter-nav>.btn{padding:8px 8px;font-size:12px}
+  .novel-chapter-nav .page-label-wide{display:none!important}
+  .novel-chapter-nav .page-label-narrow{display:inline}
+  .novel-chapter-nav>.btn:nth-child(2).novel-chapter-index{grid-column:auto;grid-row:auto;width:auto;max-width:none}
+}
+@media(max-width:380px){.novel-chapter-nav{gap:4px}.novel-chapter-nav>.btn{padding:7px 5px;font-size:11px}.novel-chapter-nav .novel-nav-icon{flex-basis:15px;width:15px;height:15px}}
+
+/* Episode cards use the same compact surface and hover treatment as chapter links. */
+.schedule-more,.schedule-list,.episode-inline-schedule{overflow-anchor:none}
+.schedule-item{display:flex;align-items:center;gap:9px;min-height:58px;padding:9px 10px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--text);transition:transform .18s ease,border-color .18s ease,background .18s ease,box-shadow .18s ease}
+.schedule-item b{display:grid;place-items:center;flex:0 0 42px;width:42px;height:42px;min-width:42px;border-radius:10px;background:var(--soft,#edf1eb);color:var(--gold);font-size:14px;font-weight:750;font-variant-numeric:tabular-nums}
+.schedule-item:hover{transform:translateY(-1px);border-color:var(--green);background:var(--soft,#edf1eb);box-shadow:0 8px 22px #091b1a14;color:var(--text)}
+.schedule-item:hover b{background:var(--panel);color:var(--gold)}
+@media(max-width:760px){.schedule-item{min-height:54px;padding:8px 10px}.schedule-item b{flex-basis:36px;width:36px;height:36px;min-width:36px;font-size:13px}}
+
+/* All paginated lists use the same clickable page-number strip. */
+.comment-page-numbers,.supporter-page-numbers{display:flex;align-items:center;justify-content:center;gap:5px;order:2}
+.comment-pagination>#comment-prev,.supporter-pagination>#supporter-prev{order:1}
+.comment-pagination>#comment-next,.supporter-pagination>#supporter-next{order:3}
+.comment-pagination>#comment-page-state,.supporter-pagination>#supporter-page-state,.directory-pagination>.directory-page-state,.schedule-pagination>.schedule-page-state,.novel-pagination>.novel-page-state,.admin-list-pagination>[id$="-page-state"]{display:none}
+.pagination-number{min-width:34px;height:36px;padding:6px 9px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--text);font-size:12px;font-weight:700;transition:background .18s,border-color .18s,color .18s,transform .18s}
+.pagination-number:hover{transform:translateY(-1px);border-color:var(--gold);color:var(--gold)}
+.pagination-number[aria-current="page"]{border-color:var(--green);background:var(--green);color:#fff}
+.page-number-ellipsis{padding:0 2px;color:var(--muted)}
+.admin-list-pagination .admin-pagination-pages{order:2!important;flex:0 0 auto!important}
+.admin-list-pagination>button[id$="-prev"]{order:1}
+.admin-list-pagination>button[id$="-next"]{order:3}
+@media(max-width:760px){.comment-page-numbers,.supporter-page-numbers{gap:3px;flex:0 0 auto}.pagination-number{min-width:30px;height:32px;padding:5px 7px;font-size:11px}}
+
+/* Mobile content had two horizontal gutters: the responsive .wrap width and
+   legacy inner padding. Keep one consistent, compact gutter across all pages. */
+@media(max-width:760px){
+  .wrap{width:calc(100% - clamp(28px,8vw,40px));padding-inline:0!important}
+}
