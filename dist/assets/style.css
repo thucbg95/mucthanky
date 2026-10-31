@@ -1337,6 +1337,9 @@ main section{padding-top:30px!important}
   .support-cta h2{font-size:20px}
 }
 
+/* Align plain section headings with section-head headings below page heroes. */
+main section > h2:first-child{margin-top:6px}
+
 /* Shared search/filter/pagination layout and compact list navigation. */
 .schedule-controls-row{grid-template-columns:minmax(0,1fr) auto auto;gap:10px;margin:10px 0}
 .schedule-controls-row .episode-search{grid-column:1;grid-row:1}
