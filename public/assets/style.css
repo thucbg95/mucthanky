@@ -2026,3 +2026,42 @@ body:has(.account-page) #main{flex:1 0 auto}
   #comment-view-controls .comment-page-size-field select{width:104px;min-width:104px}
   #comment-view-controls .comment-sort-buttons .sort-control-button{width:32px;height:36px;min-width:32px;min-height:36px}
 }
+
+/* Prevent the comment filters from creating a wider-than-viewport page on phones. */
+@media(max-width:760px){
+  #thao-luan,
+  #comment-view-controls.comment-view-controls{
+    box-sizing:border-box;
+    width:100%;
+    max-width:100%;
+    min-width:0;
+  }
+  #comment-view-controls.comment-view-controls{
+    grid-template-columns:minmax(0,72px) minmax(0,1fr)!important;
+    overflow-x:clip!important;
+  }
+  #comment-view-controls .comment-filter-field,
+  #comment-view-controls .comment-sort-field,
+  #comment-view-controls .comment-page-size-field{
+    box-sizing:border-box;
+    min-width:0!important;
+    max-width:100%;
+  }
+  #comment-view-controls .comment-sort-field{width:max-content;max-width:100%}
+  #comment-view-controls .comment-page-size-field{
+    display:flex!important;
+    justify-self:stretch!important;
+    gap:5px;
+    white-space:nowrap;
+  }
+  #comment-view-controls .comment-page-size-field select{
+    box-sizing:border-box;
+    flex:1 1 84px;
+    width:auto!important;
+    min-width:0!important;
+    max-width:112px;
+  }
+}
+@media(max-width:380px){
+  #comment-view-controls .comment-page-size-field select{flex-basis:76px;max-width:100px}
+}
