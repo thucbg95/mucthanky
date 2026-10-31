@@ -37,10 +37,10 @@ async function handle(context){const {request,env}=context;const url=new URL(req
    const episodes=source.filter(e=>e.section_type===0&&/^\d+$/.test(String(e.title))&&Number(e.pub_time)>0&&/^https:\/\/www\.bilibili\.com\/bangumi\/play\/ep\d+/.test(e.link||e.share_url||''))
     .map(e=>({number:Number(e.title),title:String(e.long_title||''),date:new Date(Number(e.pub_time)*1000+8*60*60*1000).toISOString().slice(0,10),url:e.link||e.share_url,status:Number(e.pub_time)<=now?'released':'scheduled',updated_at:new Date().toISOString()}));
    if(!episodes.length)throw new Error('No official episodes found');
-   const response=json({episodes,source:'Bilibili chính thức',syncedAt:new Date().toISOString()},200,{'Cache-Control':'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400'});
+   const response=json({episodes,source:'Lịch phát chính thức',syncedAt:new Date().toISOString()},200,{'Cache-Control':'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400'});
    if(cache)context.waitUntil(cache.put(cacheKey,response.clone()));
    return response;
-  }catch(error){if(cached)return cached;console.error('Schedule sync unavailable',error?.name);if(env.DB){const rows=await env.DB.prepare('SELECT number,title,date,url,status,updated_at FROM episode_schedule ORDER BY number DESC').all();if(rows.results?.length)return json({episodes:rows.results,source:'Bilibili · bản đồng bộ dự phòng',syncedAt:rows.results[0]?.updated_at||null})}return json({error:'Lịch chính thức tạm thời chưa tải được.'},503)}
+  }catch(error){if(cached)return cached;console.error('Schedule sync unavailable',error?.name);if(env.DB){const rows=await env.DB.prepare('SELECT number,title,date,url,status,updated_at FROM episode_schedule ORDER BY number DESC').all();if(rows.results?.length)return json({episodes:rows.results,source:'Bản đồng bộ dự phòng',syncedAt:rows.results[0]?.updated_at||null})}return json({error:'Lịch chính thức tạm thời chưa tải được.'},503)}
  }
   if(request.method==='GET'&&route==='youtube-playlist'){
    const cache=globalThis.caches?.default,cacheKey=new Request(new URL('/api/youtube-playlist',url.origin)),cached=cache?await cache.match(cacheKey):null;
@@ -52,6 +52,17 @@ async function handle(context){const {request,env}=context;const url=new URL(req
     const response=json({count,automatic:true,playlistId:'PLLHHjiXKHAhY',updatedAt:new Date().toISOString()},200,{'Cache-Control':'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400'});if(cache)context.waitUntil(cache.put(cacheKey,response.clone()));return response;
    }catch(error){if(cached)return cached;console.error('YouTube playlist sync unavailable',error?.name);return json({count:99,automatic:false,playlistId:'PLLHHjiXKHAhY',updatedAt:null},200,{'Cache-Control':'public, max-age=0, s-maxage=300'})}
   }
+ if(request.method==='GET'&&route==='youtube-review'){
+  const playlistId='PLEuW4HT3Byok',cache=globalThis.caches?.default,cacheKey=new Request(new URL('/api/youtube-review',url.origin)),cached=cache?await cache.match(cacheKey):null;
+  if(!env.YOUTUBE_API_KEY)return json({videoId:null,automatic:false,playlistId},200,{'Cache-Control':'public, max-age=0, s-maxage=300'});
+  try{
+   let pageToken='',items=[],pages=0;
+   do{const endpoint=new URL('https://www.googleapis.com/youtube/v3/playlistItems');endpoint.search=new URLSearchParams({part:'snippet,contentDetails',playlistId,maxResults:'50',key:env.YOUTUBE_API_KEY,...(pageToken?{pageToken}:{})});const upstream=await fetch(endpoint,{headers:{Accept:'application/json'},cf:{cacheTtl:1800,cacheTtlByStatus:{'200-299':1800,'400-599':0}}});if(!upstream.ok)throw new Error('YouTube review playlist request failed');const data=await upstream.json();items.push(...(data.items||[]));pageToken=data.nextPageToken||'';pages++}while(pageToken&&pages<5);
+   const latest=items.filter(item=>/^[A-Za-z0-9_-]{11}$/.test(item.snippet?.resourceId?.videoId||'')&&!/^private video|deleted video$/i.test(item.snippet?.title||'')).sort((a,b)=>Date.parse(b.snippet?.publishedAt||'')-Date.parse(a.snippet?.publishedAt||''))[0];
+   if(!latest)return json({videoId:null,automatic:true,playlistId},200,{'Cache-Control':'public, max-age=0, s-maxage=900'});
+   const video={videoId:latest.snippet.resourceId.videoId,title:String(latest.snippet.title||'Review tập mới nhất').slice(0,180),publishedAt:latest.snippet.publishedAt||null,thumbnail:latest.snippet.thumbnails?.high?.url||latest.snippet.thumbnails?.medium?.url||null};const response=json({...video,automatic:true,playlistId,updatedAt:new Date().toISOString()},200,{'Cache-Control':'public, max-age=0, s-maxage=1800, stale-while-revalidate=3600'});if(cache)context.waitUntil(cache.put(cacheKey,response.clone()));return response;
+  }catch(error){if(cached)return cached;console.error('YouTube review playlist sync unavailable',error?.name);return json({videoId:null,automatic:false,playlistId},503,{'Cache-Control':'public, max-age=0, s-maxage=300'})}
+ }
  if(!env.DB)return json({error:'Cộng đồng chưa được cấu hình.'},503);
   if(request.method==='GET'&&route==='admin/owner-session')return json({authenticated:await ownerSession(request,env)});
   if(request.method==='GET'&&route==='auth/me'){const user=await currentUser(env,request);return json({authenticated:Boolean(user),user:user?{id:user.id,name:user.name,email:user.email,role:user.role||'member',chatLocked:Boolean(user.chat_locked),commentCount:Number(user.comment_count)||0}:null})}
