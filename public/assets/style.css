@@ -1859,3 +1859,22 @@ body:has(.account-page) #main{flex:1 0 auto}
 @media(max-width:620px){.comment-view-controls{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:7px;padding:8px}.comment-view-controls .comment-filter-field,.comment-view-controls .comment-page-size-field,.comment-view-controls .comment-sort-field{min-width:0;font-size:11px}.comment-view-controls .comment-filter-field select,.comment-view-controls .comment-page-size-field select{height:38px;min-height:38px;padding-left:8px;padding-right:26px;font-size:11px}.comment-view-controls .comment-filter-field::after,.comment-view-controls .comment-page-size-field::after{right:10px;bottom:14px}.comment-sort-buttons{gap:4px}.comment-sort-buttons .sort-control-button{width:36px;height:38px;min-width:36px;min-height:38px;border-radius:8px}.comment-sort-buttons .sort-direction-icon{width:17px;height:17px}}
 
 @media(max-width:620px){.comment-view-controls .comment-filter-field,.comment-view-controls .comment-page-size-field{grid-column:auto}.comment-view-controls .comment-filter-field select,.comment-view-controls .comment-page-size-field select{font-size:10.5px}}
+
+/* Keep directory controls in the shared order: search, sort arrows, page size. */
+.directory-toolbar{grid-template-areas:"search sort size"!important;grid-template-columns:minmax(0,1fr) auto auto!important}
+.directory-toolbar .directory-search-field{grid-area:search}
+.directory-toolbar .directory-sort-controls{grid-area:sort}
+.directory-toolbar .directory-page-size{grid-area:size}
+/* Keep comment filters and moderation search controls on one desktop row. */
+.comment-view-controls{grid-template-areas:"category sort size";grid-template-columns:minmax(200px,1fr) auto minmax(180px,.8fr);align-items:end}
+.comment-view-controls .comment-filter-field{grid-area:category}
+.comment-view-controls .comment-sort-field{grid-area:sort}
+.comment-view-controls .comment-page-size-field{grid-area:size}
+.admin-comment-toolbar{display:grid;grid-template-columns:minmax(0,1fr) minmax(155px,.28fr) minmax(155px,.28fr);align-items:end;flex-wrap:nowrap}
+.admin-comment-toolbar label:first-child,.admin-comment-toolbar label:not(:first-child){min-width:0;width:auto;flex:initial}
+.admin-comment-toolbar input,.admin-comment-toolbar select{box-sizing:border-box;width:100%;min-width:0}
+@media(max-width:760px){.directory-toolbar{grid-template-areas:"search search search" "sort . size"!important;grid-template-columns:auto minmax(0,1fr) auto!important}.directory-toolbar .directory-search-field{grid-column:1/-1!important;grid-row:auto!important}.directory-toolbar .directory-sort-controls{grid-column:1!important;grid-row:auto!important}.directory-toolbar .directory-page-size{grid-column:3!important;grid-row:auto!important;justify-self:end}.comment-view-controls{grid-template-areas:"category sort size";grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)}.admin-comment-toolbar{grid-template-columns:minmax(0,1fr) minmax(135px,.55fr);gap:8px}.admin-comment-toolbar label:first-child{grid-column:1/-1}}
+@media(max-width:420px){.directory-toolbar{grid-template-areas:"search search" "sort size"!important;grid-template-columns:auto minmax(0,1fr)!important}.directory-toolbar .directory-page-size{grid-column:2!important}.admin-comment-toolbar{grid-template-columns:minmax(0,1fr) minmax(120px,.55fr)}}
+
+/* Keep all encyclopedia category labels bold, matching the selected state. */
+.directory-categories button[data-directory-category]{font-weight:700}
