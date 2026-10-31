@@ -858,6 +858,18 @@ html[data-theme='dark'] .toast.is-filter-warning{border-color:#70433d;border-lef
 @media(max-width:760px){.novel-chapter-tools{align-items:stretch}.novel-search{min-height:48px}.novel-sort{display:grid;grid-template-columns:auto 1fr 1fr;align-items:center}.novel-sort>span{grid-column:auto}}
 @media(max-width:420px){.novel-sort{grid-template-columns:1fr 1fr}.novel-sort>span{grid-column:1/-1}}
 .novel-chapter-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+
+/* Chapter reader: show the catalogue page containing the chapter currently open. */
+.reader-chapters-section{margin:22px 0 34px;scroll-margin-top:100px}
+.reader-chapters-section>.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:12px}
+.reader-chapters-section .section-head h2{margin:0 0 4px}
+.reader-chapters-section .source-list{margin:0;color:var(--muted);font-size:calc(13px * var(--font-scale,1))}
+.reader-chapters-section .novel-page-size{display:flex;align-items:center;gap:8px;white-space:nowrap}
+.reader-chapters-section .novel-chapter-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.reader-chapters-section .novel-chapter-row{padding:10px 12px;gap:11px}
+.reader-chapters-section .novel-chapter-number{flex-basis:42px;width:42px;height:42px}
+.reader-chapter-pagination{margin:12px 0 0}
+@media(max-width:760px){.reader-chapters-section>.section-head{align-items:stretch;flex-direction:column;gap:9px}.reader-chapters-section .novel-page-size{justify-content:flex-end}.reader-chapters-section .novel-chapter-list{grid-template-columns:minmax(0,1fr)}}
 .novel-pagination{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin:22px 0 0;scroll-margin-top:110px}
 .novel-pagination[hidden]{display:none}
 .novel-page-numbers{display:flex;align-items:center;justify-content:center;gap:6px;flex-wrap:wrap}
