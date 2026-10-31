@@ -2027,51 +2027,91 @@ body:has(.account-page) #main{flex:1 0 auto}
   #comment-view-controls .comment-sort-buttons .sort-control-button{width:32px;height:36px;min-width:32px;min-height:36px}
 }
 
-/* Keep the comment filters inside their section; never turn them into a page-level scroll row. */
+/* Comment filters: a bounded desktop row and a two-row mobile grid. */
 #comment-view-controls.comment-view-controls{
   box-sizing:border-box;
+  display:flex!important;
+  flex-flow:row nowrap!important;
+  align-items:center!important;
+  justify-content:flex-start;
+  gap:clamp(7px,1vw,12px)!important;
   width:100%;
   max-width:100%;
   min-width:0;
-  display:grid!important;
-  grid-template-areas:"category sort size";
-  grid-template-columns:minmax(0,1fr) auto minmax(0,auto);
-  align-items:end;
-  gap:8px;
   overflow:visible!important;
 }
 #comment-view-controls .comment-filter-field,
-#comment-view-controls .comment-sort-field,
 #comment-view-controls .comment-page-size-field{
   box-sizing:border-box;
-  min-width:0;
+  display:flex!important;
+  flex:0 1 auto!important;
+  align-items:center;
+  gap:8px;
+  min-width:0!important;
   max-width:100%;
+  white-space:nowrap;
 }
-#comment-view-controls .comment-filter-field{grid-area:category;display:grid!important}
-#comment-view-controls .comment-sort-field{grid-area:sort;display:grid!important;justify-items:center}
-#comment-view-controls .comment-page-size-field{grid-area:size;display:grid!important;justify-self:end}
+#comment-view-controls .comment-filter-field{flex:1 1 0!important}
+#comment-view-controls .comment-sort-field{
+  box-sizing:border-box;
+  display:flex!important;
+  flex:0 0 auto!important;
+  align-items:center;
+  justify-items:initial;
+  gap:8px;
+  min-width:0;
+  white-space:nowrap;
+}
 #comment-view-controls .comment-filter-field select,
 #comment-view-controls .comment-page-size-field select{
   box-sizing:border-box;
-  width:100%;
+  flex:0 1 auto;
+  min-width:0!important;
   max-width:100%;
-  min-width:0;
 }
+#comment-view-controls .comment-filter-field select{width:clamp(112px,15vw,190px)}
+#comment-view-controls .comment-page-size-field select{width:clamp(120px,16vw,200px)}
 @media(max-width:760px){
   #comment-view-controls.comment-view-controls{
+    display:grid!important;
     grid-template-areas:"category category" "sort size";
     grid-template-columns:minmax(0,1fr) auto;
-    align-items:center;
-    gap:8px;
+    align-items:center!important;
+    gap:8px 10px!important;
     overflow:visible!important;
   }
-  #comment-view-controls .comment-filter-field{width:100%}
-  #comment-view-controls .comment-filter-field select{width:100%;min-width:0}
-  #comment-view-controls .comment-sort-field{justify-self:start;justify-items:start}
-  #comment-view-controls .comment-page-size-field{justify-self:end}
-  #comment-view-controls .comment-page-size-field select{width:112px;min-width:0}
+  #comment-view-controls .comment-filter-field{
+    grid-area:category;
+    width:100%;
+    flex:1 1 auto!important;
+  }
+  #comment-view-controls .comment-filter-field select{
+    width:auto;
+    flex:1 1 0;
+  }
+  #comment-view-controls .comment-sort-field{grid-area:sort;justify-self:start}
+  #comment-view-controls .comment-page-size-field{grid-area:size;justify-self:end;flex:0 1 auto!important}
+  #comment-view-controls .comment-page-size-field select{width:112px;flex:0 1 112px}
 }
 @media(max-width:380px){
-  #comment-view-controls.comment-view-controls{grid-template-columns:minmax(0,1fr) auto;padding:8px}
-  #comment-view-controls .comment-page-size-field select{width:104px}
+  #comment-view-controls .comment-page-size-field{gap:4px;font-size:10px}
+  #comment-view-controls .comment-page-size-field select{width:88px;flex-basis:88px}
+  #comment-view-controls .comment-sort-buttons .sort-control-button{width:30px;min-width:30px}
+}
+
+/* Keep the accessible backing select visually hidden even under global select rules. */
+#comment-view-controls select.sr-only{
+  position:absolute!important;
+  width:1px!important;
+  min-width:1px!important;
+  max-width:1px!important;
+  height:1px!important;
+  min-height:1px!important;
+  margin:-1px!important;
+  padding:0!important;
+  overflow:hidden!important;
+  clip:rect(0,0,0,0)!important;
+  white-space:nowrap!important;
+  border:0!important;
+  pointer-events:none!important;
 }
