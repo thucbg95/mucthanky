@@ -503,7 +503,7 @@ html[data-theme="dark"] .quickbar a:hover .quick-icon,html[data-theme="dark"] .q
 .episode-watch-heading .episode-player-status:empty{display:none}
 .episode-video-frame{min-height:240px;aspect-ratio:16/9;background:#080d10}
 .episode-video-frame [data-episode-player],.episode-video-frame [data-episode-player] iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.episode-player-placeholder{position:absolute;inset:0;display:grid;align-content:center;justify-items:center;gap:10px;padding:24px;text-align:center;color:var(--text);background:radial-gradient(ellipse at center,#20353a 0%,#111b20 70%)}
+.episode-player-placeholder{position:absolute;inset:0;z-index:2;display:grid;align-content:center;justify-items:center;gap:10px;padding:24px;text-align:center;color:var(--text);background:radial-gradient(ellipse at center,#20353a 0%,#111b20 70%)}
 .episode-player-placeholder[hidden]{display:none}
 .episode-player-placeholder p{max-width:540px;margin:0;color:var(--muted)}
 .episode-watch-nav{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:18px 0 32px}
