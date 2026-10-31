@@ -1163,3 +1163,38 @@ main section{padding-top:50px}
   .hero h1{font-size:calc(clamp(27px,6.4vw,29px) * min(var(--font-scale,1),1.06))!important}
 }
 
+/* Site-wide vertical rhythm: tighten repeated gaps without compressing novel text. */
+body{line-height:1.68}
+main p{margin-bottom:13px;line-height:1.65}
+.novel-reading-text p{margin:0 0 1.3em;line-height:2.05}
+main section{padding-top:44px!important}
+.section-head{gap:18px;margin-bottom:16px}
+.section-head h2{margin:6px 0 9px;line-height:1.23}
+.section-head p{line-height:1.55}
+.grid{row-gap:16px}
+.card-content{padding:17px}
+.definition-row{gap:16px;padding:17px 0}
+.quickbar a{padding:18px 22px}
+.category-tile{padding:18px}
+.banner{gap:22px;padding:30px}
+.account-saved-section{margin-top:28px}
+.comment-root{padding:14px 16px;margin:11px 0}
+footer{margin-top:64px;padding-top:40px}
+.footer-bottom{margin-top:20px;padding-top:18px}
+@media(max-width:760px){
+  body{line-height:1.62}
+  main p{margin-bottom:11px;line-height:1.6}
+  main section{padding-top:29px!important}
+  .section-head{gap:10px;margin-bottom:13px}
+  .section-head h2{margin:4px 0 7px;line-height:1.2}
+  .grid{row-gap:12px}
+  .card-content{padding:14px}
+  .definition-row{gap:12px;padding:13px 0}
+  .quickbar a{padding:14px 15px}
+  .category-tile{padding:14px}
+  .banner{gap:15px;padding:20px}
+  .comment-root{padding:11px 12px;margin:9px 0}
+  footer{margin-top:44px;padding-top:30px}
+  .footer-bottom{margin-top:16px;padding-top:14px}
+}
+
