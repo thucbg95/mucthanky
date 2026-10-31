@@ -2027,7 +2027,7 @@ body:has(.account-page) #main{flex:1 0 auto}
   #comment-view-controls .comment-sort-buttons .sort-control-button{width:32px;height:36px;min-width:32px;min-height:36px}
 }
 
-/* Prevent the comment filters from creating a wider-than-viewport page on phones. */
+/* Keep the shared comment toolbar inside the mobile viewport. */
 @media(max-width:760px){
   #thao-luan,
   #comment-view-controls.comment-view-controls{
@@ -2037,8 +2037,9 @@ body:has(.account-page) #main{flex:1 0 auto}
     min-width:0;
   }
   #comment-view-controls.comment-view-controls{
-    grid-template-columns:minmax(0,72px) minmax(0,1fr)!important;
-    overflow-x:clip!important;
+    grid-template-areas:"category category" "sort size"!important;
+    grid-template-columns:minmax(0,1fr) auto!important;
+    overflow-x:visible!important;
   }
   #comment-view-controls .comment-filter-field,
   #comment-view-controls .comment-sort-field,
@@ -2047,21 +2048,24 @@ body:has(.account-page) #main{flex:1 0 auto}
     min-width:0!important;
     max-width:100%;
   }
-  #comment-view-controls .comment-sort-field{width:max-content;max-width:100%}
+  #comment-view-controls .comment-sort-field{
+    grid-area:sort;
+    width:auto;
+    justify-self:start;
+  }
   #comment-view-controls .comment-page-size-field{
-    display:flex!important;
-    justify-self:stretch!important;
-    gap:5px;
+    grid-area:size;
+    display:grid!important;
+    justify-self:end;
     white-space:nowrap;
   }
   #comment-view-controls .comment-page-size-field select{
     box-sizing:border-box;
-    flex:1 1 84px;
-    width:auto!important;
+    width:112px!important;
     min-width:0!important;
-    max-width:112px;
+    max-width:100%;
   }
 }
 @media(max-width:380px){
-  #comment-view-controls .comment-page-size-field select{flex-basis:76px;max-width:100px}
+  #comment-view-controls .comment-page-size-field select{width:104px!important}
 }
