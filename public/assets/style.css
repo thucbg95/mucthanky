@@ -1548,3 +1548,29 @@ html[data-theme=dark] .schedule-page-button.is-current{border-color:#729f92;back
 @media(max-width:760px){
   .wrap{width:calc(100% - clamp(28px,8vw,40px));padding-inline:0!important}
 }
+
+/* Keep every pagination group centered on mobile and use the same short labels on desktop. */
+@media(max-width:760px){
+  .comment-pagination,.directory-pagination,.schedule-pagination,.supporter-pagination,.admin-list-pagination,.novel-pagination{
+    width:100%;justify-content:center;flex-wrap:nowrap;overflow-x:visible;gap:4px
+  }
+  .pagination-number,.novel-page-button,.schedule-page-button{min-width:28px;height:32px;padding-inline:5px;font-size:11px}
+}
+
+/* Compact icon controls and clear active chapter/episode states */
+.episode-sort-controls>span,.novel-sort>span{display:none!important}
+.episode-sort-controls .sort-button,.novel-sort-button{width:40px;height:40px;min-width:40px;min-height:40px;padding:0;display:inline-grid;place-items:center;line-height:1}
+.sort-direction-icon{display:block;width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.episode-sort-controls .sort-button[aria-pressed=true],.novel-sort-button.is-active{box-shadow:0 0 0 1px color-mix(in srgb,var(--gold) 45%,transparent)}
+.novel-sort{gap:7px}
+.novel-sort-button{border-radius:10px}
+.pagination-arrow{display:block;width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:transform .18s ease}
+.comment-pagination>.btn,.directory-pagination>.btn,.schedule-pagination>.btn,.supporter-pagination>.btn,.admin-list-pagination>.btn,.novel-pagination>.btn{box-sizing:border-box;width:36px;min-width:36px;height:36px;min-height:36px;padding:0;display:inline-grid;place-items:center;flex:0 0 36px}
+.comment-pagination>.btn:hover .pagination-arrow,.directory-pagination>.btn:hover .pagination-arrow,.schedule-pagination>.btn:hover .pagination-arrow,.supporter-pagination>.btn:hover .pagination-arrow,.admin-list-pagination>.btn:hover .pagination-arrow,.novel-pagination>.btn:hover .pagination-arrow{transform:translateX(1px)}
+.comment-pagination>[aria-label="Trang trước"]:hover .pagination-arrow,.directory-pagination>[aria-label="Trang trước"]:hover .pagination-arrow,.schedule-pagination>[aria-label="Trang trước"]:hover .pagination-arrow,.supporter-pagination>[aria-label="Trang trước"]:hover .pagination-arrow,.admin-list-pagination>[aria-label="Trang trước"]:hover .pagination-arrow,.novel-pagination>[aria-label="Trang trước"]:hover .pagination-arrow{transform:translateX(-1px)}
+.schedule-item.is-current,.novel-chapter-row.is-current{position:relative;border-color:var(--gold);background:var(--soft);box-shadow:inset 4px 0 var(--gold),0 0 0 1px color-mix(in srgb,var(--gold) 24%,transparent);}
+.schedule-item.is-current b,.novel-chapter-row.is-current .novel-chapter-number{background:var(--green);color:#fff}
+.schedule-item.is-current strong,.novel-chapter-row.is-current strong{color:var(--green);font-weight:800}
+html[data-theme=dark] .schedule-item.is-current,html[data-theme=dark] .novel-chapter-row.is-current{background:#243638;border-color:#d2aa62;box-shadow:inset 4px 0 #e5bd70,0 0 0 1px #d2aa6233}
+html[data-theme=dark] .schedule-item.is-current b,html[data-theme=dark] .novel-chapter-row.is-current .novel-chapter-number{background:#765b2c;color:#fff1c9}
+html[data-theme=dark] .schedule-item.is-current strong,html[data-theme=dark] .novel-chapter-row.is-current strong{color:#f1d28f}
