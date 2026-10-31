@@ -1124,3 +1124,15 @@ html[data-theme=dark] .directory-toolbar>select{background:var(--panel);color:va
 
 .latest-trailer-link{display:flex;width:max-content;max-width:100%;margin-top:14px}
 
+/* Final H1 scale correction for desktop and mobile. */
+h1,.page-hero h1{font-size:calc(clamp(36px,3.5vw,42px) * min(var(--font-scale,1),1.1))!important;line-height:1.18;letter-spacing:-.035em}
+.hero h1{font-size:calc(clamp(42px,4vw,48px) * min(var(--font-scale,1),1.1))!important}
+@media(max-width:760px){
+  h1,.page-hero h1{font-size:calc(clamp(28px,7vw,32px) * min(var(--font-scale,1),1.08))!important;line-height:1.2}
+  .hero h1{font-size:calc(clamp(30px,7vw,34px) * min(var(--font-scale,1),1.08))!important}
+}
+@media(max-width:420px){
+  h1,.page-hero h1{font-size:calc(clamp(27px,6.8vw,30px) * min(var(--font-scale,1),1.08))!important}
+  .hero h1{font-size:calc(clamp(29px,7vw,32px) * min(var(--font-scale,1),1.08))!important}
+}
+
