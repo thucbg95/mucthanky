@@ -865,10 +865,10 @@ html[data-theme='dark'] .toast.is-filter-warning{border-color:#70433d;border-lef
 .reader-chapters-section .section-head h2{margin:0 0 4px}
 .reader-chapters-section .source-list{margin:0;color:var(--muted);font-size:calc(13px * var(--font-scale,1))}
 .reader-chapters-section .novel-page-size{display:flex;align-items:center;gap:8px;white-space:nowrap}
-.reader-chapters-section .novel-chapter-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
-.reader-chapters-section .novel-chapter-row{padding:10px 12px;gap:11px}
-.reader-chapters-section .novel-chapter-number{flex-basis:42px;width:42px;height:42px}
-.reader-chapter-pagination{margin:12px 0 0}
+.reader-chapters-section .novel-chapter-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+.reader-chapters-section .novel-chapter-row{padding:10px 12px;gap:11px;border-radius:9px}
+.reader-chapters-section .novel-chapter-number{flex-basis:40px;width:40px;height:40px}
+.reader-chapter-pagination{margin:15px 0 0}
 @media(max-width:760px){.reader-chapters-section>.section-head{align-items:stretch;flex-direction:column;gap:9px}.reader-chapters-section .novel-page-size{justify-content:flex-end}.reader-chapters-section .novel-chapter-list{grid-template-columns:minmax(0,1fr)}}
 .novel-pagination{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin:22px 0 0;scroll-margin-top:110px}
 .novel-pagination[hidden]{display:none}
@@ -1057,6 +1057,7 @@ html[data-theme=dark] .directory-toolbar>select{background:var(--panel);color:va
 .supporter-registry .supporter-entry{position:relative;isolation:isolate;overflow:hidden;z-index:auto;animation:supporter-entry-in .36s both,supporter-collective-glow 3.6s ease-in-out infinite!important}
 .supporter-registry .supporter-entry::before{display:block!important;position:absolute;z-index:0;inset:-20% auto -20% -70%;width:38%;background:linear-gradient(105deg,transparent,color-mix(in srgb,var(--gold) 45%,transparent) 43%,color-mix(in srgb,#fff 58%,var(--gold)) 50%,color-mix(in srgb,var(--gold) 45%,transparent) 57%,transparent);filter:blur(4px);content:"";pointer-events:none;transform:skewX(-16deg);animation:supporter-entry-shine 5.2s ease-in-out infinite}
 .supporter-registry .supporter-entry>*{position:relative;z-index:1}
+
 @keyframes supporter-entry-shine{0%,15%{left:-70%;opacity:0}25%{opacity:.9}58%,100%{left:135%;opacity:0}}
 @media(max-width:760px){.page-hero h1{font-size:calc(38px * var(--font-scale,1))}.directory-toolbar{grid-template-columns:minmax(0,1fr) minmax(135px,.7fr);gap:8px}.directory-toolbar label:first-child{grid-column:1/-1}}
 @media(max-width:380px){.directory-toolbar{grid-template-columns:minmax(0,1fr) minmax(125px,.75fr)}.directory-toolbar label:first-child{grid-column:1/-1}}
@@ -2134,3 +2135,36 @@ body:has(.account-page) #main{flex:1 0 auto}
 .schedule-more:not([open])>.schedule-summary{border-radius:13px}
 
 .episode-watch-page > .post-reaction{width:min(100%,1120px);margin-inline:auto}
+
+/* Desktop: trim excess vertical padding in the shared discussion and account panels. */
+@media (min-width: 761px) {
+  #comment-view-controls.comment-view-controls {
+    gap: 8px;
+    margin: 8px 0 10px;
+    padding: 2px 16px;
+  }
+
+  .account-panel { padding-block: 14px; }
+  .account-saved-card { padding-block: 12px; }
+  .post-reaction { padding-block: 9px; }
+  #thao-luan .comment-root { padding-block: 8px; }
+
+  .support-cta { padding-block: 18px; }
+  .support-intro { padding-block: 20px; }
+  .support-card { padding-block: 20px; }
+  .support-bank-details > div { padding-block: 7px; }
+  .support-safety { padding-block: 9px; }
+  .support-impact-card { padding-block: 16px; }
+  .support-thanks { padding-block: 14px; }
+  .supporter-instructions { padding-block: 12px; }
+  .supporter-hall-intro { padding-block: 20px; }
+  .supporter-registry { padding-block: 20px; }
+  .supporter-registry .supporter-entry { padding-block: 11px; }
+}
+
+/* Desktop: compact the novel overview, chapter rows, and community link cards. */
+@media (min-width: 761px) {
+  .novel-book-card { padding-block: 12px; }
+  .novel-chapter-row { padding-block: 6px; }
+  .community-links a { padding-block: 12px; }
+}
