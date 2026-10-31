@@ -2051,7 +2051,7 @@ body:has(.account-page) #main{flex:1 0 auto}
   max-width:100%;
   white-space:nowrap;
 }
-#comment-view-controls .comment-filter-field{flex:1 1 0!important}
+#comment-view-controls .comment-filter-field{flex:0 0 auto!important}
 #comment-view-controls .comment-sort-field{
   box-sizing:border-box;
   display:flex!important;
