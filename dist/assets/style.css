@@ -1638,6 +1638,15 @@ html[data-theme=dark] .schedule-item:hover b,html[data-theme=dark] .novel-chapte
 /* Return page-size controls to their resting appearance after a selection. */
 .schedule-page-size.selection-complete::after,.novel-page-size.selection-complete::after,.schedule-page-size.selection-complete:hover::after,.novel-page-size.selection-complete:hover::after,.schedule-page-size.selection-complete:focus-within::after,.novel-page-size.selection-complete:focus-within::after{border-color:var(--muted)}
 .schedule-page-size.selection-complete select:hover,.novel-page-size.selection-complete select:hover{border-color:var(--line);background-color:var(--panel);color:var(--text)}
+
+/* Keep the first content block at the same distance from every page hero. */
+.page-hero + .wrap{margin-top:30px!important;padding-top:0!important}
+.page-hero + .wrap > :first-child{margin-top:0!important}
+.page-hero + .wrap > section:first-child:not(.support-intro):not(.novel-book-card){padding-top:0!important}
+.page-hero + .wrap > section:first-child > h2:first-child{margin-top:0}
+@media(max-width:760px){
+  .page-hero + .wrap{margin-top:22px!important}
+}
 #episode-list-title{scroll-margin-top:110px}
 /* Keep keyboard focus available, but make selected cards match the resting hover geometry. */
 .schedule-item:hover,.novel-chapter-row:hover,.schedule-item.is-current,.novel-chapter-row.is-current{transform:none}
@@ -1833,3 +1842,20 @@ body:has(.account-page) #main{flex:1 0 auto}
   .episode-video-frame{width:min(100%,1120px);margin-inline:auto}
   .episode-page-nav{width:min(100%,1120px)}
 }
+
+/* Comment filters: one aligned toolbar row with the same arrow controls as film sorting. */
+.comment-view-controls{display:grid;grid-template-columns:minmax(220px,1fr) auto minmax(190px,.78fr);align-items:end;gap:12px;flex-wrap:nowrap}
+.comment-view-controls .comment-filter-field,.comment-view-controls .comment-page-size-field{display:grid;gap:5px;min-width:0;color:var(--muted);font-size:calc(12px * var(--font-scale,1));font-weight:650}
+.comment-view-controls .comment-sort-field{display:grid;gap:5px;justify-items:center;color:var(--muted);font-size:calc(12px * var(--font-scale,1));font-weight:650}
+.comment-view-controls .comment-filter-field select,.comment-view-controls .comment-page-size-field select{box-sizing:border-box;width:100%;height:40px;min-height:40px;padding:0 36px 0 12px;appearance:none;-webkit-appearance:none;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--text);font-family:inherit;font-size:calc(13px * var(--font-scale,1));font-weight:600;transition:border-color .18s ease,background-color .18s ease,color .18s ease,box-shadow .18s ease}
+.comment-view-controls .comment-filter-field,.comment-view-controls .comment-page-size-field{position:relative}
+.comment-view-controls .comment-filter-field::after,.comment-view-controls .comment-page-size-field::after{content:"";position:absolute;right:14px;bottom:15px;width:7px;height:7px;border-right:1.7px solid var(--muted);border-bottom:1.7px solid var(--muted);transform:rotate(45deg);pointer-events:none;transition:border-color .18s ease}
+.comment-view-controls .comment-filter-field:hover::after,.comment-view-controls .comment-page-size-field:hover::after,.comment-view-controls .comment-filter-field:focus-within::after,.comment-view-controls .comment-page-size-field:focus-within::after{border-color:var(--green)}
+.comment-view-controls .comment-filter-field select:hover,.comment-view-controls .comment-page-size-field select:hover{border-color:var(--green);background-color:var(--soft);color:var(--text)}
+.comment-view-controls .comment-filter-field select:focus-visible,.comment-view-controls .comment-page-size-field select:focus-visible{border-color:var(--green);outline:2px solid color-mix(in srgb,var(--green) 34%,transparent);outline-offset:1px}
+.comment-sort-buttons{display:flex;align-items:center;gap:6px;margin:0;white-space:nowrap}
+.comment-sort-buttons .sort-control-button{transform:none}
+.comment-sort-buttons .sort-control-button:hover{transform:none}
+@media(max-width:620px){.comment-view-controls{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:7px;padding:8px}.comment-view-controls .comment-filter-field,.comment-view-controls .comment-page-size-field,.comment-view-controls .comment-sort-field{min-width:0;font-size:11px}.comment-view-controls .comment-filter-field select,.comment-view-controls .comment-page-size-field select{height:38px;min-height:38px;padding-left:8px;padding-right:26px;font-size:11px}.comment-view-controls .comment-filter-field::after,.comment-view-controls .comment-page-size-field::after{right:10px;bottom:14px}.comment-sort-buttons{gap:4px}.comment-sort-buttons .sort-control-button{width:36px;height:38px;min-width:36px;min-height:38px;border-radius:8px}.comment-sort-buttons .sort-direction-icon{width:17px;height:17px}}
+
+@media(max-width:620px){.comment-view-controls .comment-filter-field,.comment-view-controls .comment-page-size-field{grid-column:auto}.comment-view-controls .comment-filter-field select,.comment-view-controls .comment-page-size-field select{font-size:10.5px}}
