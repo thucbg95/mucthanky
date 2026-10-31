@@ -2120,3 +2120,5 @@ body:has(.account-page) #main{flex:1 0 auto}
 .schedule-more{border-radius:14px;background-clip:padding-box}
 .schedule-more[open]>.schedule-summary{border-radius:13px 13px 0 0}
 .schedule-more:not([open])>.schedule-summary{border-radius:13px}
+
+.episode-watch-page > .post-reaction{width:min(100%,1120px);margin-inline:auto}
