@@ -1460,3 +1460,31 @@ html[data-theme=dark] .schedule-page-button.is-current{border-color:#729f92;back
   .novel-page-numbers{justify-content:center;gap:3px;overflow:visible}
   .novel-pagination .btn{flex:none;padding:5px 7px}
 }
+
+/* Keep episode pagination controls active, centered and grouped like the novel controls. */
+.schedule-pagination{display:flex;justify-content:center;align-items:center;gap:7px;flex-wrap:nowrap;margin:14px 0 12px}
+.schedule-pagination>#schedule-prev{order:1}
+.schedule-page-numbers{order:2;justify-content:center;overflow:visible;flex:0 1 auto}
+.schedule-pagination>#schedule-next{order:3}
+.schedule-page-state{order:4;margin-left:3px;white-space:nowrap;font-size:11px}
+.schedule-pagination .btn{min-height:36px;padding:6px 10px}
+@media(max-width:760px){
+  .schedule-pagination{gap:4px;overflow-x:auto;justify-content:flex-start;scrollbar-width:none}
+  .schedule-pagination::-webkit-scrollbar{display:none}
+  .schedule-page-numbers{justify-content:center;gap:3px;overflow:visible;flex:0 0 auto}
+  .schedule-pagination .btn{flex:none;padding:5px 7px}
+}
+
+/* Match the novel toolbar's label and control typography across both lists. */
+.schedule-page-size,.novel-page-size,.episode-sort-controls>span,.novel-sort>span{font-size:calc(13px * var(--font-scale,1));font-weight:600}
+.schedule-page-size select,.novel-page-size select,.episode-sort-controls .sort-button,.novel-sort-button{font-size:calc(13px * var(--font-scale,1));font-family:inherit}
+.episode-search input,.novel-search input{font-size:calc(14px * var(--font-scale,1));font-family:inherit}
+
+/* Use the same compact chapter-title scale as the novel list. */
+@media(min-width:761px){.schedule-item strong{font-size:calc(13px * var(--font-scale,1))}.schedule-item span{font-size:calc(13px * var(--font-scale,1))}}
+
+/* Replace text glyph arrows with consistent, balanced line icons. */
+.episode-page-nav .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.episode-nav-arrow{width:17px;height:17px;flex:0 0 17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;transition:transform .18s ease}
+.episode-page-nav [data-episode-prev]:hover .episode-nav-arrow{transform:translateX(-2px)}
+.episode-page-nav [data-episode-next]:hover .episode-nav-arrow{transform:translateX(2px)}
