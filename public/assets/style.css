@@ -2115,3 +2115,8 @@ body:has(.account-page) #main{flex:1 0 auto}
   border:0!important;
   pointer-events:none!important;
 }
+
+/* Keep the episode list header background inside the rounded outer frame. */
+.schedule-more{border-radius:14px;background-clip:padding-box}
+.schedule-more[open]>.schedule-summary{border-radius:13px 13px 0 0}
+.schedule-more:not([open])>.schedule-summary{border-radius:13px}
