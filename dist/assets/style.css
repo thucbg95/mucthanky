@@ -1755,3 +1755,15 @@ html:not([data-theme=dark]) .schedule-item[data-upcoming=true].is-current{
   .schedule-item b{flex-basis:36px;width:36px;height:36px;min-width:36px;font-size:13px}
   .schedule-item strong{font-size:13px}
 }
+
+
+/* Directory filters share the single-row search and page-size layout. */
+.directory-toolbar{grid-template-columns:minmax(0,1fr) minmax(130px,190px)!important;align-items:end;gap:10px;margin:12px 0 8px}
+.directory-toolbar>label{grid-column:auto!important;min-width:0}
+.directory-toolbar input,.directory-toolbar select{height:44px;min-height:44px}
+@media(max-width:760px){.directory-toolbar,.directory-toolbar.directory-toolbar-characters{grid-template-columns:minmax(0,1fr) minmax(104px,132px)!important;gap:8px}.directory-toolbar>label{grid-column:auto!important}.directory-toolbar>label:first-child{min-width:0}.directory-toolbar>label:first-child input{min-width:0}}
+
+
+/* Compact, unboxed introduction below the shared discussion heading. */
+#thao-luan>h2{margin-bottom:4px}
+#thao-luan>.comment-section-intro{margin:0 0 12px;padding:0;border:0;background:transparent;color:var(--muted);font-size:calc(12px * var(--font-scale,1));line-height:1.5}
