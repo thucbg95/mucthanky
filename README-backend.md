@@ -126,6 +126,18 @@ npx wrangler deploy
 
 Cron Worker chạy mỗi giờ. Nếu chỉ cần lịch tập mới trên website, không phải làm bước này.
 
+### Video YouTube theo thứ tự playlist
+
+Trang `/phim/` đã có trang xem nội bộ cho tập 01–106. Số tập tương ứng với vị trí trong playlist `PLLHHjiXKHAhY`; trang phát video bằng YouTube IFrame Player. Các trang 100–106 có sẵn và hiện trạng chờ video cho đến khi playlist có đủ vị trí đó. Route dự phòng `/phim/tap-*` cho phép tập mới hơn cũng mở bằng cùng mẫu trang mà không phải tạo thủ công từng trang.
+
+Để website tự phát hiện số video mới:
+
+1. Trong Google Cloud Console, bật **YouTube Data API v3** cho một project và tạo API key. Hạn chế key chỉ dùng API này.
+2. Trong Cloudflare → Workers & Pages → dự án Pages của website → **Settings → Variables and Secrets**, thêm `YOUTUBE_API_KEY` dưới dạng **Secret** cho Production. Có thể thêm cùng secret cho Preview nếu cần.
+3. Deploy lại Pages để Function nhận secret.
+
+`GET /api/youtube-playlist` kiểm tra số video trong playlist, cache khoảng một giờ, rồi cập nhật số tập có video và liên kết nội bộ. Khi bạn thêm video vào cuối playlist, website tự nhận tập mới sau lần cache kế tiếp; không cần sửa danh sách bằng tay. Khi bỏ một video giữa playlist, các số tập phía sau dịch theo đúng vị trí mới, như quy ước bạn chọn. Nếu chưa cấu hình key, trang dùng mốc dự phòng 99 video và vẫn hiển thị sẵn danh sách đến tập 106.
+
 ## API và dữ liệu
 
 - `GET /api/auth/me`: trạng thái đăng nhập, không trả email.
@@ -145,6 +157,7 @@ Cron Worker chạy mỗi giờ. Nếu chỉ cần lịch tập mới trên websi
 - `POST /api/admin/delete`: xóa bình luận; dùng được với Google admin hoặc `ADMIN_TOKEN`.
 - `POST /api/admin/reports`: đọc báo cáo; dùng được với Google admin hoặc `ADMIN_TOKEN`.
 - `GET /api/schedule`: đọc lịch tập chính thức từ Bilibili, cache khoảng một giờ.
+- `GET /api/youtube-playlist`: đọc số video trong playlist YouTube đã cấu hình; cần Pages Secret `YOUTUBE_API_KEY`, nếu thiếu sẽ dùng mốc dự phòng 99.
 - `GET /api/episodes`: metadata video YouTube tùy chọn từ cấu hình cũ.
 
 ## Kiểm tra local

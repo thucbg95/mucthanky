@@ -495,6 +495,21 @@ html[data-theme="dark"] .quickbar a:hover .quick-icon,html[data-theme="dark"] .q
 .film-player p{margin:0;color:var(--muted);font-size:calc(13px * var(--font-scale,1))}
 .video-frame{position:relative;overflow:hidden;aspect-ratio:16/9;border-radius:10px;background:#0c1418}
 .video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.episode-watch-page{padding-top:18px}
+.episode-watch-heading{margin:0 0 18px}
+.episode-watch-heading .text-link{display:inline-flex;margin-bottom:12px}
+.episode-watch-heading .eyebrow{margin:0 0 8px}
+.episode-watch-heading h2{margin:0 0 8px;color:var(--gold);font-size:clamp(24px,3vw,38px)}
+.episode-watch-heading p:last-child{margin:0;color:var(--muted)}
+.episode-video-frame{min-height:240px;aspect-ratio:16/9;background:#080d10}
+.episode-video-frame [data-episode-player],.episode-video-frame [data-episode-player] iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.episode-player-placeholder{position:absolute;inset:0;display:grid;align-content:center;justify-items:center;gap:10px;padding:24px;text-align:center;color:var(--text);background:radial-gradient(ellipse at center,#20353a 0%,#111b20 70%)}
+.episode-player-placeholder[hidden]{display:none}
+.episode-player-placeholder p{max-width:540px;margin:0;color:var(--muted)}
+.episode-watch-nav{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:18px 0 32px}
+.schedule-item[data-video-pending="true"]{opacity:.76}
+html:not([data-theme=dark]) .episode-player-placeholder{color:#203b39;background:radial-gradient(ellipse at center,#f2f6ef 0%,#e6eee8 78%)}
+html:not([data-theme=dark]) .episode-player-placeholder p{color:#49605b}
 @media(max-width:760px){
  .schedule-toolbar #schedule-count{flex:0 0 100%;font-size:max(15px,calc(15px * var(--font-scale,1)));margin-bottom:1px}
  html:not([data-theme=dark]) .hero{background:#f1ede3;color:#20343a;box-shadow:0 12px 30px #243a4012}
@@ -510,6 +525,10 @@ html[data-theme="dark"] .quickbar a:hover .quick-icon,html[data-theme="dark"] .q
  .gallery-lightbox figcaption small{text-align:left}
  .film-player{grid-template-columns:1fr;gap:12px;padding:15px}
  .film-player h3{font-size:max(19px,calc(19px * var(--font-scale,1)))}
+ .episode-watch-page{padding-top:10px}
+ .episode-watch-nav{gap:7px;flex-wrap:wrap}
+ .episode-watch-nav .btn{flex:1 1 auto;justify-content:center}
+ .episode-video-frame{min-height:190px}
 }
 @media(max-width:760px) and (hover:none){
  .font-floater:hover,.font-floater:focus-within{opacity:.8;transform:none}

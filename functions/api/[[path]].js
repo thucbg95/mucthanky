@@ -42,6 +42,16 @@ async function handle(context){const {request,env}=context;const url=new URL(req
    return response;
   }catch(error){if(cached)return cached;console.error('Schedule sync unavailable',error?.name);if(env.DB){const rows=await env.DB.prepare('SELECT number,title,date,url,status,updated_at FROM episode_schedule ORDER BY number DESC').all();if(rows.results?.length)return json({episodes:rows.results,source:'Bilibili · bản đồng bộ dự phòng',syncedAt:rows.results[0]?.updated_at||null})}return json({error:'Lịch chính thức tạm thời chưa tải được.'},503)}
  }
+  if(request.method==='GET'&&route==='youtube-playlist'){
+   const cache=globalThis.caches?.default,cacheKey=new Request(new URL('/api/youtube-playlist',url.origin)),cached=cache?await cache.match(cacheKey):null;
+   if(!env.YOUTUBE_API_KEY){const response=json({count:99,automatic:false,playlistId:'PLLHHjiXKHAhY',updatedAt:null},200,{'Cache-Control':'public, max-age=0, s-maxage=300'});return response}
+   try{
+    const endpoint=new URL('https://www.googleapis.com/youtube/v3/playlists');endpoint.search=new URLSearchParams({part:'contentDetails',id:'PLLHHjiXKHAhY',key:env.YOUTUBE_API_KEY});
+    const upstream=await fetch(endpoint,{headers:{Accept:'application/json'},cf:{cacheTtl:3600,cacheTtlByStatus:{'200-299':3600,'400-599':0}}});if(!upstream.ok)throw new Error(`YouTube API returned ${upstream.status}`);
+    const data=await upstream.json(),count=Number(data.items?.[0]?.contentDetails?.itemCount);if(!Number.isInteger(count)||count<0)throw new Error('Playlist count is unavailable');
+    const response=json({count,automatic:true,playlistId:'PLLHHjiXKHAhY',updatedAt:new Date().toISOString()},200,{'Cache-Control':'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400'});if(cache)context.waitUntil(cache.put(cacheKey,response.clone()));return response;
+   }catch(error){if(cached)return cached;console.error('YouTube playlist sync unavailable',error?.name);return json({count:99,automatic:false,playlistId:'PLLHHjiXKHAhY',updatedAt:null},200,{'Cache-Control':'public, max-age=0, s-maxage=300'})}
+  }
  if(!env.DB)return json({error:'Cộng đồng chưa được cấu hình.'},503);
   if(request.method==='GET'&&route==='admin/owner-session')return json({authenticated:await ownerSession(request,env)});
   if(request.method==='GET'&&route==='auth/me'){const user=await currentUser(env,request);return json({authenticated:Boolean(user),user:user?{id:user.id,name:user.name,email:user.email,role:user.role||'member',chatLocked:Boolean(user.chat_locked),commentCount:Number(user.comment_count)||0}:null})}
