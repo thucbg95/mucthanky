@@ -1066,3 +1066,5 @@ html[data-theme=dark] .directory-toolbar>select{background:var(--panel);color:va
 @media(max-width:420px){.directory-toolbar-characters{grid-template-columns:1fr}}
 .directory-toolbar:not(.directory-toolbar-characters){width:100%;min-width:0;grid-template-columns:minmax(0,1fr) minmax(190px,230px);margin-inline:0}
 @media(max-width:760px){.directory-toolbar:not(.directory-toolbar-characters){grid-template-columns:minmax(0,1fr);gap:9px}.directory-toolbar:not(.directory-toolbar-characters)>label{grid-column:1/-1}}
+
+.episode-page-nav{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:0 0 16px}.episode-page-nav .btn{min-width:130px;justify-content:center}.episode-inline-schedule{margin-top:28px}.episode-player-status:empty{display:none}@media(max-width:600px){.episode-page-nav{gap:8px}.episode-page-nav .btn{flex:1;min-width:0}.episode-inline-schedule{margin-top:22px}}
