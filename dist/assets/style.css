@@ -1817,3 +1817,9 @@ body:has(.account-page) #main{flex:1 0 auto}
 .comment-view-controls label.selection-complete::after,.comment-view-controls label.selection-complete:hover::after,.comment-view-controls label.selection-complete:focus-within::after{border-color:var(--muted)}
 .comment-view-controls label.selection-complete select:hover{border-color:var(--line);background-color:var(--panel);color:var(--text)}
 @media(max-width:620px){.comment-view-controls{display:grid;grid-template-columns:1fr 1fr;flex-wrap:wrap}.comment-view-controls label{min-width:0}.comment-view-controls label:first-child{grid-column:1/-1}}
+
+/* Match the directory search field's natural height and text rhythm to Novel search. */
+.directory-toolbar .directory-search-field{height:auto;min-height:44px}
+.directory-toolbar .directory-search-field>svg{width:20px;height:20px}
+.directory-toolbar .directory-search-field input{height:auto;min-height:0;padding:8px 0;font-size:calc(14px * var(--font-scale,1));line-height:1.8}
+@media(max-width:760px){.directory-toolbar .directory-search-field{height:auto;min-height:48px}.directory-toolbar .directory-search-field input{height:auto;min-height:0;padding:8px 0}}
