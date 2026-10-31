@@ -1709,6 +1709,32 @@ html[data-theme=dark] .novel-chapter-row.is-current .novel-chapter-number{
 html[data-theme=dark] .schedule-item[data-upcoming=true]{background:var(--panel);border-color:var(--line)}
 html:not([data-theme=dark]) .schedule-item[data-upcoming=true]{background:var(--panel);border-color:var(--line)}
 .schedule-item>svg{width:18px;height:18px;flex:0 0 18px;fill:none;stroke:var(--gold);stroke-width:1.8}
+/* Explicit light-theme parity, including the more specific upcoming-card rules. */
+html:not([data-theme=dark]) .schedule-item:hover,
+html:not([data-theme=dark]) .schedule-item:focus-visible,
+html:not([data-theme=dark]) .schedule-item.is-current,
+html:not([data-theme=dark]) .schedule-item[data-upcoming=true]:hover,
+html:not([data-theme=dark]) .schedule-item[data-upcoming=true]:focus-visible,
+html:not([data-theme=dark]) .schedule-item[data-upcoming=true].is-current,
+html:not([data-theme=dark]) .novel-chapter-row:hover,
+html:not([data-theme=dark]) .novel-chapter-row:focus-visible,
+html:not([data-theme=dark]) .novel-chapter-row.is-current{
+  transform:none;
+  border-color:var(--green);
+  background:var(--soft);
+  box-shadow:0 6px 18px #091b1a14;
+  color:var(--text);
+}
+html:not([data-theme=dark]) .schedule-item:hover b,
+html:not([data-theme=dark]) .schedule-item:focus-visible b,
+html:not([data-theme=dark]) .schedule-item.is-current b,
+html:not([data-theme=dark]) .novel-chapter-row:hover .novel-chapter-number,
+html:not([data-theme=dark]) .novel-chapter-row:focus-visible .novel-chapter-number,
+html:not([data-theme=dark]) .novel-chapter-row.is-current .novel-chapter-number{
+  background:var(--green);
+  color:#fff;
+  box-shadow:0 2px 8px #0c28232e;
+}
 html[data-theme=dark] .schedule-item:hover,
 html[data-theme=dark] .schedule-item:focus-visible,
 html[data-theme=dark] .schedule-item.is-current,
