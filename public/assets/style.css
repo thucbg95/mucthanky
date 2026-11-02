@@ -2187,3 +2187,16 @@ body:has(.account-page) #main{flex:1 0 auto}
   #comment-view-controls .comment-page-size-field select{width:clamp(118px,36vw,132px);min-width:clamp(118px,36vw,132px)!important}
 }
 
+
+/* Home: three clear entry points, with compact wrapping on phones. */
+.hero .hero-actions{grid-column:2;grid-row:2/4;display:flex;align-items:center;justify-content:flex-end;gap:9px;flex-wrap:wrap}
+.hero .hero-actions .btn{white-space:nowrap;padding:11px 14px}
+@media(max-width:760px){.hero .hero-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-column:1/-1;grid-row:auto;width:100%;gap:8px;margin-top:12px}.hero .hero-actions .btn{width:100%;min-width:0;padding:10px 8px;font-size:calc(10px * var(--font-scale,1));white-space:nowrap}.hero .hero-actions .btn:last-child{grid-column:1/-1}}
+
+/* Supporters: one synchronized, low-cost sheen instead of staggered box-shadow pulses. */
+.supporter-registry .supporter-entry{animation:none!important;transition:border-color .2s,background-color .2s!important}
+.supporter-registry .supporter-entry::before{display:block!important;position:absolute;z-index:0;inset:0 auto 0 -55%;width:28%;filter:none!important;background:linear-gradient(100deg,transparent,color-mix(in srgb,var(--gold) 9%,transparent) 38%,color-mix(in srgb,#fff 22%,var(--gold)) 50%,color-mix(in srgb,var(--gold) 9%,transparent) 62%,transparent);content:"";pointer-events:none;transform:translate3d(0,0,0) skewX(-16deg);animation:supporter-entry-sweep 9s ease-in-out infinite!important;animation-delay:0s!important}
+.supporter-registry .supporter-entry:nth-child(n)::before{animation-delay:0s!important}
+.supporter-registry .supporter-entry>*{position:relative;z-index:1}
+@keyframes supporter-entry-sweep{0%,12%{transform:translate3d(0,0,0) skewX(-16deg);opacity:0}20%{opacity:.7}58%,100%{transform:translate3d(560%,0,0) skewX(-16deg);opacity:0}}
+@media(prefers-reduced-motion:reduce){.supporter-registry .supporter-entry,.supporter-registry .supporter-entry::before{animation:none!important;transition:none!important}}
