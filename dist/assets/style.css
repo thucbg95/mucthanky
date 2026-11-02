@@ -2036,7 +2036,7 @@ body:has(.account-page) #main{flex:1 0 auto}
   #comment-view-controls .comment-filter-field,
   #comment-view-controls .comment-page-size-field,
   #comment-view-controls .comment-sort-field{gap:5px;font-size:10.5px}
-  #comment-view-controls .comment-page-size-field select{width:104px;min-width:104px}
+  #comment-view-controls .comment-page-size-field select{width:clamp(118px,36vw,132px);min-width:clamp(118px,36vw,132px)!important;max-width:100%;flex-basis:auto}
   #comment-view-controls .comment-sort-buttons .sort-control-button{width:32px;height:36px;min-width:32px;min-height:36px}
 }
 
@@ -2104,7 +2104,7 @@ body:has(.account-page) #main{flex:1 0 auto}
   }
   #comment-view-controls .comment-sort-field{grid-area:sort;justify-self:start}
   #comment-view-controls .comment-page-size-field{grid-area:size;justify-self:end;flex:0 1 auto!important}
-  #comment-view-controls .comment-page-size-field select{width:112px;flex:0 1 112px}
+  #comment-view-controls .comment-page-size-field select{box-sizing:border-box;width:clamp(124px,36vw,140px);min-width:clamp(124px,36vw,140px)!important;max-width:100%;flex:0 0 auto;padding-left:8px;padding-right:30px;font-size:11px}
 }
 @media(max-width:380px){
   #comment-view-controls .comment-page-size-field{gap:4px;font-size:10px}
@@ -2182,3 +2182,8 @@ body:has(.account-page) #main{flex:1 0 auto}
 
 /* Reader chapter pagination on mobile is ordered: previous, page numbers, next. */
 @media(max-width:760px){#reader-chapter-pagination{display:flex;justify-content:center;align-items:center;flex-wrap:nowrap;gap:4px;overflow:visible}#reader-chapter-pagination>[data-reader-page-step=prev]{order:0}#reader-chapter-pagination>#reader-chapter-page-numbers{order:1;display:flex;flex:0 0 auto;justify-content:center;gap:3px}#reader-chapter-pagination>[data-reader-page-step=next]{order:2}#reader-chapter-pagination>#reader-chapter-page-state{display:none}}
+
+@media(max-width:380px){
+  #comment-view-controls .comment-page-size-field select{width:clamp(118px,36vw,132px);min-width:clamp(118px,36vw,132px)!important}
+}
+
