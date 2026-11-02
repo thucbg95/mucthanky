@@ -51,3 +51,13 @@ Trang Truyện hiện có 1.492 chương toàn văn trong `src/data/novel-chapte
 Lịch tập tự cập nhật qua Pages Function, không cần D1/Worker riêng. Để mở tài khoản Google và bình luận chung, cần cấu hình D1, Google OAuth và Turnstile theo [README-backend.md](README-backend.md).
 
 Quyền phát hành theo khu vực do Bilibili quyết định. Nút Vietsub mở truy vấn Google đúng cụm từ yêu cầu, không phát phim trên website.
+
+
+## Video Facebook cho các tập phim
+
+Cấu hình tại `public/assets/episode-videos.json`:
+- `defaultVideo`: nguồn chung cho mọi tập hiện có và tương lai chưa có nguồn riêng (hiện dùng video tập 106 theo yêu cầu).
+- `episodes`: map số tập sang link Facebook công khai hoặc URL plugins/video.php, ví dụ `"107": "https://www.facebook.com/reel/VIDEO_ID/"`. Chỉ thêm khi có nguồn thật.
+- `latestEpisode`: số tập mới nhất hiển thị trong danh sách.
+
+Sau khi đổi cấu hình, chạy `npm run build`, commit/push để Cloudflare triển khai. Các URL tập tương lai vẫn sử dụng trang mẫu chung và cùng cấu hình Facebook; không phụ thuộc playlist YouTube.
