@@ -493,7 +493,7 @@ html[data-theme="dark"] .quickbar a:hover .quick-icon,html[data-theme="dark"] .q
 .film-player h3{margin:7px 0;font-size:calc(21px * var(--font-scale,1));color:var(--green)}
 .film-player p{margin:0;color:var(--muted);font-size:calc(13px * var(--font-scale,1))}
 .video-frame{position:relative;overflow:hidden;aspect-ratio:16/9;border-radius:0;background:#0c1418}
-.video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video-frame iframe{display:block;position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:0;padding:0;margin:0}
 .episode-watch-page{padding-top:18px}
 .episode-watch-heading{margin:0 0 18px}
 .episode-watch-heading .text-link{display:inline-flex;margin-bottom:12px}
@@ -501,7 +501,7 @@ html[data-theme="dark"] .quickbar a:hover .quick-icon,html[data-theme="dark"] .q
 .episode-watch-heading h2{margin:0 0 8px;color:var(--gold);font-size:clamp(24px,3vw,38px)}
 .episode-watch-heading p:last-child{margin:0;color:var(--muted)}
 .episode-watch-heading .episode-player-status:empty{display:none}
-.episode-video-frame{min-height:240px;aspect-ratio:16/9;background:#080d10}
+.episode-video-frame{min-height:0;aspect-ratio:560/314;border:0;border-radius:0;padding:0;box-shadow:none;background:transparent}
 .episode-video-frame [data-episode-player],.episode-video-frame [data-episode-player] iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .episode-player-placeholder{position:absolute;inset:0;z-index:2;display:grid;align-content:center;justify-items:center;gap:10px;padding:24px;text-align:center;color:var(--text);background:radial-gradient(ellipse at center,#20353a 0%,#111b20 70%)}
 .episode-player-placeholder[hidden]{display:none}
@@ -528,7 +528,7 @@ html:not([data-theme=dark]) .episode-player-placeholder p{color:#49605b}
  .episode-watch-page{padding-top:10px}
  .episode-watch-nav{gap:7px;flex-wrap:wrap}
  .episode-watch-nav .btn{flex:1 1 auto;justify-content:center}
- .episode-video-frame{min-height:190px}
+ .episode-video-frame{min-height:0}
 }
 @media(max-width:760px) and (hover:none){
  .font-floater:hover,.font-floater:focus-within{opacity:.8;transform:none}
