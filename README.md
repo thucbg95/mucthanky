@@ -57,7 +57,8 @@ Quyền phát hành theo khu vực do Bilibili quyết định. Nút Vietsub m�
 
 Cấu hình tại `public/assets/episode-videos.json`:
 - `defaultVideo`: nguồn chung cho mọi tập hiện có và tương lai chưa có nguồn riêng (hiện dùng video tập 106 theo yêu cầu).
-- `episodes`: map số tập sang link Facebook công khai hoặc URL plugins/video.php, ví dụ `"107": "https://www.facebook.com/reel/VIDEO_ID/"`. Chỉ thêm khi có nguồn thật.
+- `episodes`: map số tập sang link Facebook công khai hoặc URL plugins/video.php, ví dụ `"107": "https://www.facebook.com/reel/VIDEO_ID/"`. Các tập 01–106 hiện có cấu hình riêng dùng nguồn tập 106. Khi có mã nhúng, thay đúng khóa số tập bằng URL src của iframe hoặc link video Facebook.
+- `trailerVideo`: nguồn riêng cho `/phim/trailer/`, hiện dùng nguồn tập 106. Thay mục này khi có mã nhúng trailer.
 - `latestEpisode`: số tập mới nhất hiển thị trong danh sách.
 
 Sau khi đổi cấu hình, chạy `npm run build`, commit/push để Cloudflare triển khai. Các URL tập tương lai vẫn sử dụng trang mẫu chung và cùng cấu hình Facebook; không phụ thuộc playlist YouTube.
