@@ -2200,3 +2200,6 @@ body:has(.account-page) #main{flex:1 0 auto}
 .supporter-registry .supporter-entry>*{position:relative;z-index:1}
 @keyframes supporter-entry-sweep{0%,12%{transform:translate3d(0,0,0) skewX(-16deg);opacity:0}20%{opacity:.7}58%,100%{transform:translate3d(560%,0,0) skewX(-16deg);opacity:0}}
 @media(prefers-reduced-motion:reduce){.supporter-registry .supporter-entry,.supporter-registry .supporter-entry::before{animation:none!important;transition:none!important}}
+
+/* Clip the thin side edges drawn inside the Facebook embed. */
+.episode-video-frame iframe[data-facebook-video]{left:-2px;right:auto;width:calc(100% + 4px);max-width:none}
