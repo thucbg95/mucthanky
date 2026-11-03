@@ -5492,5 +5492,1573 @@
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1rbqBBqEBF&cid=34853814602&page=1&autoplay=0&danmaku=0"
       }
     ]
+  },
+  "relatedImages": {
+    "that-tinh": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "that-tinh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thất Tinh"
+    },
+    "sinh-tu": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "sinh-tu",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Sinh Tử"
+    },
+    "pha-bich": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "pha-bich",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Phá bích"
+    },
+    "ba-the-tam-dan-cong": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "ba-the-tam-dan-cong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Bá Thể Tam Đan Công"
+    },
+    "nguyen-khi-thanh-soi": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "nguyen-khi-thanh-soi",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Luyện khí thành sợi"
+    },
+    "nguyen-than": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "nguyen-than",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Nguyên thần"
+    },
+    "cai-tien-binh-khi": {
+      "image": "nguoi-cam",
+      "sourceSlug": "nguoi-cam",
+      "sourceTitle": "Người Câm",
+      "relationPath": [
+        "cai-tien-binh-khi",
+        "nguoi-cam"
+      ],
+      "label": "Ảnh Người Câm — minh họa liên quan cho Cải tiến binh khí"
+    },
+    "sinh-tu-bo": {
+      "image": "ban-cong-tho",
+      "sourceSlug": "ban-cong-tho",
+      "sourceTitle": "Ban Công Thố",
+      "relationPath": [
+        "sinh-tu-bo",
+        "ban-cong-tho"
+      ],
+      "label": "Ảnh Ban Công Thố — minh họa liên quan cho Sinh Tử Bộ"
+    },
+    "dai-loi-am-tu": {
+      "image": "ma-gia",
+      "sourceSlug": "ma-gia",
+      "sourceTitle": "Mã gia",
+      "relationPath": [
+        "dai-loi-am-tu",
+        "ma-gia"
+      ],
+      "label": "Ảnh Mã gia — minh họa liên quan cho Đại Lôi Âm Tự"
+    },
+    "tinh-ngan": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tinh-ngan",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tinh Ngạn"
+    },
+    "cuu-trong-thien-khai-nhan-phap": {
+      "image": "nguoi-mu",
+      "sourceSlug": "nguoi-mu",
+      "sourceTitle": "Người Mù",
+      "relationPath": [
+        "cuu-trong-thien-khai-nhan-phap",
+        "nguoi-mu"
+      ],
+      "label": "Ảnh Người Mù — minh họa liên quan cho Cửu Trọng Thiên Khai Nhãn Pháp"
+    },
+    "thien-ha": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thien-ha",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thiên Hà"
+    },
+    "kiem-nang": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "kiem-nang",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Kiếm nang"
+    },
+    "ly-giang-kiem-phap": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "ly-giang-kiem-phap",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Ly Giang kiếm pháp"
+    },
+    "nhu-lai-dai-thua-kinh": {
+      "image": "ma-gia",
+      "sourceSlug": "ma-gia",
+      "sourceTitle": "Mã gia",
+      "relationPath": [
+        "nhu-lai-dai-thua-kinh",
+        "ma-gia"
+      ],
+      "label": "Ảnh Mã gia — minh họa liên quan cho Như Lai Đại Thừa Kinh"
+    },
+    "loi-am-bat-thuc": {
+      "image": "ma-gia",
+      "sourceSlug": "ma-gia",
+      "sourceTitle": "Mã gia",
+      "relationPath": [
+        "loi-am-bat-thuc",
+        "ma-gia"
+      ],
+      "label": "Ảnh Mã gia — minh họa liên quan cho Lôi Âm Bát Thức"
+    },
+    "muc-nhat-gia": {
+      "image": "viem-tinh-tinh",
+      "sourceSlug": "viem-tinh-tinh",
+      "sourceTitle": "Viêm Tinh Tinh",
+      "relationPath": [
+        "muc-nhat-gia",
+        "viem-tinh-tinh"
+      ],
+      "label": "Ảnh Viêm Tinh Tinh — minh họa liên quan cho Mục Nhật giả"
+    },
+    "thai-duong-tinh": {
+      "image": "viem-tinh-tinh",
+      "sourceSlug": "viem-tinh-tinh",
+      "sourceTitle": "Viêm Tinh Tinh",
+      "relationPath": [
+        "thai-duong-tinh",
+        "viem-tinh-tinh"
+      ],
+      "label": "Ảnh Viêm Tinh Tinh — minh họa liên quan cho Thái Dương Tỉnh"
+    },
+    "phong-do": {
+      "image": "thon-truong",
+      "sourceSlug": "thon-truong",
+      "sourceTitle": "Thôn trưởng",
+      "relationPath": [
+        "phong-do",
+        "thon-truong"
+      ],
+      "label": "Ảnh Thôn trưởng — minh họa liên quan cho Phong Đô"
+    },
+    "vo-uu-huong": {
+      "image": "nguoi-cam",
+      "sourceSlug": "nguoi-cam",
+      "sourceTitle": "Người Câm",
+      "relationPath": [
+        "vo-uu-huong",
+        "nguoi-cam"
+      ],
+      "label": "Ảnh Người Câm — minh họa liên quan cho Vô Ưu Hương"
+    },
+    "tam-hon-that-phach": {
+      "image": "tu-ba-ba",
+      "sourceSlug": "tu-ba-ba",
+      "sourceTitle": "Tư bà bà",
+      "relationPath": [
+        "tam-hon-that-phach",
+        "tu-ba-ba"
+      ],
+      "label": "Ảnh Tư bà bà — minh họa liên quan cho Tam hồn thất phách"
+    },
+    "nguyen-than-dan": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "nguyen-than-dan",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Nguyên Thần Dẫn"
+    },
+    "tam-nguyen-than-hoi-quyet": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tam-nguyen-than-hoi-quyet",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tam Nguyên Thần Hội Quyết"
+    },
+    "linh-nang-doi-thien-kieu": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "linh-nang-doi-thien-kieu",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Linh Năng Đối Thiên Kiều"
+    },
+    "vo-lau-tao-hoa-huyen-kinh": {
+      "image": "duoc-su",
+      "sourceSlug": "duoc-su",
+      "sourceTitle": "Dược Sư",
+      "relationPath": [
+        "vo-lau-tao-hoa-huyen-kinh",
+        "duoc-su"
+      ],
+      "label": "Ảnh Dược Sư — minh họa liên quan cho Vô Lậu Tạo Hóa Huyền Kinh"
+    },
+    "vo-lau-dau-chien-than-cong": {
+      "image": "thon-truong",
+      "sourceSlug": "thon-truong",
+      "sourceTitle": "Thôn trưởng",
+      "relationPath": [
+        "vo-lau-dau-chien-than-cong",
+        "thon-truong"
+      ],
+      "label": "Ảnh Thôn trưởng — minh họa liên quan cho Vô Lậu Đấu Chiến Thần Công"
+    },
+    "dao-dan-cong": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "dao-dan-cong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Đạo Dẫn Công"
+    },
+    "van-kiep-bat-diet-dai-phap-su": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "van-kiep-bat-diet-dai-phap-su",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Vạn Kiếp Bất Diệt Đại Pháp Sư"
+    },
+    "thai-vi-toan-kinh": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thai-vi-toan-kinh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thái Vi Toán Kinh"
+    },
+    "thanh-do-tai-thien-huyen-cong": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thanh-do-tai-thien-huyen-cong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thành Đô Tái Thiên Huyền Công"
+    },
+    "khien-hon-dan": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "khien-hon-dan",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Khiên Hồn Dẫn"
+    },
+    "dieu-quy-khien-than-phu-tu-lenh": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "dieu-quy-khien-than-phu-tu-lenh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Điều Quỷ Khiển Thần Phù Tự Lệnh"
+    },
+    "tu-tieu-bich-lac-cong": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tu-tieu-bich-lac-cong",
+        "van-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tử Tiêu Bích Lạc Công"
+    },
+    "hoan-long-kinh": {
+      "image": "long-kieu-nam",
+      "sourceSlug": "long-kieu-nam",
+      "sourceTitle": "Long Kiều Nam",
+      "relationPath": [
+        "hoan-long-kinh",
+        "long-kieu-nam"
+      ],
+      "label": "Ảnh Long Kiều Nam — minh họa liên quan cho Hoạn Long Kinh"
+    },
+    "vat-chat-bat-dich": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "vat-chat-bat-dich",
+        "lang-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Vật Chất Bất Dịch"
+    },
+    "chat-nang-bat-dich": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "chat-nang-bat-dich",
+        "lang-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Chất Năng Bất Dịch"
+    },
+    "nguyen-tu-than-thong": {
+      "image": "tu-ba-ba",
+      "sourceSlug": "tu-ba-ba",
+      "sourceTitle": "Tư bà bà",
+      "relationPath": [
+        "nguyen-tu-than-thong",
+        "tu-ba-ba"
+      ],
+      "label": "Ảnh Tư bà bà — minh họa liên quan cho Nguyên Từ Thần Thông"
+    },
+    "thien-thu-phat-da": {
+      "image": "ma-gia",
+      "sourceSlug": "ma-gia",
+      "sourceTitle": "Mã gia",
+      "relationPath": [
+        "thien-thu-phat-da",
+        "ma-gia"
+      ],
+      "label": "Ảnh Mã gia — minh họa liên quan cho Thiên Thủ Phật Đà"
+    },
+    "kiem-thap-bat-thuc": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "kiem-thap-bat-thuc",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Kiếm Thập Bát Thức"
+    },
+    "kiem-thap-cuu-thuc": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "kiem-thap-cuu-thuc",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Kiếm Thập Cửu Thức"
+    },
+    "kiem-kiep": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "kiem-kiep",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Kiếp Kiếm"
+    },
+    "tu-thien-mon": {
+      "image": "tu-ba-ba",
+      "sourceSlug": "tu-ba-ba",
+      "sourceTitle": "Tư bà bà",
+      "relationPath": [
+        "tu-thien-mon",
+        "tu-ba-ba"
+      ],
+      "label": "Ảnh Tư bà bà — minh họa liên quan cho Tứ Thiên Môn"
+    },
+    "thien-cung-canh": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thien-cung-canh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thiên Cung"
+    },
+    "de-toa-canh": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "de-toa-canh",
+        "thien-cung-canh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Đế Tọa"
+    },
+    "dao-canh": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "dao-canh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Đạo Cảnh"
+    },
+    "ngoc-kinh-canh": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "ngoc-kinh-canh",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Ngọc Kinh và Đạo Quả"
+    },
+    "nhap-dao": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "nhap-dao",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Nhập Đạo"
+    },
+    "ca-sa-ma-gia": {
+      "image": "ma-gia",
+      "sourceSlug": "ma-gia",
+      "sourceTitle": "Mã gia",
+      "relationPath": [
+        "ca-sa-ma-gia",
+        "ma-gia"
+      ],
+      "label": "Ảnh Mã gia — minh họa liên quan cho Cà sa của Mã gia"
+    },
+    "trang-phuc-dien-khang": {
+      "image": "dien-khang-quoc-su",
+      "sourceSlug": "dien-khang-quoc-su",
+      "sourceTitle": "Diên Khang quốc sư",
+      "relationPath": [
+        "trang-phuc-dien-khang",
+        "dien-khang-quoc-su"
+      ],
+      "label": "Ảnh Diên Khang quốc sư — minh họa liên quan cho Quan phục và giáp phục Diên Khang"
+    },
+    "trang-phuc-thien-dinh": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "trang-phuc-thien-dinh",
+        "lac-vo-song",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Giáp phục Thiên Đình"
+    },
+    "phuc-trang-nguoi-sang-tao": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "phuc-trang-nguoi-sang-tao",
+        "lang-uyen-than-vuong",
+        "van-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Phục trang Người Sáng Tạo"
+    },
+    "trang-phuc-dai-loi-am-tu": {
+      "image": "ma-gia",
+      "sourceSlug": "ma-gia",
+      "sourceTitle": "Mã gia",
+      "relationPath": [
+        "trang-phuc-dai-loi-am-tu",
+        "ma-gia"
+      ],
+      "label": "Ảnh Mã gia — minh họa liên quan cho Y phục Phật môn Đại Lôi Âm Tự"
+    },
+    "long-thac-than-thuong": {
+      "image": "nguoi-mu",
+      "sourceSlug": "nguoi-mu",
+      "sourceTitle": "Người Mù",
+      "relationPath": [
+        "long-thac-than-thuong",
+        "nguoi-mu"
+      ],
+      "label": "Ảnh Người Mù — minh họa liên quan cho Long Thác Thần Thương"
+    },
+    "that-thien-ton": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "that-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Cửu Thiên Tôn"
+    },
+    "thap-thien-ton": {
+      "image": "dien-khang-quoc-su",
+      "sourceSlug": "dien-khang-quoc-su",
+      "sourceTitle": "Diên Khang quốc sư",
+      "relationPath": [
+        "thap-thien-ton",
+        "hao-thien-ton",
+        "dien-khang",
+        "dien-khang-quoc-su"
+      ],
+      "label": "Ảnh Diên Khang quốc sư — minh họa liên quan cho Thập Thiên Tôn"
+    },
+    "nguoi-sang-tao": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "nguoi-sang-tao",
+        "lang-uyen-than-vuong",
+        "van-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Người Sáng Tạo"
+    },
+    "thai-hu": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thai-hu",
+        "van-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thái Hư"
+    },
+    "long-han": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "long-han",
+        "van-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thời đại Long Hán"
+    },
+    "thoi-dai-xich-minh": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thoi-dai-xich-minh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thời đại Xích Minh"
+    },
+    "vu-lam-quan": {
+      "image": "official-83-tieu-phu",
+      "sourceSlug": "tieu-phu",
+      "sourceTitle": "Tiều Phu",
+      "relationPath": [
+        "vu-lam-quan",
+        "nguy-tu-phong",
+        "tieu-phu"
+      ],
+      "label": "Ảnh Tiều Phu — minh họa liên quan cho Vũ Lâm Quân"
+    },
+    "thien-minh": {
+      "image": "hu-sinh-hoa",
+      "sourceSlug": "hu-sinh-hoa",
+      "sourceTitle": "Hư Sinh Hoa",
+      "relationPath": [
+        "thien-minh",
+        "hu-sinh-hoa"
+      ],
+      "label": "Ảnh Hư Sinh Hoa — minh họa liên quan cho Thiên Minh"
+    },
+    "thien-am-gioi": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thien-am-gioi",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thiên Âm Giới"
+    },
+    "hong-mong-phu-van": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "hong-mong-phu-van",
+        "thai-dich",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Hồng Mông phù văn"
+    },
+    "kiem-dao-nhi-thap-tam-thuc": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "kiem-dao-nhi-thap-tam-thuc",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Kiếm Đạo Nhị Thập Tam Thức"
+    },
+    "di-la-cung": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "di-la-cung",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Di La Cung"
+    },
+    "thien-dinh": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thien-dinh",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thiên Đình"
+    },
+    "to-dinh": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "to-dinh",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tổ Đình"
+    },
+    "nguyen-gioi": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "nguyen-gioi",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Nguyên Giới"
+    },
+    "minh-do": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "minh-do",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Minh Đô"
+    },
+    "quy-khu": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "quy-khu",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Quy Khư"
+    },
+    "huyen-do": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "huyen-do",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Huyền Đô"
+    },
+    "the-gioi-thu": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "the-gioi-thu",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thế Giới Thụ"
+    },
+    "thuat-ngu": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thuat-ngu",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thuật ngữ Mục Thần Ký"
+    },
+    "u-minh-thai-tu": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "u-minh-thai-tu",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho U Minh Thái Tử"
+    },
+    "tuyet-vo-tran": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tuyet-vo-tran",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tuyệt Vô Trần"
+    },
+    "vo-dao-nhap-dao": {
+      "image": "ba-son",
+      "sourceSlug": "ba-son",
+      "sourceTitle": "Bá Sơn",
+      "relationPath": [
+        "vo-dao-nhap-dao",
+        "ba-son"
+      ],
+      "label": "Ảnh Bá Sơn — minh họa liên quan cho Võ đạo nhập đạo"
+    },
+    "thuong-thuong-hoc-cung": {
+      "image": "hu-sinh-hoa",
+      "sourceSlug": "hu-sinh-hoa",
+      "sourceTitle": "Hư Sinh Hoa",
+      "relationPath": [
+        "thuong-thuong-hoc-cung",
+        "hu-sinh-hoa"
+      ],
+      "label": "Ảnh Hư Sinh Hoa — minh họa liên quan cho Thượng Thương Học Cung"
+    },
+    "bi-ngan-phuong-chau": {
+      "image": "nguoi-cam",
+      "sourceSlug": "nguoi-cam",
+      "sourceTitle": "Người Câm",
+      "relationPath": [
+        "bi-ngan-phuong-chau",
+        "nguoi-cam"
+      ],
+      "label": "Ảnh Người Câm — minh họa liên quan cho Bỉ Ngạn Phương Châu"
+    },
+    "thai-so": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thai-so",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thái Sơ"
+    },
+    "khai-hoang-tan-nghiep": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "khai-hoang-tan-nghiep",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Khai Hoàng Tần Nghiệp"
+    },
+    "ngu-thien-ton": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "ngu-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Ngự Thiên Tôn"
+    },
+    "lang-thien-ton": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "lang-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Lăng Thiên Tôn"
+    },
+    "nguyet-thien-ton": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "nguyet-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Nguyệt Thiên Tôn"
+    },
+    "van-thien-ton": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "van-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Vân Thiên Tôn"
+    },
+    "u-thien-ton": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "u-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho U Thiên Tôn"
+    },
+    "thien-cong": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thien-cong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thiên Công"
+    },
+    "tan-phuong-thanh": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tan-phuong-thanh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tần Phượng Thanh"
+    },
+    "phuoc-nhat-la": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "phuoc-nhat-la",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Phược Nhật La"
+    },
+    "triet-hoa-le": {
+      "image": "do-phu",
+      "sourceSlug": "do-phu",
+      "sourceTitle": "Đồ Phu",
+      "relationPath": [
+        "triet-hoa-le",
+        "do-phu"
+      ],
+      "label": "Ảnh Đồ Phu — minh họa liên quan cho Triết Hoa Lê"
+    },
+    "bach-cu-nhi": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "bach-cu-nhi",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Bạch Cừ Nhi"
+    },
+    "hoa-thien-ton": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "hoa-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Hỏa Thiên Tôn"
+    },
+    "so-to-nhan-hoang": {
+      "image": "dien-khang-quoc-su",
+      "sourceSlug": "dien-khang-quoc-su",
+      "sourceTitle": "Diên Khang quốc sư",
+      "relationPath": [
+        "so-to-nhan-hoang",
+        "dien-khang-quoc-su"
+      ],
+      "label": "Ảnh Diên Khang quốc sư — minh họa liên quan cho Sơ Tổ Nhân Hoàng"
+    },
+    "chu-nhan-di-la-cung": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "chu-nhan-di-la-cung",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Chủ nhân Di La Cung"
+    },
+    "tan-linh-quan": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tan-linh-quan",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tần Linh Quân"
+    },
+    "cong-ton-yen": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "cong-ton-yen",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Công Tôn Yến"
+    },
+    "nguy-tu-phong": {
+      "image": "official-83-tieu-phu",
+      "sourceSlug": "tieu-phu",
+      "sourceTitle": "Tiều Phu",
+      "relationPath": [
+        "nguy-tu-phong",
+        "tieu-phu"
+      ],
+      "label": "Ảnh Tiều Phu — minh họa liên quan cho Ngụy Tùy Phong"
+    },
+    "lang-uyen-than-vuong": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "lang-uyen-than-vuong",
+        "van-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Lãng Uyển Thần Vương"
+    },
+    "trac-tra": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "trac-tra",
+        "khai-hoang-tan-nghiep",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Trạc Trà"
+    },
+    "yen-van-he": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "yen-van-he",
+        "trac-tra",
+        "khai-hoang-tan-nghiep",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Yên Vân Hề"
+    },
+    "diem-vuong": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "diem-vuong",
+        "khai-hoang-tan-nghiep",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Diêm Vương"
+    },
+    "lac-vo-song": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "lac-vo-song",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Lạc Vô Song"
+    },
+    "am-thien-tu": {
+      "image": "official-77-tho-ba",
+      "sourceSlug": "tho-ba",
+      "sourceTitle": "Thổ Bá",
+      "relationPath": [
+        "am-thien-tu",
+        "tho-ba"
+      ],
+      "label": "Ảnh Thổ Bá — minh họa liên quan cho Âm Thiên Tử"
+    },
+    "dia-mau-nguyen-quan": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "dia-mau-nguyen-quan",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Địa Mẫu Nguyên Quân"
+    },
+    "thuong-quan": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thuong-quan",
+        "nguyet-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thương Quân"
+    },
+    "xich-khe": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "xich-khe",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Xích Khê"
+    },
+    "hao-thien-ton": {
+      "image": "dien-khang-quoc-su",
+      "sourceSlug": "dien-khang-quoc-su",
+      "sourceTitle": "Diên Khang quốc sư",
+      "relationPath": [
+        "hao-thien-ton",
+        "dien-khang",
+        "dien-khang-quoc-su"
+      ],
+      "label": "Ảnh Diên Khang quốc sư — minh họa liên quan cho Hạo Thiên Tôn"
+    },
+    "hieu-thien-ton": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "hieu-thien-ton",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Hiểu Thiên Tôn"
+    },
+    "cung-thien-ton": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "cung-thien-ton",
+        "thai-de",
+        "lang-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Cung Thiên Tôn"
+    },
+    "nguyen-mau-phu-nhan": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "nguyen-mau-phu-nhan",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Nguyên Mẫu Phu Nhân"
+    },
+    "de-hau-nguyen-hi": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "de-hau-nguyen-hi",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Đế Hậu Nguyên Hi"
+    },
+    "thai-de": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thai-de",
+        "lang-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thái Đế"
+    },
+    "thai-dich": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thai-dich",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thái Dịch"
+    },
+    "vo-nhai-lao-nhan": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "vo-nhai-lao-nhan",
+        "thai-dich",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Vô Nhai Lão Nhân"
+    },
+    "thien-am-nuong-nuong": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thien-am-nuong-nuong",
+        "thien-am-gioi",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thiên Âm Nương Nương"
+    },
+    "kinh-yen": {
+      "image": "hu-sinh-hoa",
+      "sourceSlug": "hu-sinh-hoa",
+      "sourceTitle": "Hư Sinh Hoa",
+      "relationPath": [
+        "kinh-yen",
+        "hu-sinh-hoa"
+      ],
+      "label": "Ảnh Hư Sinh Hoa — minh họa liên quan cho Kinh Yến"
+    },
+    "tran-vuong-phi": {
+      "image": "official-77-tho-ba",
+      "sourceSlug": "tho-ba",
+      "sourceTitle": "Thổ Bá",
+      "relationPath": [
+        "tran-vuong-phi",
+        "tho-ba"
+      ],
+      "label": "Ảnh Thổ Bá — minh họa liên quan cho Trân Vương Phi"
+    },
+    "tinh-han": {
+      "image": "nguoi-mu",
+      "sourceSlug": "nguoi-mu",
+      "sourceTitle": "Người Mù",
+      "relationPath": [
+        "tinh-han",
+        "nguoi-mu"
+      ],
+      "label": "Ảnh Người Mù — minh họa liên quan cho Tinh Hãn"
+    },
+    "te-cuu-nghi": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "te-cuu-nghi",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tề Cửu Nghị"
+    },
+    "thien-de-thai-so": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thien-de-thai-so",
+        "van-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thiên Đế Thái Sơ"
+    },
+    "thai-thuy-co-than": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thai-thuy-co-than",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thái Thủy Cổ Thần"
+    },
+    "thai-to-co-than": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thai-to-co-than",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thái Tố Thần Nữ"
+    },
+    "han-duong": {
+      "image": "long-ky-lan",
+      "sourceSlug": "long-ky-lan",
+      "sourceTitle": "Long Kỳ Lân",
+      "relationPath": [
+        "han-duong",
+        "long-ky-lan"
+      ],
+      "label": "Ảnh Long Kỳ Lân — minh họa liên quan cho Hàn Đường"
+    },
+    "de-dich-nguyet": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "de-dich-nguyet",
+        "khai-hoang-tan-nghiep",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Đế Dịch Nguyệt"
+    },
+    "dien-thuc": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "dien-thuc",
+        "khai-hoang-tan-nghiep",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Điền Thục"
+    },
+    "ly-du-nhien": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "ly-du-nhien",
+        "khai-hoang-tan-nghiep",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Lý Du Nhiên"
+    },
+    "ta-vo-ky": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "ta-vo-ky",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tà Vô Kỳ"
+    },
+    "hong-thien-ton": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "hong-thien-ton",
+        "thien-cong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Hồng Thiên Tôn"
+    },
+    "hu-thien-ton": {
+      "image": "official-77-tho-ba",
+      "sourceSlug": "tho-ba",
+      "sourceTitle": "Thổ Bá",
+      "relationPath": [
+        "hu-thien-ton",
+        "tho-ba"
+      ],
+      "label": "Ảnh Thổ Bá — minh họa liên quan cho Hư Thiên Tôn"
+    },
+    "to-than-vuong": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "to-than-vuong",
+        "thien-cong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tổ Thần Vương"
+    },
+    "thai-am-nuong-nuong": {
+      "image": "official-77-tho-ba",
+      "sourceSlug": "tho-ba",
+      "sourceTitle": "Thổ Bá",
+      "relationPath": [
+        "thai-am-nuong-nuong",
+        "am-thien-tu",
+        "tho-ba"
+      ],
+      "label": "Ảnh Thổ Bá — minh họa liên quan cho Thái Âm Nương Nương"
+    },
+    "te-ha-du": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "te-ha-du",
+        "khai-hoang-tan-nghiep",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tề Hã Dư"
+    },
+    "tu-he-thien-su": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tu-he-thien-su",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tử Hề Thiên Sư"
+    },
+    "xich-minh-than-tu": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "xich-minh-than-tu",
+        "xich-khe",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Xích Minh Thần Tử"
+    },
+    "xich-hoang": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "xich-hoang",
+        "tan-phuong-thanh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Xích Hoàng"
+    },
+    "hong-quan-dao-ton": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "hong-quan-dao-ton",
+        "thai-dich",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Hồng Quân Đạo Tôn"
+    },
+    "thai-thuong-di-la": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thai-thuong-di-la",
+        "thai-dich",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thái Thượng Công Tử"
+    },
+    "lang-tieu-cong-tu": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "lang-tieu-cong-tu",
+        "thai-de",
+        "lang-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Lăng Tiêu Công Tử"
+    },
+    "tu-tieu-cong-tu": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tu-tieu-cong-tu",
+        "kiem-dao-nhi-thap-tam-thuc",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tử Tiêu Công Tử"
+    },
+    "vo-cuc-cong-tu": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "vo-cuc-cong-tu",
+        "muc-than-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Vô Cực Công Tử"
+    },
+    "lam-ngu-dien": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "lam-ngu-dien",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Lam Ngự Điền"
+    },
+    "tan-vu": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tan-vu",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tần Vũ"
+    },
+    "ho-bat-quy": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "ho-bat-quy",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Hồ Bất Quy"
+    },
+    "ba-duong-than-vuong": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "ba-duong-than-vuong",
+        "thai-de",
+        "lang-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Bá Dương Thần Vương"
+    },
+    "dai-hong": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "dai-hong",
+        "thien-cong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Đại Hồng"
+    },
+    "khuc-su-huynh": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "khuc-su-huynh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Khúc sư huynh"
+    },
+    "tinh-su-ty": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tinh-su-ty",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tình sư tỷ"
+    },
+    "te-nhan-bang": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "te-nhan-bang",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tề Nhạn Băng"
+    },
+    "moc-bi-phong": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "moc-bi-phong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Mộc Bi Phong"
+    },
+    "trang-liep-ho": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "trang-liep-ho",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Trương Liệp Hộ"
+    },
+    "gio-kim-tu-ba-ba": {
+      "image": "tu-ba-ba",
+      "sourceSlug": "tu-ba-ba",
+      "sourceTitle": "Tư bà bà",
+      "relationPath": [
+        "gio-kim-tu-ba-ba",
+        "tu-ba-ba"
+      ],
+      "label": "Ảnh Tư bà bà — minh họa liên quan cho Giỏ kim chỉ của Tư Bà Bà"
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "auditedAt": "2026-11-03T15:24:41.942Z",
+  "auditedAt": "2026-11-03T15:40:42.918Z",
   "entryCount": 228,
   "entriesWithReferences": 228,
   "sourceHostCounts": {
@@ -24,7 +24,8 @@
   "mediaImages": 282,
   "galleryImages": 12,
   "entrySpecificImages": 78,
-  "pendingImages": 150,
+  "relatedImages": 150,
+  "pendingImages": 0,
   "thinProfiles": [
     {
       "slug": "trach-tru",
@@ -82,20 +83,20 @@
     },
     {
       "slug": "nguyen-than",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Nguyên thần",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 70
     },
     {
       "slug": "cai-tien-binh-khi",
-      "albumImages": 0,
+      "albumImages": 2,
       "videos": 0,
       "localVideos": 0,
       "title": "Cải tiến binh khí",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 70
     },
     {
@@ -109,11 +110,11 @@
     },
     {
       "slug": "sinh-tu-bo",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Sinh Tử Bộ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 59
     },
     {
@@ -145,110 +146,110 @@
     },
     {
       "slug": "nguyen-than-dan",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Nguyên Thần Dẫn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 89
     },
     {
       "slug": "tam-nguyen-than-hoi-quyet",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tam Nguyên Thần Hội Quyết",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 73
     },
     {
       "slug": "linh-nang-doi-thien-kieu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Linh Năng Đối Thiên Kiều",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 89
     },
     {
       "slug": "vo-lau-tao-hoa-huyen-kinh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Vô Lậu Tạo Hóa Huyền Kinh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "vo-lau-dau-chien-than-cong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Vô Lậu Đấu Chiến Thần Công",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 76
     },
     {
       "slug": "dao-dan-cong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Đạo Dẫn Công",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 87
     },
     {
       "slug": "van-kiep-bat-diet-dai-phap-su",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Vạn Kiếp Bất Diệt Đại Pháp Sư",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 81
     },
     {
       "slug": "thai-vi-toan-kinh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Vi Toán Kinh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "thanh-do-tai-thien-huyen-cong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thành Đô Tái Thiên Huyền Công",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 81
     },
     {
       "slug": "khien-hon-dan",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Khiên Hồn Dẫn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 72
     },
     {
       "slug": "dieu-quy-khien-than-phu-tu-lenh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Điều Quỷ Khiển Thần Phù Tự Lệnh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 91
     },
     {
       "slug": "tu-tieu-bich-lac-cong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tử Tiêu Bích Lạc Công",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 77
     },
     {
@@ -262,47 +263,47 @@
     },
     {
       "slug": "hoan-long-kinh",
-      "albumImages": 0,
+      "albumImages": 3,
       "videos": 0,
       "localVideos": 0,
       "title": "Hoạn Long Kinh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 72
     },
     {
       "slug": "vat-chat-bat-dich",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Vật Chất Bất Dịch",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 80
     },
     {
       "slug": "chat-nang-bat-dich",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Chất Năng Bất Dịch",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 76
     },
     {
       "slug": "nguyen-tu-than-thong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Nguyên Từ Thần Thông",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 90
     },
     {
       "slug": "thien-thu-phat-da",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thiên Thủ Phật Đà",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 75
     },
     {
@@ -316,83 +317,83 @@
     },
     {
       "slug": "kiem-thap-bat-thuc",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Kiếm Thập Bát Thức",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 73
     },
     {
       "slug": "kiem-thap-cuu-thuc",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Kiếm Thập Cửu Thức",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 75
     },
     {
       "slug": "kiem-kiep",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Kiếp Kiếm",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 80
     },
     {
       "slug": "tu-thien-mon",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tứ Thiên Môn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "thien-cung-canh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thiên Cung",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 91
     },
     {
       "slug": "de-toa-canh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Đế Tọa",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 81
     },
     {
       "slug": "dao-canh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Đạo Cảnh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "ngoc-kinh-canh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Ngọc Kinh và Đạo Quả",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 92
     },
     {
       "slug": "nhap-dao",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Nhập Đạo",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 81
     },
     {
@@ -406,11 +407,11 @@
     },
     {
       "slug": "ca-sa-ma-gia",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Cà sa của Mã gia",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 82
     },
     {
@@ -433,263 +434,263 @@
     },
     {
       "slug": "trang-phuc-dien-khang",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Quan phục và giáp phục Diên Khang",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 85
     },
     {
       "slug": "trang-phuc-thien-dinh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Giáp phục Thiên Đình",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 90
     },
     {
       "slug": "phuc-trang-nguoi-sang-tao",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Phục trang Người Sáng Tạo",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 86
     },
     {
       "slug": "trang-phuc-dai-loi-am-tu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Y phục Phật môn Đại Lôi Âm Tự",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 81
     },
     {
       "slug": "long-thac-than-thuong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Long Thác Thần Thương",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 73
     },
     {
       "slug": "that-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Cửu Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 148
     },
     {
       "slug": "thap-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thập Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "nguoi-sang-tao",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Người Sáng Tạo",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 82
     },
     {
       "slug": "thai-hu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Hư",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 83
     },
     {
       "slug": "long-han",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thời đại Long Hán",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 83
     },
     {
       "slug": "thoi-dai-xich-minh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thời đại Xích Minh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 84
     },
     {
       "slug": "vu-lam-quan",
-      "albumImages": 0,
+      "albumImages": 1,
       "videos": 0,
       "localVideos": 0,
       "title": "Vũ Lâm Quân",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "thien-minh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thiên Minh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "thien-am-gioi",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thiên Âm Giới",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 85
     },
     {
       "slug": "hong-mong-phu-van",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Hồng Mông phù văn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 88
     },
     {
       "slug": "kiem-dao-nhi-thap-tam-thuc",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Kiếm Đạo Nhị Thập Tam Thức",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 63
     },
     {
       "slug": "thien-dinh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thiên Đình",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 28
     },
     {
       "slug": "to-dinh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tổ Đình",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 33
     },
     {
       "slug": "nguyen-gioi",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Nguyên Giới",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 32
     },
     {
       "slug": "minh-do",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Minh Đô",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 27
     },
     {
       "slug": "quy-khu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Quy Khư",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 30
     },
     {
       "slug": "huyen-do",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Huyền Đô",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 24
     },
     {
       "slug": "thuat-ngu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thuật ngữ Mục Thần Ký",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 39
     },
     {
       "slug": "u-minh-thai-tu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "U Minh Thái Tử",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 35
     },
     {
       "slug": "tuyet-vo-tran",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tuyệt Vô Trần",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 38
     },
     {
       "slug": "vo-dao-nhap-dao",
-      "albumImages": 0,
+      "albumImages": 1,
       "videos": 0,
       "localVideos": 0,
       "title": "Võ đạo nhập đạo",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 36
     },
     {
       "slug": "thuong-thuong-hoc-cung",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thượng Thương Học Cung",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 31
     },
     {
       "slug": "bi-ngan-phuong-chau",
-      "albumImages": 0,
+      "albumImages": 2,
       "videos": 0,
       "localVideos": 0,
       "title": "Bỉ Ngạn Phương Châu",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 38
     },
     {
       "slug": "thai-so",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Sơ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 37
     },
     {
@@ -712,38 +713,38 @@
     },
     {
       "slug": "bach-cu-nhi",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Bạch Cừ Nhi",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 119
     },
     {
       "slug": "hoa-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Hỏa Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 142
     },
     {
       "slug": "so-to-nhan-hoang",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Sơ Tổ Nhân Hoàng",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 127
     },
     {
       "slug": "tan-linh-quan",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tần Linh Quân",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 88
     },
     {
@@ -757,11 +758,11 @@
     },
     {
       "slug": "cong-ton-yen",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Công Tôn Yến",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 86
     },
     {
@@ -784,389 +785,389 @@
     },
     {
       "slug": "nguy-tu-phong",
-      "albumImages": 0,
+      "albumImages": 1,
       "videos": 0,
       "localVideos": 0,
       "title": "Ngụy Tùy Phong",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 73
     },
     {
       "slug": "trac-tra",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Trạc Trà",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 83
     },
     {
       "slug": "yen-van-he",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Yên Vân Hề",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 73
     },
     {
       "slug": "diem-vuong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Diêm Vương",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 80
     },
     {
       "slug": "lac-vo-song",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Lạc Vô Song",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 77
     },
     {
       "slug": "am-thien-tu",
-      "albumImages": 0,
+      "albumImages": 5,
       "videos": 0,
       "localVideos": 0,
       "title": "Âm Thiên Tử",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 83
     },
     {
       "slug": "dia-mau-nguyen-quan",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Địa Mẫu Nguyên Quân",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 82
     },
     {
       "slug": "thuong-quan",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thương Quân",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 78
     },
     {
       "slug": "xich-khe",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Xích Khê",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "hao-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Hạo Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 75
     },
     {
       "slug": "hieu-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Hiểu Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 88
     },
     {
       "slug": "cung-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Cung Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 87
     },
     {
       "slug": "nguyen-mau-phu-nhan",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Nguyên Mẫu Phu Nhân",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 84
     },
     {
       "slug": "de-hau-nguyen-hi",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Đế Hậu Nguyên Hi",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 75
     },
     {
       "slug": "thai-de",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Đế",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 111
     },
     {
       "slug": "vo-nhai-lao-nhan",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Vô Nhai Lão Nhân",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 85
     },
     {
       "slug": "thien-am-nuong-nuong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thiên Âm Nương Nương",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 86
     },
     {
       "slug": "kinh-yen",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Kinh Yến",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 72
     },
     {
       "slug": "tran-vuong-phi",
-      "albumImages": 0,
+      "albumImages": 5,
       "videos": 0,
       "localVideos": 0,
       "title": "Trân Vương Phi",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 82
     },
     {
       "slug": "tinh-han",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tinh Hãn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 90
     },
     {
       "slug": "te-cuu-nghi",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tề Cửu Nghị",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 84
     },
     {
       "slug": "thien-de-thai-so",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thiên Đế Thái Sơ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 77
     },
     {
       "slug": "thai-thuy-co-than",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Thủy Cổ Thần",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 77
     },
     {
       "slug": "thai-to-co-than",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Tố Thần Nữ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 83
     },
     {
       "slug": "han-duong",
-      "albumImages": 0,
+      "albumImages": 5,
       "videos": 0,
       "localVideos": 0,
       "title": "Hàn Đường",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 80
     },
     {
       "slug": "de-dich-nguyet",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Đế Dịch Nguyệt",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 81
     },
     {
       "slug": "dien-thuc",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Điền Thục",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 74
     },
     {
       "slug": "ly-du-nhien",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Lý Du Nhiên",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 86
     },
     {
       "slug": "ta-vo-ky",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tà Vô Kỳ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 81
     },
     {
       "slug": "hong-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Hồng Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 69
     },
     {
       "slug": "hu-thien-ton",
-      "albumImages": 0,
+      "albumImages": 5,
       "videos": 0,
       "localVideos": 0,
       "title": "Hư Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 75
     },
     {
       "slug": "to-than-vuong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tổ Thần Vương",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 66
     },
     {
       "slug": "thai-am-nuong-nuong",
-      "albumImages": 0,
+      "albumImages": 5,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Âm Nương Nương",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 78
     },
     {
       "slug": "te-ha-du",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tề Hã Dư",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 74
     },
     {
       "slug": "tu-he-thien-su",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tử Hề Thiên Sư",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 78
     },
     {
       "slug": "xich-minh-than-tu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Xích Minh Thần Tử",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 75
     },
     {
       "slug": "xich-hoang",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Xích Hoàng",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 76
     },
     {
       "slug": "hong-quan-dao-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Hồng Quân Đạo Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "thai-thuong-di-la",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Thượng Công Tử",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 74
     },
     {
       "slug": "lang-tieu-cong-tu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Lăng Tiêu Công Tử",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 75
     },
     {
       "slug": "tu-tieu-cong-tu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tử Tiêu Công Tử",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 62
     },
     {
       "slug": "vo-cuc-cong-tu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Vô Cực Công Tử",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 57
     },
     {
       "slug": "tan-vu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tần Vũ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 107
     },
     {
@@ -1180,56 +1181,56 @@
     },
     {
       "slug": "ho-bat-quy",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Hồ Bất Quy",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 103
     },
     {
       "slug": "ba-duong-than-vuong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Bá Dương Thần Vương",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 97
     },
     {
       "slug": "dai-hong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Đại Hồng",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 100
     },
     {
       "slug": "khuc-su-huynh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Khúc sư huynh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 89
     },
     {
       "slug": "tinh-su-ty",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tình sư tỷ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 78
     },
     {
       "slug": "te-nhan-bang",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tề Nhạn Băng",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 93
     },
     {
@@ -1243,20 +1244,20 @@
     },
     {
       "slug": "moc-bi-phong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Mộc Bi Phong",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 92
     },
     {
       "slug": "trang-liep-ho",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Trương Liệp Hộ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 88
     },
     {
@@ -1297,11 +1298,11 @@
     },
     {
       "slug": "gio-kim-tu-ba-ba",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Giỏ kim chỉ của Tư Bà Bà",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 61
     },
     {
@@ -1349,7 +1350,7 @@
       "reason": "Không dùng làm ảnh nhận diện khi chưa đối chiếu đúng chủ thể"
     }
   ],
-  "fullAlbums": 31,
+  "fullAlbums": 169,
   "profilesWithVideos": 37,
   "profilesWithLocalVideos": 2,
   "incompleteAlbums": [
@@ -1409,19 +1410,9 @@
       "images": 1
     },
     {
-      "slug": "that-tinh",
-      "title": "Thất Tinh",
-      "images": 0
-    },
-    {
       "slug": "thien-nhan",
       "title": "Thiên Nhân",
       "images": 1
-    },
-    {
-      "slug": "sinh-tu",
-      "title": "Sinh Tử",
-      "images": 0
     },
     {
       "slug": "than-kieu",
@@ -1429,19 +1420,9 @@
       "images": 4
     },
     {
-      "slug": "pha-bich",
-      "title": "Phá bích",
-      "images": 0
-    },
-    {
       "slug": "ba-the",
       "title": "Bá thể",
       "images": 5
-    },
-    {
-      "slug": "ba-the-tam-dan-cong",
-      "title": "Bá Thể Tam Đan Công",
-      "images": 0
     },
     {
       "slug": "thien-ma-tao-hoa-cong",
@@ -1459,19 +1440,9 @@
       "images": 1
     },
     {
-      "slug": "nguyen-khi-thanh-soi",
-      "title": "Luyện khí thành sợi",
-      "images": 0
-    },
-    {
-      "slug": "nguyen-than",
-      "title": "Nguyên thần",
-      "images": 0
-    },
-    {
       "slug": "cai-tien-binh-khi",
       "title": "Cải tiến binh khí",
-      "images": 0
+      "images": 2
     },
     {
       "slug": "ngoc-boi-tan-muc",
@@ -1489,19 +1460,9 @@
       "images": 1
     },
     {
-      "slug": "sinh-tu-bo",
-      "title": "Sinh Tử Bộ",
-      "images": 0
-    },
-    {
       "slug": "long-ke",
       "title": "Long kê",
       "images": 2
-    },
-    {
-      "slug": "dai-loi-am-tu",
-      "title": "Đại Lôi Âm Tự",
-      "images": 0
     },
     {
       "slug": "long-ky-lan",
@@ -1512,11 +1473,6 @@
       "slug": "tu-van-huong",
       "title": "Tư Vân Hương",
       "images": 5
-    },
-    {
-      "slug": "tinh-ngan",
-      "title": "Tinh Ngạn",
-      "images": 0
     },
     {
       "slug": "ba-son",
@@ -1534,49 +1490,9 @@
       "images": 1
     },
     {
-      "slug": "cuu-trong-thien-khai-nhan-phap",
-      "title": "Cửu Trọng Thiên Khai Nhãn Pháp",
-      "images": 0
-    },
-    {
-      "slug": "thien-ha",
-      "title": "Thiên Hà",
-      "images": 0
-    },
-    {
-      "slug": "kiem-nang",
-      "title": "Kiếm nang",
-      "images": 0
-    },
-    {
-      "slug": "ly-giang-kiem-phap",
-      "title": "Ly Giang kiếm pháp",
-      "images": 0
-    },
-    {
-      "slug": "nhu-lai-dai-thua-kinh",
-      "title": "Như Lai Đại Thừa Kinh",
-      "images": 0
-    },
-    {
-      "slug": "loi-am-bat-thuc",
-      "title": "Lôi Âm Bát Thức",
-      "images": 0
-    },
-    {
       "slug": "sat-tru-dao-phap",
       "title": "Sát Trư Đao Pháp",
       "images": 3
-    },
-    {
-      "slug": "muc-nhat-gia",
-      "title": "Mục Nhật giả",
-      "images": 0
-    },
-    {
-      "slug": "thai-duong-tinh",
-      "title": "Thái Dương Tỉnh",
-      "images": 0
     },
     {
       "slug": "u-do",
@@ -1584,79 +1500,9 @@
       "images": 1
     },
     {
-      "slug": "phong-do",
-      "title": "Phong Đô",
-      "images": 0
-    },
-    {
       "slug": "vo-uu-huong",
       "title": "Vô Ưu Hương",
-      "images": 0
-    },
-    {
-      "slug": "tam-hon-that-phach",
-      "title": "Tam hồn thất phách",
-      "images": 0
-    },
-    {
-      "slug": "nguyen-than-dan",
-      "title": "Nguyên Thần Dẫn",
-      "images": 0
-    },
-    {
-      "slug": "tam-nguyen-than-hoi-quyet",
-      "title": "Tam Nguyên Thần Hội Quyết",
-      "images": 0
-    },
-    {
-      "slug": "linh-nang-doi-thien-kieu",
-      "title": "Linh Năng Đối Thiên Kiều",
-      "images": 0
-    },
-    {
-      "slug": "vo-lau-tao-hoa-huyen-kinh",
-      "title": "Vô Lậu Tạo Hóa Huyền Kinh",
-      "images": 0
-    },
-    {
-      "slug": "vo-lau-dau-chien-than-cong",
-      "title": "Vô Lậu Đấu Chiến Thần Công",
-      "images": 0
-    },
-    {
-      "slug": "dao-dan-cong",
-      "title": "Đạo Dẫn Công",
-      "images": 0
-    },
-    {
-      "slug": "van-kiep-bat-diet-dai-phap-su",
-      "title": "Vạn Kiếp Bất Diệt Đại Pháp Sư",
-      "images": 0
-    },
-    {
-      "slug": "thai-vi-toan-kinh",
-      "title": "Thái Vi Toán Kinh",
-      "images": 0
-    },
-    {
-      "slug": "thanh-do-tai-thien-huyen-cong",
-      "title": "Thành Đô Tái Thiên Huyền Công",
-      "images": 0
-    },
-    {
-      "slug": "khien-hon-dan",
-      "title": "Khiên Hồn Dẫn",
-      "images": 0
-    },
-    {
-      "slug": "dieu-quy-khien-than-phu-tu-lenh",
-      "title": "Điều Quỷ Khiển Thần Phù Tự Lệnh",
-      "images": 0
-    },
-    {
-      "slug": "tu-tieu-bich-lac-cong",
-      "title": "Tử Tiêu Bích Lạc Công",
-      "images": 0
+      "images": 2
     },
     {
       "slug": "cuu-long-de-vuong-cong",
@@ -1666,27 +1512,7 @@
     {
       "slug": "hoan-long-kinh",
       "title": "Hoạn Long Kinh",
-      "images": 0
-    },
-    {
-      "slug": "vat-chat-bat-dich",
-      "title": "Vật Chất Bất Dịch",
-      "images": 0
-    },
-    {
-      "slug": "chat-nang-bat-dich",
-      "title": "Chất Năng Bất Dịch",
-      "images": 0
-    },
-    {
-      "slug": "nguyen-tu-than-thong",
-      "title": "Nguyên Từ Thần Thông",
-      "images": 0
-    },
-    {
-      "slug": "thien-thu-phat-da",
-      "title": "Thiên Thủ Phật Đà",
-      "images": 0
+      "images": 3
     },
     {
       "slug": "kiem-do",
@@ -1694,59 +1520,9 @@
       "images": 1
     },
     {
-      "slug": "kiem-thap-bat-thuc",
-      "title": "Kiếm Thập Bát Thức",
-      "images": 0
-    },
-    {
-      "slug": "kiem-thap-cuu-thuc",
-      "title": "Kiếm Thập Cửu Thức",
-      "images": 0
-    },
-    {
-      "slug": "kiem-kiep",
-      "title": "Kiếp Kiếm",
-      "images": 0
-    },
-    {
-      "slug": "tu-thien-mon",
-      "title": "Tứ Thiên Môn",
-      "images": 0
-    },
-    {
-      "slug": "thien-cung-canh",
-      "title": "Thiên Cung",
-      "images": 0
-    },
-    {
-      "slug": "de-toa-canh",
-      "title": "Đế Tọa",
-      "images": 0
-    },
-    {
-      "slug": "dao-canh",
-      "title": "Đạo Cảnh",
-      "images": 0
-    },
-    {
-      "slug": "ngoc-kinh-canh",
-      "title": "Ngọc Kinh và Đạo Quả",
-      "images": 0
-    },
-    {
-      "slug": "nhap-dao",
-      "title": "Nhập Đạo",
-      "images": 0
-    },
-    {
       "slug": "phuc-trang-tu-ba-ba",
       "title": "Phục trang của Tư Bà Bà",
       "images": 2
-    },
-    {
-      "slug": "ca-sa-ma-gia",
-      "title": "Cà sa của Mã gia",
-      "images": 0
     },
     {
       "slug": "y-phuc-hanh-trinh-tan-muc",
@@ -1759,159 +1535,19 @@
       "images": 1
     },
     {
-      "slug": "trang-phuc-dien-khang",
-      "title": "Quan phục và giáp phục Diên Khang",
-      "images": 0
-    },
-    {
-      "slug": "trang-phuc-thien-dinh",
-      "title": "Giáp phục Thiên Đình",
-      "images": 0
-    },
-    {
-      "slug": "phuc-trang-nguoi-sang-tao",
-      "title": "Phục trang Người Sáng Tạo",
-      "images": 0
-    },
-    {
-      "slug": "trang-phuc-dai-loi-am-tu",
-      "title": "Y phục Phật môn Đại Lôi Âm Tự",
-      "images": 0
-    },
-    {
-      "slug": "long-thac-than-thuong",
-      "title": "Long Thác Thần Thương",
-      "images": 0
-    },
-    {
-      "slug": "that-thien-ton",
-      "title": "Cửu Thiên Tôn",
-      "images": 0
-    },
-    {
-      "slug": "thap-thien-ton",
-      "title": "Thập Thiên Tôn",
-      "images": 0
-    },
-    {
-      "slug": "nguoi-sang-tao",
-      "title": "Người Sáng Tạo",
-      "images": 0
-    },
-    {
-      "slug": "thai-hu",
-      "title": "Thái Hư",
-      "images": 0
-    },
-    {
-      "slug": "long-han",
-      "title": "Thời đại Long Hán",
-      "images": 0
-    },
-    {
-      "slug": "thoi-dai-xich-minh",
-      "title": "Thời đại Xích Minh",
-      "images": 0
-    },
-    {
       "slug": "vu-lam-quan",
       "title": "Vũ Lâm Quân",
-      "images": 0
-    },
-    {
-      "slug": "thien-minh",
-      "title": "Thiên Minh",
-      "images": 0
-    },
-    {
-      "slug": "thien-am-gioi",
-      "title": "Thiên Âm Giới",
-      "images": 0
-    },
-    {
-      "slug": "hong-mong-phu-van",
-      "title": "Hồng Mông phù văn",
-      "images": 0
-    },
-    {
-      "slug": "kiem-dao-nhi-thap-tam-thuc",
-      "title": "Kiếm Đạo Nhị Thập Tam Thức",
-      "images": 0
-    },
-    {
-      "slug": "di-la-cung",
-      "title": "Di La Cung",
-      "images": 0
-    },
-    {
-      "slug": "thien-dinh",
-      "title": "Thiên Đình",
-      "images": 0
-    },
-    {
-      "slug": "to-dinh",
-      "title": "Tổ Đình",
-      "images": 0
-    },
-    {
-      "slug": "nguyen-gioi",
-      "title": "Nguyên Giới",
-      "images": 0
-    },
-    {
-      "slug": "minh-do",
-      "title": "Minh Đô",
-      "images": 0
-    },
-    {
-      "slug": "quy-khu",
-      "title": "Quy Khư",
-      "images": 0
-    },
-    {
-      "slug": "huyen-do",
-      "title": "Huyền Đô",
-      "images": 0
-    },
-    {
-      "slug": "the-gioi-thu",
-      "title": "Thế Giới Thụ",
-      "images": 0
-    },
-    {
-      "slug": "thuat-ngu",
-      "title": "Thuật ngữ Mục Thần Ký",
-      "images": 0
-    },
-    {
-      "slug": "u-minh-thai-tu",
-      "title": "U Minh Thái Tử",
-      "images": 0
-    },
-    {
-      "slug": "tuyet-vo-tran",
-      "title": "Tuyệt Vô Trần",
-      "images": 0
+      "images": 1
     },
     {
       "slug": "vo-dao-nhap-dao",
       "title": "Võ đạo nhập đạo",
-      "images": 0
-    },
-    {
-      "slug": "thuong-thuong-hoc-cung",
-      "title": "Thượng Thương Học Cung",
-      "images": 0
+      "images": 1
     },
     {
       "slug": "bi-ngan-phuong-chau",
       "title": "Bỉ Ngạn Phương Châu",
-      "images": 0
-    },
-    {
-      "slug": "thai-so",
-      "title": "Thái Sơ",
-      "images": 0
+      "images": 2
     },
     {
       "slug": "dung-giang",
@@ -1924,64 +1560,14 @@
       "images": 3
     },
     {
-      "slug": "khai-hoang-tan-nghiep",
-      "title": "Khai Hoàng Tần Nghiệp",
-      "images": 0
-    },
-    {
-      "slug": "ngu-thien-ton",
-      "title": "Ngự Thiên Tôn",
-      "images": 0
-    },
-    {
-      "slug": "lang-thien-ton",
-      "title": "Lăng Thiên Tôn",
-      "images": 0
-    },
-    {
-      "slug": "nguyet-thien-ton",
-      "title": "Nguyệt Thiên Tôn",
-      "images": 0
-    },
-    {
-      "slug": "van-thien-ton",
-      "title": "Vân Thiên Tôn",
-      "images": 0
-    },
-    {
-      "slug": "u-thien-ton",
-      "title": "U Thiên Tôn",
-      "images": 0
-    },
-    {
       "slug": "tho-ba",
       "title": "Thổ Bá",
       "images": 5
     },
     {
-      "slug": "thien-cong",
-      "title": "Thiên Công",
-      "images": 0
-    },
-    {
-      "slug": "tan-phuong-thanh",
-      "title": "Tần Phượng Thanh",
-      "images": 0
-    },
-    {
       "slug": "tieu-phu",
       "title": "Tiều Phu",
       "images": 1
-    },
-    {
-      "slug": "phuoc-nhat-la",
-      "title": "Phược Nhật La",
-      "images": 0
-    },
-    {
-      "slug": "triet-hoa-le",
-      "title": "Triết Hoa Lê",
-      "images": 0
     },
     {
       "slug": "thieu-nien-to-su",
@@ -1999,36 +1585,6 @@
       "images": 1
     },
     {
-      "slug": "bach-cu-nhi",
-      "title": "Bạch Cừ Nhi",
-      "images": 0
-    },
-    {
-      "slug": "hoa-thien-ton",
-      "title": "Hỏa Thiên Tôn",
-      "images": 0
-    },
-    {
-      "slug": "so-to-nhan-hoang",
-      "title": "Sơ Tổ Nhân Hoàng",
-      "images": 0
-    },
-    {
-      "slug": "chu-nhan-di-la-cung",
-      "title": "Chủ nhân Di La Cung",
-      "images": 0
-    },
-    {
-      "slug": "tan-linh-quan",
-      "title": "Tần Linh Quân",
-      "images": 0
-    },
-    {
-      "slug": "cong-ton-yen",
-      "title": "Công Tôn Yến",
-      "images": 0
-    },
-    {
       "slug": "van-nguyen",
       "title": "Văn Nguyên",
       "images": 2
@@ -2036,232 +1592,32 @@
     {
       "slug": "nguy-tu-phong",
       "title": "Ngụy Tùy Phong",
-      "images": 0
-    },
-    {
-      "slug": "lang-uyen-than-vuong",
-      "title": "Lãng Uyển Thần Vương",
-      "images": 0
-    },
-    {
-      "slug": "trac-tra",
-      "title": "Trạc Trà",
-      "images": 0
-    },
-    {
-      "slug": "yen-van-he",
-      "title": "Yên Vân Hề",
-      "images": 0
-    },
-    {
-      "slug": "diem-vuong",
-      "title": "Diêm Vương",
-      "images": 0
-    },
-    {
-      "slug": "lac-vo-song",
-      "title": "Lạc Vô Song",
-      "images": 0
+      "images": 1
     },
     {
       "slug": "am-thien-tu",
       "title": "Âm Thiên Tử",
-      "images": 0
-    },
-    {
-      "slug": "dia-mau-nguyen-quan",
-      "title": "Địa Mẫu Nguyên Quân",
-      "images": 0
-    },
-    {
-      "slug": "thuong-quan",
-      "title": "Thương Quân",
-      "images": 0
-    },
-    {
-      "slug": "xich-khe",
-      "title": "Xích Khê",
-      "images": 0
-    },
-    {
-      "slug": "hao-thien-ton",
-      "title": "Hạo Thiên Tôn",
-      "images": 0
-    },
-    {
-      "slug": "hieu-thien-ton",
-      "title": "Hiểu Thiên Tôn",
-      "images": 0
-    },
-    {
-      "slug": "cung-thien-ton",
-      "title": "Cung Thiên Tôn",
-      "images": 0
-    },
-    {
-      "slug": "nguyen-mau-phu-nhan",
-      "title": "Nguyên Mẫu Phu Nhân",
-      "images": 0
-    },
-    {
-      "slug": "de-hau-nguyen-hi",
-      "title": "Đế Hậu Nguyên Hi",
-      "images": 0
-    },
-    {
-      "slug": "thai-de",
-      "title": "Thái Đế",
-      "images": 0
-    },
-    {
-      "slug": "thai-dich",
-      "title": "Thái Dịch",
-      "images": 0
-    },
-    {
-      "slug": "vo-nhai-lao-nhan",
-      "title": "Vô Nhai Lão Nhân",
-      "images": 0
-    },
-    {
-      "slug": "thien-am-nuong-nuong",
-      "title": "Thiên Âm Nương Nương",
-      "images": 0
-    },
-    {
-      "slug": "kinh-yen",
-      "title": "Kinh Yến",
-      "images": 0
+      "images": 5
     },
     {
       "slug": "tran-vuong-phi",
       "title": "Trân Vương Phi",
-      "images": 0
-    },
-    {
-      "slug": "tinh-han",
-      "title": "Tinh Hãn",
-      "images": 0
-    },
-    {
-      "slug": "te-cuu-nghi",
-      "title": "Tề Cửu Nghị",
-      "images": 0
-    },
-    {
-      "slug": "thien-de-thai-so",
-      "title": "Thiên Đế Thái Sơ",
-      "images": 0
-    },
-    {
-      "slug": "thai-thuy-co-than",
-      "title": "Thái Thủy Cổ Thần",
-      "images": 0
-    },
-    {
-      "slug": "thai-to-co-than",
-      "title": "Thái Tố Thần Nữ",
-      "images": 0
+      "images": 5
     },
     {
       "slug": "han-duong",
       "title": "Hàn Đường",
-      "images": 0
-    },
-    {
-      "slug": "de-dich-nguyet",
-      "title": "Đế Dịch Nguyệt",
-      "images": 0
-    },
-    {
-      "slug": "dien-thuc",
-      "title": "Điền Thục",
-      "images": 0
-    },
-    {
-      "slug": "ly-du-nhien",
-      "title": "Lý Du Nhiên",
-      "images": 0
-    },
-    {
-      "slug": "ta-vo-ky",
-      "title": "Tà Vô Kỳ",
-      "images": 0
-    },
-    {
-      "slug": "hong-thien-ton",
-      "title": "Hồng Thiên Tôn",
-      "images": 0
+      "images": 5
     },
     {
       "slug": "hu-thien-ton",
       "title": "Hư Thiên Tôn",
-      "images": 0
-    },
-    {
-      "slug": "to-than-vuong",
-      "title": "Tổ Thần Vương",
-      "images": 0
+      "images": 5
     },
     {
       "slug": "thai-am-nuong-nuong",
       "title": "Thái Âm Nương Nương",
-      "images": 0
-    },
-    {
-      "slug": "te-ha-du",
-      "title": "Tề Hã Dư",
-      "images": 0
-    },
-    {
-      "slug": "tu-he-thien-su",
-      "title": "Tử Hề Thiên Sư",
-      "images": 0
-    },
-    {
-      "slug": "xich-minh-than-tu",
-      "title": "Xích Minh Thần Tử",
-      "images": 0
-    },
-    {
-      "slug": "xich-hoang",
-      "title": "Xích Hoàng",
-      "images": 0
-    },
-    {
-      "slug": "hong-quan-dao-ton",
-      "title": "Hồng Quân Đạo Tôn",
-      "images": 0
-    },
-    {
-      "slug": "thai-thuong-di-la",
-      "title": "Thái Thượng Công Tử",
-      "images": 0
-    },
-    {
-      "slug": "lang-tieu-cong-tu",
-      "title": "Lăng Tiêu Công Tử",
-      "images": 0
-    },
-    {
-      "slug": "tu-tieu-cong-tu",
-      "title": "Tử Tiêu Công Tử",
-      "images": 0
-    },
-    {
-      "slug": "vo-cuc-cong-tu",
-      "title": "Vô Cực Công Tử",
-      "images": 0
-    },
-    {
-      "slug": "lam-ngu-dien",
-      "title": "Lam Ngự Điền",
-      "images": 0
-    },
-    {
-      "slug": "tan-vu",
-      "title": "Tần Vũ",
-      "images": 0
+      "images": 5
     },
     {
       "slug": "le-thien-hanh",
@@ -2269,49 +1625,9 @@
       "images": 1
     },
     {
-      "slug": "ho-bat-quy",
-      "title": "Hồ Bất Quy",
-      "images": 0
-    },
-    {
-      "slug": "ba-duong-than-vuong",
-      "title": "Bá Dương Thần Vương",
-      "images": 0
-    },
-    {
-      "slug": "dai-hong",
-      "title": "Đại Hồng",
-      "images": 0
-    },
-    {
-      "slug": "khuc-su-huynh",
-      "title": "Khúc sư huynh",
-      "images": 0
-    },
-    {
-      "slug": "tinh-su-ty",
-      "title": "Tình sư tỷ",
-      "images": 0
-    },
-    {
-      "slug": "te-nhan-bang",
-      "title": "Tề Nhạn Băng",
-      "images": 0
-    },
-    {
       "slug": "tien-thanh-nhi",
       "title": "Tiên Thanh Nhi",
       "images": 3
-    },
-    {
-      "slug": "moc-bi-phong",
-      "title": "Mộc Bi Phong",
-      "images": 0
-    },
-    {
-      "slug": "trang-liep-ho",
-      "title": "Trương Liệp Hộ",
-      "images": 0
     },
     {
       "slug": "thuyen-mat-trang",
@@ -2327,11 +1643,6 @@
       "slug": "ao-hanh-trinh-tan-muc",
       "title": "Phục trang hành trình của Tần Mục",
       "images": 2
-    },
-    {
-      "slug": "gio-kim-tu-ba-ba",
-      "title": "Giỏ kim chỉ của Tư Bà Bà",
-      "images": 0
     },
     {
       "slug": "long-kieu-nam",
@@ -2586,11 +1897,11 @@
     },
     {
       "slug": "that-tinh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thất Tinh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 254
     },
     {
@@ -2604,11 +1915,11 @@
     },
     {
       "slug": "sinh-tu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Sinh Tử",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 254
     },
     {
@@ -2622,11 +1933,11 @@
     },
     {
       "slug": "pha-bich",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Phá bích",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 266
     },
     {
@@ -2640,11 +1951,11 @@
     },
     {
       "slug": "ba-the-tam-dan-cong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Bá Thể Tam Đan Công",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 155
     },
     {
@@ -2676,29 +1987,29 @@
     },
     {
       "slug": "nguyen-khi-thanh-soi",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Luyện khí thành sợi",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 157
     },
     {
       "slug": "nguyen-than",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Nguyên thần",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 70
     },
     {
       "slug": "cai-tien-binh-khi",
-      "albumImages": 0,
+      "albumImages": 2,
       "videos": 0,
       "localVideos": 0,
       "title": "Cải tiến binh khí",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 70
     },
     {
@@ -2730,11 +2041,11 @@
     },
     {
       "slug": "sinh-tu-bo",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Sinh Tử Bộ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 59
     },
     {
@@ -2757,11 +2068,11 @@
     },
     {
       "slug": "dai-loi-am-tu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Đại Lôi Âm Tự",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 157
     },
     {
@@ -2811,11 +2122,11 @@
     },
     {
       "slug": "tinh-ngan",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tinh Ngạn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 324
     },
     {
@@ -2865,56 +2176,56 @@
     },
     {
       "slug": "cuu-trong-thien-khai-nhan-phap",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Cửu Trọng Thiên Khai Nhãn Pháp",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 150
     },
     {
       "slug": "thien-ha",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thiên Hà",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 153
     },
     {
       "slug": "kiem-nang",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Kiếm nang",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 152
     },
     {
       "slug": "ly-giang-kiem-phap",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Ly Giang kiếm pháp",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 159
     },
     {
       "slug": "nhu-lai-dai-thua-kinh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Như Lai Đại Thừa Kinh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 159
     },
     {
       "slug": "loi-am-bat-thuc",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Lôi Âm Bát Thức",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 153
     },
     {
@@ -2937,20 +2248,20 @@
     },
     {
       "slug": "muc-nhat-gia",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Mục Nhật giả",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 154
     },
     {
       "slug": "thai-duong-tinh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Dương Tỉnh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 158
     },
     {
@@ -2964,137 +2275,137 @@
     },
     {
       "slug": "phong-do",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Phong Đô",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 157
     },
     {
       "slug": "vo-uu-huong",
-      "albumImages": 0,
+      "albumImages": 2,
       "videos": 0,
       "localVideos": 0,
       "title": "Vô Ưu Hương",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 152
     },
     {
       "slug": "tam-hon-that-phach",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tam hồn thất phách",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 154
     },
     {
       "slug": "nguyen-than-dan",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Nguyên Thần Dẫn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 89
     },
     {
       "slug": "tam-nguyen-than-hoi-quyet",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tam Nguyên Thần Hội Quyết",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 73
     },
     {
       "slug": "linh-nang-doi-thien-kieu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Linh Năng Đối Thiên Kiều",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 89
     },
     {
       "slug": "vo-lau-tao-hoa-huyen-kinh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Vô Lậu Tạo Hóa Huyền Kinh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "vo-lau-dau-chien-than-cong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Vô Lậu Đấu Chiến Thần Công",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 76
     },
     {
       "slug": "dao-dan-cong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Đạo Dẫn Công",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 87
     },
     {
       "slug": "van-kiep-bat-diet-dai-phap-su",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Vạn Kiếp Bất Diệt Đại Pháp Sư",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 81
     },
     {
       "slug": "thai-vi-toan-kinh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Vi Toán Kinh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "thanh-do-tai-thien-huyen-cong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thành Đô Tái Thiên Huyền Công",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 81
     },
     {
       "slug": "khien-hon-dan",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Khiên Hồn Dẫn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 72
     },
     {
       "slug": "dieu-quy-khien-than-phu-tu-lenh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Điều Quỷ Khiển Thần Phù Tự Lệnh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 91
     },
     {
       "slug": "tu-tieu-bich-lac-cong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tử Tiêu Bích Lạc Công",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 77
     },
     {
@@ -3108,47 +2419,47 @@
     },
     {
       "slug": "hoan-long-kinh",
-      "albumImages": 0,
+      "albumImages": 3,
       "videos": 0,
       "localVideos": 0,
       "title": "Hoạn Long Kinh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 72
     },
     {
       "slug": "vat-chat-bat-dich",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Vật Chất Bất Dịch",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 80
     },
     {
       "slug": "chat-nang-bat-dich",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Chất Năng Bất Dịch",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 76
     },
     {
       "slug": "nguyen-tu-than-thong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Nguyên Từ Thần Thông",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 90
     },
     {
       "slug": "thien-thu-phat-da",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thiên Thủ Phật Đà",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 75
     },
     {
@@ -3162,83 +2473,83 @@
     },
     {
       "slug": "kiem-thap-bat-thuc",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Kiếm Thập Bát Thức",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 73
     },
     {
       "slug": "kiem-thap-cuu-thuc",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Kiếm Thập Cửu Thức",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 75
     },
     {
       "slug": "kiem-kiep",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Kiếp Kiếm",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 80
     },
     {
       "slug": "tu-thien-mon",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tứ Thiên Môn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "thien-cung-canh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thiên Cung",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 91
     },
     {
       "slug": "de-toa-canh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Đế Tọa",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 81
     },
     {
       "slug": "dao-canh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Đạo Cảnh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "ngoc-kinh-canh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Ngọc Kinh và Đạo Quả",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 92
     },
     {
       "slug": "nhap-dao",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Nhập Đạo",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 81
     },
     {
@@ -3252,11 +2563,11 @@
     },
     {
       "slug": "ca-sa-ma-gia",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Cà sa của Mã gia",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 82
     },
     {
@@ -3279,281 +2590,281 @@
     },
     {
       "slug": "trang-phuc-dien-khang",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Quan phục và giáp phục Diên Khang",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 85
     },
     {
       "slug": "trang-phuc-thien-dinh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Giáp phục Thiên Đình",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 90
     },
     {
       "slug": "phuc-trang-nguoi-sang-tao",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Phục trang Người Sáng Tạo",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 86
     },
     {
       "slug": "trang-phuc-dai-loi-am-tu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Y phục Phật môn Đại Lôi Âm Tự",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 81
     },
     {
       "slug": "long-thac-than-thuong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Long Thác Thần Thương",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 73
     },
     {
       "slug": "that-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Cửu Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 148
     },
     {
       "slug": "thap-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thập Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "nguoi-sang-tao",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Người Sáng Tạo",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 82
     },
     {
       "slug": "thai-hu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Hư",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 83
     },
     {
       "slug": "long-han",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thời đại Long Hán",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 83
     },
     {
       "slug": "thoi-dai-xich-minh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thời đại Xích Minh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 84
     },
     {
       "slug": "vu-lam-quan",
-      "albumImages": 0,
+      "albumImages": 1,
       "videos": 0,
       "localVideos": 0,
       "title": "Vũ Lâm Quân",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "thien-minh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thiên Minh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "thien-am-gioi",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thiên Âm Giới",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 85
     },
     {
       "slug": "hong-mong-phu-van",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Hồng Mông phù văn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 88
     },
     {
       "slug": "kiem-dao-nhi-thap-tam-thuc",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Kiếm Đạo Nhị Thập Tam Thức",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 63
     },
     {
       "slug": "di-la-cung",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Di La Cung",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 219
     },
     {
       "slug": "thien-dinh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thiên Đình",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 28
     },
     {
       "slug": "to-dinh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tổ Đình",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 33
     },
     {
       "slug": "nguyen-gioi",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Nguyên Giới",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 32
     },
     {
       "slug": "minh-do",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Minh Đô",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 27
     },
     {
       "slug": "quy-khu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Quy Khư",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 30
     },
     {
       "slug": "huyen-do",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Huyền Đô",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 24
     },
     {
       "slug": "the-gioi-thu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thế Giới Thụ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 192
     },
     {
       "slug": "thuat-ngu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thuật ngữ Mục Thần Ký",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 39
     },
     {
       "slug": "u-minh-thai-tu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "U Minh Thái Tử",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 35
     },
     {
       "slug": "tuyet-vo-tran",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tuyệt Vô Trần",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 38
     },
     {
       "slug": "vo-dao-nhap-dao",
-      "albumImages": 0,
+      "albumImages": 1,
       "videos": 0,
       "localVideos": 0,
       "title": "Võ đạo nhập đạo",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 36
     },
     {
       "slug": "thuong-thuong-hoc-cung",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thượng Thương Học Cung",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 31
     },
     {
       "slug": "bi-ngan-phuong-chau",
-      "albumImages": 0,
+      "albumImages": 2,
       "videos": 0,
       "localVideos": 0,
       "title": "Bỉ Ngạn Phương Châu",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 38
     },
     {
       "slug": "thai-so",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Sơ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 37
     },
     {
@@ -3576,56 +2887,56 @@
     },
     {
       "slug": "khai-hoang-tan-nghiep",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Khai Hoàng Tần Nghiệp",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 413
     },
     {
       "slug": "ngu-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Ngự Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 435
     },
     {
       "slug": "lang-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Lăng Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 422
     },
     {
       "slug": "nguyet-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Nguyệt Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 411
     },
     {
       "slug": "van-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Vân Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 403
     },
     {
       "slug": "u-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "U Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 437
     },
     {
@@ -3639,20 +2950,20 @@
     },
     {
       "slug": "thien-cong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thiên Công",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 256
     },
     {
       "slug": "tan-phuong-thanh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tần Phượng Thanh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 280
     },
     {
@@ -3666,20 +2977,20 @@
     },
     {
       "slug": "phuoc-nhat-la",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Phược Nhật La",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 252
     },
     {
       "slug": "triet-hoa-le",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Triết Hoa Lê",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 255
     },
     {
@@ -3720,47 +3031,47 @@
     },
     {
       "slug": "bach-cu-nhi",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Bạch Cừ Nhi",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 119
     },
     {
       "slug": "hoa-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Hỏa Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 142
     },
     {
       "slug": "so-to-nhan-hoang",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Sơ Tổ Nhân Hoàng",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 127
     },
     {
       "slug": "chu-nhan-di-la-cung",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Chủ nhân Di La Cung",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 292
     },
     {
       "slug": "tan-linh-quan",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tần Linh Quân",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 88
     },
     {
@@ -3774,11 +3085,11 @@
     },
     {
       "slug": "cong-ton-yen",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Công Tôn Yến",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 86
     },
     {
@@ -3801,416 +3112,416 @@
     },
     {
       "slug": "nguy-tu-phong",
-      "albumImages": 0,
+      "albumImages": 1,
       "videos": 0,
       "localVideos": 0,
       "title": "Ngụy Tùy Phong",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 73
     },
     {
       "slug": "lang-uyen-than-vuong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Lãng Uyển Thần Vương",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 263
     },
     {
       "slug": "trac-tra",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Trạc Trà",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 83
     },
     {
       "slug": "yen-van-he",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Yên Vân Hề",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 73
     },
     {
       "slug": "diem-vuong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Diêm Vương",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 80
     },
     {
       "slug": "lac-vo-song",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Lạc Vô Song",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 77
     },
     {
       "slug": "am-thien-tu",
-      "albumImages": 0,
+      "albumImages": 5,
       "videos": 0,
       "localVideos": 0,
       "title": "Âm Thiên Tử",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 83
     },
     {
       "slug": "dia-mau-nguyen-quan",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Địa Mẫu Nguyên Quân",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 82
     },
     {
       "slug": "thuong-quan",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thương Quân",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 78
     },
     {
       "slug": "xich-khe",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Xích Khê",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "hao-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Hạo Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 75
     },
     {
       "slug": "hieu-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Hiểu Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 88
     },
     {
       "slug": "cung-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Cung Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 87
     },
     {
       "slug": "nguyen-mau-phu-nhan",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Nguyên Mẫu Phu Nhân",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 84
     },
     {
       "slug": "de-hau-nguyen-hi",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Đế Hậu Nguyên Hi",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 75
     },
     {
       "slug": "thai-de",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Đế",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 111
     },
     {
       "slug": "thai-dich",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Dịch",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 175
     },
     {
       "slug": "vo-nhai-lao-nhan",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Vô Nhai Lão Nhân",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 85
     },
     {
       "slug": "thien-am-nuong-nuong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thiên Âm Nương Nương",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 86
     },
     {
       "slug": "kinh-yen",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Kinh Yến",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 72
     },
     {
       "slug": "tran-vuong-phi",
-      "albumImages": 0,
+      "albumImages": 5,
       "videos": 0,
       "localVideos": 0,
       "title": "Trân Vương Phi",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 82
     },
     {
       "slug": "tinh-han",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tinh Hãn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 90
     },
     {
       "slug": "te-cuu-nghi",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tề Cửu Nghị",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 84
     },
     {
       "slug": "thien-de-thai-so",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thiên Đế Thái Sơ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 77
     },
     {
       "slug": "thai-thuy-co-than",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Thủy Cổ Thần",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 77
     },
     {
       "slug": "thai-to-co-than",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Tố Thần Nữ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 83
     },
     {
       "slug": "han-duong",
-      "albumImages": 0,
+      "albumImages": 5,
       "videos": 0,
       "localVideos": 0,
       "title": "Hàn Đường",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 80
     },
     {
       "slug": "de-dich-nguyet",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Đế Dịch Nguyệt",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 81
     },
     {
       "slug": "dien-thuc",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Điền Thục",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 74
     },
     {
       "slug": "ly-du-nhien",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Lý Du Nhiên",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 86
     },
     {
       "slug": "ta-vo-ky",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tà Vô Kỳ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 81
     },
     {
       "slug": "hong-thien-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Hồng Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 69
     },
     {
       "slug": "hu-thien-ton",
-      "albumImages": 0,
+      "albumImages": 5,
       "videos": 0,
       "localVideos": 0,
       "title": "Hư Thiên Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 75
     },
     {
       "slug": "to-than-vuong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tổ Thần Vương",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 66
     },
     {
       "slug": "thai-am-nuong-nuong",
-      "albumImages": 0,
+      "albumImages": 5,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Âm Nương Nương",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 78
     },
     {
       "slug": "te-ha-du",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tề Hã Dư",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 74
     },
     {
       "slug": "tu-he-thien-su",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tử Hề Thiên Sư",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 78
     },
     {
       "slug": "xich-minh-than-tu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Xích Minh Thần Tử",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 75
     },
     {
       "slug": "xich-hoang",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Xích Hoàng",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 76
     },
     {
       "slug": "hong-quan-dao-ton",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Hồng Quân Đạo Tôn",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 79
     },
     {
       "slug": "thai-thuong-di-la",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Thái Thượng Công Tử",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 74
     },
     {
       "slug": "lang-tieu-cong-tu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Lăng Tiêu Công Tử",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 75
     },
     {
       "slug": "tu-tieu-cong-tu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tử Tiêu Công Tử",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 62
     },
     {
       "slug": "vo-cuc-cong-tu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Vô Cực Công Tử",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 57
     },
     {
       "slug": "lam-ngu-dien",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Lam Ngự Điền",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 257
     },
     {
       "slug": "tan-vu",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tần Vũ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 107
     },
     {
@@ -4224,56 +3535,56 @@
     },
     {
       "slug": "ho-bat-quy",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Hồ Bất Quy",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 103
     },
     {
       "slug": "ba-duong-than-vuong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Bá Dương Thần Vương",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 97
     },
     {
       "slug": "dai-hong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Đại Hồng",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 100
     },
     {
       "slug": "khuc-su-huynh",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Khúc sư huynh",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 89
     },
     {
       "slug": "tinh-su-ty",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tình sư tỷ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 78
     },
     {
       "slug": "te-nhan-bang",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Tề Nhạn Băng",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 93
     },
     {
@@ -4287,20 +3598,20 @@
     },
     {
       "slug": "moc-bi-phong",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Mộc Bi Phong",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 92
     },
     {
       "slug": "trang-liep-ho",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Trương Liệp Hộ",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 88
     },
     {
@@ -4359,11 +3670,11 @@
     },
     {
       "slug": "gio-kim-tu-ba-ba",
-      "albumImages": 0,
+      "albumImages": 6,
       "videos": 0,
       "localVideos": 0,
       "title": "Giỏ kim chỉ của Tư Bà Bà",
-      "type": "đang cập nhật",
+      "type": "ảnh liên quan",
       "words": 61
     },
     {

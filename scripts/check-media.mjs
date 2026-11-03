@@ -1,11 +1,12 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
-import {entryImage,entryGallery,entryVideos} from './media.mjs';
+import {entryImage,entryGallery,entryVideos,matchesEntryImage} from './media.mjs';
 const media=JSON.parse(fs.readFileSync('src/data/media.json'));
 const entries=JSON.parse(fs.readFileSync('dist/search.json'));
 for(const entry of entries){
  const photo=entryImage(media,entry),gallery=entryGallery(media,entry);
- for(const image of gallery){assert(image.verified&&image.subjects.includes(entry.slug));assert(fs.existsSync('dist'+image.src));}
+ for(const image of gallery){assert(matchesEntryImage(image,entry.slug));
+  if(image.kind==='related'){assert(media.relatedImages[entry.slug]?.sourceSlug===image.relatedSubject);assert(image.alt.includes('minh họa liên quan'));}assert(fs.existsSync('dist'+image.src));}
  assert(gallery.length<=6,entry.slug+': album exceeds six images');
  for(const video of entryVideos(media,entry)){
   if(video.src){assert(video.src.startsWith('/assets/profile-videos/'));const data=fs.readFileSync('dist'+video.src);assert(data.length>10000);assert.equal(data.toString('ascii',4,8),'ftyp',entry.slug+': invalid MP4 container');let moov=-1,mdat=-1;for(let offset=0;offset+8<data.length;){let size=data.readUInt32BE(offset),type=data.toString('ascii',offset+4,offset+8);if(type==='moov')moov=offset;if(type==='mdat')mdat=offset;if(size<8)break;offset+=size;}assert(moov>=0&&mdat>moov,entry.slug+': video must support fast start');}
