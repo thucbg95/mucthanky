@@ -1,0 +1,3 @@
+export const matchesSubject=(image,slug)=>Boolean(image?.verified&&image.subjects?.includes(slug));
+export function entryImage(media,entry){const preferred=media.images?.[entry.image||entry.slug];return matchesSubject(preferred,entry.slug)?preferred:Object.values(media.images||{}).find(image=>matchesSubject(image,entry.slug));}
+export function entryGallery(media,entry){return [entryImage(media,entry),...(entry.gallery||[]).map(key=>media.images?.[key]),...Object.values(media.images||{}).filter(image=>matchesSubject(image,entry.slug))].filter((image,i,all)=>matchesSubject(image,entry.slug)&&all.findIndex(other=>other?.src===image.src)===i);}
