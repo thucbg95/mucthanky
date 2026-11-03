@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import {entryImage,entryGallery,matchesSubject} from './media.mjs';
+import {entryImage,entryGallery,entryVideos,matchesSubject} from './media.mjs';
 
 const read = name => JSON.parse(fs.readFileSync(`src/data/${name}`, 'utf8'));
 const records = new Map(read('lore.json').map(entry => [entry.slug, entry]));
@@ -27,7 +27,10 @@ for (const entry of entries) {
   const exact = entryImage(media,entry);
   if(exact&&!local(exact))issues.push(entry.slug+': thiếu ảnh đã đối chiếu');
   for(const image of entryGallery(media,entry))if(!matchesSubject(image,entry.slug))issues.push(entry.slug+': kho ảnh sai chủ thể');
-  imageCoverage.push({slug:entry.slug,title:entry.title,type:exact?(exact.kind==='concept'?'thiết kế nhân vật':exact.kind==='illustration'?'minh họa khái niệm':'ảnh đúng chủ thể'):'đang cập nhật',words:(entry.sections?.flatMap(s=>s.paragraphs)||entry.body||[]).join(' ').split(/\s+/).filter(Boolean).length});
+  const gallery=entryGallery(media,entry),videos=entryVideos(media,entry);
+  if(gallery.length>6)issues.push(entry.slug+': album vượt 6 ảnh');
+  for(const video of videos){if(video.src&&!fs.existsSync(path.join('public',video.src.slice(1))))issues.push(entry.slug+': thiếu video cục bộ');if(video.embedUrl){try{if(new URL(video.embedUrl).protocol!=='https:')throw Error()}catch{issues.push(entry.slug+': URL nhúng video không hợp lệ')}}}
+  imageCoverage.push({slug:entry.slug,albumImages:gallery.length,videos:videos.length,localVideos:videos.filter(v=>v.src).length,title:entry.title,type:exact?(exact.kind==='concept'?'thiết kế nhân vật':exact.kind==='illustration'?'minh họa khái niệm':'ảnh đúng chủ thể'):'đang cập nhật',words:(entry.sections?.flatMap(s=>s.paragraphs)||entry.body||[]).join(' ').split(/\s+/).filter(Boolean).length});
 }
 for (const [key, image] of Object.entries(media.images)) if (!local(image)) issues.push(`${key}: thiếu tệp ảnh cục bộ`);
 for (const image of media.gallery) if (!local(image)) issues.push(`${image.src}: thiếu tệp thư viện cục bộ`);
@@ -43,6 +46,10 @@ const result = {
   pendingImages: imageCoverage.filter(entry => entry.type === 'đang cập nhật').length,
   thinProfiles:imageCoverage.filter(entry=>entry.words<150),
   blockedMedia:Object.entries(media.images).filter(([key,image])=>!image.verified).map(([key,image])=>({key,reason:image.reviewNote})),
+  fullAlbums:imageCoverage.filter(entry=>entry.albumImages===6).length,
+  profilesWithVideos:imageCoverage.filter(entry=>entry.videos>0).length,
+  profilesWithLocalVideos:imageCoverage.filter(entry=>entry.localVideos>0).length,
+  incompleteAlbums:imageCoverage.filter(entry=>entry.albumImages<6).map(entry=>({slug:entry.slug,title:entry.title,images:entry.albumImages})),
   issues,
   imageCoverage,
 };
@@ -54,6 +61,9 @@ console.log(JSON.stringify({
   galleryImages: `${result.galleryImages}/${result.galleryImages}`,
   entrySpecificImages: result.entrySpecificImages,
   pendingImages: result.pendingImages,
+  fullAlbums:result.fullAlbums,
+  profilesWithVideos:result.profilesWithVideos,
+  profilesWithLocalVideos:result.profilesWithLocalVideos,
   issues: result.issues.length,
 }, null, 2));
 if (issues.length) process.exitCode = 1;

@@ -29,3 +29,7 @@ Chỉ khảo sát và tư vấn, chưa triển khai đăng phim / lưu video / A
 - Các phần được đánh dấu spoiler thu gọn mặc định; mục lục mở đúng phần khi người đọc chọn.
 - Kiểm tra: build, audit nội dung, test:lore và check-media đạt. Còn 144 hồ sơ dưới 150 từ; chưa tuyên bố hoàn thiện toàn bộ nội dung.
 
+
+## Album ảnh và video hồ sơ — 03/11/2026
+
+176 ảnh WebP mới đã đối chiếu; 30 album đủ 6 ảnh; 60 hồ sơ có ảnh; 37 hồ sơ có video; 2 tệp video nội bộ. Giới hạn album thực thi tại scripts/media.mjs. Chi tiết kiểm kê: src/data/content-audit.json.
