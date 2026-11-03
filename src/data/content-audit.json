@@ -1,7 +1,7 @@
 {
-  "auditedAt": "2026-10-28T07:00:03.575Z",
-  "entryCount": 225,
-  "entriesWithReferences": 225,
+  "auditedAt": "2026-11-03T02:27:18.548Z",
+  "entryCount": 228,
+  "entriesWithReferences": 228,
   "sourceHostCounts": {
     "acts.qidian.com": 122,
     "thuvienanime.net": 271,
@@ -11,6 +11,7 @@
     "baike.sogou.com": 2,
     "bkso.baidu.com": 11,
     "www.baike.com": 1,
+    "mucthanky.com": 16,
     "www.youtube.com": 1,
     "czbooks.net": 3,
     "zh.moegirl.org.cn": 8,
@@ -20,911 +21,2307 @@
     "www.biquge321.com": 3,
     "www.sohu.com": 1
   },
-  "mediaImages": 42,
-  "galleryImages": 26,
-  "entrySpecificImages": 28,
-  "categoryIllustrations": 197,
+  "mediaImages": 57,
+  "galleryImages": 12,
+  "entrySpecificImages": 44,
+  "pendingImages": 184,
+  "thinProfiles": [
+    {
+      "slug": "trach-tru",
+      "title": "Trạch Trư",
+      "type": "đang cập nhật",
+      "words": 72
+    },
+    {
+      "slug": "hoat-hinh",
+      "title": "Bản hoạt hình",
+      "type": "ảnh đúng chủ thể",
+      "words": 76
+    },
+    {
+      "slug": "nguyen-tac",
+      "title": "Tiểu thuyết nguyên tác",
+      "type": "đang cập nhật",
+      "words": 73
+    },
+    {
+      "slug": "hoang-kim-cung",
+      "title": "Lâu Lan Hoàng Kim Cung",
+      "type": "ảnh đúng chủ thể",
+      "words": 103
+    },
+    {
+      "slug": "thien-nhan",
+      "title": "Thiên Nhân",
+      "type": "đang cập nhật",
+      "words": 31
+    },
+    {
+      "slug": "dai-duc-thien-ma-kinh",
+      "title": "Đại Dục Thiên Ma Kinh",
+      "type": "đang cập nhật",
+      "words": 67
+    },
+    {
+      "slug": "nguyen-than",
+      "title": "Nguyên thần",
+      "type": "đang cập nhật",
+      "words": 70
+    },
+    {
+      "slug": "cai-tien-binh-khi",
+      "title": "Cải tiến binh khí",
+      "type": "đang cập nhật",
+      "words": 70
+    },
+    {
+      "slug": "kiem-hoan",
+      "title": "Kiếm Hoàn",
+      "type": "minh họa khái niệm",
+      "words": 81
+    },
+    {
+      "slug": "sinh-tu-bo",
+      "title": "Sinh Tử Bộ",
+      "type": "đang cập nhật",
+      "words": 59
+    },
+    {
+      "slug": "ma-vien",
+      "title": "Ma viên Đại Khư",
+      "type": "đang cập nhật",
+      "words": 46
+    },
+    {
+      "slug": "long-ke",
+      "title": "Long kê",
+      "type": "đang cập nhật",
+      "words": 46
+    },
+    {
+      "slug": "thai-duong-thuyen",
+      "title": "Thái Dương Thuyền",
+      "type": "ảnh đúng chủ thể",
+      "words": 149
+    },
+    {
+      "slug": "nguyen-than-dan",
+      "title": "Nguyên Thần Dẫn",
+      "type": "đang cập nhật",
+      "words": 89
+    },
+    {
+      "slug": "tam-nguyen-than-hoi-quyet",
+      "title": "Tam Nguyên Thần Hội Quyết",
+      "type": "đang cập nhật",
+      "words": 73
+    },
+    {
+      "slug": "linh-nang-doi-thien-kieu",
+      "title": "Linh Năng Đối Thiên Kiều",
+      "type": "đang cập nhật",
+      "words": 89
+    },
+    {
+      "slug": "vo-lau-tao-hoa-huyen-kinh",
+      "title": "Vô Lậu Tạo Hóa Huyền Kinh",
+      "type": "đang cập nhật",
+      "words": 79
+    },
+    {
+      "slug": "vo-lau-dau-chien-than-cong",
+      "title": "Vô Lậu Đấu Chiến Thần Công",
+      "type": "đang cập nhật",
+      "words": 76
+    },
+    {
+      "slug": "dao-dan-cong",
+      "title": "Đạo Dẫn Công",
+      "type": "đang cập nhật",
+      "words": 87
+    },
+    {
+      "slug": "van-kiep-bat-diet-dai-phap-su",
+      "title": "Vạn Kiếp Bất Diệt Đại Pháp Sư",
+      "type": "đang cập nhật",
+      "words": 81
+    },
+    {
+      "slug": "thai-vi-toan-kinh",
+      "title": "Thái Vi Toán Kinh",
+      "type": "đang cập nhật",
+      "words": 79
+    },
+    {
+      "slug": "thanh-do-tai-thien-huyen-cong",
+      "title": "Thành Đô Tái Thiên Huyền Công",
+      "type": "đang cập nhật",
+      "words": 81
+    },
+    {
+      "slug": "khien-hon-dan",
+      "title": "Khiên Hồn Dẫn",
+      "type": "đang cập nhật",
+      "words": 72
+    },
+    {
+      "slug": "dieu-quy-khien-than-phu-tu-lenh",
+      "title": "Điều Quỷ Khiển Thần Phù Tự Lệnh",
+      "type": "đang cập nhật",
+      "words": 91
+    },
+    {
+      "slug": "tu-tieu-bich-lac-cong",
+      "title": "Tử Tiêu Bích Lạc Công",
+      "type": "đang cập nhật",
+      "words": 77
+    },
+    {
+      "slug": "cuu-long-de-vuong-cong",
+      "title": "Cửu Long Đế Vương Công",
+      "type": "đang cập nhật",
+      "words": 76
+    },
+    {
+      "slug": "hoan-long-kinh",
+      "title": "Hoạn Long Kinh",
+      "type": "đang cập nhật",
+      "words": 72
+    },
+    {
+      "slug": "vat-chat-bat-dich",
+      "title": "Vật Chất Bất Dịch",
+      "type": "đang cập nhật",
+      "words": 80
+    },
+    {
+      "slug": "chat-nang-bat-dich",
+      "title": "Chất Năng Bất Dịch",
+      "type": "đang cập nhật",
+      "words": 76
+    },
+    {
+      "slug": "nguyen-tu-than-thong",
+      "title": "Nguyên Từ Thần Thông",
+      "type": "đang cập nhật",
+      "words": 90
+    },
+    {
+      "slug": "thien-thu-phat-da",
+      "title": "Thiên Thủ Phật Đà",
+      "type": "đang cập nhật",
+      "words": 75
+    },
+    {
+      "slug": "kiem-do",
+      "title": "Kiếm Đồ",
+      "type": "đang cập nhật",
+      "words": 81
+    },
+    {
+      "slug": "kiem-thap-bat-thuc",
+      "title": "Kiếm Thập Bát Thức",
+      "type": "đang cập nhật",
+      "words": 73
+    },
+    {
+      "slug": "kiem-thap-cuu-thuc",
+      "title": "Kiếm Thập Cửu Thức",
+      "type": "đang cập nhật",
+      "words": 75
+    },
+    {
+      "slug": "kiem-kiep",
+      "title": "Kiếp Kiếm",
+      "type": "đang cập nhật",
+      "words": 80
+    },
+    {
+      "slug": "tu-thien-mon",
+      "title": "Tứ Thiên Môn",
+      "type": "đang cập nhật",
+      "words": 79
+    },
+    {
+      "slug": "thien-cung-canh",
+      "title": "Thiên Cung",
+      "type": "đang cập nhật",
+      "words": 91
+    },
+    {
+      "slug": "de-toa-canh",
+      "title": "Đế Tọa",
+      "type": "đang cập nhật",
+      "words": 81
+    },
+    {
+      "slug": "dao-canh",
+      "title": "Đạo Cảnh",
+      "type": "đang cập nhật",
+      "words": 79
+    },
+    {
+      "slug": "ngoc-kinh-canh",
+      "title": "Ngọc Kinh và Đạo Quả",
+      "type": "đang cập nhật",
+      "words": 92
+    },
+    {
+      "slug": "nhap-dao",
+      "title": "Nhập Đạo",
+      "type": "đang cập nhật",
+      "words": 81
+    },
+    {
+      "slug": "phuc-trang-tu-ba-ba",
+      "title": "Phục trang của Tư Bà Bà",
+      "type": "ảnh đúng chủ thể",
+      "words": 94
+    },
+    {
+      "slug": "ca-sa-ma-gia",
+      "title": "Cà sa của Mã gia",
+      "type": "đang cập nhật",
+      "words": 82
+    },
+    {
+      "slug": "y-phuc-hanh-trinh-tan-muc",
+      "title": "Y phục hành trình của Tần Mục",
+      "type": "minh họa khái niệm",
+      "words": 93
+    },
+    {
+      "slug": "trang-phuc-thien-ma-giao",
+      "title": "Phục sức Thiên Ma Giáo",
+      "type": "đang cập nhật",
+      "words": 91
+    },
+    {
+      "slug": "trang-phuc-dien-khang",
+      "title": "Quan phục và giáp phục Diên Khang",
+      "type": "đang cập nhật",
+      "words": 85
+    },
+    {
+      "slug": "trang-phuc-thien-dinh",
+      "title": "Giáp phục Thiên Đình",
+      "type": "đang cập nhật",
+      "words": 90
+    },
+    {
+      "slug": "phuc-trang-nguoi-sang-tao",
+      "title": "Phục trang Người Sáng Tạo",
+      "type": "đang cập nhật",
+      "words": 86
+    },
+    {
+      "slug": "trang-phuc-dai-loi-am-tu",
+      "title": "Y phục Phật môn Đại Lôi Âm Tự",
+      "type": "đang cập nhật",
+      "words": 81
+    },
+    {
+      "slug": "long-thac-than-thuong",
+      "title": "Long Thác Thần Thương",
+      "type": "đang cập nhật",
+      "words": 73
+    },
+    {
+      "slug": "that-thien-ton",
+      "title": "Cửu Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 91
+    },
+    {
+      "slug": "thap-thien-ton",
+      "title": "Thập Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 79
+    },
+    {
+      "slug": "nguoi-sang-tao",
+      "title": "Người Sáng Tạo",
+      "type": "đang cập nhật",
+      "words": 82
+    },
+    {
+      "slug": "thai-hu",
+      "title": "Thái Hư",
+      "type": "đang cập nhật",
+      "words": 83
+    },
+    {
+      "slug": "long-han",
+      "title": "Thời đại Long Hán",
+      "type": "đang cập nhật",
+      "words": 83
+    },
+    {
+      "slug": "thoi-dai-xich-minh",
+      "title": "Thời đại Xích Minh",
+      "type": "đang cập nhật",
+      "words": 84
+    },
+    {
+      "slug": "vu-lam-quan",
+      "title": "Vũ Lâm Quân",
+      "type": "đang cập nhật",
+      "words": 79
+    },
+    {
+      "slug": "thien-minh",
+      "title": "Thiên Minh",
+      "type": "đang cập nhật",
+      "words": 79
+    },
+    {
+      "slug": "thien-am-gioi",
+      "title": "Thiên Âm Giới",
+      "type": "đang cập nhật",
+      "words": 85
+    },
+    {
+      "slug": "hong-mong-phu-van",
+      "title": "Hồng Mông phù văn",
+      "type": "đang cập nhật",
+      "words": 88
+    },
+    {
+      "slug": "kiem-dao-nhi-thap-tam-thuc",
+      "title": "Kiếm Đạo Nhị Thập Tam Thức",
+      "type": "đang cập nhật",
+      "words": 63
+    },
+    {
+      "slug": "di-la-cung",
+      "title": "Di La Cung",
+      "type": "đang cập nhật",
+      "words": 33
+    },
+    {
+      "slug": "thien-dinh",
+      "title": "Thiên Đình",
+      "type": "đang cập nhật",
+      "words": 28
+    },
+    {
+      "slug": "to-dinh",
+      "title": "Tổ Đình",
+      "type": "đang cập nhật",
+      "words": 33
+    },
+    {
+      "slug": "nguyen-gioi",
+      "title": "Nguyên Giới",
+      "type": "đang cập nhật",
+      "words": 32
+    },
+    {
+      "slug": "minh-do",
+      "title": "Minh Đô",
+      "type": "đang cập nhật",
+      "words": 27
+    },
+    {
+      "slug": "quy-khu",
+      "title": "Quy Khư",
+      "type": "đang cập nhật",
+      "words": 30
+    },
+    {
+      "slug": "huyen-do",
+      "title": "Huyền Đô",
+      "type": "đang cập nhật",
+      "words": 24
+    },
+    {
+      "slug": "the-gioi-thu",
+      "title": "Thế Giới Thụ",
+      "type": "đang cập nhật",
+      "words": 28
+    },
+    {
+      "slug": "thuat-ngu",
+      "title": "Thuật ngữ Mục Thần Ký",
+      "type": "đang cập nhật",
+      "words": 39
+    },
+    {
+      "slug": "u-minh-thai-tu",
+      "title": "U Minh Thái Tử",
+      "type": "đang cập nhật",
+      "words": 35
+    },
+    {
+      "slug": "tuyet-vo-tran",
+      "title": "Tuyệt Vô Trần",
+      "type": "đang cập nhật",
+      "words": 38
+    },
+    {
+      "slug": "vo-dao-nhap-dao",
+      "title": "Võ đạo nhập đạo",
+      "type": "đang cập nhật",
+      "words": 36
+    },
+    {
+      "slug": "thuong-thuong-hoc-cung",
+      "title": "Thượng Thương Học Cung",
+      "type": "đang cập nhật",
+      "words": 31
+    },
+    {
+      "slug": "bi-ngan-phuong-chau",
+      "title": "Bỉ Ngạn Phương Châu",
+      "type": "đang cập nhật",
+      "words": 38
+    },
+    {
+      "slug": "thai-so",
+      "title": "Thái Sơ",
+      "type": "đang cập nhật",
+      "words": 37
+    },
+    {
+      "slug": "dung-giang",
+      "title": "Dũng Giang",
+      "type": "đang cập nhật",
+      "words": 97
+    },
+    {
+      "slug": "tran-uong-cung",
+      "title": "Trấn Ương Cung",
+      "type": "đang cập nhật",
+      "words": 79
+    },
+    {
+      "slug": "bach-cu-nhi",
+      "title": "Bạch Cừ Nhi",
+      "type": "đang cập nhật",
+      "words": 119
+    },
+    {
+      "slug": "hoa-thien-ton",
+      "title": "Hỏa Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 142
+    },
+    {
+      "slug": "so-to-nhan-hoang",
+      "title": "Sơ Tổ Nhân Hoàng",
+      "type": "đang cập nhật",
+      "words": 127
+    },
+    {
+      "slug": "chu-nhan-di-la-cung",
+      "title": "Chủ nhân Di La Cung",
+      "type": "đang cập nhật",
+      "words": 148
+    },
+    {
+      "slug": "tan-linh-quan",
+      "title": "Tần Linh Quân",
+      "type": "đang cập nhật",
+      "words": 88
+    },
+    {
+      "slug": "giang-bach-khue",
+      "title": "Giang Bạch Khuê",
+      "type": "ảnh đúng chủ thể",
+      "words": 119
+    },
+    {
+      "slug": "cong-ton-yen",
+      "title": "Công Tôn Yến",
+      "type": "đang cập nhật",
+      "words": 86
+    },
+    {
+      "slug": "chien-khong",
+      "title": "Chiến Không",
+      "type": "đang cập nhật",
+      "words": 74
+    },
+    {
+      "slug": "van-nguyen",
+      "title": "Văn Nguyên",
+      "type": "ảnh đúng chủ thể",
+      "words": 81
+    },
+    {
+      "slug": "nguy-tu-phong",
+      "title": "Ngụy Tùy Phong",
+      "type": "đang cập nhật",
+      "words": 73
+    },
+    {
+      "slug": "lang-uyen-than-vuong",
+      "title": "Lãng Uyển Thần Vương",
+      "type": "đang cập nhật",
+      "words": 103
+    },
+    {
+      "slug": "trac-tra",
+      "title": "Trạc Trà",
+      "type": "đang cập nhật",
+      "words": 83
+    },
+    {
+      "slug": "yen-van-he",
+      "title": "Yên Vân Hề",
+      "type": "đang cập nhật",
+      "words": 73
+    },
+    {
+      "slug": "diem-vuong",
+      "title": "Diêm Vương",
+      "type": "đang cập nhật",
+      "words": 80
+    },
+    {
+      "slug": "lac-vo-song",
+      "title": "Lạc Vô Song",
+      "type": "đang cập nhật",
+      "words": 77
+    },
+    {
+      "slug": "am-thien-tu",
+      "title": "Âm Thiên Tử",
+      "type": "đang cập nhật",
+      "words": 83
+    },
+    {
+      "slug": "dia-mau-nguyen-quan",
+      "title": "Địa Mẫu Nguyên Quân",
+      "type": "đang cập nhật",
+      "words": 82
+    },
+    {
+      "slug": "thuong-quan",
+      "title": "Thương Quân",
+      "type": "đang cập nhật",
+      "words": 78
+    },
+    {
+      "slug": "xich-khe",
+      "title": "Xích Khê",
+      "type": "đang cập nhật",
+      "words": 79
+    },
+    {
+      "slug": "hao-thien-ton",
+      "title": "Hạo Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 75
+    },
+    {
+      "slug": "hieu-thien-ton",
+      "title": "Hiểu Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 88
+    },
+    {
+      "slug": "cung-thien-ton",
+      "title": "Cung Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 87
+    },
+    {
+      "slug": "nguyen-mau-phu-nhan",
+      "title": "Nguyên Mẫu Phu Nhân",
+      "type": "đang cập nhật",
+      "words": 84
+    },
+    {
+      "slug": "de-hau-nguyen-hi",
+      "title": "Đế Hậu Nguyên Hi",
+      "type": "đang cập nhật",
+      "words": 75
+    },
+    {
+      "slug": "thai-de",
+      "title": "Thái Đế",
+      "type": "đang cập nhật",
+      "words": 111
+    },
+    {
+      "slug": "thai-dich",
+      "title": "Thái Dịch",
+      "type": "đang cập nhật",
+      "words": 95
+    },
+    {
+      "slug": "vo-nhai-lao-nhan",
+      "title": "Vô Nhai Lão Nhân",
+      "type": "đang cập nhật",
+      "words": 85
+    },
+    {
+      "slug": "thien-am-nuong-nuong",
+      "title": "Thiên Âm Nương Nương",
+      "type": "đang cập nhật",
+      "words": 86
+    },
+    {
+      "slug": "kinh-yen",
+      "title": "Kinh Yến",
+      "type": "đang cập nhật",
+      "words": 72
+    },
+    {
+      "slug": "tran-vuong-phi",
+      "title": "Trân Vương Phi",
+      "type": "đang cập nhật",
+      "words": 82
+    },
+    {
+      "slug": "tinh-han",
+      "title": "Tinh Hãn",
+      "type": "đang cập nhật",
+      "words": 90
+    },
+    {
+      "slug": "te-cuu-nghi",
+      "title": "Tề Cửu Nghị",
+      "type": "đang cập nhật",
+      "words": 84
+    },
+    {
+      "slug": "thien-de-thai-so",
+      "title": "Thiên Đế Thái Sơ",
+      "type": "đang cập nhật",
+      "words": 77
+    },
+    {
+      "slug": "thai-thuy-co-than",
+      "title": "Thái Thủy Cổ Thần",
+      "type": "đang cập nhật",
+      "words": 77
+    },
+    {
+      "slug": "thai-to-co-than",
+      "title": "Thái Tố Thần Nữ",
+      "type": "đang cập nhật",
+      "words": 83
+    },
+    {
+      "slug": "han-duong",
+      "title": "Hàn Đường",
+      "type": "đang cập nhật",
+      "words": 80
+    },
+    {
+      "slug": "de-dich-nguyet",
+      "title": "Đế Dịch Nguyệt",
+      "type": "đang cập nhật",
+      "words": 81
+    },
+    {
+      "slug": "dien-thuc",
+      "title": "Điền Thục",
+      "type": "đang cập nhật",
+      "words": 74
+    },
+    {
+      "slug": "ly-du-nhien",
+      "title": "Lý Du Nhiên",
+      "type": "đang cập nhật",
+      "words": 86
+    },
+    {
+      "slug": "ta-vo-ky",
+      "title": "Tà Vô Kỳ",
+      "type": "đang cập nhật",
+      "words": 81
+    },
+    {
+      "slug": "hong-thien-ton",
+      "title": "Hồng Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 69
+    },
+    {
+      "slug": "hu-thien-ton",
+      "title": "Hư Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 75
+    },
+    {
+      "slug": "to-than-vuong",
+      "title": "Tổ Thần Vương",
+      "type": "đang cập nhật",
+      "words": 66
+    },
+    {
+      "slug": "thai-am-nuong-nuong",
+      "title": "Thái Âm Nương Nương",
+      "type": "đang cập nhật",
+      "words": 78
+    },
+    {
+      "slug": "te-ha-du",
+      "title": "Tề Hã Dư",
+      "type": "đang cập nhật",
+      "words": 74
+    },
+    {
+      "slug": "tu-he-thien-su",
+      "title": "Tử Hề Thiên Sư",
+      "type": "đang cập nhật",
+      "words": 78
+    },
+    {
+      "slug": "xich-minh-than-tu",
+      "title": "Xích Minh Thần Tử",
+      "type": "đang cập nhật",
+      "words": 75
+    },
+    {
+      "slug": "xich-hoang",
+      "title": "Xích Hoàng",
+      "type": "đang cập nhật",
+      "words": 76
+    },
+    {
+      "slug": "hong-quan-dao-ton",
+      "title": "Hồng Quân Đạo Tôn",
+      "type": "đang cập nhật",
+      "words": 79
+    },
+    {
+      "slug": "thai-thuong-di-la",
+      "title": "Thái Thượng Công Tử",
+      "type": "đang cập nhật",
+      "words": 74
+    },
+    {
+      "slug": "lang-tieu-cong-tu",
+      "title": "Lăng Tiêu Công Tử",
+      "type": "đang cập nhật",
+      "words": 75
+    },
+    {
+      "slug": "tu-tieu-cong-tu",
+      "title": "Tử Tiêu Công Tử",
+      "type": "đang cập nhật",
+      "words": 62
+    },
+    {
+      "slug": "vo-cuc-cong-tu",
+      "title": "Vô Cực Công Tử",
+      "type": "đang cập nhật",
+      "words": 57
+    },
+    {
+      "slug": "lam-ngu-dien",
+      "title": "Lam Ngự Điền",
+      "type": "đang cập nhật",
+      "words": 97
+    },
+    {
+      "slug": "tan-vu",
+      "title": "Tần Vũ",
+      "type": "đang cập nhật",
+      "words": 107
+    },
+    {
+      "slug": "le-thien-hanh",
+      "title": "Lệ Thiên Hành",
+      "type": "đang cập nhật",
+      "words": 96
+    },
+    {
+      "slug": "ho-bat-quy",
+      "title": "Hồ Bất Quy",
+      "type": "đang cập nhật",
+      "words": 103
+    },
+    {
+      "slug": "ba-duong-than-vuong",
+      "title": "Bá Dương Thần Vương",
+      "type": "đang cập nhật",
+      "words": 97
+    },
+    {
+      "slug": "dai-hong",
+      "title": "Đại Hồng",
+      "type": "đang cập nhật",
+      "words": 100
+    },
+    {
+      "slug": "khuc-su-huynh",
+      "title": "Khúc sư huynh",
+      "type": "đang cập nhật",
+      "words": 89
+    },
+    {
+      "slug": "tinh-su-ty",
+      "title": "Tình sư tỷ",
+      "type": "đang cập nhật",
+      "words": 78
+    },
+    {
+      "slug": "te-nhan-bang",
+      "title": "Tề Nhạn Băng",
+      "type": "đang cập nhật",
+      "words": 93
+    },
+    {
+      "slug": "tien-thanh-nhi",
+      "title": "Tiên Thanh Nhi",
+      "type": "đang cập nhật",
+      "words": 90
+    },
+    {
+      "slug": "moc-bi-phong",
+      "title": "Mộc Bi Phong",
+      "type": "đang cập nhật",
+      "words": 92
+    },
+    {
+      "slug": "trang-liep-ho",
+      "title": "Trương Liệp Hộ",
+      "type": "đang cập nhật",
+      "words": 88
+    },
+    {
+      "slug": "thuyen-mat-troi",
+      "title": "Thuyền Mặt Trời",
+      "type": "ảnh đúng chủ thể",
+      "words": 122
+    },
+    {
+      "slug": "thai-duong-thu",
+      "title": "Thái Dương Thủ · Viêm Tinh Tinh",
+      "type": "ảnh đúng chủ thể",
+      "words": 71
+    },
+    {
+      "slug": "tui-thao-thiet",
+      "title": "Túi Thao Thiết",
+      "type": "minh họa khái niệm",
+      "words": 62
+    },
+    {
+      "slug": "ao-hanh-trinh-tan-muc",
+      "title": "Phục trang hành trình của Tần Mục",
+      "type": "minh họa khái niệm",
+      "words": 68
+    },
+    {
+      "slug": "gio-kim-tu-ba-ba",
+      "title": "Giỏ kim chỉ của Tư Bà Bà",
+      "type": "đang cập nhật",
+      "words": 61
+    },
+    {
+      "slug": "thuong-thuong",
+      "title": "Thượng Thương",
+      "type": "đang cập nhật",
+      "words": 131
+    },
+    {
+      "slug": "long-kieu-nam",
+      "title": "Long Kiều Nam",
+      "type": "ảnh đúng chủ thể",
+      "words": 141
+    }
+  ],
+  "blockedMedia": [
+    {
+      "key": "tap-45",
+      "reason": "Không dùng làm ảnh nhận diện khi chưa đối chiếu đúng chủ thể"
+    },
+    {
+      "key": "canh-gioi",
+      "reason": "Không dùng làm ảnh nhận diện khi chưa đối chiếu đúng chủ thể"
+    },
+    {
+      "key": "ky-ngo",
+      "reason": "Không dùng làm ảnh nhận diện khi chưa đối chiếu đúng chủ thể"
+    },
+    {
+      "key": "hanh-trinh",
+      "reason": "Không dùng làm ảnh nhận diện khi chưa đối chiếu đúng chủ thể"
+    },
+    {
+      "key": "thuyen-than",
+      "reason": "Không dùng làm ảnh nhận diện khi chưa đối chiếu đúng chủ thể"
+    },
+    {
+      "key": "gio-kim-tu-ba-ba",
+      "reason": "Không dùng làm ảnh nhận diện khi chưa đối chiếu đúng chủ thể"
+    }
+  ],
   "issues": [],
   "imageCoverage": [
     {
       "slug": "muc-than-ky",
-      "type": "minh họa chuyên mục"
+      "title": "Mục Thần Ký",
+      "type": "ảnh đúng chủ thể",
+      "words": 769
     },
     {
       "slug": "trach-tru",
-      "type": "minh họa chuyên mục"
+      "title": "Trạch Trư",
+      "type": "đang cập nhật",
+      "words": 72
     },
     {
       "slug": "hoat-hinh",
-      "type": "minh họa chuyên mục"
+      "title": "Bản hoạt hình",
+      "type": "ảnh đúng chủ thể",
+      "words": 76
     },
     {
       "slug": "nguyen-tac",
-      "type": "minh họa chuyên mục"
+      "title": "Tiểu thuyết nguyên tác",
+      "type": "đang cập nhật",
+      "words": 73
     },
     {
       "slug": "tan-muc",
-      "type": "ảnh riêng"
+      "title": "Tần Mục",
+      "type": "ảnh đúng chủ thể",
+      "words": 638
     },
     {
       "slug": "tu-ba-ba",
-      "type": "ảnh riêng"
+      "title": "Tư bà bà",
+      "type": "ảnh đúng chủ thể",
+      "words": 351
     },
     {
       "slug": "thon-truong",
-      "type": "ảnh riêng"
+      "title": "Thôn trưởng",
+      "type": "ảnh đúng chủ thể",
+      "words": 358
     },
     {
       "slug": "ma-gia",
-      "type": "ảnh riêng"
+      "title": "Mã gia",
+      "type": "ảnh đúng chủ thể",
+      "words": 363
     },
     {
       "slug": "do-phu",
-      "type": "ảnh riêng"
+      "title": "Đồ Phu",
+      "type": "ảnh đúng chủ thể",
+      "words": 322
     },
     {
       "slug": "nguoi-mu",
-      "type": "ảnh riêng"
+      "title": "Người Mù",
+      "type": "ảnh đúng chủ thể",
+      "words": 333
     },
     {
       "slug": "nguoi-que",
-      "type": "ảnh riêng"
+      "title": "Người Què",
+      "type": "ảnh đúng chủ thể",
+      "words": 335
     },
     {
       "slug": "nguoi-cam",
-      "type": "ảnh riêng"
+      "title": "Người Câm",
+      "type": "ảnh đúng chủ thể",
+      "words": 319
     },
     {
       "slug": "nguoi-diec",
-      "type": "ảnh riêng"
+      "title": "Người Điếc",
+      "type": "thiết kế nhân vật",
+      "words": 332
     },
     {
       "slug": "duoc-su",
-      "type": "ảnh riêng"
+      "title": "Dược Sư",
+      "type": "ảnh đúng chủ thể",
+      "words": 334
     },
     {
       "slug": "linh-duc-tu",
-      "type": "ảnh riêng"
+      "title": "Linh Dục Tú",
+      "type": "ảnh đúng chủ thể",
+      "words": 355
     },
     {
       "slug": "ho-linh-nhi",
-      "type": "ảnh riêng"
+      "title": "Hồ Linh Nhi",
+      "type": "ảnh đúng chủ thể",
+      "words": 320
     },
     {
       "slug": "dien-khang-quoc-su",
-      "type": "ảnh riêng"
+      "title": "Diên Khang quốc sư",
+      "type": "ảnh đúng chủ thể",
+      "words": 327
     },
     {
       "slug": "dai-khu",
-      "type": "minh họa chuyên mục"
+      "title": "Đại Khư",
+      "type": "đang cập nhật",
+      "words": 268
     },
     {
       "slug": "tan-lao-thon",
-      "type": "ảnh riêng"
+      "title": "Tàn Lão Thôn",
+      "type": "ảnh đúng chủ thể",
+      "words": 262
     },
     {
       "slug": "dien-khang",
-      "type": "minh họa chuyên mục"
+      "title": "Diên Khang",
+      "type": "đang cập nhật",
+      "words": 162
     },
     {
       "slug": "thai-hoc-vien",
-      "type": "minh họa chuyên mục"
+      "title": "Thái Học Viện",
+      "type": "đang cập nhật",
+      "words": 156
     },
     {
       "slug": "thien-ma-giao",
-      "type": "minh họa chuyên mục"
+      "title": "Thiên Ma Giáo / Thiên Thánh Giáo",
+      "type": "đang cập nhật",
+      "words": 161
     },
     {
       "slug": "hoang-kim-cung",
-      "type": "minh họa chuyên mục"
+      "title": "Lâu Lan Hoàng Kim Cung",
+      "type": "ảnh đúng chủ thể",
+      "words": 103
     },
     {
       "slug": "bay-than-tang",
-      "type": "minh họa chuyên mục"
+      "title": "Bảy đại thần tàng",
+      "type": "đang cập nhật",
+      "words": 252
     },
     {
       "slug": "linh-thai",
-      "type": "minh họa chuyên mục"
+      "title": "Linh Thai",
+      "type": "đang cập nhật",
+      "words": 157
     },
     {
       "slug": "ngu-dieu",
-      "type": "minh họa chuyên mục"
+      "title": "Ngũ Diệu",
+      "type": "đang cập nhật",
+      "words": 151
     },
     {
       "slug": "luc-hop",
-      "type": "minh họa chuyên mục"
+      "title": "Lục Hợp",
+      "type": "đang cập nhật",
+      "words": 256
     },
     {
       "slug": "that-tinh",
-      "type": "minh họa chuyên mục"
+      "title": "Thất Tinh",
+      "type": "đang cập nhật",
+      "words": 151
     },
     {
       "slug": "thien-nhan",
-      "type": "minh họa chuyên mục"
+      "title": "Thiên Nhân",
+      "type": "đang cập nhật",
+      "words": 31
     },
     {
       "slug": "sinh-tu",
-      "type": "minh họa chuyên mục"
+      "title": "Sinh Tử",
+      "type": "đang cập nhật",
+      "words": 151
     },
     {
       "slug": "than-kieu",
-      "type": "minh họa chuyên mục"
+      "title": "Thần Kiều",
+      "type": "đang cập nhật",
+      "words": 158
     },
     {
       "slug": "pha-bich",
-      "type": "minh họa chuyên mục"
+      "title": "Phá bích",
+      "type": "đang cập nhật",
+      "words": 266
     },
     {
       "slug": "ba-the",
-      "type": "minh họa chuyên mục"
+      "title": "Bá thể",
+      "type": "đang cập nhật",
+      "words": 155
     },
     {
       "slug": "ba-the-tam-dan-cong",
-      "type": "minh họa chuyên mục"
+      "title": "Bá Thể Tam Đan Công",
+      "type": "đang cập nhật",
+      "words": 155
     },
     {
       "slug": "thien-ma-tao-hoa-cong",
-      "type": "minh họa chuyên mục"
+      "title": "Thiên Ma Tạo Hóa Công",
+      "type": "đang cập nhật",
+      "words": 156
     },
     {
       "slug": "dai-duc-thien-ma-kinh",
-      "type": "minh họa chuyên mục"
+      "title": "Đại Dục Thiên Ma Kinh",
+      "type": "đang cập nhật",
+      "words": 67
     },
     {
       "slug": "tu-linh-the",
-      "type": "minh họa chuyên mục"
+      "title": "Tứ đại linh thể",
+      "type": "ảnh đúng chủ thể",
+      "words": 256
     },
     {
       "slug": "nguyen-khi-thanh-soi",
-      "type": "minh họa chuyên mục"
+      "title": "Luyện khí thành sợi",
+      "type": "đang cập nhật",
+      "words": 157
     },
     {
       "slug": "nguyen-than",
-      "type": "minh họa chuyên mục"
+      "title": "Nguyên thần",
+      "type": "đang cập nhật",
+      "words": 70
     },
     {
       "slug": "cai-tien-binh-khi",
-      "type": "minh họa chuyên mục"
+      "title": "Cải tiến binh khí",
+      "type": "đang cập nhật",
+      "words": 70
     },
     {
       "slug": "ngoc-boi-tan-muc",
-      "type": "ảnh riêng"
+      "title": "Ngọc bội của Tần Mục",
+      "type": "ảnh đúng chủ thể",
+      "words": 252
     },
     {
       "slug": "tuong-da-dai-khu",
-      "type": "minh họa chuyên mục"
+      "title": "Tượng đá Đại Khư",
+      "type": "đang cập nhật",
+      "words": 257
     },
     {
       "slug": "kiem-hoan",
-      "type": "ảnh riêng"
+      "title": "Kiếm Hoàn",
+      "type": "minh họa khái niệm",
+      "words": 81
     },
     {
       "slug": "sinh-tu-bo",
-      "type": "minh họa chuyên mục"
+      "title": "Sinh Tử Bộ",
+      "type": "đang cập nhật",
+      "words": 59
     },
     {
       "slug": "ma-vien",
-      "type": "minh họa chuyên mục"
+      "title": "Ma viên Đại Khư",
+      "type": "đang cập nhật",
+      "words": 46
     },
     {
       "slug": "long-ke",
-      "type": "minh họa chuyên mục"
+      "title": "Long kê",
+      "type": "đang cập nhật",
+      "words": 46
     },
     {
       "slug": "dai-loi-am-tu",
-      "type": "minh họa chuyên mục"
+      "title": "Đại Lôi Âm Tự",
+      "type": "đang cập nhật",
+      "words": 157
     },
     {
       "slug": "long-ky-lan",
-      "type": "ảnh riêng"
+      "title": "Long Kỳ Lân",
+      "type": "ảnh đúng chủ thể",
+      "words": 316
     },
     {
       "slug": "tu-van-huong",
-      "type": "ảnh riêng"
+      "title": "Tư Vân Hương",
+      "type": "ảnh đúng chủ thể",
+      "words": 326
     },
     {
       "slug": "dien-phong-de",
-      "type": "ảnh riêng"
+      "title": "Diên Phong Đế",
+      "type": "ảnh đúng chủ thể",
+      "words": 321
     },
     {
       "slug": "hu-sinh-hoa",
-      "type": "minh họa chuyên mục"
+      "title": "Hư Sinh Hoa",
+      "type": "ảnh đúng chủ thể",
+      "words": 662
     },
     {
       "slug": "ban-cong-tho",
-      "type": "minh họa chuyên mục"
+      "title": "Ban Công Thố",
+      "type": "ảnh đúng chủ thể",
+      "words": 312
     },
     {
       "slug": "tinh-ngan",
-      "type": "minh họa chuyên mục"
+      "title": "Tinh Ngạn",
+      "type": "đang cập nhật",
+      "words": 324
     },
     {
       "slug": "ba-son",
-      "type": "minh họa chuyên mục"
+      "title": "Bá Sơn",
+      "type": "ảnh đúng chủ thể",
+      "words": 302
     },
     {
       "slug": "viem-tinh-tinh",
-      "type": "ảnh riêng"
+      "title": "Viêm Tinh Tinh",
+      "type": "ảnh đúng chủ thể",
+      "words": 316
     },
     {
       "slug": "do-thien-ma-vuong",
-      "type": "minh họa chuyên mục"
+      "title": "Đô Thiên Ma Vương",
+      "type": "ảnh đúng chủ thể",
+      "words": 325
     },
     {
       "slug": "linh-ngoc-thu",
-      "type": "minh họa chuyên mục"
+      "title": "Linh Ngọc Thư",
+      "type": "đang cập nhật",
+      "words": 312
     },
     {
       "slug": "nguyen-khi-luyen-the",
-      "type": "minh họa chuyên mục"
+      "title": "Nguyên khí luyện thể",
+      "type": "đang cập nhật",
+      "words": 161
     },
     {
       "slug": "cuu-trong-thien-khai-nhan-phap",
-      "type": "minh họa chuyên mục"
+      "title": "Cửu Trọng Thiên Khai Nhãn Pháp",
+      "type": "đang cập nhật",
+      "words": 150
     },
     {
       "slug": "thien-ha",
-      "type": "minh họa chuyên mục"
+      "title": "Thiên Hà",
+      "type": "đang cập nhật",
+      "words": 153
     },
     {
       "slug": "kiem-nang",
-      "type": "minh họa chuyên mục"
+      "title": "Kiếm nang",
+      "type": "đang cập nhật",
+      "words": 152
     },
     {
       "slug": "ly-giang-kiem-phap",
-      "type": "minh họa chuyên mục"
+      "title": "Ly Giang kiếm pháp",
+      "type": "đang cập nhật",
+      "words": 159
     },
     {
       "slug": "nhu-lai-dai-thua-kinh",
-      "type": "minh họa chuyên mục"
+      "title": "Như Lai Đại Thừa Kinh",
+      "type": "đang cập nhật",
+      "words": 159
     },
     {
       "slug": "loi-am-bat-thuc",
-      "type": "minh họa chuyên mục"
+      "title": "Lôi Âm Bát Thức",
+      "type": "đang cập nhật",
+      "words": 153
     },
     {
       "slug": "sat-tru-dao-phap",
-      "type": "minh họa chuyên mục"
+      "title": "Sát Trư Đao Pháp",
+      "type": "đang cập nhật",
+      "words": 157
     },
     {
       "slug": "thai-duong-thuyen",
-      "type": "minh họa chuyên mục"
+      "title": "Thái Dương Thuyền",
+      "type": "ảnh đúng chủ thể",
+      "words": 149
     },
     {
       "slug": "muc-nhat-gia",
-      "type": "minh họa chuyên mục"
+      "title": "Mục Nhật giả",
+      "type": "đang cập nhật",
+      "words": 154
     },
     {
       "slug": "thai-duong-tinh",
-      "type": "minh họa chuyên mục"
+      "title": "Thái Dương Tỉnh",
+      "type": "đang cập nhật",
+      "words": 158
     },
     {
       "slug": "u-do",
-      "type": "minh họa chuyên mục"
+      "title": "U Đô",
+      "type": "đang cập nhật",
+      "words": 154
     },
     {
       "slug": "phong-do",
-      "type": "minh họa chuyên mục"
+      "title": "Phong Đô",
+      "type": "đang cập nhật",
+      "words": 157
     },
     {
       "slug": "vo-uu-huong",
-      "type": "minh họa chuyên mục"
+      "title": "Vô Ưu Hương",
+      "type": "đang cập nhật",
+      "words": 152
     },
     {
       "slug": "tam-hon-that-phach",
-      "type": "minh họa chuyên mục"
+      "title": "Tam hồn thất phách",
+      "type": "đang cập nhật",
+      "words": 154
     },
     {
       "slug": "nguyen-than-dan",
-      "type": "minh họa chuyên mục"
+      "title": "Nguyên Thần Dẫn",
+      "type": "đang cập nhật",
+      "words": 89
     },
     {
       "slug": "tam-nguyen-than-hoi-quyet",
-      "type": "minh họa chuyên mục"
+      "title": "Tam Nguyên Thần Hội Quyết",
+      "type": "đang cập nhật",
+      "words": 73
     },
     {
       "slug": "linh-nang-doi-thien-kieu",
-      "type": "minh họa chuyên mục"
+      "title": "Linh Năng Đối Thiên Kiều",
+      "type": "đang cập nhật",
+      "words": 89
     },
     {
       "slug": "vo-lau-tao-hoa-huyen-kinh",
-      "type": "minh họa chuyên mục"
+      "title": "Vô Lậu Tạo Hóa Huyền Kinh",
+      "type": "đang cập nhật",
+      "words": 79
     },
     {
       "slug": "vo-lau-dau-chien-than-cong",
-      "type": "minh họa chuyên mục"
+      "title": "Vô Lậu Đấu Chiến Thần Công",
+      "type": "đang cập nhật",
+      "words": 76
     },
     {
       "slug": "dao-dan-cong",
-      "type": "minh họa chuyên mục"
+      "title": "Đạo Dẫn Công",
+      "type": "đang cập nhật",
+      "words": 87
     },
     {
       "slug": "van-kiep-bat-diet-dai-phap-su",
-      "type": "minh họa chuyên mục"
+      "title": "Vạn Kiếp Bất Diệt Đại Pháp Sư",
+      "type": "đang cập nhật",
+      "words": 81
     },
     {
       "slug": "thai-vi-toan-kinh",
-      "type": "minh họa chuyên mục"
+      "title": "Thái Vi Toán Kinh",
+      "type": "đang cập nhật",
+      "words": 79
     },
     {
       "slug": "thanh-do-tai-thien-huyen-cong",
-      "type": "minh họa chuyên mục"
+      "title": "Thành Đô Tái Thiên Huyền Công",
+      "type": "đang cập nhật",
+      "words": 81
     },
     {
       "slug": "khien-hon-dan",
-      "type": "minh họa chuyên mục"
+      "title": "Khiên Hồn Dẫn",
+      "type": "đang cập nhật",
+      "words": 72
     },
     {
       "slug": "dieu-quy-khien-than-phu-tu-lenh",
-      "type": "minh họa chuyên mục"
+      "title": "Điều Quỷ Khiển Thần Phù Tự Lệnh",
+      "type": "đang cập nhật",
+      "words": 91
     },
     {
       "slug": "tu-tieu-bich-lac-cong",
-      "type": "minh họa chuyên mục"
+      "title": "Tử Tiêu Bích Lạc Công",
+      "type": "đang cập nhật",
+      "words": 77
     },
     {
       "slug": "cuu-long-de-vuong-cong",
-      "type": "minh họa chuyên mục"
+      "title": "Cửu Long Đế Vương Công",
+      "type": "đang cập nhật",
+      "words": 76
     },
     {
       "slug": "hoan-long-kinh",
-      "type": "minh họa chuyên mục"
+      "title": "Hoạn Long Kinh",
+      "type": "đang cập nhật",
+      "words": 72
     },
     {
       "slug": "vat-chat-bat-dich",
-      "type": "minh họa chuyên mục"
+      "title": "Vật Chất Bất Dịch",
+      "type": "đang cập nhật",
+      "words": 80
     },
     {
       "slug": "chat-nang-bat-dich",
-      "type": "minh họa chuyên mục"
+      "title": "Chất Năng Bất Dịch",
+      "type": "đang cập nhật",
+      "words": 76
     },
     {
       "slug": "nguyen-tu-than-thong",
-      "type": "minh họa chuyên mục"
+      "title": "Nguyên Từ Thần Thông",
+      "type": "đang cập nhật",
+      "words": 90
     },
     {
       "slug": "thien-thu-phat-da",
-      "type": "minh họa chuyên mục"
+      "title": "Thiên Thủ Phật Đà",
+      "type": "đang cập nhật",
+      "words": 75
     },
     {
       "slug": "kiem-do",
-      "type": "minh họa chuyên mục"
+      "title": "Kiếm Đồ",
+      "type": "đang cập nhật",
+      "words": 81
     },
     {
       "slug": "kiem-thap-bat-thuc",
-      "type": "minh họa chuyên mục"
+      "title": "Kiếm Thập Bát Thức",
+      "type": "đang cập nhật",
+      "words": 73
     },
     {
       "slug": "kiem-thap-cuu-thuc",
-      "type": "minh họa chuyên mục"
+      "title": "Kiếm Thập Cửu Thức",
+      "type": "đang cập nhật",
+      "words": 75
     },
     {
       "slug": "kiem-kiep",
-      "type": "minh họa chuyên mục"
+      "title": "Kiếp Kiếm",
+      "type": "đang cập nhật",
+      "words": 80
     },
     {
       "slug": "tu-thien-mon",
-      "type": "minh họa chuyên mục"
+      "title": "Tứ Thiên Môn",
+      "type": "đang cập nhật",
+      "words": 79
     },
     {
       "slug": "thien-cung-canh",
-      "type": "minh họa chuyên mục"
+      "title": "Thiên Cung",
+      "type": "đang cập nhật",
+      "words": 91
     },
     {
       "slug": "de-toa-canh",
-      "type": "minh họa chuyên mục"
+      "title": "Đế Tọa",
+      "type": "đang cập nhật",
+      "words": 81
     },
     {
       "slug": "dao-canh",
-      "type": "minh họa chuyên mục"
+      "title": "Đạo Cảnh",
+      "type": "đang cập nhật",
+      "words": 79
     },
     {
       "slug": "ngoc-kinh-canh",
-      "type": "minh họa chuyên mục"
+      "title": "Ngọc Kinh và Đạo Quả",
+      "type": "đang cập nhật",
+      "words": 92
     },
     {
       "slug": "nhap-dao",
-      "type": "minh họa chuyên mục"
+      "title": "Nhập Đạo",
+      "type": "đang cập nhật",
+      "words": 81
     },
     {
       "slug": "phuc-trang-tu-ba-ba",
-      "type": "ảnh riêng"
+      "title": "Phục trang của Tư Bà Bà",
+      "type": "ảnh đúng chủ thể",
+      "words": 94
     },
     {
       "slug": "ca-sa-ma-gia",
-      "type": "minh họa chuyên mục"
+      "title": "Cà sa của Mã gia",
+      "type": "đang cập nhật",
+      "words": 82
     },
     {
       "slug": "y-phuc-hanh-trinh-tan-muc",
-      "type": "minh họa chuyên mục"
+      "title": "Y phục hành trình của Tần Mục",
+      "type": "minh họa khái niệm",
+      "words": 93
     },
     {
       "slug": "trang-phuc-thien-ma-giao",
-      "type": "minh họa chuyên mục"
+      "title": "Phục sức Thiên Ma Giáo",
+      "type": "đang cập nhật",
+      "words": 91
     },
     {
       "slug": "trang-phuc-dien-khang",
-      "type": "minh họa chuyên mục"
+      "title": "Quan phục và giáp phục Diên Khang",
+      "type": "đang cập nhật",
+      "words": 85
     },
     {
       "slug": "trang-phuc-thien-dinh",
-      "type": "minh họa chuyên mục"
+      "title": "Giáp phục Thiên Đình",
+      "type": "đang cập nhật",
+      "words": 90
     },
     {
       "slug": "phuc-trang-nguoi-sang-tao",
-      "type": "minh họa chuyên mục"
+      "title": "Phục trang Người Sáng Tạo",
+      "type": "đang cập nhật",
+      "words": 86
     },
     {
       "slug": "trang-phuc-dai-loi-am-tu",
-      "type": "minh họa chuyên mục"
+      "title": "Y phục Phật môn Đại Lôi Âm Tự",
+      "type": "đang cập nhật",
+      "words": 81
     },
     {
       "slug": "long-thac-than-thuong",
-      "type": "minh họa chuyên mục"
+      "title": "Long Thác Thần Thương",
+      "type": "đang cập nhật",
+      "words": 73
     },
     {
       "slug": "that-thien-ton",
-      "type": "minh họa chuyên mục"
+      "title": "Cửu Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 91
     },
     {
       "slug": "thap-thien-ton",
-      "type": "minh họa chuyên mục"
+      "title": "Thập Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 79
     },
     {
       "slug": "nguoi-sang-tao",
-      "type": "minh họa chuyên mục"
+      "title": "Người Sáng Tạo",
+      "type": "đang cập nhật",
+      "words": 82
     },
     {
       "slug": "thai-hu",
-      "type": "minh họa chuyên mục"
+      "title": "Thái Hư",
+      "type": "đang cập nhật",
+      "words": 83
     },
     {
       "slug": "long-han",
-      "type": "minh họa chuyên mục"
+      "title": "Thời đại Long Hán",
+      "type": "đang cập nhật",
+      "words": 83
     },
     {
       "slug": "thoi-dai-xich-minh",
-      "type": "minh họa chuyên mục"
+      "title": "Thời đại Xích Minh",
+      "type": "đang cập nhật",
+      "words": 84
     },
     {
       "slug": "vu-lam-quan",
-      "type": "minh họa chuyên mục"
+      "title": "Vũ Lâm Quân",
+      "type": "đang cập nhật",
+      "words": 79
     },
     {
       "slug": "thien-minh",
-      "type": "minh họa chuyên mục"
+      "title": "Thiên Minh",
+      "type": "đang cập nhật",
+      "words": 79
     },
     {
       "slug": "thien-am-gioi",
-      "type": "minh họa chuyên mục"
+      "title": "Thiên Âm Giới",
+      "type": "đang cập nhật",
+      "words": 85
     },
     {
       "slug": "hong-mong-phu-van",
-      "type": "minh họa chuyên mục"
+      "title": "Hồng Mông phù văn",
+      "type": "đang cập nhật",
+      "words": 88
     },
     {
       "slug": "kiem-dao-nhi-thap-tam-thuc",
-      "type": "minh họa chuyên mục"
+      "title": "Kiếm Đạo Nhị Thập Tam Thức",
+      "type": "đang cập nhật",
+      "words": 63
     },
     {
       "slug": "di-la-cung",
-      "type": "minh họa chuyên mục"
+      "title": "Di La Cung",
+      "type": "đang cập nhật",
+      "words": 33
     },
     {
       "slug": "thien-dinh",
-      "type": "minh họa chuyên mục"
+      "title": "Thiên Đình",
+      "type": "đang cập nhật",
+      "words": 28
     },
     {
       "slug": "to-dinh",
-      "type": "minh họa chuyên mục"
+      "title": "Tổ Đình",
+      "type": "đang cập nhật",
+      "words": 33
     },
     {
       "slug": "nguyen-gioi",
-      "type": "minh họa chuyên mục"
+      "title": "Nguyên Giới",
+      "type": "đang cập nhật",
+      "words": 32
     },
     {
       "slug": "minh-do",
-      "type": "minh họa chuyên mục"
+      "title": "Minh Đô",
+      "type": "đang cập nhật",
+      "words": 27
     },
     {
       "slug": "quy-khu",
-      "type": "minh họa chuyên mục"
+      "title": "Quy Khư",
+      "type": "đang cập nhật",
+      "words": 30
     },
     {
       "slug": "huyen-do",
-      "type": "minh họa chuyên mục"
+      "title": "Huyền Đô",
+      "type": "đang cập nhật",
+      "words": 24
     },
     {
       "slug": "the-gioi-thu",
-      "type": "minh họa chuyên mục"
+      "title": "Thế Giới Thụ",
+      "type": "đang cập nhật",
+      "words": 28
     },
     {
       "slug": "thuat-ngu",
-      "type": "minh họa chuyên mục"
+      "title": "Thuật ngữ Mục Thần Ký",
+      "type": "đang cập nhật",
+      "words": 39
     },
     {
       "slug": "u-minh-thai-tu",
-      "type": "minh họa chuyên mục"
+      "title": "U Minh Thái Tử",
+      "type": "đang cập nhật",
+      "words": 35
     },
     {
       "slug": "tuyet-vo-tran",
-      "type": "minh họa chuyên mục"
+      "title": "Tuyệt Vô Trần",
+      "type": "đang cập nhật",
+      "words": 38
     },
     {
       "slug": "vo-dao-nhap-dao",
-      "type": "minh họa chuyên mục"
+      "title": "Võ đạo nhập đạo",
+      "type": "đang cập nhật",
+      "words": 36
     },
     {
       "slug": "thuong-thuong-hoc-cung",
-      "type": "minh họa chuyên mục"
+      "title": "Thượng Thương Học Cung",
+      "type": "đang cập nhật",
+      "words": 31
     },
     {
       "slug": "bi-ngan-phuong-chau",
-      "type": "minh họa chuyên mục"
+      "title": "Bỉ Ngạn Phương Châu",
+      "type": "đang cập nhật",
+      "words": 38
     },
     {
       "slug": "thai-so",
-      "type": "minh họa chuyên mục"
+      "title": "Thái Sơ",
+      "type": "đang cập nhật",
+      "words": 37
     },
     {
       "slug": "dung-giang",
-      "type": "minh họa chuyên mục"
+      "title": "Dũng Giang",
+      "type": "đang cập nhật",
+      "words": 97
     },
     {
       "slug": "tran-uong-cung",
-      "type": "minh họa chuyên mục"
+      "title": "Trấn Ương Cung",
+      "type": "đang cập nhật",
+      "words": 79
     },
     {
       "slug": "khai-hoang-tan-nghiep",
-      "type": "minh họa chuyên mục"
+      "title": "Khai Hoàng Tần Nghiệp",
+      "type": "đang cập nhật",
+      "words": 257
     },
     {
       "slug": "ngu-thien-ton",
-      "type": "minh họa chuyên mục"
+      "title": "Ngự Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 254
     },
     {
       "slug": "lang-thien-ton",
-      "type": "minh họa chuyên mục"
+      "title": "Lăng Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 251
     },
     {
       "slug": "nguyet-thien-ton",
-      "type": "minh họa chuyên mục"
+      "title": "Nguyệt Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 254
     },
     {
       "slug": "van-thien-ton",
-      "type": "minh họa chuyên mục"
+      "title": "Vân Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 250
     },
     {
       "slug": "u-thien-ton",
-      "type": "minh họa chuyên mục"
+      "title": "U Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 266
     },
     {
       "slug": "tho-ba",
-      "type": "minh họa chuyên mục"
+      "title": "Thổ Bá",
+      "type": "đang cập nhật",
+      "words": 261
     },
     {
       "slug": "thien-cong",
-      "type": "minh họa chuyên mục"
+      "title": "Thiên Công",
+      "type": "đang cập nhật",
+      "words": 256
     },
     {
       "slug": "tan-phuong-thanh",
-      "type": "minh họa chuyên mục"
+      "title": "Tần Phượng Thanh",
+      "type": "đang cập nhật",
+      "words": 280
     },
     {
       "slug": "tieu-phu",
-      "type": "minh họa chuyên mục"
+      "title": "Tiều Phu",
+      "type": "đang cập nhật",
+      "words": 259
     },
     {
       "slug": "phuoc-nhat-la",
-      "type": "minh họa chuyên mục"
+      "title": "Phược Nhật La",
+      "type": "đang cập nhật",
+      "words": 252
     },
     {
       "slug": "triet-hoa-le",
-      "type": "minh họa chuyên mục"
+      "title": "Triết Hoa Lê",
+      "type": "đang cập nhật",
+      "words": 255
     },
     {
       "slug": "thieu-nien-to-su",
-      "type": "minh họa chuyên mục"
+      "title": "Thiếu niên tổ sư",
+      "type": "ảnh đúng chủ thể",
+      "words": 274
     },
     {
       "slug": "dao-chu",
-      "type": "minh họa chuyên mục"
+      "title": "Đạo chủ",
+      "type": "ảnh đúng chủ thể",
+      "words": 272
     },
     {
       "slug": "lam-hien",
-      "type": "minh họa chuyên mục"
+      "title": "Lâm Hiên",
+      "type": "đang cập nhật",
+      "words": 280
     },
     {
       "slug": "lao-nhu-lai",
-      "type": "minh họa chuyên mục"
+      "title": "Lão Như Lai",
+      "type": "ảnh đúng chủ thể",
+      "words": 280
     },
     {
       "slug": "bach-cu-nhi",
-      "type": "minh họa chuyên mục"
+      "title": "Bạch Cừ Nhi",
+      "type": "đang cập nhật",
+      "words": 119
     },
     {
       "slug": "hoa-thien-ton",
-      "type": "minh họa chuyên mục"
+      "title": "Hỏa Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 142
     },
     {
       "slug": "so-to-nhan-hoang",
-      "type": "minh họa chuyên mục"
+      "title": "Sơ Tổ Nhân Hoàng",
+      "type": "đang cập nhật",
+      "words": 127
     },
     {
       "slug": "chu-nhan-di-la-cung",
-      "type": "minh họa chuyên mục"
+      "title": "Chủ nhân Di La Cung",
+      "type": "đang cập nhật",
+      "words": 148
     },
     {
       "slug": "tan-linh-quan",
-      "type": "minh họa chuyên mục"
+      "title": "Tần Linh Quân",
+      "type": "đang cập nhật",
+      "words": 88
     },
     {
       "slug": "giang-bach-khue",
-      "type": "minh họa chuyên mục"
+      "title": "Giang Bạch Khuê",
+      "type": "ảnh đúng chủ thể",
+      "words": 119
     },
     {
       "slug": "cong-ton-yen",
-      "type": "minh họa chuyên mục"
+      "title": "Công Tôn Yến",
+      "type": "đang cập nhật",
+      "words": 86
     },
     {
       "slug": "chien-khong",
-      "type": "minh họa chuyên mục"
+      "title": "Chiến Không",
+      "type": "đang cập nhật",
+      "words": 74
     },
     {
       "slug": "van-nguyen",
-      "type": "minh họa chuyên mục"
+      "title": "Văn Nguyên",
+      "type": "ảnh đúng chủ thể",
+      "words": 81
     },
     {
       "slug": "nguy-tu-phong",
-      "type": "minh họa chuyên mục"
+      "title": "Ngụy Tùy Phong",
+      "type": "đang cập nhật",
+      "words": 73
     },
     {
       "slug": "lang-uyen-than-vuong",
-      "type": "minh họa chuyên mục"
+      "title": "Lãng Uyển Thần Vương",
+      "type": "đang cập nhật",
+      "words": 103
     },
     {
       "slug": "trac-tra",
-      "type": "minh họa chuyên mục"
+      "title": "Trạc Trà",
+      "type": "đang cập nhật",
+      "words": 83
     },
     {
       "slug": "yen-van-he",
-      "type": "minh họa chuyên mục"
+      "title": "Yên Vân Hề",
+      "type": "đang cập nhật",
+      "words": 73
     },
     {
       "slug": "diem-vuong",
-      "type": "minh họa chuyên mục"
+      "title": "Diêm Vương",
+      "type": "đang cập nhật",
+      "words": 80
     },
     {
       "slug": "lac-vo-song",
-      "type": "minh họa chuyên mục"
+      "title": "Lạc Vô Song",
+      "type": "đang cập nhật",
+      "words": 77
     },
     {
       "slug": "am-thien-tu",
-      "type": "minh họa chuyên mục"
+      "title": "Âm Thiên Tử",
+      "type": "đang cập nhật",
+      "words": 83
     },
     {
       "slug": "dia-mau-nguyen-quan",
-      "type": "minh họa chuyên mục"
+      "title": "Địa Mẫu Nguyên Quân",
+      "type": "đang cập nhật",
+      "words": 82
     },
     {
       "slug": "thuong-quan",
-      "type": "minh họa chuyên mục"
+      "title": "Thương Quân",
+      "type": "đang cập nhật",
+      "words": 78
     },
     {
       "slug": "xich-khe",
-      "type": "minh họa chuyên mục"
+      "title": "Xích Khê",
+      "type": "đang cập nhật",
+      "words": 79
     },
     {
       "slug": "hao-thien-ton",
-      "type": "minh họa chuyên mục"
+      "title": "Hạo Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 75
     },
     {
       "slug": "hieu-thien-ton",
-      "type": "minh họa chuyên mục"
+      "title": "Hiểu Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 88
     },
     {
       "slug": "cung-thien-ton",
-      "type": "minh họa chuyên mục"
+      "title": "Cung Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 87
     },
     {
       "slug": "nguyen-mau-phu-nhan",
-      "type": "minh họa chuyên mục"
+      "title": "Nguyên Mẫu Phu Nhân",
+      "type": "đang cập nhật",
+      "words": 84
     },
     {
       "slug": "de-hau-nguyen-hi",
-      "type": "minh họa chuyên mục"
+      "title": "Đế Hậu Nguyên Hi",
+      "type": "đang cập nhật",
+      "words": 75
     },
     {
       "slug": "thai-de",
-      "type": "minh họa chuyên mục"
+      "title": "Thái Đế",
+      "type": "đang cập nhật",
+      "words": 111
     },
     {
       "slug": "thai-dich",
-      "type": "minh họa chuyên mục"
+      "title": "Thái Dịch",
+      "type": "đang cập nhật",
+      "words": 95
     },
     {
       "slug": "vo-nhai-lao-nhan",
-      "type": "minh họa chuyên mục"
+      "title": "Vô Nhai Lão Nhân",
+      "type": "đang cập nhật",
+      "words": 85
     },
     {
       "slug": "thien-am-nuong-nuong",
-      "type": "minh họa chuyên mục"
+      "title": "Thiên Âm Nương Nương",
+      "type": "đang cập nhật",
+      "words": 86
     },
     {
       "slug": "kinh-yen",
-      "type": "minh họa chuyên mục"
+      "title": "Kinh Yến",
+      "type": "đang cập nhật",
+      "words": 72
     },
     {
       "slug": "tran-vuong-phi",
-      "type": "minh họa chuyên mục"
+      "title": "Trân Vương Phi",
+      "type": "đang cập nhật",
+      "words": 82
     },
     {
       "slug": "tinh-han",
-      "type": "minh họa chuyên mục"
+      "title": "Tinh Hãn",
+      "type": "đang cập nhật",
+      "words": 90
     },
     {
       "slug": "te-cuu-nghi",
-      "type": "minh họa chuyên mục"
+      "title": "Tề Cửu Nghị",
+      "type": "đang cập nhật",
+      "words": 84
     },
     {
       "slug": "thien-de-thai-so",
-      "type": "minh họa chuyên mục"
+      "title": "Thiên Đế Thái Sơ",
+      "type": "đang cập nhật",
+      "words": 77
     },
     {
       "slug": "thai-thuy-co-than",
-      "type": "minh họa chuyên mục"
+      "title": "Thái Thủy Cổ Thần",
+      "type": "đang cập nhật",
+      "words": 77
     },
     {
       "slug": "thai-to-co-than",
-      "type": "minh họa chuyên mục"
+      "title": "Thái Tố Thần Nữ",
+      "type": "đang cập nhật",
+      "words": 83
     },
     {
       "slug": "han-duong",
-      "type": "minh họa chuyên mục"
+      "title": "Hàn Đường",
+      "type": "đang cập nhật",
+      "words": 80
     },
     {
       "slug": "de-dich-nguyet",
-      "type": "minh họa chuyên mục"
+      "title": "Đế Dịch Nguyệt",
+      "type": "đang cập nhật",
+      "words": 81
     },
     {
       "slug": "dien-thuc",
-      "type": "minh họa chuyên mục"
+      "title": "Điền Thục",
+      "type": "đang cập nhật",
+      "words": 74
     },
     {
       "slug": "ly-du-nhien",
-      "type": "minh họa chuyên mục"
+      "title": "Lý Du Nhiên",
+      "type": "đang cập nhật",
+      "words": 86
     },
     {
       "slug": "ta-vo-ky",
-      "type": "minh họa chuyên mục"
+      "title": "Tà Vô Kỳ",
+      "type": "đang cập nhật",
+      "words": 81
     },
     {
       "slug": "hong-thien-ton",
-      "type": "minh họa chuyên mục"
+      "title": "Hồng Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 69
     },
     {
       "slug": "hu-thien-ton",
-      "type": "minh họa chuyên mục"
+      "title": "Hư Thiên Tôn",
+      "type": "đang cập nhật",
+      "words": 75
     },
     {
       "slug": "to-than-vuong",
-      "type": "minh họa chuyên mục"
+      "title": "Tổ Thần Vương",
+      "type": "đang cập nhật",
+      "words": 66
     },
     {
       "slug": "thai-am-nuong-nuong",
-      "type": "minh họa chuyên mục"
+      "title": "Thái Âm Nương Nương",
+      "type": "đang cập nhật",
+      "words": 78
     },
     {
       "slug": "te-ha-du",
-      "type": "minh họa chuyên mục"
+      "title": "Tề Hã Dư",
+      "type": "đang cập nhật",
+      "words": 74
     },
     {
       "slug": "tu-he-thien-su",
-      "type": "minh họa chuyên mục"
+      "title": "Tử Hề Thiên Sư",
+      "type": "đang cập nhật",
+      "words": 78
     },
     {
       "slug": "xich-minh-than-tu",
-      "type": "minh họa chuyên mục"
+      "title": "Xích Minh Thần Tử",
+      "type": "đang cập nhật",
+      "words": 75
     },
     {
       "slug": "xich-hoang",
-      "type": "minh họa chuyên mục"
+      "title": "Xích Hoàng",
+      "type": "đang cập nhật",
+      "words": 76
     },
     {
       "slug": "hong-quan-dao-ton",
-      "type": "minh họa chuyên mục"
+      "title": "Hồng Quân Đạo Tôn",
+      "type": "đang cập nhật",
+      "words": 79
     },
     {
       "slug": "thai-thuong-di-la",
-      "type": "minh họa chuyên mục"
+      "title": "Thái Thượng Công Tử",
+      "type": "đang cập nhật",
+      "words": 74
     },
     {
       "slug": "lang-tieu-cong-tu",
-      "type": "minh họa chuyên mục"
+      "title": "Lăng Tiêu Công Tử",
+      "type": "đang cập nhật",
+      "words": 75
     },
     {
       "slug": "tu-tieu-cong-tu",
-      "type": "minh họa chuyên mục"
+      "title": "Tử Tiêu Công Tử",
+      "type": "đang cập nhật",
+      "words": 62
     },
     {
       "slug": "vo-cuc-cong-tu",
-      "type": "minh họa chuyên mục"
+      "title": "Vô Cực Công Tử",
+      "type": "đang cập nhật",
+      "words": 57
     },
     {
       "slug": "lam-ngu-dien",
-      "type": "minh họa chuyên mục"
+      "title": "Lam Ngự Điền",
+      "type": "đang cập nhật",
+      "words": 97
     },
     {
       "slug": "tan-vu",
-      "type": "minh họa chuyên mục"
+      "title": "Tần Vũ",
+      "type": "đang cập nhật",
+      "words": 107
     },
     {
       "slug": "le-thien-hanh",
-      "type": "minh họa chuyên mục"
+      "title": "Lệ Thiên Hành",
+      "type": "đang cập nhật",
+      "words": 96
     },
     {
       "slug": "ho-bat-quy",
-      "type": "minh họa chuyên mục"
+      "title": "Hồ Bất Quy",
+      "type": "đang cập nhật",
+      "words": 103
     },
     {
       "slug": "ba-duong-than-vuong",
-      "type": "minh họa chuyên mục"
+      "title": "Bá Dương Thần Vương",
+      "type": "đang cập nhật",
+      "words": 97
     },
     {
       "slug": "dai-hong",
-      "type": "minh họa chuyên mục"
+      "title": "Đại Hồng",
+      "type": "đang cập nhật",
+      "words": 100
     },
     {
       "slug": "khuc-su-huynh",
-      "type": "minh họa chuyên mục"
+      "title": "Khúc sư huynh",
+      "type": "đang cập nhật",
+      "words": 89
     },
     {
       "slug": "tinh-su-ty",
-      "type": "minh họa chuyên mục"
+      "title": "Tình sư tỷ",
+      "type": "đang cập nhật",
+      "words": 78
     },
     {
       "slug": "te-nhan-bang",
-      "type": "minh họa chuyên mục"
+      "title": "Tề Nhạn Băng",
+      "type": "đang cập nhật",
+      "words": 93
     },
     {
       "slug": "tien-thanh-nhi",
-      "type": "minh họa chuyên mục"
+      "title": "Tiên Thanh Nhi",
+      "type": "đang cập nhật",
+      "words": 90
     },
     {
       "slug": "moc-bi-phong",
-      "type": "minh họa chuyên mục"
+      "title": "Mộc Bi Phong",
+      "type": "đang cập nhật",
+      "words": 92
     },
     {
       "slug": "trang-liep-ho",
-      "type": "minh họa chuyên mục"
+      "title": "Trương Liệp Hộ",
+      "type": "đang cập nhật",
+      "words": 88
     },
     {
       "slug": "thuyen-mat-troi",
-      "type": "ảnh riêng"
+      "title": "Thuyền Mặt Trời",
+      "type": "ảnh đúng chủ thể",
+      "words": 122
     },
     {
       "slug": "thuyen-mat-trang",
-      "type": "ảnh riêng"
+      "title": "Thuyền Mặt Trăng",
+      "type": "ảnh đúng chủ thể",
+      "words": 203
     },
     {
       "slug": "thai-duong-thu",
-      "type": "ảnh riêng"
+      "title": "Thái Dương Thủ · Viêm Tinh Tinh",
+      "type": "ảnh đúng chủ thể",
+      "words": 71
     },
     {
       "slug": "nguyet-luong-thu",
-      "type": "ảnh riêng"
+      "title": "Người Giữ Mặt Trăng",
+      "type": "ảnh đúng chủ thể",
+      "words": 180
     },
     {
       "slug": "tui-thao-thiet",
-      "type": "ảnh riêng"
+      "title": "Túi Thao Thiết",
+      "type": "minh họa khái niệm",
+      "words": 62
     },
     {
       "slug": "ao-hanh-trinh-tan-muc",
-      "type": "ảnh riêng"
+      "title": "Phục trang hành trình của Tần Mục",
+      "type": "minh họa khái niệm",
+      "words": 68
     },
     {
       "slug": "gio-kim-tu-ba-ba",
-      "type": "ảnh riêng"
+      "title": "Giỏ kim chỉ của Tư Bà Bà",
+      "type": "đang cập nhật",
+      "words": 61
+    },
+    {
+      "slug": "kieu-tinh-quan",
+      "title": "Kiều Tinh Quân",
+      "type": "ảnh đúng chủ thể",
+      "words": 173
+    },
+    {
+      "slug": "thuong-thuong",
+      "title": "Thượng Thương",
+      "type": "đang cập nhật",
+      "words": 131
+    },
+    {
+      "slug": "long-kieu-nam",
+      "title": "Long Kiều Nam",
+      "type": "ảnh đúng chủ thể",
+      "words": 141
     }
   ]
 }

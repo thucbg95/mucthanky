@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import {entryImage,entryGallery,matchesSubject} from './media.mjs';
 
 const read = name => JSON.parse(fs.readFileSync(`src/data/${name}`, 'utf8'));
 const records = new Map(read('lore.json').map(entry => [entry.slug, entry]));
@@ -8,13 +9,6 @@ for (const name of ['character-details.json', 'world-details.json']) {
 }
 const entries = [...records.values()];
 const media = read('media.json');
-const artByCategory = {
-  'tong-quan': 'poster', 'nhan-vat': 'poster', 'dia-danh': 'tan-lao-thon-concept',
-  'the-luc': 'dien-khang-quoc-su', 'canh-gioi': 'canh-gioi', 'thuat-ngu': 'ky-ngo',
-  'cong-phap': 'tap-45', 'than-thong': 'ky-ngo', 'bach-khoa': 'poster',
-  'bao-vat': 'ngoc-boi-tan-muc', 'vu-khi': 'kiem-hoan', 'chung-toc': 'viem-tinh-tinh',
-  'phuong-tien': 'thuyen-mat-troi', 'trang-phuc': 'ao-tan-muc',
-};
 const local = image => Boolean(image?.src && fs.existsSync(path.join('public', image.src.slice(1))));
 const sourceHosts = {};
 const issues = [];
@@ -30,11 +24,10 @@ for (const entry of entries) {
       issues.push(`${entry.slug}: URL tham chiếu sai định dạng`);
     }
   }
-  const exact = media.images?.[entry.image || entry.slug];
-  const fallback = media.images?.[artByCategory[entry.category]];
-  const exactImage = local(exact);
-  if (!exactImage && !local(fallback)) issues.push(`${entry.slug}: không có ảnh cục bộ`);
-  imageCoverage.push({ slug: entry.slug, type: exactImage ? 'ảnh riêng' : 'minh họa chuyên mục' });
+  const exact = entryImage(media,entry);
+  if(exact&&!local(exact))issues.push(entry.slug+': thiếu ảnh đã đối chiếu');
+  for(const image of entryGallery(media,entry))if(!matchesSubject(image,entry.slug))issues.push(entry.slug+': kho ảnh sai chủ thể');
+  imageCoverage.push({slug:entry.slug,title:entry.title,type:exact?(exact.kind==='concept'?'thiết kế nhân vật':exact.kind==='illustration'?'minh họa khái niệm':'ảnh đúng chủ thể'):'đang cập nhật',words:(entry.sections?.flatMap(s=>s.paragraphs)||entry.body||[]).join(' ').split(/\s+/).filter(Boolean).length});
 }
 for (const [key, image] of Object.entries(media.images)) if (!local(image)) issues.push(`${key}: thiếu tệp ảnh cục bộ`);
 for (const image of media.gallery) if (!local(image)) issues.push(`${image.src}: thiếu tệp thư viện cục bộ`);
@@ -46,8 +39,10 @@ const result = {
   sourceHostCounts: sourceHosts,
   mediaImages: Object.keys(media.images).length,
   galleryImages: media.gallery.length,
-  entrySpecificImages: imageCoverage.filter(entry => entry.type === 'ảnh riêng').length,
-  categoryIllustrations: imageCoverage.filter(entry => entry.type === 'minh họa chuyên mục').length,
+  entrySpecificImages: imageCoverage.filter(entry => entry.type !== 'đang cập nhật').length,
+  pendingImages: imageCoverage.filter(entry => entry.type === 'đang cập nhật').length,
+  thinProfiles:imageCoverage.filter(entry=>entry.words<150),
+  blockedMedia:Object.entries(media.images).filter(([key,image])=>!image.verified).map(([key,image])=>({key,reason:image.reviewNote})),
   issues,
   imageCoverage,
 };
@@ -58,7 +53,7 @@ console.log(JSON.stringify({
   mediaFiles: `${result.mediaImages}/${result.mediaImages}`,
   galleryImages: `${result.galleryImages}/${result.galleryImages}`,
   entrySpecificImages: result.entrySpecificImages,
-  categoryIllustrations: result.categoryIllustrations,
+  pendingImages: result.pendingImages,
   issues: result.issues.length,
 }, null, 2));
 if (issues.length) process.exitCode = 1;

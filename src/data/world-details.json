@@ -73,6 +73,10 @@
       {
         "title": "Sohu — khung hình phim được đăng lại",
         "url": "https://www.sohu.com/a/887988443_120842324"
+      },
+      {
+        "title": "Nguyên tác — chương 91: Nguyệt Lượng Thủ",
+        "url": "https://mucthanky.com/truyen/chuong-91/"
       }
     ],
     "facts": [
@@ -106,6 +110,15 @@
           "Ảnh này là khung hình phim được nguồn báo đăng lại, không phải ảnh quảng bá độc lập từ nhà sản xuất. Trang ghi rõ nguồn để phân biệt tư liệu minh họa với thiết kế gốc."
         ],
         "spoiler": false
+      },
+      {
+        "id": "bo-sung-doi-chieu",
+        "title": "Mối liên hệ với ngọc bội và Vô Ưu Hương",
+        "paragraphs": [
+          "Khi tìm hiểu Thuyền Mặt Trăng, Thôn trưởng không chỉ quan tâm kích thước hay hình dáng của nó: điều khiến ông chú ý là phản ứng của ngọc bội Tần Mục. Manh mối này làm con thuyền gắn với hành trình tìm nguồn gốc của cậu.",
+          "Trong cuộc đối thoại ở chương 91, con thuyền được phân biệt với chính Vô Ưu Hương. Do đó không nên dùng hai tên này như hai cách gọi của cùng một địa điểm. Nguyệt Lượng Thủ là người giữ thuyền, còn Mục Nguyệt là tên gắn với cộng đồng từng sinh sống trên thuyền."
+        ],
+        "spoiler": true
       }
     ]
   },
@@ -177,6 +190,10 @@
       {
         "title": "Nguyên tác — chương 91",
         "url": "https://czbooks.net/n/s6j97i/s6bm7c6l?chapterNumber=90"
+      },
+      {
+        "title": "Nguyên tác — chương 91: Nguyệt Lượng Thủ",
+        "url": "https://mucthanky.com/truyen/chuong-91/"
       }
     ],
     "facts": [
@@ -200,6 +217,15 @@
         "paragraphs": [
           "月亮守 dịch sát là người giữ Mặt Trăng. Đây là cách gọi chức trách, không nên dịch thành “Nguyệt Giả” nếu muốn phân biệt rõ với người tu luyện hoặc một danh hiệu khác.",
           "Tuyến nhân vật gắn với con thuyền Mặt Trăng, vật tín vật và lịch sử Vô Ưu Hương. Hình bên cạnh là khung hình tập 30, không được dùng thay cho ảnh chân dung riêng khi phim chưa cung cấp ảnh nhân vật tách nền."
+        ],
+        "spoiler": true
+      },
+      {
+        "id": "bo-sung-doi-chieu",
+        "title": "Danh xưng người giữ thuyền",
+        "paragraphs": [
+          "Nguyệt Lượng Thủ là người điều khiển Thuyền Mặt Trăng; cần phân biệt danh xưng này với tên riêng của Tần Mục. Tạo hình chính thức “Tần Mục — hình thái Nguyệt Lượng Thủ” mô tả một trạng thái của cậu trong phim, không có nghĩa tất cả người giữ thuyền đều là cùng một người.",
+          "Trong nguyên tác chương 91, Thôn trưởng dò hỏi lai lịch con thuyền vì ngọc bội của Tần Mục chỉ về phía nó. Cuộc trao đổi nhắc đến người giữ thuyền và tộc Mục Nguyệt đã mất, mở thêm manh mối về Vô Ưu Hương."
         ],
         "spoiler": true
       }
@@ -375,6 +401,731 @@
         ],
         "spoiler": false
       }
+    ]
+  },
+  {
+    "slug": "tan-lao-thon",
+    "title": "Tàn Lão Thôn",
+    "category": "dia-danh",
+    "summary": "Ngôi làng nuôi dưỡng Tần Mục và tập hợp những người thầy mang quá khứ chưa được hóa giải.",
+    "body": [],
+    "aliases": [
+      "残老村",
+      "Disabled Elderly Village"
+    ],
+    "spoiler": false,
+    "sources": [
+      {
+        "title": "Tales of Herding Gods Wiki — Disabled Elderly Village (nguồn cộng đồng, CC BY-SA)",
+        "url": "https://tales-of-herding-gods.fandom.com/wiki/Disabled_Elderly_Village"
+      },
+      {
+        "title": "Nguyên tác — chương 1: Trời tối đừng đi ra ngoài",
+        "url": "https://mucthanky.com/truyen/chuong-1/"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Vị trí",
+        "value": "Đại Khư"
+      },
+      {
+        "label": "Chức năng",
+        "value": "Quê nhà và nơi truyền nghề"
+      }
+    ],
+    "sections": [
+      {
+        "id": "dac-diem",
+        "title": "Một gia đình đặc biệt",
+        "paragraphs": [
+          "Tàn Lão Thôn nằm trong Đại Khư và là nơi Tần Mục trưởng thành. Các cư dân nổi bật gồm Thôn trưởng, Tư bà bà, Mã gia, Đồ Phu, Người Mù, Người Què, Người Câm, Người Điếc và Dược Sư. Những tên gọi quen thuộc khiến họ hiện lên như người thân trong gia đình, trước khi câu chuyện hé lộ địa vị và bản lĩnh bên ngoài ngôi làng."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "lien-he",
+        "title": "Ý nghĩa của sự khiếm khuyết",
+        "paragraphs": [
+          "Ngoài thương tổn trên cơ thể, mỗi người còn bị níu giữ bởi ký ức, trách nhiệm dang dở hoặc mất mát. Vì thế, tên làng có thể đọc như một hình ảnh về những cuộc đời đang dừng lại. Việc nuôi dạy Tần Mục đem đến công việc chung và lý do hướng về ngày mai. Nơi truyền nghề cho cậu đồng thời cũng là nơi những người thầy tìm lại khả năng bước tiếp."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "bo-sung-doi-chieu",
+        "title": "Nơi Tần Mục được nhận nuôi",
+        "paragraphs": [
+          "Tàn Lão Thôn nằm trong Đại Khư. Bốn tượng đá đặt ở bốn góc thôn phát sáng khi bóng tối tràn đến; phạm vi ánh sáng tạo nơi trú ẩn cho cư dân. Quy tắc không ra ngoài khi trời tối vì thế gắn trực tiếp với điều kiện sinh tồn, chứ không chỉ là lời răn của người lớn.",
+          "Tư Bà Bà nghe tiếng trẻ khóc ngoài thôn, cùng Mã gia mang tượng đá ra bờ sông cứu đứa bé. Các cụ quyết định nhận nuôi, còn Thôn trưởng đặt tên đứa trẻ là Tần Mục dựa trên chữ Tần ở ngọc bội. Mỗi người sau đó dạy cậu một phần sở trường của mình."
+        ],
+        "spoiler": false
+      }
+    ],
+    "related": [
+      "dai-khu",
+      "tan-muc",
+      "thon-truong",
+      "tu-ba-ba"
+    ],
+    "url": "/bach-khoa/tan-lao-thon/"
+  },
+  {
+    "slug": "dai-khu",
+    "title": "Đại Khư",
+    "category": "dia-danh",
+    "summary": "Vùng phế tích nơi quy luật sống còn thay đổi khi màn đêm buông xuống.",
+    "body": [],
+    "aliases": [
+      "大墟",
+      "Great Ruins"
+    ],
+    "spoiler": false,
+    "sources": [
+      {
+        "title": "Tales of Herding Gods Wiki — Great Ruins (nguồn cộng đồng, CC BY-SA)",
+        "url": "https://tales-of-herding-gods.fandom.com/wiki/Great_Ruins"
+      },
+      {
+        "title": "Nguyên tác — chương 1: Trời tối đừng đi ra ngoài",
+        "url": "https://mucthanky.com/truyen/chuong-1/"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Tính chất",
+        "value": "Phế tích văn minh"
+      },
+      {
+        "label": "Nguy hiểm đặc trưng",
+        "value": "Bóng tối về đêm"
+      }
+    ],
+    "sections": [
+      {
+        "id": "dac-diem",
+        "title": "Địa hình và điều kiện sinh tồn",
+        "paragraphs": [
+          "Đại Khư chứa tàn tích của một nền văn minh thần linh: kiến trúc đổ nát, di vật và những khu vực mang hiện tượng khác thường. Ban ngày không đồng nghĩa với an toàn vì dị thú và người tu luyện vẫn có thể gây nguy hiểm. Đêm xuống, bóng tối phủ lên đất đai; người sống cần tìm vùng được tượng đá hoặc vật bảo hộ che chở."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "lien-he",
+        "title": "Vai trò trong hành trình",
+        "paragraphs": [
+          "Đây vừa là quê nhà của Tần Mục vừa là nơi người thất thế, cao thủ ẩn cư và các cộng đồng dị thú tồn tại cạnh nhau. Cách sống phụ thuộc vào nơi trú đêm khiến đường đi, giao thương và lựa chọn thời điểm trở nên quan trọng. Vì vậy, Đại Khư có ý nghĩa rộng hơn một khu săn bảo: những công trình còn lại dẫn nhân vật truy tìm lịch sử đã bị che lấp."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "bo-sung-doi-chieu",
+        "title": "Ánh sáng, bóng tối và nơi trú ẩn",
+        "paragraphs": [
+          "Mối nguy đặc trưng của Đại Khư ở đầu truyện xuất hiện khi mặt trời lặn. Bóng tối bao phủ núi sông và chứa những thứ tấn công sinh vật bên ngoài vùng được bảo vệ. Tần Mục tận mắt thấy phần đuôi con hổ bị bóng tối chạm tới chỉ còn xương, qua đó hiểu lời cảnh báo của bà bà.",
+          "Tượng đá là điểm tựa để người dân sống qua đêm. Khi Mã gia đem một tượng ra ngoài cứu đứa bé, những người ở lại phải trông chừng khoảng trống trong vòng bảo vệ của thôn. Chi tiết này cho thấy việc đi lại và bố trí nơi ở đều chịu tác động của bóng tối."
+        ],
+        "spoiler": false
+      }
+    ],
+    "related": [
+      "tan-lao-thon",
+      "tuong-da-dai-khu",
+      "ma-vien"
+    ],
+    "url": "/bach-khoa/dai-khu/"
+  },
+  {
+    "slug": "ngoc-boi-tan-muc",
+    "title": "Ngọc bội của Tần Mục",
+    "category": "bao-vat",
+    "summary": "Di vật có chữ Tần, bảo vệ đứa trẻ trong giỏ và mở đầu câu hỏi về thân thế.",
+    "body": [],
+    "aliases": [
+      "Qin Mu’s Jade Pendant"
+    ],
+    "spoiler": false,
+    "sources": [
+      {
+        "title": "Webnovel — Chương 1: Don’t Go Outside When It’s Dark",
+        "url": "https://www.webnovel.com/book/tales-of-herding-gods_8324027206000305/don%E2%80%99t-go-outside-when-it%E2%80%99s-dark_22519810713765580"
+      },
+      {
+        "title": "Nguyên tác — chương 1: Trời tối đừng đi ra ngoài",
+        "url": "https://mucthanky.com/truyen/chuong-1/"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Dấu hiệu",
+        "value": "Chữ Tần"
+      },
+      {
+        "label": "Xuất hiện",
+        "value": "Chương mở đầu"
+      }
+    ],
+    "sections": [
+      {
+        "id": "dac-diem",
+        "title": "Xuất hiện bên bờ sông",
+        "paragraphs": [
+          "Khi Tư bà bà và Mã gia lần theo tiếng khóc giữa đêm, họ tìm thấy đứa trẻ trong chiếc giỏ bên sông. Ngọc bội phát ánh sáng yếu, gần giống ánh sáng của tượng đá. Phạm vi bảo vệ đủ giữ đứa trẻ sống sót nhưng không cứu được người phụ nữ đã đưa giỏ đến đó. Chi tiết này gắn món đồ với sự hy sinh ngay từ đầu truyện."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "lien-he",
+        "title": "Dấu hiệu nhận diện",
+        "paragraphs": [
+          "Trên ngọc có chữ Tần; Thôn trưởng lấy đó làm họ cho đứa trẻ rồi đặt tên Mục. Ngọc bội vì vậy vừa có công năng bảo hộ vừa lưu lại một dấu vết về nguồn gốc mà người trong làng chưa hiểu. Ở phần mở đầu, chưa thể kết luận toàn bộ cơ chế hay người chế tạo chỉ từ ánh sáng của nó. Những tiết lộ về sau cần được đọc theo diễn biến truyện."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "bo-sung-doi-chieu",
+        "title": "Vai trò ngay từ lúc Tần Mục xuất hiện",
+        "paragraphs": [
+          "Ngọc bội nằm trên tã lót của đứa trẻ được tìm thấy ở bờ sông. Ánh sáng của nó yếu hơn ánh sáng tượng đá, đủ che chở đứa bé nhưng không cứu được người phụ nữ đưa chiếc giỏ tới bờ. Đây là công dụng được thể hiện ngay ở chương mở đầu.",
+          "Trên ngọc có chữ Tần. Không có thư để lại, Thôn trưởng lấy chữ này làm họ của đứa bé rồi đặt tên là Mục. Bởi vậy, ngọc bội vừa là vật bảo vệ ban đầu vừa là manh mối cụ thể đầu tiên về thân thế nhân vật."
+        ],
+        "spoiler": false
+      }
+    ],
+    "related": [
+      "tan-muc",
+      "tu-ba-ba",
+      "tuong-da-dai-khu"
+    ],
+    "url": "/bach-khoa/ngoc-boi-tan-muc/"
+  },
+  {
+    "slug": "tuong-da-dai-khu",
+    "title": "Tượng đá Đại Khư",
+    "category": "bao-vat",
+    "summary": "Những tượng bảo hộ có giá trị nằm ở thần vận chứ không chỉ ở vật liệu.",
+    "body": [],
+    "aliases": [
+      "Stone Statues of Great Ruins"
+    ],
+    "spoiler": false,
+    "sources": [
+      {
+        "title": "Webnovel — Chương 22: Secret Of The Stone Statues",
+        "url": "https://www.webnovel.com/book/tales-of-herding-gods_8324027206000305/secret-of-the-stone-statues_23264547825577647"
+      },
+      {
+        "title": "Nguyên tác — chương 1: Trời tối đừng đi ra ngoài",
+        "url": "https://mucthanky.com/truyen/chuong-1/"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Nơi tiêu biểu",
+        "value": "Bốn góc Tàn Lão Thôn"
+      },
+      {
+        "label": "Điểm cần quan sát",
+        "value": "Thần vận"
+      }
+    ],
+    "sections": [
+      {
+        "id": "dac-diem",
+        "title": "Nhận biết tượng ở Tàn Lão Thôn",
+        "paragraphs": [
+          "Bốn tượng đứng tại các góc làng có hình dáng khác nhau: hình đầu rồng, hình liên hệ đến chim, hình người nữ với hổ, và hình lão nhân mang yếu tố rùa rắn. Chúng nhỏ hơn điều người ta tưởng khi nhìn sức bảo hộ nhưng rất khó di chuyển. Tần Mục không thể giải thích trọng lượng ấy chỉ bằng kích thước khối đá."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "lien-he",
+        "title": "Bài học về thần vận",
+        "paragraphs": [
+          "Người Mù hướng dẫn cậu quan sát để hiểu rằng giá trị không nằm riêng ở vật liệu. Ông so sánh với tranh và chữ của Người Điếc: cùng giấy mực nhưng trình độ thể hiện tạo nên khác biệt. Tượng vì thế liên hệ với khả năng nhận biết ý và thần trong hình. Ở đời sống Đại Khư, chúng còn là mốc an toàn về đêm; ở việc học của Tần Mục, chúng trở thành đối tượng mở rộng cách nhìn thế giới."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "bo-sung-doi-chieu",
+        "title": "Cách tượng đá bảo vệ cư dân",
+        "paragraphs": [
+          "Tại Tàn Lão Thôn, bốn tượng đá cổ đặt ở bốn góc phát sáng khi đêm xuống. Những thứ trong bóng tối tránh ánh sáng của tượng; vì thế dân làng có thể ở lại trong phạm vi được chiếu sáng. Nguồn gốc của tượng chưa được giải thích ngay ở thời điểm mở đầu.",
+          "Tượng có thể di chuyển nhưng rất nặng. Mã gia chỉ còn một tay vẫn ôm tượng đi cùng Tư Bà Bà cứu đứa trẻ. Việc mang tượng ra ngoài đồng thời làm nơi ở thiếu một điểm bảo vệ, buộc những người còn lại đề phòng bóng tối lọt vào."
+        ],
+        "spoiler": false
+      }
+    ],
+    "related": [
+      "dai-khu",
+      "tan-lao-thon",
+      "cuu-trong-thien-khai-nhan-phap"
+    ],
+    "url": "/bach-khoa/tuong-da-dai-khu/"
+  },
+  {
+    "slug": "tu-linh-the",
+    "title": "Tứ đại linh thể",
+    "category": "thuat-ngu",
+    "summary": "Bốn nhóm linh thể quen thuộc của hệ thống tu luyện được giới thiệu đầu truyện.",
+    "body": [],
+    "aliases": [
+      "Four Great Spirit Bodies",
+      "Thanh Long",
+      "Bạch Hổ",
+      "Chu Tước",
+      "Huyền Vũ"
+    ],
+    "spoiler": false,
+    "sources": [
+      {
+        "title": "Webnovel — Chương 2: The Blood Of The Four Spirits",
+        "url": "https://www.webnovel.com/book/tales-of-herding-gods_8324027206000305/the-blood-of-the-four-spirits_22519880238548686"
+      },
+      {
+        "title": "Nguyên tác — chương 2: Tứ Linh huyết",
+        "url": "https://mucthanky.com/truyen/chuong-2/"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Bốn nhóm",
+        "value": "Thanh Long, Bạch Hổ, Chu Tước, Huyền Vũ"
+      },
+      {
+        "label": "Ưu thế",
+        "value": "Vách Linh Thai mở sẵn"
+      }
+    ],
+    "sections": [
+      {
+        "id": "dac-diem",
+        "title": "Bốn nhóm thể chất",
+        "paragraphs": [
+          "Thanh Long, Bạch Hổ, Chu Tước và Huyền Vũ là bốn nhóm linh thể được các trưởng bối giải thích cho Tần Mục. Điểm thuận lợi căn bản là vách Linh Thai đã mở sẵn từ khi sinh ra. Vì vậy, thức tỉnh linh thai ở người có linh thể khác với việc một người bình thường phải tìm cách phá vách trước."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "lien-he",
+        "title": "Thử huyết và giới hạn kết luận",
+        "paragraphs": [
+          "Huyết tương ứng được dùng để kiểm tra khả năng thức tỉnh. Tàn Lão Thôn không có đủ bốn linh thú nguyên bản nên lấy dị thú có liên hệ để tinh luyện huyết thay thế. Tần Mục lần lượt uống cả bốn loại nhưng không biểu hiện như điều mọi người trông đợi. Kết quả ấy đặt ra vấn đề về thiên phú và phương pháp đánh giá; nó không có nghĩa công sức rèn luyện trước đó của cậu biến mất."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "bo-sung-doi-chieu",
+        "title": "Nghi thức kiểm tra tư chất ở đầu truyện",
+        "paragraphs": [
+          "Bốn linh thể được gọi theo Thanh Long, Bạch Hổ, Chu Tước và Huyền Vũ. Để thử tư chất của Tần Mục, các cụ dùng huyết từ những dị thú có liên hệ tương ứng: Thanh Giao Xà, Thiết Cốt Hổ, Lôi Điểu và Kim Quy. Đây là nghi thức kiểm tra chứ chưa phải bằng chứng cậu sở hữu đủ cả bốn linh thể.",
+          "Kết quả không xuất hiện biểu hiện như các cụ mong đợi. Lời giải thích Bá thể của Thôn trưởng đến sau tình huống ấy, nên cần đọc cùng diễn biến nhân vật; không nên gộp Bá thể thành tên một trong bốn linh thể."
+        ],
+        "spoiler": false
+      }
+    ],
+    "related": [
+      "linh-thai",
+      "ba-the",
+      "tan-muc"
+    ],
+    "url": "/bach-khoa/tu-linh-the/"
+  },
+  {
+    "slug": "bay-than-tang",
+    "title": "Bảy đại thần tàng",
+    "category": "canh-gioi",
+    "summary": "Bản đồ nền tảng của hệ tu luyện quen thuộc, trước khi câu chuyện đặt lại những giới hạn của nó.",
+    "body": [],
+    "aliases": [
+      "Seven Great Divine Treasures"
+    ],
+    "spoiler": false,
+    "sources": [
+      {
+        "title": "Tales of Herding Gods Wiki — Cultivation (nguồn cộng đồng, CC BY-SA)",
+        "url": "https://tales-of-herding-gods.fandom.com/wiki/Cultivation"
+      },
+      {
+        "title": "Nguyên tác — chương 2: Tứ Linh huyết",
+        "url": "https://mucthanky.com/truyen/chuong-2/"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Hệ thống",
+        "value": "Bảy thần tàng truyền thống"
+      },
+      {
+        "label": "Cơ chế nền tảng",
+        "value": "Khai mở vách phong bế"
+      }
+    ],
+    "sections": [
+      {
+        "id": "dac-diem",
+        "title": "Trình tự của hệ cũ",
+        "paragraphs": [
+          "Bảy thần tàng được gọi lần lượt là Linh Thai, Ngũ Diệu, Lục Hợp, Thất Tinh, Thiên Nhân, Sinh Tử và Thần Kiều. Mỗi tên chỉ một kho tàng trong cơ thể cùng bước khai mở tương ứng. Vì có vách phong bế, người tu luyện phải nhận biết vị trí và tìm phương pháp vượt qua, thay vì chỉ tích lũy một lượng nguyên khí rồi mặc nhiên thăng cấp."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "lien-he",
+        "title": "Cách đọc bản đồ tu luyện",
+        "paragraphs": [
+          "Danh sách này hữu ích để theo dõi giai đoạn đầu nhưng không phải chiếc thang bất biến bao trùm toàn bộ truyện. Các nhân vật còn cải tiến, nối kết hoặc thay thế cấu trúc cũ. Khi tra cứu nên phân biệt tên thần tàng, trạng thái khai mở và sức chiến đấu thực tế. Một người có kỹ nghệ, binh khí hoặc kinh nghiệm tốt vẫn có thể tạo kết quả khác với thứ tự cảnh giới đơn thuần."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "bo-sung-doi-chieu",
+        "title": "Thứ tự bảy thần tàng và khái niệm phá bích",
+        "paragraphs": [
+          "Theo lời Thôn trưởng, bảy thần tàng lần lượt là Linh Thai, Ngũ Diệu, Lục Hợp, Thất Tinh, Thiên Nhân, Sinh Tử và Thần Kiều. Ban đầu chúng bị phong bế; chướng ngại ngăn người tu luyện mở từng thần tàng được gọi là bích.",
+          "Phá bích chỉ quá trình vượt qua chướng ngại để khai mở thần tàng. Vì thế, tên thần tàng, cảnh giới tu luyện và hành động phá bích có liên hệ nhưng không hoàn toàn đồng nghĩa. Khi tra cứu cảnh giới của một nhân vật cần xét thời điểm cụ thể trong hành trình."
+        ],
+        "spoiler": false
+      }
+    ],
+    "related": [
+      "linh-thai",
+      "ngu-dieu",
+      "luc-hop",
+      "that-tinh",
+      "thien-nhan",
+      "sinh-tu",
+      "than-kieu"
+    ],
+    "url": "/bach-khoa/bay-than-tang/"
+  },
+  {
+    "slug": "pha-bich",
+    "title": "Phá bích",
+    "category": "thuat-ngu",
+    "summary": "Phá lớp ngăn thần tàng; vết nứt tạm thời chưa đồng nghĩa với đột phá hoàn chỉnh.",
+    "body": [],
+    "aliases": [
+      "Wall Break",
+      "Breaking the Wall"
+    ],
+    "spoiler": false,
+    "sources": [
+      {
+        "title": "Webnovel — Chương 11: Breaking the Wall",
+        "url": "https://www.webnovel.com/book/tales-of-herding-gods_8324027206000305/breaking-the-wall_23263881585541964"
+      },
+      {
+        "title": "Nguyên tác — chương 2: Tứ Linh huyết",
+        "url": "https://mucthanky.com/truyen/chuong-2/"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Đối tượng",
+        "value": "Vách ngăn thần tàng"
+      },
+      {
+        "label": "Dấu hiệu chưa hoàn tất",
+        "value": "Vết nứt tự khép"
+      }
+    ],
+    "sections": [
+      {
+        "id": "dac-diem",
+        "title": "Bức vách và cơ hội",
+        "paragraphs": [
+          "Thần tàng bị phong bế bởi những vách ngăn mà người tu luyện cần vượt qua. Khi Tần Mục thử tiếp cận Linh Thai, âm thanh thần bí khiến nguyên khí thoái lui. Cậu thử dùng âm điệu đã nghe ở phế tích để đối kháng sự ngăn cản, rồi dồn nguyên khí công phá. Đây là lựa chọn nguy hiểm trong hoàn cảnh cụ thể, không phải công thức an toàn áp dụng cho mọi người."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "lien-he",
+        "title": "Vì sao tạo vết nứt chưa đủ",
+        "paragraphs": [
+          "Lần đầu tác động thành công, cậu thấy ánh sáng và cảm nhận nguyên khí từ bên trong nhưng khe nứt lại khép. Bức vách có khả năng tự phục hồi; phải phá hoàn toàn mới đạt bước chuyển thật sự. Cảnh này phân biệt rõ cảm nhận thần tàng, làm nứt vách và khai mở thần tàng. Những lần thất bại vẫn giúp Tần Mục quan sát cơ chế, điều chỉnh cách dùng sức và chuẩn bị cho lần thử tiếp theo."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "bo-sung-doi-chieu",
+        "title": "Phá bích khác với tên một cảnh giới",
+        "paragraphs": [
+          "Trong cách giảng của Thôn trưởng, mỗi thần tàng bị ngăn bởi một bức bích tương ứng. Phá bích là vượt qua chướng ngại đó để tiếp cận kho tàng trong cơ thể. Nó là một bước của việc tu luyện, không phải một cảnh giới đứng riêng giữa Linh Thai và Ngũ Diệu.",
+          "Cách gọi Linh Thai bích, Ngũ Diệu bích hay Thần Kiều bích chỉ rõ thần tàng mà người tu luyện đang hướng tới. Vì vậy cùng một từ phá bích có thể xuất hiện ở nhiều giai đoạn khác nhau, không đủ để suy ra ngay sức mạnh của người thực hiện."
+        ],
+        "spoiler": false
+      }
+    ],
+    "related": [
+      "bay-than-tang",
+      "linh-thai",
+      "ba-the-tam-dan-cong"
+    ],
+    "url": "/bach-khoa/pha-bich/"
+  },
+  {
+    "slug": "hoang-kim-cung",
+    "title": "Lâu Lan Hoàng Kim Cung",
+    "category": "dia-danh",
+    "summary": "Địa danh xuất hiện trong hành trình bên ngoài Diên Khang.",
+    "body": [
+      "Lâu Lan Hoàng Kim Cung là địa danh thuộc hành trình ngoài Diên Khang. Bản giới thiệu chính thức của Made By Bilibili nhắc việc Tần Mục đi cùng Vũ Khả Hãn đến nơi đây.",
+      "Tuyến này gắn với thử thách, vu thuật và bảo vật. Nội dung chi tiết nên được mở sau khi người xem đến đúng giai đoạn, vì ngay cả tên món đồ thu được cũng có thể tiết lộ diễn biến."
+    ],
+    "aliases": [
+      "楼兰黄金宫",
+      "Rolan's Golden Palace"
+    ],
+    "spoiler": true,
+    "sources": [
+      {
+        "title": "Made By Bilibili — giới thiệu Tales of Herding Gods",
+        "url": "https://www.youtube.com/watch?v=FpyuI7m3wrw"
+      },
+      {
+        "title": "Nguyên tác — chương 152: Lâu Lan Hoàng Kim cung",
+        "url": "https://mucthanky.com/truyen/chuong-152/"
+      }
+    ],
+    "url": "/bach-khoa/hoang-kim-cung/",
+    "sections": [
+      {
+        "id": "bo-sung-doi-chieu",
+        "title": "Vị trí và tuyến truyện Hoàng Kim Cung",
+        "paragraphs": [
+          "Lâu Lan Hoàng Kim Cung là thế lực Vu giáo gắn với khu vực Man Địch. Trong tuyến truyện này, Bá Sơn đưa Tần Mục và Linh Dục Tú tới gặp Vu Tôn; mục tiêu của Bá Sơn liên quan đến nửa thân dưới của sư phụ mình là Đồ Phu.",
+          "Muốn vào cung phải vượt vùng Nhược Thủy. Theo lời Bá Sơn, nước ở đây không nâng nổi cả lông vũ; khách cần đi thuyền của Hoàng Kim Cung. Việc đi lại qua mặt nước vì vậy là một phần cụ thể của bối cảnh, không chỉ là phong cảnh trang trí."
+        ],
+        "spoiler": true
+      }
+    ]
+  },
+  {
+    "slug": "luc-hop",
+    "title": "Lục Hợp",
+    "category": "canh-gioi",
+    "summary": "Khai mở không gian trên dưới và bốn phương, đánh dấu ngưỡng thần thông giả.",
+    "body": [],
+    "aliases": [
+      "六合",
+      "Six Directions Realm"
+    ],
+    "spoiler": false,
+    "sources": [
+      {
+        "title": "Tales of Herding Gods Wiki — Six Directions Realm (nguồn cộng đồng, CC BY-SA)",
+        "url": "https://tales-of-herding-gods.fandom.com/wiki/Six_Directions_Realm"
+      },
+      {
+        "title": "Nguyên tác — chương 291: Say mê biển đêm",
+        "url": "https://mucthanky.com/truyen/chuong-291/"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Sáu phương",
+        "value": "Trên, dưới, đông, tây, nam, bắc"
+      },
+      {
+        "label": "Danh xưng",
+        "value": "Thần thông giả"
+      }
+    ],
+    "sections": [
+      {
+        "id": "dac-diem",
+        "title": "Sáu phương trong thần tàng",
+        "paragraphs": [
+          "Lục Hợp là trên, dưới, đông, tây, nam, bắc; không phải sáu nguyên tố hay sáu linh thú. Sau khi có nền tảng Linh Thai và Ngũ Diệu, người tu luyện suy tính sáu phương để nhận biết nơi vách Lục Hợp tồn tại. Linh thai cung cấp mốc trên dưới, còn năm diệu góp phần xác định các phương ngang. Thần tàng này liên hệ hạ đan điền."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "lien-he",
+        "title": "Bước chuyển trong cách dùng khí",
+        "paragraphs": [
+          "Người mở Lục Hợp được gọi là thần thông giả trong cách phân chia ban đầu. Việc định hình không gian gắn với khả năng khiến nguyên khí có hình thức và ứng dụng phong phú hơn. Nhìn từ cấu trúc, đây là bước phát triển từ những mốc đã có, không tách rời các thần tàng trước. Khi so sánh nhân vật, cần giữ khác biệt giữa vừa phá vách, hiểu phương pháp và khai triển nhuần nhuyễn thần thông."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "bo-sung-doi-chieu",
+        "title": "Liên thông ba thần tàng",
+        "paragraphs": [
+          "Tới Lục Hợp, pháp thuật, kiếm thuật và chiến kỹ được đẩy lên cấp độ thần thông. Công pháp cần liên thông Linh Thai, Ngũ Diệu và Lục Hợp để huy động sức mạnh của cả ba thần tàng; đây là vấn đề Tần Mục tập trung giải quyết trên đường vượt biển.",
+          "Tần Mục thử dung hợp ưu điểm của nhiều hệ công pháp, nhưng nhận ra việc ghép các công pháp hoàn chỉnh vượt quá khả năng hiện tại. Hướng giải quyết của cậu là tiếp thu đạo lý cốt lõi thay vì cố chắp toàn bộ chiêu thức thành một bộ duy nhất."
+        ],
+        "spoiler": true
+      }
+    ],
+    "related": [
+      "ngu-dieu",
+      "that-tinh",
+      "bay-than-tang"
+    ],
+    "url": "/bach-khoa/luc-hop/"
+  },
+  {
+    "slug": "kieu-tinh-quan",
+    "title": "Kiều Tinh Quân",
+    "category": "nhan-vat",
+    "summary": "Cường giả của Thượng Thương, đối đầu Thôn trưởng trong tuyến truyện về người kế thừa Nhân Hoàng.",
+    "aliases": [
+      "乔星君",
+      "Kiều tinh quân"
+    ],
+    "image": "kieu-tinh-quan",
+    "spoiler": true,
+    "sources": [
+      {
+        "title": "Nguyên tác — chương 290: Thượng Thương",
+        "url": "https://mucthanky.com/truyen/chuong-290/"
+      },
+      {
+        "title": "Nguyên tác — chương 291: Say mê biển đêm",
+        "url": "https://mucthanky.com/truyen/chuong-291/"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Thế lực",
+        "value": "Thượng Thương"
+      },
+      {
+        "label": "Đối thủ trong nguyên tác",
+        "value": "Thôn trưởng / lão Nhân Hoàng"
+      }
+    ],
+    "sections": [
+      {
+        "id": "than-phan",
+        "title": "Thân phận và mục đích",
+        "paragraphs": [
+          "Kiều Tinh Quân thuộc Thượng Thương, xuất hiện trên bảo liễn có Toan Nghê kéo. Chuyến đi của ông hướng tới người kế thừa Nhân Hoàng, từ đó dẫn đến cuộc chạm trán trực tiếp với Thôn trưởng tại Đại Khư.",
+          "Nhân vật này không phải tên khác của Thôn trưởng hay Hư Sinh Hoa. Kiều Tinh Quân là một đối thủ thuộc thế hệ trước; Hư Sinh Hoa là người trẻ được nhắc tới trong phương án tiếp theo của Thượng Thương."
+        ],
+        "spoiler": true
+      },
+      {
+        "id": "doi-dau",
+        "title": "Cuộc đối đầu trong nguyên tác",
+        "paragraphs": [
+          "Thôn trưởng chặn Kiều Tinh Quân, buộc ông chấp nhận không trực tiếp xuống tay với Nhân Hoàng mới. Hai người giao kiếm rồi đều bị thương, dù bề ngoài cuộc đọ sức kết thúc rất nhanh.",
+          "Sang chương 291, Kiều Tinh Quân trở về báo cáo và đề xuất Hư Sinh Hoa. Diễn biến này giải thích mối nối giữa cuộc đấu của thế hệ trước và hành trình của người trẻ; đó là thông tin nguyên tác, không phải mô tả mọi chi tiết của bản chuyển thể."
+        ],
+        "spoiler": true
+      }
+    ],
+    "related": [
+      "thon-truong",
+      "hu-sinh-hoa",
+      "thuong-thuong",
+      "tan-muc"
+    ]
+  },
+  {
+    "slug": "thuong-thuong",
+    "title": "Thượng Thương",
+    "category": "the-luc",
+    "summary": "Thế lực gắn với Kiều Tinh Quân và xuất thân ban đầu của Hư Sinh Hoa, đối lập với truyền thừa Nhân Hoàng.",
+    "aliases": [
+      "上苍"
+    ],
+    "spoiler": true,
+    "sources": [
+      {
+        "title": "Nguyên tác — chương 290: Thượng Thương",
+        "url": "https://mucthanky.com/truyen/chuong-290/"
+      },
+      {
+        "title": "Nguyên tác — chương 291: Say mê biển đêm",
+        "url": "https://mucthanky.com/truyen/chuong-291/"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Nhân vật liên quan",
+        "value": "Kiều Tinh Quân; Hư Sinh Hoa"
+      },
+      {
+        "label": "Phân biệt",
+        "value": "Không phải Thượng Thương Học Cung"
+      }
+    ],
+    "sections": [
+      {
+        "id": "vai-tro",
+        "title": "Vai trò trong xung đột Nhân Hoàng",
+        "paragraphs": [
+          "Ở chương 290–291, Thượng Thương hiện lên qua Kiều Tinh Quân và thái độ thù địch với người kế thừa Nhân Hoàng. Thôn trưởng nhận ra nguy cơ này ngay khi truyền lại vị trí cho Tần Mục.",
+          "Sau cuộc giao đấu, Kiều Tinh Quân đề nghị đưa Hư Sinh Hoa xuống đối phó người kế thừa mới. Các thị nữ được giao mang bảo vật hỗ trợ; đây là đầu mối quan trọng để hiểu sự xuất hiện của Hư Sinh Hoa."
+        ],
+        "spoiler": true
+      },
+      {
+        "id": "phan-biet",
+        "title": "Phân biệt các tên gần nhau",
+        "paragraphs": [
+          "Thượng Thương ở tuyến truyện này không phải Thượng Thương Học Cung, một tên gọi xuất hiện trong hệ thống hồ sơ khác. Cũng không nên tự động coi Thượng Thương và Thiên Đình là hai tên hoàn toàn thay thế cho nhau khi đọc từng giai đoạn."
+        ],
+        "spoiler": false
+      }
+    ],
+    "related": [
+      "kieu-tinh-quan",
+      "hu-sinh-hoa",
+      "thon-truong",
+      "thuong-thuong-hoc-cung"
+    ]
+  },
+  {
+    "slug": "long-kieu-nam",
+    "title": "Long Kiều Nam",
+    "category": "nhan-vat",
+    "summary": "Thiếu môn chủ Ngự Long Môn, xuất hiện trong vụ tập kích thuyền chở sĩ tử tới kinh thành.",
+    "aliases": [
+      "龙娇男"
+    ],
+    "spoiler": false,
+    "sources": [
+      {
+        "title": "Nguyên tác — chương 108: Ngự Long môn chúng",
+        "url": "https://mucthanky.com/truyen/chuong-108/"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Thế lực",
+        "value": "Ngự Long Môn"
+      },
+      {
+        "label": "Sở trường",
+        "value": "Điều khiển rắn và giao xà"
+      }
+    ],
+    "sections": [
+      {
+        "id": "nhan-dien",
+        "title": "Thân phận trong tuyến Ngự Long Môn",
+        "paragraphs": [
+          "Trong chương 108, Vệ Dung nhận diện Long Kiều Nam là thiếu môn chủ Ngự Long Môn. Vụ tấn công nhắm vào thuyền chở người vào kinh dự thi, kéo Tần Mục vào biến động của các thế lực chống lại cuộc cải cách Diên Khang.",
+          "Khả năng điều khiển rắn của người Ngự Long Môn là mối đe dọa trực tiếp trong cuộc tập kích. Tần Mục phải tìm đường che giấu hành tung và hỗ trợ Vệ Dung thoát khỏi khu vực bị truy đuổi."
+        ],
+        "spoiler": false
+      },
+      {
+        "id": "boi-canh",
+        "title": "Liên hệ với tình hình Diên Khang",
+        "paragraphs": [
+          "Sự kiện diễn ra giữa tin đồn Quốc sư bị thương. Tần Mục đưa ra nhận định rằng đây có thể là cách dụ các phe phản đối lộ diện; cần phân biệt suy đoán của nhân vật trong tình huống ấy với lời xác nhận toàn bộ kế hoạch từ người kể chuyện."
+        ],
+        "spoiler": false
+      }
+    ],
+    "related": [
+      "tan-muc",
+      "dien-khang-quoc-su",
+      "dien-khang"
     ]
   }
 ]

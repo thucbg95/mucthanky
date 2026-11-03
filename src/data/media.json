@@ -810,6 +810,53 @@
       ],
       "kind": "frame",
       "reviewedAt": "2026-11-03"
+    },
+    "long-kieu-nam": {
+      "src": "/assets/film/ky-ngo.webp",
+      "alt": "Long Kiều Nam cùng giao xà — khung hình phim",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1524218",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/50450afcc6cd5b168141e4ced7ffce49057902b5.png",
+      "credit": "Bilibili / 玄机科技",
+      "width": 960,
+      "height": 600,
+      "verified": true,
+      "reviewNote": "Không dùng làm ảnh nhận diện khi chưa đối chiếu đúng chủ thể",
+      "subjects": [
+        "long-kieu-nam"
+      ],
+      "kind": "frame",
+      "reviewedAt": "2026-11-03"
+    },
+    "ba-son": {
+      "src": "/assets/verified/ba-son.webp",
+      "alt": "Bá Sơn ở giữa, Tần Mục và Linh Dục Tú hai bên — hình chính thức Bilibili",
+      "width": 960,
+      "height": 600,
+      "verified": true,
+      "subjects": [
+        "ba-son"
+      ],
+      "kind": "frame",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2205992",
+      "assetUrl": "http://i0.hdslb.com/bfs/archive/e96ae8cff2a59426affb971e501cddfa2c899ff9.png",
+      "credit": "Bilibili / 玄机科技",
+      "reviewedAt": "2026-11-03"
+    },
+    "kieu-tinh-quan": {
+      "src": "/assets/verified/kieu-tinh-quan.webp",
+      "alt": "Bảng giới thiệu Kiều Tinh Quân (乔星君) trong tập 107",
+      "width": 2560,
+      "height": 1440,
+      "verified": true,
+      "subjects": [
+        "kieu-tinh-quan"
+      ],
+      "kind": "frame",
+      "sourceEpisode": 107,
+      "sourceTime": 967.5,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "reviewedAt": "2026-11-03"
     }
   },
   "gallery": [
