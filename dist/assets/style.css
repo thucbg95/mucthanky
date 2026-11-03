@@ -789,10 +789,10 @@ p{ text-wrap:pretty }
 html:not([data-theme=dark]) .hero{background:var(--soft,#e7efec);color:var(--text,#172d33)}
 html:not([data-theme=dark]) .hero h1{color:#173d33;text-shadow:none}
 html:not([data-theme=dark]) .hero .hero-kicker{color:#174c41}
-html:not([data-theme=dark]) .hero-shade{background:linear-gradient(180deg,rgba(12,28,31,.02) 0%,rgba(12,28,31,.02) 34%,rgba(231,239,236,.82) 60%,#e7efec 100%)}
+html:not([data-theme=dark]) .hero-shade{background:linear-gradient(180deg,transparent 0%,transparent 60%,rgba(231,239,236,.7) 74%,rgba(231,239,236,.96) 90%,#e7efec 100%)}
 html:not([data-theme=dark]) .hero .actions .btn.primary{background:#174c41!important;color:#fff!important;border-color:#174c41!important}
 html:not([data-theme=dark]) .hero .actions .btn:not(.primary){background:#fff;color:#174c41;border-color:#b7cbc3}
-@media(max-width:760px){html:not([data-theme=dark]) .hero-shade{background:linear-gradient(180deg,transparent 34%,#f1ede3 58%,#f1ede3 100%)}}
+@media(max-width:760px){html:not([data-theme=dark]) .hero-shade{background:linear-gradient(180deg,transparent 0%,transparent 70%,rgba(231,239,236,.24) 85%,#e7efec 100%)}}
 /* A single light-theme treatment now overrides earlier breakpoint-specific palette rules. */
 
 
@@ -2249,3 +2249,16 @@ html:not([data-theme=dark]) .play-action-button{background:#174c41!important;bor
 @media(hover:hover){.play-action-button:hover{transform:translateY(-2px);background:linear-gradient(135deg,#fff0d0,#f0d397)!important;box-shadow:0 9px 25px #080f1850,0 0 26px #efcd8e30}html:not([data-theme=dark]) .play-action-button:hover{background:#103c35!important;border-color:#103c35!important;color:#fff!important}}
 @media(max-width:760px){.play-action-button{gap:8px;padding:11px 14px}.play-action-button .hero-action-icon{width:19px;height:19px}.play-action-button span{min-width:0;white-space:normal}}
 @media(prefers-reduced-motion:reduce){.play-action-button{transition:none}.play-action-button:hover{transform:none}}
+
+/* Keep the episode and trailer shortcuts together inside the latest episode card. */
+.episode-status-card{flex-wrap:wrap}
+.episode-status-card>div:first-child{min-width:0}
+.latest-watch-actions{display:flex;align-items:stretch;flex-wrap:wrap;gap:10px;max-width:100%}
+.latest-watch-actions .latest-trailer-link{margin:0;width:auto}
+.latest-watch-actions .play-action-button{max-width:100%;min-width:0}
+.latest-watch-actions #latest-trailer-link{background:linear-gradient(135deg,#9de5d6,#58bdaa)!important;color:#123d37!important;border-color:#b3f0e2!important;box-shadow:0 5px 18px #071c2338,inset 0 1px 0 #ffffff75}
+@media(hover:hover){.latest-watch-actions #latest-trailer-link:hover{background:linear-gradient(135deg,#baf5e9,#79d5c2)!important;border-color:#d9fff5!important;box-shadow:0 8px 23px #071c2345}}
+@media(max-width:760px){.episode-status-card .latest-watch-actions{width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.episode-status-card .latest-watch-actions .play-action-button{width:100%;height:100%;min-height:52px;padding:10px;font-size:12px;line-height:1.5;white-space:normal;gap:6px}.latest-watch-actions .hero-action-icon{width:18px;height:18px}}
+
+/* Weekly release date stays immediately below the latest episode card. */
+.next-release-note{display:flex;align-items:flex-start;gap:9px;margin:13px 2px 0!important;color:var(--muted);font-size:13px;line-height:1.7}.next-release-note svg{width:19px;height:19px;flex:none;margin-top:2px;fill:none;stroke:var(--gold);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}@media(max-width:760px){.next-release-note{font-size:12px;gap:8px;margin-top:11px!important}}
