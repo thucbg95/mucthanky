@@ -4021,39 +4021,41 @@
     ]
   },
   "that-thien-ton": {
-    "count": 53,
+    "count": 90,
     "terms": [
-      "Cửu Thiên Tôn"
+      "Cửu Thiên Tôn",
+      "Cửu Thiên Tôn",
+      "Thất Thiên Tôn"
     ],
     "chapters": [
       {
-        "number": 740,
-        "title": "Dao Trì chi biến",
-        "url": "/truyen/chuong-740/",
+        "number": 734,
+        "title": "Dao Trì Thất Thiên Tôn",
+        "url": "/truyen/chuong-734/",
         "kind": "chuong-truyen"
       },
       {
-        "number": 742,
-        "title": "Người chết phục sinh",
-        "url": "/truyen/chuong-742/",
+        "number": 736,
+        "title": "Cùng Thần đánh đồng",
+        "url": "/truyen/chuong-736/",
         "kind": "chuong-truyen"
       },
       {
-        "number": 915,
-        "title": "Tạo Vật Chủ Thúc Quân",
-        "url": "/truyen/chuong-915/",
+        "number": 856,
+        "title": "Chim sẻ rình ve",
+        "url": "/truyen/chuong-856/",
         "kind": "chuong-truyen"
       },
       {
-        "number": 1336,
-        "title": "Ngự Thiên Tôn phải chết",
-        "url": "/truyen/chuong-1336/",
+        "number": 1235,
+        "title": "Hoàn mỹ thế giới",
+        "url": "/truyen/chuong-1235/",
         "kind": "chuong-truyen"
       },
       {
-        "number": 1630,
-        "title": "Giấu giếm sát cơ",
-        "url": "/truyen/chuong-1630/",
+        "number": 1631,
+        "title": "Tinh Ngạn hạ lễ",
+        "url": "/truyen/chuong-1631/",
         "kind": "chuong-truyen"
       },
       {
@@ -6898,11 +6900,10 @@
     ]
   },
   "thai-dich": {
-    "count": 255,
+    "count": 253,
     "terms": [
       "Thái Dịch",
-      "Chủ nhân Thiên Đô",
-      "Chủ nhân Di La Cung"
+      "Thái Dịch"
     ],
     "chapters": [
       {
@@ -6924,9 +6925,9 @@
         "kind": "chuong-truyen"
       },
       {
-        "number": 1676,
-        "title": "Ngũ Xa chi chiến",
-        "url": "/truyen/chuong-1676/",
+        "number": 1675,
+        "title": "Vô Ưu Hương chi chiến",
+        "url": "/truyen/chuong-1675/",
         "kind": "chuong-truyen"
       },
       {

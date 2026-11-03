@@ -4,7 +4,7 @@ import {entryImage,entryGallery,matchesSubject} from './media.mjs';
 
 const read = name => JSON.parse(fs.readFileSync(`src/data/${name}`, 'utf8'));
 const records = new Map(read('lore.json').map(entry => [entry.slug, entry]));
-for (const name of ['character-details.json', 'world-details.json']) {
+for (const name of ['character-details.json', 'world-details.json', 'novel-details.json']) {
   for (const entry of read(name)) records.set(entry.slug, { ...records.get(entry.slug), ...entry });
 }
 const entries = [...records.values()];

@@ -8,7 +8,7 @@ const assetHash=name=>createHash('sha256').update(fs.readFileSync(path.join('pub
 const cssVersion=assetHash('style.css'),appVersion=assetHash('app.js'),adminVersion=assetHash('admin.js');
 const lore=JSON.parse(fs.readFileSync('src/data/lore.json','utf8'));
 const records=new Map((Array.isArray(lore)?lore:lore.entries).map(e=>[e.slug,e]));
-for(const name of ['character-details','world-details']){const f='src/data/'+name+'.json';if(fs.existsSync(f)){for(const e of JSON.parse(fs.readFileSync(f,'utf8')))records.set(e.slug,{...records.get(e.slug),...e});}}
+for(const name of ['character-details','world-details','novel-details']){const f='src/data/'+name+'.json';if(fs.existsSync(f)){for(const e of JSON.parse(fs.readFileSync(f,'utf8')))records.set(e.slug,{...records.get(e.slug),...e});}}
 const entries=[...records.values()];
 const media=JSON.parse(fs.readFileSync('src/data/media.json','utf8'));
 const episodeSchedule=JSON.parse(fs.readFileSync('src/data/episode-schedule.json','utf8'));

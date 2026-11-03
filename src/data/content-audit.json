@@ -1,5 +1,5 @@
 {
-  "auditedAt": "2026-11-03T02:27:18.548Z",
+  "auditedAt": "2026-11-03T04:00:16.350Z",
   "entryCount": 228,
   "entriesWithReferences": 228,
   "sourceHostCounts": {
@@ -11,7 +11,7 @@
     "baike.sogou.com": 2,
     "bkso.baidu.com": 11,
     "www.baike.com": 1,
-    "mucthanky.com": 16,
+    "mucthanky.com": 73,
     "www.youtube.com": 1,
     "czbooks.net": 3,
     "zh.moegirl.org.cn": 8,
@@ -54,7 +54,7 @@
       "slug": "thien-nhan",
       "title": "Thiên Nhân",
       "type": "đang cập nhật",
-      "words": 31
+      "words": 134
     },
     {
       "slug": "dai-duc-thien-ma-kinh",
@@ -330,7 +330,7 @@
       "slug": "that-thien-ton",
       "title": "Cửu Thiên Tôn",
       "type": "đang cập nhật",
-      "words": 91
+      "words": 148
     },
     {
       "slug": "thap-thien-ton",
@@ -393,12 +393,6 @@
       "words": 63
     },
     {
-      "slug": "di-la-cung",
-      "title": "Di La Cung",
-      "type": "đang cập nhật",
-      "words": 33
-    },
-    {
       "slug": "thien-dinh",
       "title": "Thiên Đình",
       "type": "đang cập nhật",
@@ -433,12 +427,6 @@
       "title": "Huyền Đô",
       "type": "đang cập nhật",
       "words": 24
-    },
-    {
-      "slug": "the-gioi-thu",
-      "title": "Thế Giới Thụ",
-      "type": "đang cập nhật",
-      "words": 28
     },
     {
       "slug": "thuat-ngu",
@@ -513,12 +501,6 @@
       "words": 127
     },
     {
-      "slug": "chu-nhan-di-la-cung",
-      "title": "Chủ nhân Di La Cung",
-      "type": "đang cập nhật",
-      "words": 148
-    },
-    {
       "slug": "tan-linh-quan",
       "title": "Tần Linh Quân",
       "type": "đang cập nhật",
@@ -553,12 +535,6 @@
       "title": "Ngụy Tùy Phong",
       "type": "đang cập nhật",
       "words": 73
-    },
-    {
-      "slug": "lang-uyen-than-vuong",
-      "title": "Lãng Uyển Thần Vương",
-      "type": "đang cập nhật",
-      "words": 103
     },
     {
       "slug": "trac-tra",
@@ -643,12 +619,6 @@
       "title": "Thái Đế",
       "type": "đang cập nhật",
       "words": 111
-    },
-    {
-      "slug": "thai-dich",
-      "title": "Thái Dịch",
-      "type": "đang cập nhật",
-      "words": 95
     },
     {
       "slug": "vo-nhai-lao-nhan",
@@ -811,12 +781,6 @@
       "title": "Vô Cực Công Tử",
       "type": "đang cập nhật",
       "words": 57
-    },
-    {
-      "slug": "lam-ngu-dien",
-      "title": "Lam Ngự Điền",
-      "type": "đang cập nhật",
-      "words": 97
     },
     {
       "slug": "tan-vu",
@@ -1103,43 +1067,43 @@
       "slug": "linh-thai",
       "title": "Linh Thai",
       "type": "đang cập nhật",
-      "words": 157
+      "words": 258
     },
     {
       "slug": "ngu-dieu",
       "title": "Ngũ Diệu",
       "type": "đang cập nhật",
-      "words": 151
+      "words": 254
     },
     {
       "slug": "luc-hop",
       "title": "Lục Hợp",
       "type": "đang cập nhật",
-      "words": 256
+      "words": 359
     },
     {
       "slug": "that-tinh",
       "title": "Thất Tinh",
       "type": "đang cập nhật",
-      "words": 151
+      "words": 254
     },
     {
       "slug": "thien-nhan",
       "title": "Thiên Nhân",
       "type": "đang cập nhật",
-      "words": 31
+      "words": 134
     },
     {
       "slug": "sinh-tu",
       "title": "Sinh Tử",
       "type": "đang cập nhật",
-      "words": 151
+      "words": 254
     },
     {
       "slug": "than-kieu",
       "title": "Thần Kiều",
       "type": "đang cập nhật",
-      "words": 158
+      "words": 270
     },
     {
       "slug": "pha-bich",
@@ -1613,7 +1577,7 @@
       "slug": "that-thien-ton",
       "title": "Cửu Thiên Tôn",
       "type": "đang cập nhật",
-      "words": 91
+      "words": 148
     },
     {
       "slug": "thap-thien-ton",
@@ -1679,7 +1643,7 @@
       "slug": "di-la-cung",
       "title": "Di La Cung",
       "type": "đang cập nhật",
-      "words": 33
+      "words": 219
     },
     {
       "slug": "thien-dinh",
@@ -1721,7 +1685,7 @@
       "slug": "the-gioi-thu",
       "title": "Thế Giới Thụ",
       "type": "đang cập nhật",
-      "words": 28
+      "words": 192
     },
     {
       "slug": "thuat-ngu",
@@ -1781,37 +1745,37 @@
       "slug": "khai-hoang-tan-nghiep",
       "title": "Khai Hoàng Tần Nghiệp",
       "type": "đang cập nhật",
-      "words": 257
+      "words": 413
     },
     {
       "slug": "ngu-thien-ton",
       "title": "Ngự Thiên Tôn",
       "type": "đang cập nhật",
-      "words": 254
+      "words": 435
     },
     {
       "slug": "lang-thien-ton",
       "title": "Lăng Thiên Tôn",
       "type": "đang cập nhật",
-      "words": 251
+      "words": 422
     },
     {
       "slug": "nguyet-thien-ton",
       "title": "Nguyệt Thiên Tôn",
       "type": "đang cập nhật",
-      "words": 254
+      "words": 411
     },
     {
       "slug": "van-thien-ton",
       "title": "Vân Thiên Tôn",
       "type": "đang cập nhật",
-      "words": 250
+      "words": 403
     },
     {
       "slug": "u-thien-ton",
       "title": "U Thiên Tôn",
       "type": "đang cập nhật",
-      "words": 266
+      "words": 437
     },
     {
       "slug": "tho-ba",
@@ -1895,7 +1859,7 @@
       "slug": "chu-nhan-di-la-cung",
       "title": "Chủ nhân Di La Cung",
       "type": "đang cập nhật",
-      "words": 148
+      "words": 292
     },
     {
       "slug": "tan-linh-quan",
@@ -1937,7 +1901,7 @@
       "slug": "lang-uyen-than-vuong",
       "title": "Lãng Uyển Thần Vương",
       "type": "đang cập nhật",
-      "words": 103
+      "words": 263
     },
     {
       "slug": "trac-tra",
@@ -2027,7 +1991,7 @@
       "slug": "thai-dich",
       "title": "Thái Dịch",
       "type": "đang cập nhật",
-      "words": 95
+      "words": 175
     },
     {
       "slug": "vo-nhai-lao-nhan",
@@ -2195,7 +2159,7 @@
       "slug": "lam-ngu-dien",
       "title": "Lam Ngự Điền",
       "type": "đang cập nhật",
-      "words": 97
+      "words": 257
     },
     {
       "slug": "tan-vu",
