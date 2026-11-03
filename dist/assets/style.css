@@ -2221,3 +2221,23 @@ body:has(.account-page) #main{flex:1 0 auto}
 /* Keep encyclopedia media within its own card, including missing-image states. */
 .card-art{isolation:isolate;min-width:0}.card-art>.image-pending{height:100%;min-height:0;padding:14px}.overview-card{min-width:0;align-items:stretch}.overview-card>.image-pending{flex:0 0 38%;width:38%;height:auto;min-height:280px}.profile-picture{min-width:0}.profile-picture figcaption{overflow-wrap:anywhere}.gallery-grid>*{min-width:0}.gallery-image span{overflow-wrap:anywhere}.definition-thumb>.image-pending{height:100%;min-height:0}.image-pending{background:radial-gradient(ellipse at top,color-mix(in srgb,var(--gold) 14%,transparent),transparent 75%),var(--panel);color:var(--text)}
 @media(max-width:1000px){.overview-card>.image-pending{width:100%;min-height:250px}}
+
+/* Home entry buttons: clear icons and a stronger desktop presence. */
+.hero .hero-actions .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px}
+.hero-action-icon{width:19px;height:19px;flex:none;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.hero-action-icon .hero-play-triangle{fill:currentColor;stroke:none}
+@media(min-width:761px){
+ .hero .hero-actions{gap:12px}
+ .hero .hero-actions .btn{min-height:52px;padding:13px 20px;font-size:calc(14px * var(--font-scale,1));font-weight:700;border-radius:11px;border-width:1px;letter-spacing:.05px;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease,background .2s ease}
+ .hero .hero-actions .hero-action-icon{width:21px;height:21px}
+ html[data-theme=dark] .hero .hero-actions .btn.primary{background:linear-gradient(135deg,#ffe8b8,#e9c680)!important;border-color:#ffe4ac!important;color:#25333a!important;box-shadow:0 5px 18px #080f1840,0 0 22px #efcd8e20,inset 0 1px 0 #fff6}
+ html[data-theme=dark] .hero .hero-actions .btn.ghost{background:linear-gradient(135deg,#284754e8,#1b323de8)!important;border-color:#b5cbd2b0!important;color:#f6fafb!important;box-shadow:0 5px 16px #080f1833,inset 0 1px 0 #ffffff12;backdrop-filter:blur(8px)}
+ .hero .hero-actions .btn:focus-visible{outline-offset:5px}
+}
+@media(min-width:761px) and (hover:hover){
+ .hero .hero-actions .btn:hover{transform:translateY(-3px);box-shadow:0 9px 24px #07121c40}
+ html[data-theme=dark] .hero .hero-actions .btn.ghost:hover{border-color:#f2d69e!important;background:linear-gradient(135deg,#355967,#243f4c)!important}
+ html[data-theme=dark] .hero .hero-actions .btn.primary:hover{background:linear-gradient(135deg,#fff0d0,#f0d397)!important;box-shadow:0 9px 25px #080f1850,0 0 26px #efcd8e30}
+}
+@media(max-width:760px){.hero .hero-actions .btn{gap:7px}.hero .hero-actions .hero-action-icon{width:17px;height:17px}}
+@media(prefers-reduced-motion:reduce){.hero .hero-actions .btn{transition:none!important}.hero .hero-actions .btn:hover{transform:none}}
