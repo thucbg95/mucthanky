@@ -2262,3 +2262,38 @@ html:not([data-theme=dark]) .play-action-button{background:#174c41!important;bor
 
 /* Weekly release date stays immediately below the latest episode card. */
 .next-release-note{display:flex;align-items:flex-start;gap:9px;margin:13px 2px 0!important;color:var(--muted);font-size:13px;line-height:1.7}.next-release-note svg{width:19px;height:19px;flex:none;margin-top:2px;fill:none;stroke:var(--gold);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}@media(max-width:760px){.next-release-note{font-size:12px;gap:8px;margin-top:11px!important}}
+
+/* Support page: consistent full-width sections and readable heading lengths. */
+.support-page .support-intro{grid-template-columns:minmax(0,.85fr) minmax(0,1.35fr);gap:clamp(24px,3vw,48px);align-items:start;padding:26px 28px}
+.support-page .support-intro-heading h2{max-width:none;font-size:clamp(26px,2.15vw,34px);line-height:1.35;text-wrap:balance}
+.support-page .support-intro-copy p{max-width:none;line-height:1.75}
+.support-page .support-card{grid-template-columns:minmax(0,1fr) 240px;gap:clamp(24px,3vw,48px);padding:26px 28px;align-items:center}
+.support-page .support-copy{min-width:0}.support-page .support-copy h2{font-size:clamp(25px,2.1vw,34px);line-height:1.35;text-wrap:balance}
+.support-page .support-copy>p,.support-page .support-bank-details,.support-page .support-safety{max-width:none;width:100%}
+.support-page .support-qr{width:100%;max-width:240px;justify-self:center;margin:0}.support-page .support-qr img{width:100%;height:auto}
+.support-page>.support-impact{width:100%;max-width:none;margin-inline:0;padding-inline:0}
+.support-page .support-impact>.grid{width:100%;max-width:none;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.support-page .support-impact-card{min-width:0;height:100%;padding:22px}
+.support-page .supporter-hall-intro{grid-template-columns:minmax(0,1fr) 150px;gap:30px;padding:26px 28px}
+.support-page .supporter-hall-copy{min-width:0;max-width:none}.support-page .supporter-hall-copy h3{max-width:none;font-size:clamp(26px,2.15vw,34px);line-height:1.35;text-wrap:balance}
+.support-page .supporter-hall-copy p{max-width:90ch;line-height:1.75}
+.support-page .supporter-hall-stat{min-height:140px}
+.supporter-toolbar{grid-template-columns:minmax(200px,1fr) auto minmax(120px,150px);gap:14px;align-items:end}
+.supporter-sort-field{display:grid;gap:6px;color:var(--muted);font-size:13px;font-weight:700;position:relative}
+.supporter-sort-buttons{display:flex;gap:6px}.supporter-sort-buttons .sort-control-button{width:42px;height:44px;min-width:42px;padding:8px}
+.supporter-alpha-icon{width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.supporter-alpha-icon text{fill:currentColor;stroke:none;font:700 11px Arial,sans-serif}
+.supporter-toolbar select.sr-only{position:absolute!important;width:1px!important;height:1px!important;min-height:1px!important;min-width:1px!important;max-width:1px!important;margin:-1px!important;padding:0!important;border:0!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;clip-path:inset(50%);white-space:nowrap;pointer-events:none}
+/* A visible entrance, flowing corner light and a gently illuminated seal. */
+.supporter-registry .supporter-entry{animation:supporter-row-arrive .48s ease both,supporter-row-aura 5s ease-in-out infinite!important;animation-delay:calc(var(--supporter-index,0)*45ms),calc(var(--supporter-index,0)*-.45s)!important}
+.supporter-registry .supporter-entry::before{background:radial-gradient(ellipse at 5% 50%,color-mix(in srgb,var(--gold) 35%,transparent),transparent 55%),radial-gradient(ellipse at 95% 50%,#5ad4bf26,transparent 52%);background-size:180% 100%;animation:supporter-row-light 6s ease-in-out infinite alternate!important;animation-delay:calc(var(--supporter-index,0)*-.55s)!important}
+.supporter-registry .supporter-entry-seal{animation:supporter-seal-aura 4s ease-in-out infinite;animation-delay:calc(var(--supporter-index,0)*-.4s)}
+@keyframes supporter-row-arrive{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes supporter-row-aura{0%,100%{border-color:color-mix(in srgb,var(--gold) 24%,var(--line));box-shadow:0 3px 14px #0714180d}50%{border-color:color-mix(in srgb,var(--gold) 58%,var(--line));box-shadow:0 0 18px color-mix(in srgb,var(--gold) 13%,transparent)}}
+@keyframes supporter-row-light{from{background-position:0% 50%;opacity:.25}to{background-position:100% 50%;opacity:.85}}
+@keyframes supporter-seal-aura{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--gold) 0%,transparent)}50%{box-shadow:0 0 0 5px color-mix(in srgb,var(--gold) 9%,transparent),0 0 15px color-mix(in srgb,var(--gold) 22%,transparent)}}
+@media(max-width:1000px){.support-page .support-intro{grid-template-columns:1fr;gap:18px}.support-page .support-card{grid-template-columns:minmax(0,1fr) 210px;gap:24px}.support-page .support-intro-heading h2{max-width:38ch}}
+@media(max-width:760px){.support-page .support-intro,.support-page .support-card{padding:20px 17px}.support-page .support-card{grid-template-columns:1fr;gap:22px}.support-page .support-intro-heading h2{font-size:26px;max-width:none}.support-page .support-impact>.grid{grid-template-columns:1fr;gap:12px}.support-page .support-impact-card{padding:20px}.support-page .supporter-hall-intro{grid-template-columns:minmax(0,1fr);padding:22px 17px;gap:18px}.support-page .supporter-hall-copy h3{font-size:26px}.support-page .supporter-hall-stat{min-height:80px;flex-direction:row;gap:10px}.supporter-toolbar{grid-template-columns:minmax(0,1fr) 112px;gap:12px}.supporter-toolbar .supporter-search-label{grid-column:1/-1}.supporter-sort-buttons{gap:4px}.supporter-sort-buttons .sort-control-button{width:34px;min-width:34px;height:42px;padding:6px}.supporter-sort-field{min-width:0}.supporter-toolbar label{min-width:0}}
+@media(prefers-reduced-motion:reduce){.supporter-registry .supporter-entry,.supporter-registry .supporter-entry::before,.supporter-registry .supporter-entry-seal{animation:none!important}}
+
+/* Supporter controls reuse the novel toolbar classes and responsive layout. */
+.supporter-controls{position:relative}.supporter-controls select.sr-only{position:absolute!important;inset:0 auto auto 0;width:1px!important;height:1px!important;min-height:1px!important;min-width:1px!important;max-width:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;clip-path:inset(50%);white-space:nowrap;border:0!important;pointer-events:none}

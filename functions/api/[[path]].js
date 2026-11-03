@@ -84,11 +84,21 @@ async function handle(context){const {request,env}=context;const url=new URL(req
  if(request.method==='GET'&&route==='page-views'){const page=url.searchParams.get('page')||'';if(!pageOK(page))return json({error:'Trang cần đếm lượt xem không hợp lệ.'},400);const row=await env.DB.prepare('SELECT views FROM page_views WHERE page=?').bind(page).first();return json({page,views:Number(row?.views)||0})}
  if(request.method==='GET'&&route==='episodes'){const rows=await env.DB.prepare('SELECT id,title,description,thumbnail,published_at,url,source,kind FROM episodes ORDER BY published_at DESC LIMIT 100').all();return json({episodes:rows.results})}
  if(request.method==='GET'&&route==='supporters'){
-  const requested=Number(url.searchParams.get('limit')),limit=[10,50,100].includes(requested)?requested:10,offset=Math.max(0,Math.min(100000,Number.parseInt(url.searchParams.get('offset')||'0',10)||0)),query=clean(url.searchParams.get('query')).slice(0,100).toLocaleLowerCase('vi-VN'),term=`%${query}%`,sort=url.searchParams.get('sort')==='oldest'?'ASC':'DESC';
+  const requested=Number(url.searchParams.get('limit')),limit=[10,50,100].includes(requested)?requested:10,offset=Math.max(0,Math.min(100000,Number.parseInt(url.searchParams.get('offset')||'0',10)||0)),query=clean(url.searchParams.get('query')).slice(0,100).toLocaleLowerCase('vi-VN'),term=`%${query}%`,requestedSort=url.searchParams.get('sort'),sort=['newest','oldest','name_asc','name_desc'].includes(requestedSort)?requestedSort:'newest';
   const totalRow=await env.DB.prepare("SELECT COUNT(*) AS total FROM supporter_registry WHERE (?='' OR lower(display_name) LIKE lower(?))").bind(query,term).first();
   const overallRow=query?await env.DB.prepare('SELECT COUNT(*) AS total FROM supporter_registry').first():totalRow;
-  const rows=await env.DB.prepare(`SELECT id,display_name,created_at FROM supporter_registry WHERE (?='' OR lower(display_name) LIKE lower(?)) ORDER BY created_at ${sort},id ${sort} LIMIT ? OFFSET ?`).bind(query,term,limit,offset).all();
-  return json({supporters:rows.results||[],total:Number(totalRow?.total)||0,overallTotal:Number(overallRow?.total)||0,limit,offset,sort:sort==='ASC'?'oldest':'newest'},200,{'Cache-Control':'no-store'});
+  let supporters;
+  if(sort==='name_asc'||sort==='name_desc'){
+   // Apply Vietnamese collation before pagination; SQLite NOCASE only folds ASCII.
+   const rows=await env.DB.prepare("SELECT id,display_name,created_at FROM supporter_registry WHERE (?='' OR lower(display_name) LIKE lower(?))").bind(query,term).all();
+   const collator=new Intl.Collator('vi-VN',{sensitivity:'base',numeric:true}),direction=sort==='name_desc'?-1:1;
+   supporters=(rows.results||[]).sort((a,b)=>direction*collator.compare(a.display_name,b.display_name)||String(a.created_at).localeCompare(String(b.created_at))||String(a.id).localeCompare(String(b.id))).slice(offset,offset+limit);
+  }else{
+   const direction=sort==='oldest'?'ASC':'DESC';
+   const rows=await env.DB.prepare(`SELECT id,display_name,created_at FROM supporter_registry WHERE (?='' OR lower(display_name) LIKE lower(?)) ORDER BY created_at ${direction},id ${direction} LIMIT ? OFFSET ?`).bind(query,term,limit,offset).all();
+   supporters=rows.results||[];
+  }
+  return json({supporters,total:Number(totalRow?.total)||0,overallTotal:Number(overallRow?.total)||0,limit,offset,sort},200,{'Cache-Control':'no-store'});
  }
  if(!['POST','PATCH'].includes(request.method))return json({error:'Không tìm thấy.'},404);if(request.headers.get('Origin')!==url.origin)return json({error:'Nguồn yêu cầu không hợp lệ.'},403);
  if(route==='auth/logout'&&request.method==='POST'){const session=cookie(request,'mtk_session');if(session)await env.DB.prepare('DELETE FROM sessions WHERE token_hash=?').bind(await hash(session)).run();return json({ok:true},200,{'Set-Cookie':cookieHeader('mtk_session','','HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=0')})}
