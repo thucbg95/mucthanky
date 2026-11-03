@@ -2297,3 +2297,9 @@ html:not([data-theme=dark]) .play-action-button{background:#174c41!important;bor
 
 /* Supporter controls reuse the novel toolbar classes and responsive layout. */
 .supporter-controls{position:relative}.supporter-controls select.sr-only{position:absolute!important;inset:0 auto auto 0;width:1px!important;height:1px!important;min-height:1px!important;min-width:1px!important;max-width:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;clip-path:inset(50%);white-space:nowrap;border:0!important;pointer-events:none}
+
+/* Each supporter row uses the hall's single sheen, all starting on the same beat. */
+.supporter-registry .supporter-entry{animation:none!important;animation-delay:0s!important}
+.supporter-registry .supporter-entry::before,.supporter-registry .supporter-entry:nth-child(n)::before{display:block!important;position:absolute;z-index:0;inset:-45% auto -45% -55%;width:42%;background:linear-gradient(110deg,transparent,color-mix(in srgb,var(--gold) 17%,transparent),transparent);background-size:100% 100%;filter:none!important;content:"";pointer-events:none;opacity:0;transform:skewX(-18deg);animation:supporter-hall-sheen 9s ease-in-out infinite!important;animation-delay:0s!important}
+.supporter-registry .supporter-entry-seal{animation:none!important}
+@media(prefers-reduced-motion:reduce){.supporter-registry .supporter-entry::before,.supporter-registry .supporter-entry:nth-child(n)::before{animation:none!important;opacity:0}}
