@@ -19,3 +19,13 @@ Build và audit nội dung đạt. Kiểm tra ảnh riêng chạy bằng node sc
 ## Chức năng đăng phim
 
 Chỉ khảo sát và tư vấn, chưa triển khai đăng phim / lưu video / API mới. Có thể mở rộng cổng chủ website hiện có để nhập tập, tên, ảnh, trailer và tải tệp hoặc dán mã nhúng; cần kho lưu trữ video và dữ liệu tập phim để xuất bản không sửa mã nguồn.
+
+## Mở rộng theo toàn bộ tiểu thuyết — 03/11/2026
+
+- Phạm vi đã được chủ website xác nhận: cả phim và toàn bộ nguyên tác.
+- Bổ sung nội dung có đối chiếu chương cho 20 hồ sơ, dữ liệu ở src/data/novel-details.json.
+- Sửa nhầm biệt danh Thái Dịch / chủ nhân Di La Cung; làm rõ Lam Ngự Điền / Ngự Thiên Tôn và Thất / Cửu Thiên Tôn.
+- Chỉ mục tên xuyên 1.989 chương; 202 hồ sơ có chương nhắc tên, 1.172 liên kết tham khảo được chọn. Chỉ mục tự cập nhật trước npm run build. Đây là kết quả nhắc tên, không phải xác nhận mọi tình tiết hay tiến độ chuyển thể.
+- Các phần được đánh dấu spoiler thu gọn mặc định; mục lục mở đúng phần khi người đọc chọn.
+- Kiểm tra: build, audit nội dung, test:lore và check-media đạt. Còn 144 hồ sơ dưới 150 từ; chưa tuyên bố hoàn thiện toàn bộ nội dung.
+
