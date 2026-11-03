@@ -267,18 +267,19 @@
       "reviewedAt": "2026-11-03"
     },
     "nguoi-diec": {
-      "src": "/assets/film-v3/nguoi-diec.webp",
-      "alt": "Thiết kế nhân vật Người Điếc trong Mục Thần Ký",
-      "sourceUrl": "https://www.pinterest.com/pin/1126674031787680427/",
-      "assetUrl": "https://i.pinimg.com/736x/ce/db/a2/cedba211e472c8893cbec759aac594cd.jpg",
-      "credit": "Thiết kế phim; bản đăng lại Pinterest",
-      "width": 736,
-      "height": 1307,
-      "verified": true,
+      "src": "/assets/profile-albums/ep2-13.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Người Điếc — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 330,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
       "subjects": [
         "nguoi-diec"
       ],
-      "kind": "concept",
+      "verified": true,
       "reviewedAt": "2026-11-03"
     },
     "long-ky-lan": {
@@ -857,6 +858,2128 @@
       "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
       "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
       "reviewedAt": "2026-11-03"
+    },
+    "official-0-tan-muc": {
+      "src": "/assets/profile-albums/official-0-tan-muc.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tần Mục trong hình thái Nguyệt Lượng Thủ",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3706927",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/7287d6c375fea05344d4d970080defe3b850c6e5.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "tan-muc",
+        "nguyet-luong-thu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-1-tan-muc": {
+      "src": "/assets/profile-albums/official-1-tan-muc.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Hai hình thái chiến đấu của Tần Mục",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2656487",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/93076a62df80eab23ad6440bcaff68a4dcc44906.jpg",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "tan-muc"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-5-tu-ba-ba": {
+      "src": "/assets/profile-albums/official-5-tu-ba-ba.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tư bà bà — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1428588",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/ea2f74a6a1adab35940dac59dcc213736d17b8bc.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "tu-ba-ba"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-9-ma-gia": {
+      "src": "/assets/profile-albums/official-9-ma-gia.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Người Què ở bên trái, Mã gia phía sau cùng Tần Mục",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2941639",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/852c0806175ca596587bc1ade3ecad111de28dcf.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "ma-gia",
+        "nguoi-que"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-15-nguoi-mu": {
+      "src": "/assets/profile-albums/official-15-nguoi-mu.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Người Mù — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1336447",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/b619ab6e8377b6861be2d9a6607a58d5830168d5.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "nguoi-mu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-26-duoc-su": {
+      "src": "/assets/profile-albums/official-26-duoc-su.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Dược Sư trong tạo hình bỏ mặt nạ, bên phải Thái hậu",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2005616",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/27c102ac7d46ad9e0817893f70a65cdb7d4fe515.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "duoc-su"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-29-linh-duc-tu": {
+      "src": "/assets/profile-albums/official-29-linh-duc-tu.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Linh Dục Tú — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1881307",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/c2ddd1d339dd50be21ee5bc357445df12c640788.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "linh-duc-tu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-31-linh-duc-tu": {
+      "src": "/assets/profile-albums/official-31-linh-duc-tu.webp",
+      "width": 1440,
+      "height": 898,
+      "alt": "Linh Dục Tú — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1564136",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/8c5d6656ea2e0278e44f6aaa19644dd66dd364e9.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "linh-duc-tu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-33-ho-linh-nhi": {
+      "src": "/assets/profile-albums/official-33-ho-linh-nhi.webp",
+      "width": 1440,
+      "height": 900,
+      "alt": "Hồ Linh Nhi trên vai Tần Mục",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1757315",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/d7c824400d0d722fc9a877cdec7a98fb6e76e350.jpg",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "ho-linh-nhi"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-35-dien-khang-quoc-su": {
+      "src": "/assets/profile-albums/official-35-dien-khang-quoc-su.webp",
+      "width": 1019,
+      "height": 638,
+      "alt": "Diên Khang quốc sư và Giang Bạch Khuê — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1535037",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/14efe9483064fd032447265d628735f6517e238e.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "dien-khang-quoc-su",
+        "giang-bach-khue"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-43-tan-lao-thon": {
+      "src": "/assets/profile-albums/official-43-tan-lao-thon.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Chín người lớn của Tàn Lão Thôn",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1733326",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/16cb75e433a7164458c745d29af3537fbd7eb55d.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "tan-lao-thon"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-45-ban-cong-tho": {
+      "src": "/assets/profile-albums/official-45-ban-cong-tho.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Ban Công Thố — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep4621490",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/8d65fdfd9fe907dde107d5b0e0a507e66351088c.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "ban-cong-tho"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-47-ban-cong-tho": {
+      "src": "/assets/profile-albums/official-47-ban-cong-tho.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Ban Công Thố trong tuyến Đại Tôn",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep6423357",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/5be9f4e1e9871e2d1047ee7f00242e1fa8c7444b.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "ban-cong-tho"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-48-dien-khang-quoc-su": {
+      "src": "/assets/profile-albums/official-48-dien-khang-quoc-su.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Diên Khang quốc sư và Giang Bạch Khuê — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep5483784",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/8058127c62a47a1e76dfb064a844598f5e967e09.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "dien-khang-quoc-su",
+        "giang-bach-khue"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-50-ma-vien": {
+      "src": "/assets/profile-albums/official-50-ma-vien.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Ma viên Chiến Không cùng Tần Mục",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1224822",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/b9051f3e8550260d8729c987651e0200f8ea4e49.jpg",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "ma-vien",
+        "chien-khong"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-51-ma-vien": {
+      "src": "/assets/profile-albums/official-51-ma-vien.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Ma viên Chiến Không trong cuộc giao đấu",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1114397",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/68a9f852606f3dca8ccbc9ec7b788e2f9cd46646.jpg",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "ma-vien",
+        "chien-khong"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-53-long-ke": {
+      "src": "/assets/profile-albums/official-53-long-ke.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Long kê — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1400611",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/94dc1ee9c7c989548bc7e2cbc608277ff56236d5.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "long-ke"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-54-long-ke": {
+      "src": "/assets/profile-albums/official-54-long-ke.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Long kê bên Tần Mục",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3528513",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/486ac31ad2b8866278ff34bb7af6ff0f8d21134b.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "long-ke"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-55-long-ky-lan": {
+      "src": "/assets/profile-albums/official-55-long-ky-lan.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Long Kỳ Lân — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3434600",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/6af7ecb0fd71c26a4c6a60697339bc60478ae16c.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "long-ky-lan"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-56-long-ky-lan": {
+      "src": "/assets/profile-albums/official-56-long-ky-lan.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Long Kỳ Lân — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2420331",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/cd907ead7bcfba2a93fb6abd23cfc1f4d0863e12.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "long-ky-lan"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-58-tu-van-huong": {
+      "src": "/assets/profile-albums/official-58-tu-van-huong.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tư Vân Hương — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2129118",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/bc8231bfa0a2e4f3a2cfd902a092670a2a580f6c.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "tu-van-huong"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-62-dien-phong-de": {
+      "src": "/assets/profile-albums/official-62-dien-phong-de.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Diên Phong Đế — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep4833135",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/5a51683cc491cf701144f126873b749ac7f3590d.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "dien-phong-de"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-63-dien-phong-de": {
+      "src": "/assets/profile-albums/official-63-dien-phong-de.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Diên Phong Đế — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep4726191",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/22b02c05feda5516149a9ea2c437b61a17a1a176.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "dien-phong-de"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-67-ban-cong-tho": {
+      "src": "/assets/profile-albums/official-67-ban-cong-tho.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Ban Công Thố — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep6269633",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/178b0eb1e105e8da913e0ff31f633f0c1160948f.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "ban-cong-tho"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-72-viem-tinh-tinh": {
+      "src": "/assets/profile-albums/official-72-viem-tinh-tinh.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Viêm Tinh Tinh — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1567194",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/a1553dc4f0f91301c8ed0cffb3a2e31c686c48c2.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "viem-tinh-tinh"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-73-thai-duong-thu": {
+      "src": "/assets/profile-albums/official-73-thai-duong-thu.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Viêm Tinh Tinh trong hình thái Thái Dương Thủ",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1592109",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/77f9a1d710a30420c0e6db10d63e768dbe890d68.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "thai-duong-thu",
+        "viem-tinh-tinh"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-75-do-thien-ma-vuong": {
+      "src": "/assets/profile-albums/official-75-do-thien-ma-vuong.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Phân thân Đô Thiên Ma Vương giao chiến",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3313690",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/6d6423aff62948b9c3b0b794a461f6b115a764e6.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "do-thien-ma-vuong"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-77-tho-ba": {
+      "src": "/assets/profile-albums/official-77-tho-ba.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Thổ Bá — chủ nhân U Đô",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3084350",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/3e878e07dfc542d368a1dddb7005605288e302f9.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "tho-ba"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-79-dung-giang": {
+      "src": "/assets/profile-albums/official-79-dung-giang.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Người Mù thi triển thương pháp trên Dũng Giang",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1472562",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/b5cc9ca99a2a4329f2da42dc3ceddddaf75012e8.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "dung-giang"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-82-tho-ba": {
+      "src": "/assets/profile-albums/official-82-tho-ba.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Thổ Bá xuất hiện trong nghi thức Thổ Bá Cửu Ước",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3100863",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/edd72233d363bb771dce808fe91711b91f017b45.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "tho-ba"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-83-tieu-phu": {
+      "src": "/assets/profile-albums/official-83-tieu-phu.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Hình ảnh Tiều Phu thánh nhân truyền đạo",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2351940",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/ba5c5dca4d6e574a74f9cb46615b94ccb2e681a1.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "tieu-phu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-91-thieu-nien-to-su": {
+      "src": "/assets/profile-albums/official-91-thieu-nien-to-su.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Thiếu niên tổ sư và Văn Nguyên — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2426938",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/1d177c9762350f704d975dabb4c36a5695bcba92.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "thieu-nien-to-su",
+        "van-nguyen"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-92-le-thien-hanh": {
+      "src": "/assets/profile-albums/official-92-le-thien-hanh.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tư Bà Bà trong trạng thái chịu ảnh hưởng của Lệ Thiên Hành",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep5198643",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/208a60dc97edaa87a9c81a059e9d4d7538eaa0dc.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "le-thien-hanh"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-94-tien-thanh-nhi": {
+      "src": "/assets/profile-albums/official-94-tien-thanh-nhi.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tiên Thanh Nhi — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1733324",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/50c6ee1f3d2dee7c6f2eb613bf72ce434955038a.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "tien-thanh-nhi"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-95-tien-thanh-nhi": {
+      "src": "/assets/profile-albums/official-95-tien-thanh-nhi.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tiên Thanh Nhi trong yêu hình",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1183902",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/21bf9ac8c98bddd88c2239604e294d304c4034b1.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "tien-thanh-nhi"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-98-thuyen-mat-troi": {
+      "src": "/assets/profile-albums/official-98-thuyen-mat-troi.webp",
+      "width": 1440,
+      "height": 898,
+      "alt": "Thuyền Mặt Trời và Thái Dương Thuyền — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1543628",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/5800c85e93e5f7a723a886d13203d4c471b44ba0.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "thuyen-mat-troi",
+        "thai-duong-thuyen"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-100-nguyet-luong-thu": {
+      "src": "/assets/profile-albums/official-100-nguyet-luong-thu.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tần Mục trong hình thái Nguyệt Lượng Thủ",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3718950",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/7d9606b6407fd6c2ccfdbb7b54883ef2c05071d4.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "nguyet-luong-thu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-106-tui-thao-thiet": {
+      "src": "/assets/profile-albums/official-106-tui-thao-thiet.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tần Mục nhìn qua miệng Túi Thao Thiết",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3456763",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/5756fa146e44cca8a5f15995f936327a2898c797.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "tui-thao-thiet"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "official-109-long-kieu-nam": {
+      "src": "/assets/profile-albums/official-109-long-kieu-nam.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Long Kiều Nam — ảnh chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2546884",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/40e80f4fff6dc1d16729ff1baa5b4e253c62c1c0.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "long-kieu-nam"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep1-11": {
+      "src": "/assets/profile-albums/ep1-11.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Ngọc bội của Tần Mục — khung hình tập 1",
+      "sourceEpisode": 1,
+      "sourceTime": 290,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "ngoc-boi-tan-muc"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep24-43": {
+      "src": "/assets/profile-albums/ep24-43.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Ngọc bội của Tần Mục — khung hình tập 24",
+      "sourceEpisode": 24,
+      "sourceTime": 930,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "ngoc-boi-tan-muc"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep1-20": {
+      "src": "/assets/profile-albums/ep1-20.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Đại Khư — khung hình tập 1",
+      "sourceEpisode": 1,
+      "sourceTime": 470,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "dai-khu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep1-22": {
+      "src": "/assets/profile-albums/ep1-22.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Đại Khư — khung hình tập 1",
+      "sourceEpisode": 1,
+      "sourceTime": 510,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "dai-khu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep1-23": {
+      "src": "/assets/profile-albums/ep1-23.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Đại Khư — khung hình tập 1",
+      "sourceEpisode": 1,
+      "sourceTime": 530,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "dai-khu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep1-25": {
+      "src": "/assets/profile-albums/ep1-25.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Tàn Lão Thôn — khung hình tập 1",
+      "sourceEpisode": 1,
+      "sourceTime": 570,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "tan-lao-thon"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep1-28": {
+      "src": "/assets/profile-albums/ep1-28.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Đại Khư — khung hình tập 1",
+      "sourceEpisode": 1,
+      "sourceTime": 630,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "dai-khu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep3-8": {
+      "src": "/assets/profile-albums/ep3-8.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Tàn Lão Thôn — khung hình tập 3",
+      "sourceEpisode": 3,
+      "sourceTime": 230,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "tan-lao-thon"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-19": {
+      "src": "/assets/profile-albums/ep2-19.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Tư bà bà — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 450,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "tu-ba-ba"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-21": {
+      "src": "/assets/profile-albums/ep2-21.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Tư bà bà — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 490,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "tu-ba-ba"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-26": {
+      "src": "/assets/profile-albums/ep2-26.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Tư bà bà — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 590,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "tu-ba-ba"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep3-9": {
+      "src": "/assets/profile-albums/ep3-9.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Tư bà bà — khung hình tập 3",
+      "sourceEpisode": 3,
+      "sourceTime": 250,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "tu-ba-ba"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep3-22": {
+      "src": "/assets/profile-albums/ep3-22.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Tư bà bà — khung hình tập 3",
+      "sourceEpisode": 3,
+      "sourceTime": 510,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "tu-ba-ba"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep3-27": {
+      "src": "/assets/profile-albums/ep3-27.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Tư bà bà và Phục trang của Tư Bà Bà — khung hình tập 3",
+      "sourceEpisode": 3,
+      "sourceTime": 610,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "tu-ba-ba",
+        "phuc-trang-tu-ba-ba"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep1-5": {
+      "src": "/assets/profile-albums/ep1-5.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Tư bà bà — khung hình tập 1",
+      "sourceEpisode": 1,
+      "sourceTime": 170,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "tu-ba-ba"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep1-26": {
+      "src": "/assets/profile-albums/ep1-26.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Thôn trưởng — khung hình tập 1",
+      "sourceEpisode": 1,
+      "sourceTime": 590,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thon-truong"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-12": {
+      "src": "/assets/profile-albums/ep2-12.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Thôn trưởng — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 310,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thon-truong"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-23": {
+      "src": "/assets/profile-albums/ep2-23.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Thôn trưởng — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 530,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thon-truong"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-45": {
+      "src": "/assets/profile-albums/ep2-45.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Thôn trưởng — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 970,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thon-truong"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-52": {
+      "src": "/assets/profile-albums/ep2-52.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Thôn trưởng — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 1110,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thon-truong"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep1-14": {
+      "src": "/assets/profile-albums/ep1-14.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Mã gia — khung hình tập 1",
+      "sourceEpisode": 1,
+      "sourceTime": 350,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "ma-gia"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-15": {
+      "src": "/assets/profile-albums/ep2-15.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Mã gia — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 370,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "ma-gia"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-17": {
+      "src": "/assets/profile-albums/ep2-17.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Mã gia — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 410,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "ma-gia"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-18": {
+      "src": "/assets/profile-albums/ep2-18.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Mã gia — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 430,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "ma-gia"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-37": {
+      "src": "/assets/profile-albums/ep2-37.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Mã gia — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 810,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "ma-gia"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep1-7": {
+      "src": "/assets/profile-albums/ep1-7.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Người Điếc — khung hình tập 1",
+      "sourceEpisode": 1,
+      "sourceTime": 210,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "nguoi-diec"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep1-9": {
+      "src": "/assets/profile-albums/ep1-9.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Người Điếc — khung hình tập 1",
+      "sourceEpisode": 1,
+      "sourceTime": 250,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "nguoi-diec"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-13": {
+      "src": "/assets/profile-albums/ep2-13.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Người Điếc — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 330,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "nguoi-diec"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-20": {
+      "src": "/assets/profile-albums/ep2-20.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Người Điếc — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 470,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "nguoi-diec"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-48": {
+      "src": "/assets/profile-albums/ep2-48.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Người Điếc — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 1030,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "nguoi-diec"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep1-40": {
+      "src": "/assets/profile-albums/ep1-40.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Người Què — khung hình tập 1",
+      "sourceEpisode": 1,
+      "sourceTime": 870,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "nguoi-que"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-34": {
+      "src": "/assets/profile-albums/ep2-34.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Người Què — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 750,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "nguoi-que"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-39": {
+      "src": "/assets/profile-albums/ep2-39.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Người Què — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 850,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "nguoi-que"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-46": {
+      "src": "/assets/profile-albums/ep2-46.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Người Què — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 990,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "nguoi-que"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep3-43": {
+      "src": "/assets/profile-albums/ep3-43.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Người Mù — khung hình tập 3",
+      "sourceEpisode": 3,
+      "sourceTime": 930,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "nguoi-mu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-29": {
+      "src": "/assets/profile-albums/ep2-29.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Người Câm — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 650,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "nguoi-cam"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-50": {
+      "src": "/assets/profile-albums/ep2-50.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Dược Sư — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 1070,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "duoc-su"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep2-51": {
+      "src": "/assets/profile-albums/ep2-51.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Dược Sư — khung hình tập 2",
+      "sourceEpisode": 2,
+      "sourceTime": 1090,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "duoc-su"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep3-2": {
+      "src": "/assets/profile-albums/ep3-2.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Dược Sư — khung hình tập 3",
+      "sourceEpisode": 3,
+      "sourceTime": 110,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "duoc-su"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep53-5": {
+      "src": "/assets/profile-albums/ep53-5.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Lâu Lan Hoàng Kim Cung — khung hình tập 53",
+      "sourceEpisode": 53,
+      "sourceTime": 170,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "hoang-kim-cung"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep53-6": {
+      "src": "/assets/profile-albums/ep53-6.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Lâu Lan Hoàng Kim Cung — khung hình tập 53",
+      "sourceEpisode": 53,
+      "sourceTime": 190,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "hoang-kim-cung"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep53-8": {
+      "src": "/assets/profile-albums/ep53-8.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Lâu Lan Hoàng Kim Cung — khung hình tập 53",
+      "sourceEpisode": 53,
+      "sourceTime": 230,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "hoang-kim-cung"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep53-22": {
+      "src": "/assets/profile-albums/ep53-22.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Lâu Lan Hoàng Kim Cung — khung hình tập 53",
+      "sourceEpisode": 53,
+      "sourceTime": 510,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "hoang-kim-cung"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep53-54": {
+      "src": "/assets/profile-albums/ep53-54.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Lâu Lan Hoàng Kim Cung — khung hình tập 53",
+      "sourceEpisode": 53,
+      "sourceTime": 1150,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "hoang-kim-cung"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep53-4": {
+      "src": "/assets/profile-albums/ep53-4.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Hồ Linh Nhi — khung hình tập 53",
+      "sourceEpisode": 53,
+      "sourceTime": 150,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "ho-linh-nhi"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep53-39": {
+      "src": "/assets/profile-albums/ep53-39.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Long Kỳ Lân — khung hình tập 53",
+      "sourceEpisode": 53,
+      "sourceTime": 850,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "long-ky-lan"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep53-29": {
+      "src": "/assets/profile-albums/ep53-29.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Linh Dục Tú — khung hình tập 53",
+      "sourceEpisode": 53,
+      "sourceTime": 650,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "linh-duc-tu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep53-43": {
+      "src": "/assets/profile-albums/ep53-43.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Linh Dục Tú — khung hình tập 53",
+      "sourceEpisode": 53,
+      "sourceTime": 930,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "linh-duc-tu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep53-44": {
+      "src": "/assets/profile-albums/ep53-44.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Linh Dục Tú — khung hình tập 53",
+      "sourceEpisode": 53,
+      "sourceTime": 950,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "linh-duc-tu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep53-46": {
+      "src": "/assets/profile-albums/ep53-46.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Linh Dục Tú — khung hình tập 53",
+      "sourceEpisode": 53,
+      "sourceTime": 990,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "linh-duc-tu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep24-13": {
+      "src": "/assets/profile-albums/ep24-13.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Thuyền Mặt Trời và Thái Dương Thuyền — khung hình tập 24",
+      "sourceEpisode": 24,
+      "sourceTime": 330,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thuyen-mat-troi",
+        "thai-duong-thuyen"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep24-16": {
+      "src": "/assets/profile-albums/ep24-16.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Thuyền Mặt Trời và Thái Dương Thuyền — khung hình tập 24",
+      "sourceEpisode": 24,
+      "sourceTime": 390,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thuyen-mat-troi",
+        "thai-duong-thuyen"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep24-17": {
+      "src": "/assets/profile-albums/ep24-17.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Thuyền Mặt Trời và Thái Dương Thuyền — khung hình tập 24",
+      "sourceEpisode": 24,
+      "sourceTime": 410,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thuyen-mat-troi",
+        "thai-duong-thuyen"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep24-18": {
+      "src": "/assets/profile-albums/ep24-18.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Thuyền Mặt Trời và Thái Dương Thuyền — khung hình tập 24",
+      "sourceEpisode": 24,
+      "sourceTime": 430,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thuyen-mat-troi",
+        "thai-duong-thuyen"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep24-21": {
+      "src": "/assets/profile-albums/ep24-21.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Thuyền Mặt Trời và Thái Dương Thuyền — khung hình tập 24",
+      "sourceEpisode": 24,
+      "sourceTime": 490,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thuyen-mat-troi",
+        "thai-duong-thuyen"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep24-48": {
+      "src": "/assets/profile-albums/ep24-48.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Viêm Tinh Tinh và Thái Dương Thủ · Viêm Tinh Tinh — khung hình tập 24",
+      "sourceEpisode": 24,
+      "sourceTime": 1030,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "viem-tinh-tinh",
+        "thai-duong-thu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep24-49": {
+      "src": "/assets/profile-albums/ep24-49.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Viêm Tinh Tinh và Thái Dương Thủ · Viêm Tinh Tinh — khung hình tập 24",
+      "sourceEpisode": 24,
+      "sourceTime": 1050,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "viem-tinh-tinh",
+        "thai-duong-thu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep24-53": {
+      "src": "/assets/profile-albums/ep24-53.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Viêm Tinh Tinh và Thái Dương Thủ · Viêm Tinh Tinh — khung hình tập 24",
+      "sourceEpisode": 24,
+      "sourceTime": 1130,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "viem-tinh-tinh",
+        "thai-duong-thu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep24-55": {
+      "src": "/assets/profile-albums/ep24-55.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Viêm Tinh Tinh và Thái Dương Thủ · Viêm Tinh Tinh — khung hình tập 24",
+      "sourceEpisode": 24,
+      "sourceTime": 1170,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "viem-tinh-tinh",
+        "thai-duong-thu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep24-56": {
+      "src": "/assets/profile-albums/ep24-56.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Viêm Tinh Tinh và Thái Dương Thủ · Viêm Tinh Tinh — khung hình tập 24",
+      "sourceEpisode": 24,
+      "sourceTime": 1190,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "viem-tinh-tinh",
+        "thai-duong-thu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep102-27": {
+      "src": "/assets/profile-albums/ep102-27.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Ban Công Thố — khung hình tập 102",
+      "sourceEpisode": 102,
+      "sourceTime": 610,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "ban-cong-tho"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep102-32": {
+      "src": "/assets/profile-albums/ep102-32.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Ban Công Thố — khung hình tập 102",
+      "sourceEpisode": 102,
+      "sourceTime": 710,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "ban-cong-tho"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep102-43": {
+      "src": "/assets/profile-albums/ep102-43.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Ban Công Thố — khung hình tập 102",
+      "sourceEpisode": 102,
+      "sourceTime": 930,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "ban-cong-tho"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep102-52": {
+      "src": "/assets/profile-albums/ep102-52.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Ban Công Thố — khung hình tập 102",
+      "sourceEpisode": 102,
+      "sourceTime": 1110,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "ban-cong-tho"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep107-16": {
+      "src": "/assets/profile-albums/ep107-16.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Kiều Tinh Quân — khung hình tập 107",
+      "sourceEpisode": 107,
+      "sourceTime": 390,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "kieu-tinh-quan"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep107-25": {
+      "src": "/assets/profile-albums/ep107-25.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Kiều Tinh Quân — khung hình tập 107",
+      "sourceEpisode": 107,
+      "sourceTime": 570,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "kieu-tinh-quan"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep107-32": {
+      "src": "/assets/profile-albums/ep107-32.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Kiều Tinh Quân — khung hình tập 107",
+      "sourceEpisode": 107,
+      "sourceTime": 710,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "kieu-tinh-quan"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep107-33": {
+      "src": "/assets/profile-albums/ep107-33.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Kiều Tinh Quân — khung hình tập 107",
+      "sourceEpisode": 107,
+      "sourceTime": 730,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "kieu-tinh-quan"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep107-34": {
+      "src": "/assets/profile-albums/ep107-34.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Kiều Tinh Quân — khung hình tập 107",
+      "sourceEpisode": 107,
+      "sourceTime": 750,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "kieu-tinh-quan"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep107-35": {
+      "src": "/assets/profile-albums/ep107-35.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Kiều Tinh Quân — khung hình tập 107",
+      "sourceEpisode": 107,
+      "sourceTime": 770,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "kieu-tinh-quan"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep53-23": {
+      "src": "/assets/profile-albums/ep53-23.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Túi Thao Thiết — khung hình tập 53",
+      "sourceEpisode": 53,
+      "sourceTime": 530,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "tui-thao-thiet"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep53-2": {
+      "src": "/assets/profile-albums/ep53-2.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Tần Mục và Thiên Ma Giáo / Thiên Thánh Giáo và Phục sức Thiên Ma Giáo — khung hình tập 53",
+      "sourceEpisode": 53,
+      "sourceTime": 110,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "tan-muc",
+        "thien-ma-giao",
+        "trang-phuc-thien-ma-giao"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ep3-7": {
+      "src": "/assets/profile-albums/ep3-7.webp",
+      "width": 1440,
+      "height": 810,
+      "alt": "Tần Mục và Phục trang hành trình của Tần Mục và Y phục hành trình của Tần Mục — khung hình tập 3",
+      "sourceEpisode": 3,
+      "sourceTime": 210,
+      "sourceUrl": "https://www.bilibili.com/bangumi/media/md21082961/",
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "tan-muc",
+        "ao-hanh-trinh-tan-muc",
+        "y-phuc-hanh-trinh-tan-muc"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "hu-sinh-hoa-pv-18": {
+      "src": "/assets/profile-albums/hu-sinh-hoa-pv-18.webp",
+      "width": 1280,
+      "height": 720,
+      "alt": "Hư Sinh Hoa — khung hình PV chính thức",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep7154445",
+      "sourceTime": 52.5,
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "hu-sinh-hoa"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "hu-sinh-hoa-pv-21": {
+      "src": "/assets/profile-albums/hu-sinh-hoa-pv-21.webp",
+      "width": 1280,
+      "height": 720,
+      "alt": "Hư Sinh Hoa — khung hình PV chính thức",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep7154445",
+      "sourceTime": 61.5,
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "hu-sinh-hoa"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "hu-sinh-hoa-pv-22": {
+      "src": "/assets/profile-albums/hu-sinh-hoa-pv-22.webp",
+      "width": 1280,
+      "height": 720,
+      "alt": "Hư Sinh Hoa — khung hình PV chính thức",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep7154445",
+      "sourceTime": 64.5,
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "hu-sinh-hoa"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "hu-sinh-hoa-pv-24": {
+      "src": "/assets/profile-albums/hu-sinh-hoa-pv-24.webp",
+      "width": 1280,
+      "height": 720,
+      "alt": "Hư Sinh Hoa — khung hình PV chính thức",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep7154445",
+      "sourceTime": 70.5,
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "hu-sinh-hoa"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "hu-sinh-hoa-pv-25": {
+      "src": "/assets/profile-albums/hu-sinh-hoa-pv-25.webp",
+      "width": 1280,
+      "height": 720,
+      "alt": "Hư Sinh Hoa — khung hình PV chính thức",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep7154445",
+      "sourceTime": 73.5,
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "hu-sinh-hoa"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "thuong-thuong-pv-5": {
+      "src": "/assets/profile-albums/thuong-thuong-pv-5.webp",
+      "width": 1280,
+      "height": 720,
+      "alt": "Cảnh quan và nhân vật Thượng Thương trong PV Hư Sinh Hoa",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep7154445",
+      "sourceTime": 13.5,
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thuong-thuong"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "thuong-thuong-pv-8": {
+      "src": "/assets/profile-albums/thuong-thuong-pv-8.webp",
+      "width": 1280,
+      "height": 720,
+      "alt": "Cảnh quan và nhân vật Thượng Thương trong PV Hư Sinh Hoa",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep7154445",
+      "sourceTime": 22.5,
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thuong-thuong"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "thuong-thuong-pv-14": {
+      "src": "/assets/profile-albums/thuong-thuong-pv-14.webp",
+      "width": 1280,
+      "height": 720,
+      "alt": "Cảnh quan và nhân vật Thượng Thương trong PV Hư Sinh Hoa",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep7154445",
+      "sourceTime": 40.5,
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thuong-thuong"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "thuong-thuong-pv-16": {
+      "src": "/assets/profile-albums/thuong-thuong-pv-16.webp",
+      "width": 1280,
+      "height": 720,
+      "alt": "Cảnh quan và nhân vật Thượng Thương trong PV Hư Sinh Hoa",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep7154445",
+      "sourceTime": 46.5,
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thuong-thuong"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "thuong-thuong-pv-20": {
+      "src": "/assets/profile-albums/thuong-thuong-pv-20.webp",
+      "width": 1280,
+      "height": 720,
+      "alt": "Cảnh quan và nhân vật Thượng Thương trong PV Hư Sinh Hoa",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep7154445",
+      "sourceTime": 58.5,
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thuong-thuong"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "thuong-thuong-pv-26": {
+      "src": "/assets/profile-albums/thuong-thuong-pv-26.webp",
+      "width": 1280,
+      "height": 720,
+      "alt": "Cảnh quan và nhân vật Thượng Thương trong PV Hư Sinh Hoa",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep7154445",
+      "sourceTime": 76.5,
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thuong-thuong"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "nguyet-luong-thu-clip-1": {
+      "src": "/assets/profile-albums/nguyet-luong-thu-clip-1.webp",
+      "width": 1280,
+      "height": 720,
+      "alt": "Tần Mục trong hình thái Nguyệt Lượng Thủ",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3915576",
+      "sourceTime": 1.5,
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "nguyet-luong-thu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "nguyet-luong-thu-clip-2": {
+      "src": "/assets/profile-albums/nguyet-luong-thu-clip-2.webp",
+      "width": 1280,
+      "height": 720,
+      "alt": "Tần Mục trong hình thái Nguyệt Lượng Thủ",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3915576",
+      "sourceTime": 4.5,
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "nguyet-luong-thu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "thuyen-mat-trang-clip-4": {
+      "src": "/assets/profile-albums/thuyen-mat-trang-clip-4.webp",
+      "width": 1280,
+      "height": 720,
+      "alt": "Thuyền Mặt Trăng trong clip chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3915576",
+      "sourceTime": 10.5,
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thuyen-mat-trang"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "thuyen-mat-trang-clip-5": {
+      "src": "/assets/profile-albums/thuyen-mat-trang-clip-5.webp",
+      "width": 1280,
+      "height": 720,
+      "alt": "Thuyền Mặt Trăng trong clip chính thức Bilibili",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3915576",
+      "sourceTime": 13.5,
+      "kind": "frame",
+      "credit": "Khung hình phim Mục Thần Ký / 玄机科技",
+      "subjects": [
+        "thuyen-mat-trang"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "thon-truong-concept": {
+      "src": "/assets/film/truong-thon.webp",
+      "alt": "Bản thiết kế nhân vật Thôn trưởng",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i5.hoopchina.com.cn/score/t65z3l1i-3098d497b8e5a4cddec169daf783bfc0_w_1080_h_2400.jpg",
+      "credit": "Hình thiết kế phim; bản đăng lại Hupu",
+      "width": 686,
+      "height": 686,
+      "kind": "concept",
+      "subjects": [
+        "thon-truong"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "ma-gia-concept": {
+      "src": "/assets/film-v3/ma-gia.webp",
+      "alt": "Bản thiết kế nhân vật Mã gia",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i5.hoopchina.com.cn/score/s1t8o0vo-6c3e429a9ad8aa19aa8a700fb4f6b0d1_w_1080_h_2400.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Hupu",
+      "width": 680,
+      "height": 680,
+      "kind": "concept",
+      "subjects": [
+        "ma-gia"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "do-phu-concept": {
+      "src": "/assets/film-v3/do-phu.webp",
+      "alt": "Bản thiết kế nhân vật Đồ Phu",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i5.hoopchina.com.cn/score/8t3ibo5j-79adb5f4b412ebd3a8e0325cfd6485e3_w_1080_h_2400.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Hupu",
+      "width": 658,
+      "height": 658,
+      "kind": "concept",
+      "subjects": [
+        "do-phu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "nguoi-mu-concept": {
+      "src": "/assets/film-v3/nguoi-mu.webp",
+      "alt": "Bản thiết kế nhân vật Người Mù",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i3.hoopchina.com.cn/score/74bhxkqx-5fe947e8f11d6d76e2b4a9038107695e_w_1080_h_2400.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Hupu",
+      "width": 670,
+      "height": 670,
+      "kind": "concept",
+      "subjects": [
+        "nguoi-mu"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "nguoi-que-concept": {
+      "src": "/assets/film-v3/nguoi-que.webp",
+      "alt": "Bản thiết kế nhân vật Người Què",
+      "sourceUrl": "https://m.hupu.com/score-list/common_first/2068617",
+      "assetUrl": "https://i5.hoopchina.com.cn/score/o8fb4rgk-e0a66bfc6bd06cca52d5009ab2a6257b_w_1080_h_2400.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Hupu",
+      "width": 672,
+      "height": 672,
+      "kind": "concept",
+      "subjects": [
+        "nguoi-que"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "nguoi-cam-concept": {
+      "src": "/assets/film-v3/nguoi-cam.webp",
+      "alt": "Bản thiết kế nhân vật Người Câm",
+      "sourceUrl": "https://www.imdb.com/title/tt33501934/mediaindex/",
+      "assetUrl": "https://m.media-amazon.com/images/M/MV5BY2U4MzllZDYtM2E3OC00Y2VjLWJkYWQtMWIyZDYzOTA2YTAyXkEyXkFqcGc%40._V1_.jpg",
+      "credit": "Bilibili / 玄机科技; khung tạo hình nhân vật đăng trên IMDb",
+      "width": 495,
+      "height": 1560,
+      "kind": "concept",
+      "subjects": [
+        "nguoi-cam"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "duoc-su-concept": {
+      "src": "/assets/film-v3/duoc-su.webp",
+      "alt": "Bản thiết kế nhân vật Dược Sư",
+      "sourceUrl": "https://m.douyin.com/shipin/7608034228579698697",
+      "assetUrl": "https://p3-pc-sign.douyinpic.com/obj/tos-cn-p-0015/osgifnEhioumAi97AAeEmwEcG5o4CuB2AIUf9J?from=1516005123&x-expires=2087272800&x-signature=rvflOD2EyHbmfFC2mLARdghfhA0%3D",
+      "credit": "Thiết kế phim; bản đăng lại Douyin",
+      "width": 1080,
+      "height": 1080,
+      "kind": "concept",
+      "subjects": [
+        "duoc-su"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-03"
+    },
+    "nguoi-diec-concept": {
+      "src": "/assets/film-v3/nguoi-diec.webp",
+      "alt": "Thiết kế nhân vật Người Điếc trong Mục Thần Ký",
+      "sourceUrl": "https://www.pinterest.com/pin/1126674031787680427/",
+      "assetUrl": "https://i.pinimg.com/736x/ce/db/a2/cedba211e472c8893cbec759aac594cd.jpg",
+      "credit": "Thiết kế phim; bản đăng lại Pinterest",
+      "width": 736,
+      "height": 1307,
+      "verified": true,
+      "subjects": [
+        "nguoi-diec"
+      ],
+      "kind": "concept",
+      "reviewedAt": "2026-11-03"
     }
   },
   "gallery": [
@@ -975,5 +3098,280 @@
     "sourceUrl": null,
     "credit": "Ảnh logo phim do người dùng cung cấp"
   },
-  "notice": "Hình ảnh phim và thiết kế nhân vật có ghi nguồn; quyền hình ảnh thuộc chủ sở hữu tương ứng."
+  "notice": "Hình ảnh phim và thiết kế nhân vật có ghi nguồn; quyền hình ảnh thuộc chủ sở hữu tương ứng.",
+  "albums": {
+    "tan-muc": [
+      "official-0-tan-muc",
+      "official-1-tan-muc",
+      "ep53-2",
+      "ep3-7"
+    ],
+    "nguyet-luong-thu": [
+      "official-0-tan-muc",
+      "official-100-nguyet-luong-thu",
+      "nguyet-luong-thu-clip-1",
+      "nguyet-luong-thu-clip-2"
+    ],
+    "tu-ba-ba": [
+      "tu-ba-ba",
+      "official-5-tu-ba-ba",
+      "ep2-19",
+      "ep2-21",
+      "ep2-26",
+      "ep3-9",
+      "ep3-22",
+      "ep3-27",
+      "ep1-5"
+    ],
+    "thon-truong": [
+      "thon-truong",
+      "ep1-26",
+      "ep2-12",
+      "ep2-23",
+      "ep2-45",
+      "ep2-52",
+      "thon-truong-concept"
+    ],
+    "ma-gia": [
+      "official-9-ma-gia",
+      "ep1-14",
+      "ep2-15",
+      "ep2-17",
+      "ep2-18",
+      "ep2-37",
+      "ma-gia-concept"
+    ],
+    "nguoi-que": [
+      "official-9-ma-gia",
+      "nguoi-que",
+      "ep1-40",
+      "ep2-34",
+      "ep2-39",
+      "ep2-46",
+      "nguoi-que-concept"
+    ],
+    "nguoi-mu": [
+      "official-15-nguoi-mu",
+      "ep3-43",
+      "nguoi-mu-concept"
+    ],
+    "nguoi-cam": [
+      "nguoi-cam",
+      "ep2-29",
+      "nguoi-cam-concept"
+    ],
+    "duoc-su": [
+      "official-26-duoc-su",
+      "ep2-50",
+      "ep2-51",
+      "ep3-2",
+      "duoc-su-concept"
+    ],
+    "linh-duc-tu": [
+      "official-29-linh-duc-tu",
+      "linh-duc-tu",
+      "official-31-linh-duc-tu",
+      "ep53-29",
+      "ep53-43",
+      "ep53-44",
+      "ep53-46"
+    ],
+    "ho-linh-nhi": [
+      "official-33-ho-linh-nhi",
+      "ep53-4"
+    ],
+    "dien-khang-quoc-su": [
+      "official-35-dien-khang-quoc-su",
+      "official-48-dien-khang-quoc-su"
+    ],
+    "giang-bach-khue": [
+      "official-35-dien-khang-quoc-su",
+      "official-48-dien-khang-quoc-su"
+    ],
+    "tan-lao-thon": [
+      "official-43-tan-lao-thon",
+      "ep1-25",
+      "ep3-8"
+    ],
+    "ban-cong-tho": [
+      "official-45-ban-cong-tho",
+      "official-47-ban-cong-tho",
+      "official-67-ban-cong-tho",
+      "ep102-27",
+      "ep102-32",
+      "ep102-43",
+      "ep102-52"
+    ],
+    "ma-vien": [
+      "official-50-ma-vien",
+      "official-51-ma-vien"
+    ],
+    "chien-khong": [
+      "official-50-ma-vien",
+      "official-51-ma-vien"
+    ],
+    "long-ke": [
+      "official-53-long-ke",
+      "official-54-long-ke"
+    ],
+    "long-ky-lan": [
+      "official-55-long-ky-lan",
+      "official-56-long-ky-lan",
+      "long-ky-lan",
+      "ep53-39"
+    ],
+    "tu-van-huong": [
+      "official-58-tu-van-huong"
+    ],
+    "dien-phong-de": [
+      "official-62-dien-phong-de",
+      "official-63-dien-phong-de"
+    ],
+    "viem-tinh-tinh": [
+      "official-72-viem-tinh-tinh",
+      "official-73-thai-duong-thu",
+      "ep24-48",
+      "ep24-49",
+      "ep24-53",
+      "ep24-55",
+      "ep24-56"
+    ],
+    "thai-duong-thu": [
+      "official-73-thai-duong-thu",
+      "ep24-48",
+      "ep24-49",
+      "ep24-53",
+      "ep24-55",
+      "ep24-56"
+    ],
+    "do-thien-ma-vuong": [
+      "do-thien-ma-vuong",
+      "official-75-do-thien-ma-vuong"
+    ],
+    "tho-ba": [
+      "official-77-tho-ba",
+      "official-82-tho-ba"
+    ],
+    "dung-giang": [
+      "official-79-dung-giang"
+    ],
+    "tieu-phu": [
+      "official-83-tieu-phu"
+    ],
+    "dao-chu": [
+      "dao-chu"
+    ],
+    "lao-nhu-lai": [
+      "dao-chu"
+    ],
+    "thieu-nien-to-su": [
+      "thieu-nien-to-su",
+      "official-91-thieu-nien-to-su"
+    ],
+    "van-nguyen": [
+      "thieu-nien-to-su",
+      "official-91-thieu-nien-to-su"
+    ],
+    "le-thien-hanh": [
+      "official-92-le-thien-hanh"
+    ],
+    "tien-thanh-nhi": [
+      "official-94-tien-thanh-nhi",
+      "official-95-tien-thanh-nhi"
+    ],
+    "thuyen-mat-troi": [
+      "official-98-thuyen-mat-troi",
+      "ep24-13",
+      "ep24-16",
+      "ep24-17",
+      "ep24-18",
+      "ep24-21"
+    ],
+    "thai-duong-thuyen": [
+      "official-98-thuyen-mat-troi",
+      "ep24-13",
+      "ep24-16",
+      "ep24-17",
+      "ep24-18",
+      "ep24-21"
+    ],
+    "tui-thao-thiet": [
+      "official-106-tui-thao-thiet",
+      "ep53-23"
+    ],
+    "long-kieu-nam": [
+      "official-109-long-kieu-nam"
+    ],
+    "ngoc-boi-tan-muc": [
+      "ep1-11",
+      "ep24-43"
+    ],
+    "dai-khu": [
+      "ep1-20",
+      "ep1-22",
+      "ep1-23",
+      "ep1-25",
+      "ep1-28"
+    ],
+    "nguoi-diec": [
+      "ep1-7",
+      "ep1-9",
+      "ep2-13",
+      "ep2-20",
+      "ep2-48"
+    ],
+    "hoang-kim-cung": [
+      "ep53-5",
+      "ep53-6",
+      "ep53-8",
+      "ep53-22",
+      "ep53-54"
+    ],
+    "kieu-tinh-quan": [
+      "ep107-16",
+      "ep107-25",
+      "ep107-32",
+      "ep107-33",
+      "ep107-34",
+      "ep107-35"
+    ],
+    "thien-ma-giao": [
+      "ep53-2"
+    ],
+    "trang-phuc-thien-ma-giao": [
+      "ep53-2"
+    ],
+    "ao-hanh-trinh-tan-muc": [
+      "ep3-7"
+    ],
+    "y-phuc-hanh-trinh-tan-muc": [
+      "ep3-7"
+    ],
+    "phuc-trang-tu-ba-ba": [
+      "ep3-27"
+    ],
+    "hu-sinh-hoa": [
+      "hu-sinh-hoa-pv-18",
+      "hu-sinh-hoa-pv-21",
+      "hu-sinh-hoa-pv-22",
+      "hu-sinh-hoa-pv-24",
+      "hu-sinh-hoa-pv-25"
+    ],
+    "thuong-thuong": [
+      "thuong-thuong-pv-5",
+      "thuong-thuong-pv-8",
+      "thuong-thuong-pv-14",
+      "thuong-thuong-pv-16",
+      "thuong-thuong-pv-20",
+      "thuong-thuong-pv-26"
+    ],
+    "thuyen-mat-trang": [
+      "thuyen-mat-trang-clip-4",
+      "thuyen-mat-trang-clip-5"
+    ],
+    "do-phu": [
+      "do-phu-concept"
+    ]
+  },
+  "profileVideos": {}
 }
