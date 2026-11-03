@@ -1,29 +1,21 @@
-# Rà soát biên tập nội bộ
+# Rà soát bách khoa — 03/11/2026
 
-Ngày rà soát: 2026-10-28. Tệp này chỉ dành cho chủ dự án; website công khai không hiển thị danh sách nguồn. Tham chiếu chi tiết và metadata ảnh được giữ trong dữ liệu dự án để tiện kiểm chứng và cập nhật.
+Đã đối chiếu toàn bộ khóa ảnh cũ, dừng dùng ảnh minh họa chuyên mục để nhận diện một chủ thể cụ thể. Dữ liệu ảnh có danh sách chủ thể, loại ảnh, nguồn và ngày đối chiếu. Bản thiết kế / minh họa khái niệm được ghi rõ trên giao diện. Ảnh cũ giữ nguyên tệp để truy vết nhưng ảnh không đúng bị chặn khỏi hồ sơ.
 
-## Quy mô nội dung hiện tại
+- 228 hồ sơ; 44 hồ sơ có ảnh hoặc thiết kế đúng chủ thể; 184 hồ sơ hiện trạng thái đang cập nhật ảnh.
+- 27 tệp ảnh mới: 21 ảnh chính thức Bilibili và 6 khung hình từ các tập phim tại máy.
+- Đổi poster đầu trang Phim; lọc kho ảnh từng hồ sơ theo đúng chủ thể.
+- Bổ sung 11 hồ sơ cũ; thêm Kiều Tinh Quân, Thượng Thương và Long Kiều Nam. Nội dung bổ sung đối chiếu các chương 1, 2, 91, 108, 152, 290, 291 trong thư viện nguyên tác đã có. Không lấy diễn biến nguyên tác làm bằng chứng phim đã chuyển thể.
+- Chi tiết: src/data/content-audit.json; metadata: src/data/media.json.
 
-- 225 mục bách khoa duy nhất sau khi gộp dữ liệu trùng, trong đó có 104 hồ sơ nhân vật chi tiết.
-- Phân nhóm mục duy nhất: 108 nhân vật; 21 công pháp; 11 thần thông; 15 cảnh giới; 17 địa danh; 9 thế lực; 9 phục trang; 8 bảo vật; 2 vũ khí; 3 phương tiện; 4 chủng tộc; 11 thuật ngữ; 6 mục tổng quan và 1 kiến thức nền. Một số nhân vật xuất hiện cả trong hồ sơ chi tiết lẫn danh mục khác, nên các số phân nhóm có thể trùng nhau.
-- Hồ sơ có tên gọi khác, dữ kiện nhanh, nội dung theo phần và liên kết tới hồ sơ liên quan khi có dữ liệu. Các mục mới bao gồm nhân vật xuất hiện từ hồi Đại Khư, nhóm Khai Hoàng/Thiên Đình và các khái niệm như Dũng Giang, Trấn Ương Cung, kiếm pháp, phương tiện và trang phục.
+## Giới hạn còn lại
 
-## Ảnh và kiểm tra dữ liệu
+Không phải mọi nhân vật nguyên tác đã có tạo hình hoạt hình chính thức. Không dùng ảnh nhân vật khác hoặc tạo hình tự tưởng tượng thay thế. Các mục còn ngắn được liệt kê ở thinProfiles trong báo cáo máy đọc; đợt này chưa hoàn thiện toàn bộ nội dung 228 hồ sơ.
 
-- Thư viện ảnh: 42/42 tệp có tại máy chủ; ảnh kho: 26/26.
-- 28 mục có ảnh riêng; các mục khác dùng tranh minh họa theo nhóm và được giao diện ghi rõ là minh họa, không trình bày như chân dung chính xác.
-- Tham chiếu biên tập: 225/225 mục; liên kết giữa các hồ sơ đã được kiểm tra, không còn slug liên quan bị thiếu.
-- Build tĩnh: 238 trang. Audit nội dung: 225 mục, 0 lỗi tham chiếu hoặc tệp ảnh.
-- Không thay ảnh người dùng đã cung cấp và không hiển thị danh sách nguồn trên website công khai.
+## Kiểm tra
 
-## Cách dùng nguồn và giới hạn
+Build và audit nội dung đạt. Kiểm tra ảnh riêng chạy bằng node scripts/check-media.mjs. Bộ npm test đầy đủ vẫn vướng lỗi có sẵn về hai H1 ở trang quản trị /nguyen-minh-duy/; không sửa tính năng quản trị trong đợt này.
 
-- Nguồn đối chiếu gồm trang tác phẩm chính thức của [Qidian](https://acts.qidian.com/2017/5899393/index.html), tư liệu chuyển thể trên [Bilibili](https://www.bilibili.com/bangumi/play/ep1751634), [Thư Viện Anime — Mục Thần Ký](https://thuvienanime.net/muc-than-ky/), [danh mục các trang liên quan](https://thuvienanime.net/tag/muc-than-ky/) và các hồ sơ con như [Tần Mục](https://thuvienanime.net/tan-muc/). Các danh sách vai/phát âm được dùng để nhận diện tên phụ trong bản hoạt hình.
-- Nội dung được biên soạn lại, không sao chép nguyên văn. Nguồn tổng hợp thứ cấp là đầu mối tra cứu; chi tiết quan trọng cần đối chiếu nguyên tác hoặc tư liệu phát hành trước khi xem là khẳng định chắc chắn.
-- “Tất cả nhân vật” trong tác phẩm dài hàng nghìn chương là phạm vi mở; bản này ưu tiên nhân vật có tên, nhân vật recurring và các khái niệm có ảnh hưởng tới mạch truyện/chuyển thể. Nhân vật nền chỉ xuất hiện thoáng qua vẫn có thể được thêm khi có dữ liệu đáng tin.
+## Chức năng đăng phim
 
-## Tiếp tục biên tập
-
-1. Bổ sung ảnh riêng chỉ khi xác định đúng nhân vật/vật thể trong tư liệu; giữ minh họa nhóm có nhãn khi chưa xác nhận được ảnh.
-2. Đối chiếu phiên âm Hán Việt, quan hệ và thứ tự sự kiện với nguyên tác; lưu ý dị bản giữa các bản dịch.
-3. Khi cập nhật tập phim mới, bổ sung lịch và thông tin chuyển thể riêng; không trộn chi tiết chỉ có trong truyện vào hồ sơ phim nếu chưa xuất hiện trên màn ảnh.
+Chỉ khảo sát và tư vấn, chưa triển khai đăng phim / lưu video / API mới. Có thể mở rộng cổng chủ website hiện có để nhập tập, tên, ảnh, trailer và tải tệp hoặc dán mã nhúng; cần kho lưu trữ video và dữ liệu tập phim để xuất bản không sửa mã nguồn.

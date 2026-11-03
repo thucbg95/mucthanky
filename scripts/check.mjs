@@ -117,7 +117,7 @@ for(const entry of data){
   for(const source of entry.sources)assert(new URL(source.url).protocol==='https:');
   const profile=path.join('dist','bach-khoa',entry.slug,'index.html');
   assert(fs.existsSync(profile),'missing profile '+entry.slug);
-  assert(fs.readFileSync(profile,'utf8').includes('class="profile-picture'),'profile illustration missing '+entry.slug);
+  assert(/class="(?:profile-picture|image-pending)/.test(fs.readFileSync(profile,'utf8')),'profile image or pending state missing '+entry.slug);
 }
 const characters=fs.readFileSync('dist/nhan-vat/index.html','utf8');
 assert.equal((characters.match(/class="card has-photo/g)||[]).length,data.filter(entry=>entry.category==='nhan-vat').length,'character cards missing artwork');

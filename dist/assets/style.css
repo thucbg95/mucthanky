@@ -2206,3 +2206,6 @@ body:has(.account-page) #main{flex:1 0 auto}
 
 /* Subject-specific encyclopedia imagery */
 .image-pending{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.65rem;min-height:190px;padding:1.5rem;text-align:center;background:radial-gradient(ellipse at top,rgba(183,142,74,.17),transparent 75%),var(--surface,#172023);color:var(--text,#e9e4d9);width:100%;height:100%;box-sizing:border-box}.image-pending>span{font:600 3rem Georgia,serif;color:#bb985b;opacity:.7}.image-pending strong{font-size:1rem}.image-pending small{opacity:.65;font-size:.75rem}.overview-card>.image-pending{min-height:280px}.definition-thumb .image-pending{min-height:0;padding:.2rem}.definition-thumb .image-pending>span{font-size:1rem}.definition-thumb .image-pending strong,.definition-thumb .image-pending small{display:none}.feature-art img{object-fit:contain;background:#101719}.profile-picture img{object-fit:contain}.card-art .image-pending{position:absolute;inset:0}
+/* Keep the official vertical film poster within the feature panel. */
+.feature-art{display:flex;align-items:center;justify-content:center;min-height:0;max-height:640px}.feature-art img{width:100%;height:auto;max-height:640px;object-fit:contain}.image-pending>span{text-transform:uppercase}
+@media(max-width:700px){.feature-art{max-height:440px}.feature-art img{max-height:440px}}
