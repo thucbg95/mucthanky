@@ -10,10 +10,11 @@ for(const [slug,ref]of Object.entries(index)){
 }
 for(const slug of ['lang-thien-ton','ngu-thien-ton','thai-dich','di-la-cung']){
  const html=fs.readFileSync('dist/bach-khoa/'+slug+'/index.html','utf8');
- assert(html.includes('spoiler-notice'),slug+': missing spoiler warning');assert(html.includes('spoiler-section'),slug+': missing collapsible spoiler content');
- assert(!/<details class="article-section spoiler-section"[^>]*\sopen[\s>]/.test(html),slug+': spoilers must be collapsed initially');
+ assert(html.includes('spoiler-notice'),slug+': missing full-novel context');
+ assert(!html.includes('<details class="article-section spoiler-section"'),slug+': article content must be visible without opening spoilers');
+ assert(!html.includes('<details class="chapter-references"'),slug+': chapter references must be visible');
 }
 const editorial=JSON.parse(fs.readFileSync('src/data/novel-details.json'));
 assert(!editorial.find(e=>e.slug==='thai-dich').aliases.includes('Chủ nhân Di La Cung'),'Thái Dịch must remain distinct from master of Miluo Palace');
 assert(editorial.find(e=>e.slug==='lam-ngu-dien').related.includes('ngu-thien-ton'),'Lam Ngự Điền needs the Ngự Thiên Tôn relationship');
-console.log('Novel reference checks passed: '+profiles+' profiles, '+links+' chapter links, spoiler controls and identity corrections.');
+console.log('Novel reference checks passed: '+profiles+' profiles, '+links+' chapter links, fully visible content and identity corrections.');

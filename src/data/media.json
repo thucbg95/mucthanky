@@ -1052,7 +1052,8 @@
       "credit": "Bilibili / 玄机科技",
       "kind": "frame",
       "subjects": [
-        "ban-cong-tho"
+        "ban-cong-tho",
+        "thien-ma-giao"
       ],
       "verified": true,
       "reviewedAt": "2026-11-03"
@@ -1068,7 +1069,8 @@
       "kind": "frame",
       "subjects": [
         "dien-khang-quoc-su",
-        "giang-bach-khue"
+        "giang-bach-khue",
+        "thien-ma-giao"
       ],
       "verified": true,
       "reviewedAt": "2026-11-03"
@@ -1266,7 +1268,8 @@
       "credit": "Bilibili / 玄机科技",
       "kind": "frame",
       "subjects": [
-        "do-thien-ma-vuong"
+        "do-thien-ma-vuong",
+        "thien-nhan"
       ],
       "verified": true,
       "reviewedAt": "2026-11-03"
@@ -1281,7 +1284,8 @@
       "credit": "Bilibili / 玄机科技",
       "kind": "frame",
       "subjects": [
-        "tho-ba"
+        "tho-ba",
+        "u-do"
       ],
       "verified": true,
       "reviewedAt": "2026-11-03"
@@ -1418,7 +1422,8 @@
       "credit": "Bilibili / 玄机科技",
       "kind": "frame",
       "subjects": [
-        "nguyet-luong-thu"
+        "nguyet-luong-thu",
+        "thuyen-mat-trang"
       ],
       "verified": true,
       "reviewedAt": "2026-11-03"
@@ -3802,6 +3807,629 @@
       ],
       "kind": "poster",
       "reviewedAt": "2026-11-03"
+    },
+    "expanded-410aafc966c626": {
+      "src": "/assets/profile-albums/expanded-410aafc966c626.webp",
+      "width": 1440,
+      "height": 900,
+      "alt": "Hồ Linh Nhi trong hình dạng hồ ly",
+      "subjects": [
+        "ho-linh-nhi"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/79602108046f5311844c1c5a6f9001f236b834b8.jpg",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2035599",
+      "sourceTitle": "论狐灵儿有多双标",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-506cc318104c27": {
+      "src": "/assets/profile-albums/expanded-506cc318104c27.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tần Mục và tuyến truyện về Thiên Ma Giáo",
+      "subjects": [
+        "thien-ma-giao"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/1f8f98b177e13975e6320b7b68717094ab3d785e.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3167221",
+      "sourceTitle": "天圣教是杀人不眨眼的魔头？",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-f761394bcada68": {
+      "src": "/assets/profile-albums/expanded-f761394bcada68.webp",
+      "width": 1024,
+      "height": 640,
+      "alt": "Không gian Linh Thai Thần Tàng của Tần Mục",
+      "subjects": [
+        "linh-thai",
+        "bay-than-tang"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/61936aa18fc451912580b962e22a5e9212234be5.jpg",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1198715",
+      "sourceTitle": "灵胎神藏里的石像有点眼熟，",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-1199b634898db0": {
+      "src": "/assets/profile-albums/expanded-1199b634898db0.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tần Mục trong hình thái thần hóa Ngũ Diệu",
+      "subjects": [
+        "ngu-dieu"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/68173a535d72aaf8ce15683162c8a8785080abf3.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3544469",
+      "sourceTitle": "秦牧五曜神化杀疯了",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-1112c4e042183c": {
+      "src": "/assets/profile-albums/expanded-1112c4e042183c.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Cảnh lĩnh ngộ bản nguyên Ngũ Diệu",
+      "subjects": [
+        "ngu-dieu"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/ba2e0cca6fb90bf71971be9d87187de172ac2589.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2656490",
+      "sourceTitle": "领悟五曜本源",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-dd930cafe31a80": {
+      "src": "/assets/profile-albums/expanded-dd930cafe31a80.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Hình thái Ngũ Diệu của Tần Mục trong clip giới thiệu chính thức",
+      "subjects": [
+        "ngu-dieu"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/e6be980986f364c657105b83fc426529d3bff8bf.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3563479",
+      "sourceTitle": "秦牧五曜神化形态全解锁！",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-4966d12ef2bf92": {
+      "src": "/assets/profile-albums/expanded-4966d12ef2bf92.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tần Mục biến đổi sang hình thái thần hóa Ngũ Diệu",
+      "subjects": [
+        "ngu-dieu"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/0c2b76529efe652dbf041c2cf314e37e76ffff9f.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3626044",
+      "sourceTitle": "用拍手变装打开五曜神化",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-5ddf429f7b13c8": {
+      "src": "/assets/profile-albums/expanded-5ddf429f7b13c8.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tần Mục trong clip đột phá vách ngăn Lục Hợp",
+      "subjects": [
+        "luc-hop"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/2ef7d28e023d81004c708316d04e302eac0e7911.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep6269640",
+      "sourceTitle": "秦牧突破六合壁",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-d6bd79d624552a": {
+      "src": "/assets/profile-albums/expanded-d6bd79d624552a.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Người Mù trong clip về sức mạnh cảnh giới Thần Kiều",
+      "subjects": [
+        "than-kieu"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/115e6eaaeb18d7ad2922d1549cfc60997d3f97b7.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3868721",
+      "sourceTitle": "您的神桥境体验卡已到期",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-22290482edb478": {
+      "src": "/assets/profile-albums/expanded-22290482edb478.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Các cao thủ Thần Kiều trong phim",
+      "subjects": [
+        "than-kieu"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/f7f388cc999da18ec2bae1b23095f155e0f550d4.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2760443",
+      "sourceTitle": "在场的神桥境高手们",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-0d0b9737af3c88": {
+      "src": "/assets/profile-albums/expanded-0d0b9737af3c88.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Quốc sư thi triển kiếm pháp đối đầu cao thủ Thần Kiều",
+      "subjects": [
+        "than-kieu"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/84c79ee5b8cd57d00f21673ced5e74a4557da176.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2760444",
+      "sourceTitle": "游龙！虽千万神桥境，吾剑亦斩之！",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-a8da81181cd8f9": {
+      "src": "/assets/profile-albums/expanded-a8da81181cd8f9.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Đồ Phu trong clip một đao chém Thần Kiều",
+      "subjects": [
+        "than-kieu"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/4e0a957f5f9ea8920715a875f02a770d0fbf7f41.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2301318",
+      "sourceTitle": "屠爷爷一刀斩断神桥境！",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-d347beb2e4b7d6": {
+      "src": "/assets/profile-albums/expanded-d347beb2e4b7d6.webp",
+      "width": 1440,
+      "height": 900,
+      "alt": "Tần Mục và câu chuyện Bá Thể",
+      "subjects": [
+        "ba-the"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/9d3804e18c95bd756c991e19fe5fee389ca5d451.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1709932",
+      "sourceTitle": "霸体，不就是用来欺负人的吗",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-e7aed4927825b1": {
+      "src": "/assets/profile-albums/expanded-e7aed4927825b1.webp",
+      "width": 1024,
+      "height": 640,
+      "alt": "Tần Mục chiến đấu trong clip tổng hợp về Bá Thể",
+      "subjects": [
+        "ba-the"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/ce2e9b2cf4177c9166b854487bd6384e529b9201.jpg",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1177589",
+      "sourceTitle": "本视频“霸体”含量超标了！",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-ff751749505bb0": {
+      "src": "/assets/profile-albums/expanded-ff751749505bb0.webp",
+      "width": 1024,
+      "height": 640,
+      "alt": "Chín người lớn Tàn Lão Thôn trong clip về Bá Thể của Tần Mục",
+      "subjects": [
+        "ba-the"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/b9e7641a0080b4a1f3a9f152159a2af44d6b18c7.jpg",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1198707",
+      "sourceTitle": "九老得知秦牧霸体觉醒，",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-d55ee26d704c5e": {
+      "src": "/assets/profile-albums/expanded-d55ee26d704c5e.webp",
+      "width": 1024,
+      "height": 640,
+      "alt": "Tần Mục đối mặt ma viên sau lần thức tỉnh được gọi là Bá Thể",
+      "subjects": [
+        "ba-the"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/d99c04b746306b621908b5d3d8eea50f6d95a3ae.jpg",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1219830",
+      "sourceTitle": "霸体觉醒后秦牧再次闯入魔猿",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-36992975ede15a": {
+      "src": "/assets/profile-albums/expanded-36992975ede15a.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tần Mục và Hồ Linh Nhi trong clip chiến đấu của Bá Thể",
+      "subjects": [
+        "ba-the"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/aac5d2b1fb250f0c33955c5161208f0c1fce4d0a.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3563476",
+      "sourceTitle": "超燃打斗，这就是霸体！",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-ec86b49ea98f07": {
+      "src": "/assets/profile-albums/expanded-ec86b49ea98f07.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tần Mục trong tuyến truyện Đại Dục Thiên Ma Kinh",
+      "subjects": [
+        "dai-duc-thien-ma-kinh"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/bangumi/image/5fd9e8e799edb7a45f8c057e11581f3b7086794b.jpg",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep7386122",
+      "sourceTitle": "大育天魔经全是正道，也全是魔道",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-cd1976c79d25a8": {
+      "src": "/assets/profile-albums/expanded-cd1976c79d25a8.webp",
+      "width": 1024,
+      "height": 640,
+      "alt": "Tư Bà Bà vận dụng Đại Dục Thiên Ma Kinh",
+      "subjects": [
+        "dai-duc-thien-ma-kinh"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/b3e9e9b7c6e6354dd40ac51f41070cf8d57ee0f6.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1517068",
+      "sourceTitle": "司婆婆将《大育天魔经》运用",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-73170c51a11d2f": {
+      "src": "/assets/profile-albums/expanded-73170c51a11d2f.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tần Mục thi triển công pháp Đại Dục Thiên Ma Kinh",
+      "subjects": [
+        "dai-duc-thien-ma-kinh"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/0d809afd75d1c50587011f185103beb8d06a9ad8.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3193216",
+      "sourceTitle": "《大育天魔经》的经典名场面！",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-a0172e6f468c6c": {
+      "src": "/assets/profile-albums/expanded-a0172e6f468c6c.webp",
+      "width": 1440,
+      "height": 900,
+      "alt": "Tư Vân Hương bên Tần Mục",
+      "subjects": [
+        "tu-van-huong"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/7b36c48e7eb3d3821445cac77b73409418e3878f.jpg",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1952400",
+      "sourceTitle": "秦牧猜测司芸香真实身份",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-f6fa81d6d99e6e": {
+      "src": "/assets/profile-albums/expanded-f6fa81d6d99e6e.webp",
+      "width": 1440,
+      "height": 900,
+      "alt": "Tư Vân Hương trong clip giới thiệu tính cách nhân vật",
+      "subjects": [
+        "tu-van-huong"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/1955ca9f9a37712e0950d53a04327e2e0ebdc7bc.jpg",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2181446",
+      "sourceTitle": "司芸香超绝反差感拿捏～",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-28e0a56980e8f1": {
+      "src": "/assets/profile-albums/expanded-28e0a56980e8f1.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Diên Phong Đế trong cuộc đối đầu bằng Cửu Long Đế Vương Công",
+      "subjects": [
+        "cuu-long-de-vuong-cong"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/d1902d87b53d4b7276903a8a671f0497426809a8.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep4959211",
+      "sourceTitle": "禅道绝学VS九龙帝王功",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-7e2cbe60946a96": {
+      "src": "/assets/profile-albums/expanded-7e2cbe60946a96.webp",
+      "width": 1440,
+      "height": 900,
+      "alt": "Nhị hoàng tử Linh Ngọc Thư — hình từ clip chính thức Bilibili",
+      "subjects": [
+        "linh-ngoc-thu"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/91e7c0fdebb7889b78351c284607b290e0512ed9.jpg",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2089080",
+      "sourceTitle": "牧神记二皇子施展九龙帝王功",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-a9dc592fc05f89": {
+      "src": "/assets/profile-albums/expanded-a9dc592fc05f89.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Thôn trưởng trong clip về Kiếm Đồ và kiếm ý thuở thiếu niên",
+      "subjects": [
+        "kiem-do"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/93e288b164a10b8cd6557d6d433d01cf817c2b5b.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3528510",
+      "sourceTitle": "剑图犹记当年意，老骨难摹少年郎",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-9a3b71913383fa": {
+      "src": "/assets/profile-albums/expanded-9a3b71913383fa.webp",
+      "width": 1440,
+      "height": 900,
+      "alt": "Tiên Thanh Nhi — hình từ clip chính thức Bilibili",
+      "subjects": [
+        "tien-thanh-nhi"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/392030b35cd5c86c695ff83dba3d355ff8ddac10.jpg",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1737618",
+      "sourceTitle": "俏皮可爱的仙清儿再返场！",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-a75723a1310c5b": {
+      "src": "/assets/profile-albums/expanded-a75723a1310c5b.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Người giữ Thuyền Mặt Trăng trong tuyến truyện cổ xưa",
+      "subjects": [
+        "nguyet-luong-thu"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/05fff2e00c6860807c9ef7580ba8bb8ac8b971a6.jpg",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1670407",
+      "sourceTitle": "月亮船现世神秘女子身份反转，",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-2e321cc698eb04": {
+      "src": "/assets/profile-albums/expanded-2e321cc698eb04.webp",
+      "width": 1440,
+      "height": 900,
+      "alt": "Nguyệt Lượng Thủ dung hợp với Thuyền Mặt Trăng",
+      "subjects": [
+        "nguyet-luong-thu"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/6e63db223195d3b5b3ddf83de7d51b616e1a9c75.jpg",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1699226",
+      "sourceTitle": "牧神记月亮守与月亮船融为一体",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-37cdadc16a06bd": {
+      "src": "/assets/profile-albums/expanded-37cdadc16a06bd.webp",
+      "width": 1440,
+      "height": 900,
+      "alt": "Người giữ trăng điên cuồng và nỗi nhớ quê hương",
+      "subjects": [
+        "nguyet-luong-thu"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/022435e6d2790acb1d4303b1ad964022e1221249.jpg",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1699228",
+      "sourceTitle": "月亮守癫狂痴笑，泪诉思乡。",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-79a981f32fccf9": {
+      "src": "/assets/profile-albums/expanded-79a981f32fccf9.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Long Kiều Nam — hình từ clip chính thức Bilibili",
+      "subjects": [
+        "long-kieu-nam"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/8ff2fb1a3c7af01531ef78f80897795987f83fad.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2510606",
+      "sourceTitle": "蛇蝎“美男”龙娇男再登场！",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-1c8a4e55e75a8e": {
+      "src": "/assets/profile-albums/expanded-1c8a4e55e75a8e.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tượng thần Đại Khư hồi sinh trong phim",
+      "subjects": [
+        "tuong-da-dai-khu"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/9705e3fd5d027fd898ae6aac98b7e0ced67895d0.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3604238",
+      "sourceTitle": "神像复活？在大墟倒也正常",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-e317c19f30bccb": {
+      "src": "/assets/profile-albums/expanded-e317c19f30bccb.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tần Mục biểu diễn Thiên Ma Tạo Hóa Công",
+      "subjects": [
+        "thien-ma-tao-hoa-cong"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/a33b489cece6efc4833a137abcf47eaeca8415eb.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep3152806",
+      "sourceTitle": "秦牧展示造化天魔功",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-1aa39b82cb2073": {
+      "src": "/assets/profile-albums/expanded-1aa39b82cb2073.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Một ứng dụng của Thiên Ma Tạo Hóa Công",
+      "subjects": [
+        "thien-ma-tao-hoa-cong"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/7207156062626e3e14748f976824e3d7d19e1d04.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep2245794",
+      "sourceTitle": "一天一个造化天魔功小妙用",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-6d35bc0528927d": {
+      "src": "/assets/profile-albums/expanded-6d35bc0528927d.webp",
+      "width": 1024,
+      "height": 640,
+      "alt": "Tần Mục hoàn thành nguyên khí luyện thể",
+      "subjects": [
+        "nguyen-khi-luyen-the"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/d364ac9506e440bba389c04d061ec0db8e44f371.jpg",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1177587",
+      "sourceTitle": "成功完成元气淬体！",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-5793c7842f0f78": {
+      "src": "/assets/profile-albums/expanded-5793c7842f0f78.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tần Mục cầm đao trong clip về Sát Trư Đao Pháp",
+      "subjects": [
+        "sat-tru-dao-phap"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/b5c2d3cae54ba034f4a3fa7a8232ba1901fe591f.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1500673",
+      "sourceTitle": "我这杀猪刀，专杀猪狗不如之人！",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-9acadd7174a95d": {
+      "src": "/assets/profile-albums/expanded-9acadd7174a95d.webp",
+      "width": 1440,
+      "height": 900,
+      "alt": "Đồ Phu với đao pháp truyền cho Tần Mục",
+      "subjects": [
+        "sat-tru-dao-phap"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/be4e596a4f3ee823c3b0064a8b144bd123d3bcec.jpg",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1717810",
+      "sourceTitle": "屠夫一把杀猪刀，",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "expanded-d067f5a85fb19f": {
+      "src": "/assets/profile-albums/expanded-d067f5a85fb19f.webp",
+      "width": 960,
+      "height": 600,
+      "alt": "Tần Mục thi triển đao pháp trong chiến đấu",
+      "subjects": [
+        "sat-tru-dao-phap"
+      ],
+      "kind": "frame",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/fe4a5723af99a12a861cc938dd9c8650be8eab13.png",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep4644939",
+      "sourceTitle": "开局一把杀猪刀",
+      "credit": "Bilibili / 玄机科技"
+    },
+    "qidian-nguyen-tac": {
+      "src": "/assets/profile-albums/qidian-nguyen-tac.webp",
+      "width": 204,
+      "height": 286,
+      "alt": "Bìa tiểu thuyết Mục Thần Ký trên trang giới thiệu chính thức của Qidian",
+      "subjects": [
+        "nguyen-tac"
+      ],
+      "kind": "cover",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://qidian.qpic.cn/qidian_common/349573/e2181cc6293dca44dbe6d36a0fbf80fd/0",
+      "sourceUrl": "https://acts.qidian.com/2017/5899393/index.html",
+      "credit": "Qidian / 阅文集团"
+    },
+    "qidian-trach-tru": {
+      "src": "/assets/profile-albums/qidian-trach-tru.webp",
+      "width": 160,
+      "height": 160,
+      "alt": "Chân dung tác giả Trạch Trư trên Qidian",
+      "subjects": [
+        "trach-tru"
+      ],
+      "kind": "portrait",
+      "verified": true,
+      "reviewedAt": "2026-11-03",
+      "assetUrl": "https://qidian.qpic.cn/qidian_common/349573/21b5b27362f2161058f3bb35edea805d/0",
+      "sourceUrl": "https://acts.qidian.com/2017/5899393/index.html",
+      "credit": "Qidian / 阅文集团"
     }
   },
   "gallery": [
@@ -3934,7 +4562,10 @@
       "official-0-tan-muc",
       "official-100-nguyet-luong-thu",
       "nguyet-luong-thu-clip-1",
-      "nguyet-luong-thu-clip-2"
+      "nguyet-luong-thu-clip-2",
+      "expanded-a75723a1310c5b",
+      "expanded-2e321cc698eb04",
+      "expanded-37cdadc16a06bd"
     ],
     "tu-ba-ba": [
       "tu-ba-ba",
@@ -4009,7 +4640,8 @@
       "ho-linh-nhi",
       "official-33-ho-linh-nhi",
       "ep53-4",
-      "extra-62-817_5"
+      "extra-62-817_5",
+      "expanded-410aafc966c626"
     ],
     "dien-khang-quoc-su": [
       "dien-khang-quoc-su",
@@ -4073,7 +4705,9 @@
     "tu-van-huong": [
       "tu-van-huong",
       "official-58-tu-van-huong",
-      "extra-53-1210"
+      "extra-53-1210",
+      "expanded-a0172e6f468c6c",
+      "expanded-f6fa81d6d99e6e"
     ],
     "dien-phong-de": [
       "dien-phong-de",
@@ -4145,7 +4779,8 @@
     ],
     "tien-thanh-nhi": [
       "official-94-tien-thanh-nhi",
-      "official-95-tien-thanh-nhi"
+      "official-95-tien-thanh-nhi",
+      "expanded-9a3b71913383fa"
     ],
     "thuyen-mat-troi": [
       "thuyen-mat-troi",
@@ -4172,7 +4807,8 @@
     ],
     "long-kieu-nam": [
       "long-kieu-nam",
-      "official-109-long-kieu-nam"
+      "official-109-long-kieu-nam",
+      "expanded-79a981f32fccf9"
     ],
     "ngoc-boi-tan-muc": [
       "ngoc-boi-tan-muc",
@@ -4214,7 +4850,8 @@
       "ep107-35"
     ],
     "thien-ma-giao": [
-      "ep53-2"
+      "ep53-2",
+      "expanded-506cc318104c27"
     ],
     "trang-phuc-thien-ma-giao": [
       "ep53-2"
@@ -4287,6 +4924,69 @@
       "extra-9-550",
       "extra-9-1000",
       "extra-9-1180"
+    ],
+    "linh-thai": [
+      "expanded-f761394bcada68"
+    ],
+    "bay-than-tang": [
+      "expanded-f761394bcada68"
+    ],
+    "ngu-dieu": [
+      "expanded-1199b634898db0",
+      "expanded-1112c4e042183c",
+      "expanded-dd930cafe31a80",
+      "expanded-4966d12ef2bf92"
+    ],
+    "luc-hop": [
+      "expanded-5ddf429f7b13c8"
+    ],
+    "than-kieu": [
+      "expanded-d6bd79d624552a",
+      "expanded-22290482edb478",
+      "expanded-0d0b9737af3c88",
+      "expanded-a8da81181cd8f9"
+    ],
+    "ba-the": [
+      "expanded-d347beb2e4b7d6",
+      "expanded-e7aed4927825b1",
+      "expanded-ff751749505bb0",
+      "expanded-d55ee26d704c5e",
+      "expanded-36992975ede15a"
+    ],
+    "dai-duc-thien-ma-kinh": [
+      "expanded-ec86b49ea98f07",
+      "expanded-cd1976c79d25a8",
+      "expanded-73170c51a11d2f"
+    ],
+    "cuu-long-de-vuong-cong": [
+      "expanded-28e0a56980e8f1"
+    ],
+    "linh-ngoc-thu": [
+      "expanded-7e2cbe60946a96"
+    ],
+    "kiem-do": [
+      "expanded-a9dc592fc05f89"
+    ],
+    "tuong-da-dai-khu": [
+      "expanded-1c8a4e55e75a8e"
+    ],
+    "thien-ma-tao-hoa-cong": [
+      "expanded-e317c19f30bccb",
+      "expanded-1aa39b82cb2073"
+    ],
+    "nguyen-khi-luyen-the": [
+      "expanded-6d35bc0528927d"
+    ],
+    "sat-tru-dao-phap": [
+      "expanded-5793c7842f0f78",
+      "expanded-9acadd7174a95d",
+      "expanded-d067f5a85fb19f"
+    ],
+    "nguyen-tac": [
+      "qidian-nguyen-tac"
+    ],
+    "trach-tru": [
+      "qidian-trach-tru"
     ]
   },
   "profileVideos": {

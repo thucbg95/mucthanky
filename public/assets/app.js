@@ -179,5 +179,3 @@ if($('#reader-chapters')){
 (()=>{const frame=document.getElementById('latest-review-player');if(!frame)return;fetchEpisodeVideos().then(sources=>{const url=sources.trailerVideo;if(!url)return;mountFacebookVideo(frame,url,'Trailer Mục Thần Ký mới nhất')}).catch(()=>{const status=document.getElementById('latest-review-status');if(status)status.textContent='Không tải được video. Vui lòng thử lại sau.'})})();
 
 
-// Opening a table-of-contents link also reveals its spoiler section.
-{const revealSection=hash=>{let target;try{target=document.getElementById(decodeURIComponent(hash.replace(/^#/,'')))}catch{return}if(target?.matches('details.spoiler-section'))target.open=true};document.addEventListener('click',event=>{const anchor=event.target.closest?.('.toc a[href^="#"]');if(anchor)revealSection(anchor.hash)});if(location.hash)revealSection(location.hash);}
