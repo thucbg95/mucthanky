@@ -2312,3 +2312,10 @@ html:not([data-theme=dark]) .play-action-button{background:#174c41!important;bor
 @media(hover:hover){.supporter-registry .supporter-entry:hover{background:linear-gradient(110deg,color-mix(in srgb,#398e7a 30%,var(--panel)),color-mix(in srgb,var(--gold) 18%,var(--panel)))}}
 @media(prefers-reduced-motion:reduce){.supporter-registry .supporter-entry-seal svg{animation:none!important;transform:none;filter:none}}
 
+
+/* Owner login password visibility. */
+.admin-password-field{position:relative}.admin-owner-login-form .admin-password-field input{padding-right:56px}.admin-password-toggle{position:absolute;right:4px;top:50%;transform:translateY(-50%);display:grid;place-items:center;width:44px;height:40px;padding:0;border:0;border-radius:6px;background:transparent;color:var(--muted);cursor:pointer}.admin-password-toggle:hover{background:color-mix(in srgb,var(--text) 8%,transparent);color:var(--text)}.admin-password-toggle:focus-visible{outline:2px solid var(--gold);outline-offset:1px}.admin-password-toggle svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.password-eye-slash{display:none}.admin-password-toggle[aria-pressed="true"] .password-eye-slash{display:block}
+
+/* Align admin content spacing with other inner pages. */
+.page-hero + .admin-page{margin-top:22px!important;margin-bottom:36px}.admin-page > .admin-login{min-height:0;align-content:start;padding-bottom:0}
+.admin-login-card .admin-turnstile:empty{display:none}

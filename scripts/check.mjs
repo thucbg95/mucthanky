@@ -22,8 +22,7 @@ for(const file of htmlFiles){
   assert(html.includes('/assets/style.css?v=')&&html.includes('/assets/app.js?v='),`${file}: shared theme assets`);
   assert(html.includes('rel="canonical"'),file);
   const h1Count=(html.match(/<h1[ >]/g)||[]).length;
-  const hiddenAdminHeading=html.includes('<section id="admin-dashboard" hidden>')?1:0;
-  assert.equal(h1Count-hiddenAdminHeading,1,`${file} visible h1`);
+  assert.equal(h1Count,1,`${file} visible h1`);
   for(const match of html.matchAll(/(?:href|src)="(\/[^"?#]*)/g)){
     const target=match[1];
     if(target.startsWith('//')||target.startsWith('/api/'))continue;
@@ -45,8 +44,8 @@ assert(css.includes('@media(max-width:760px) and (hover:none)')&&css.includes('.
 assert(css.includes('.gallery-lightbox')&&css.includes('.film-player'),'gallery and video player receive responsive styles');
 assert(fs.readFileSync('dist/assets/app.js','utf8').includes('data-gallery-open'),'gallery opens local image viewer');
 const film=fs.readFileSync('dist/phim/index.html','utf8');
-assert(film.includes('id="video-trailer"')&&film.includes('player.bilibili.com/player.html'),'film page embeds the official trailer player');
-assert(fs.readFileSync('dist/_headers','utf8').includes('frame-src https://challenges.cloudflare.com https://player.bilibili.com'),'CSP permits official Bilibili player');
+assert(film.includes('href="/phim/trailer/"')&&fs.readFileSync('dist/phim/trailer/index.html','utf8').includes('https://www.facebook.com/plugins/video.php?'),'film page links to the configured Facebook trailer player');
+assert(/frame-src[^;\n]*https:\/\/www\.facebook\.com/.test(fs.readFileSync('dist/_headers','utf8')),'CSP permits the Facebook player');
 const character=fs.readFileSync('dist/bach-khoa/tan-muc/index.html','utf8');
 assert(character.includes('data-gallery-open')&&character.includes('/assets/film/'),'character gallery uses local image files and an in-site viewer');
 assert(!character.includes('href="https://www.bilibili.com/bangumi/media/md21082961"'),'profile gallery does not send image clicks to an external page');
