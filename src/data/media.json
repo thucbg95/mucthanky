@@ -4463,6 +4463,40 @@
       ],
       "verified": true,
       "reviewedAt": "2026-11-04"
+    },
+    "khuc-su-huynh-ep6": {
+      "src": "/assets/profile-albums/khuc-su-huynh-ep6.webp",
+      "alt": "Khúc sư huynh trong trận giao đấu với Tần Mục ở tập 6",
+      "width": 1280,
+      "height": 720,
+      "sourceUrl": "https://www.youtube.com/watch?v=7ruuaMfHcQg",
+      "credit": "Bilibili / 玄机科技 · khung hình tập 6",
+      "verified": true,
+      "subjects": [
+        "khuc-su-huynh"
+      ],
+      "kind": "frame",
+      "sourceEpisode": 6,
+      "sourceTime": 312.5,
+      "reviewedAt": "2026-11-05",
+      "reviewNote": "Đối chiếu cảnh phim tập 6 và bài giới thiệu nhân vật Ly Giang; không dùng ảnh minh họa AI."
+    },
+    "tinh-su-ty-ep6": {
+      "src": "/assets/profile-albums/tinh-su-ty-ep6.webp",
+      "alt": "Tình sư tỷ trong trận giao đấu với Tần Mục ở tập 6",
+      "width": 1280,
+      "height": 720,
+      "sourceUrl": "https://www.youtube.com/watch?v=7ruuaMfHcQg",
+      "credit": "Bilibili / 玄机科技 · khung hình tập 6",
+      "verified": true,
+      "subjects": [
+        "tinh-su-ty"
+      ],
+      "kind": "frame",
+      "sourceEpisode": 6,
+      "sourceTime": 462.5,
+      "reviewedAt": "2026-11-05",
+      "reviewNote": "Đối chiếu cảnh phim tập 6 và bài giới thiệu nhân vật Ly Giang; không dùng ảnh minh họa AI."
     }
   },
   "gallery": [
@@ -5621,6 +5655,2229 @@
       "verifiedRelation": true,
       "reviewedAt": "2026-11-04",
       "reviewNote": "Ảnh người thực hành hoặc truyền dạy; không coi đây là tạo hình trực tiếp của công pháp."
+    },
+    "pha-bich": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "pha-bich",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Phá bích. Tần Mục phá vách Linh Thai khi nghe thần âm và ma âm trong tuyến mở đầu.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục phá vách Linh Thai khi nghe thần âm và ma âm trong tuyến mở đầu.",
+      "evidenceUrl": "https://www.webnovel.com/book/tales-of-herding-gods_8324027206000305/breaking-the-wall_23263881585541964",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Phá bích"
+    },
+    "nguyen-than": {
+      "image": "linh-duc-tu",
+      "sourceSlug": "linh-duc-tu",
+      "sourceTitle": "Linh Dục Tú",
+      "relationPath": [
+        "nguyen-than",
+        "linh-duc-tu"
+      ],
+      "label": "Ảnh Linh Dục Tú — minh họa liên quan cho Nguyên thần. Linh Dục Tú cùng Tần Mục nghiên cứu nguyên thần và Nguyên Thần Dẫn.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Linh Dục Tú cùng Tần Mục nghiên cứu nguyên thần và Nguyên Thần Dẫn.",
+      "evidenceUrl": "https://www.webnovel.com/id/book/8324027206000305/30273353575090632",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Nguyên thần"
+    },
+    "sinh-tu-bo": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "sinh-tu-bo",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Sinh Tử Bộ. Tần Mục lấy Sinh Tử Bộ từ Vu Thần Quỳ; hồ sơ dẫn chương 563.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục lấy Sinh Tử Bộ từ Vu Thần Quỳ; hồ sơ dẫn chương 563.",
+      "evidenceUrl": "https://www.webnovel.com/book/tales-of-herding-gods_8324027206000305/dark-history_35102201948988057",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Sinh Tử Bộ"
+    },
+    "dai-loi-am-tu": {
+      "image": "ma-gia",
+      "sourceSlug": "ma-gia",
+      "sourceTitle": "Mã gia",
+      "relationPath": [
+        "dai-loi-am-tu",
+        "ma-gia"
+      ],
+      "label": "Ảnh Mã gia — minh họa liên quan cho Đại Lôi Âm Tự. Mã gia xuất thân từ Đại Lôi Âm Tự và kế nhiệm Như Lai.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Mã gia xuất thân từ Đại Lôi Âm Tự và kế nhiệm Như Lai.",
+      "evidenceUrl": "https://tales-of-herding-gods.fandom.com/wiki/Great_Thunderclap_Monastery",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Đại Lôi Âm Tự"
+    },
+    "thien-ha": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thien-ha",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thiên Hà. Tần Mục khai sáng Thiên Hà Thần Tàng.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục khai sáng Thiên Hà Thần Tàng.",
+      "evidenceUrl": "https://tales-of-herding-gods.fandom.com/wiki/Heavenly_River_Realm",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Thiên Hà"
+    },
+    "kiem-nang": {
+      "image": "khuc-su-huynh-ep6",
+      "sourceSlug": "khuc-su-huynh",
+      "sourceTitle": "Khúc sư huynh",
+      "relationPath": [
+        "kiem-nang",
+        "khuc-su-huynh"
+      ],
+      "label": "Ảnh Khúc sư huynh — minh họa liên quan cho Kiếm nang. Khúc sư huynh sử dụng kiếm nang trong trận đấu với Tần Mục ở phần đầu phim.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Khúc sư huynh sử dụng kiếm nang trong trận đấu với Tần Mục ở phần đầu phim.",
+      "evidenceUrl": "https://www.webnovel.com/book/tales-of-herding-gods_8324027206000305/grandma-temple_23264672127959898",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Kiếm nang"
+    },
+    "ly-giang-kiem-phap": {
+      "image": "khuc-su-huynh-ep6",
+      "sourceSlug": "khuc-su-huynh",
+      "sourceTitle": "Khúc sư huynh",
+      "relationPath": [
+        "ly-giang-kiem-phap",
+        "khuc-su-huynh"
+      ],
+      "label": "Ảnh Khúc sư huynh — minh họa liên quan cho Ly Giang kiếm pháp. Khúc sư huynh là đệ tử Ly Giang, dùng kiếm pháp của phái này đối đầu Tần Mục.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Khúc sư huynh là đệ tử Ly Giang, dùng kiếm pháp của phái này đối đầu Tần Mục.",
+      "evidenceUrl": "https://www.webnovel.com/book/tales-of-herding-gods_8324027206000305/li-river-sword-skills_23264635872407230",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Ly Giang kiếm pháp"
+    },
+    "muc-nhat-gia": {
+      "image": "viem-tinh-tinh",
+      "sourceSlug": "viem-tinh-tinh",
+      "sourceTitle": "Viêm Tinh Tinh",
+      "relationPath": [
+        "muc-nhat-gia",
+        "viem-tinh-tinh"
+      ],
+      "label": "Ảnh Viêm Tinh Tinh — minh họa liên quan cho Mục Nhật giả. Viêm Tinh Tinh là Thái Dương Thủ thuộc cộng đồng trông giữ mặt trời.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Viêm Tinh Tinh là Thái Dương Thủ thuộc cộng đồng trông giữ mặt trời.",
+      "evidenceUrl": "https://tales-of-herding-gods.fandom.com/wiki/Sun_Herders",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Mục Nhật giả"
+    },
+    "thai-duong-tinh": {
+      "image": "viem-tinh-tinh",
+      "sourceSlug": "viem-tinh-tinh",
+      "sourceTitle": "Viêm Tinh Tinh",
+      "relationPath": [
+        "thai-duong-tinh",
+        "viem-tinh-tinh"
+      ],
+      "label": "Ảnh Viêm Tinh Tinh — minh họa liên quan cho Thái Dương Tỉnh. Viêm Tinh Tinh trông coi mặt trời tại Thái Dương Tỉnh.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Viêm Tinh Tinh trông coi mặt trời tại Thái Dương Tỉnh.",
+      "evidenceUrl": "https://tales-of-herding-gods.fandom.com/wiki/Sun_Well",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Thái Dương Tỉnh"
+    },
+    "vo-uu-huong": {
+      "image": "nguoi-cam",
+      "sourceSlug": "nguoi-cam",
+      "sourceTitle": "Người Câm",
+      "relationPath": [
+        "vo-uu-huong",
+        "nguoi-cam"
+      ],
+      "label": "Ảnh Người Câm — minh họa liên quan cho Vô Ưu Hương. Người Câm mang thân phận và bí mật gắn với Vô Ưu Hương.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Người Câm mang thân phận và bí mật gắn với Vô Ưu Hương.",
+      "evidenceUrl": "https://tales-of-herding-gods.fandom.com/wiki/Mute",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Vô Ưu Hương"
+    },
+    "tam-hon-that-phach": {
+      "image": "tu-ba-ba",
+      "sourceSlug": "tu-ba-ba",
+      "sourceTitle": "Tư bà bà",
+      "relationPath": [
+        "tam-hon-that-phach",
+        "tu-ba-ba"
+      ],
+      "label": "Ảnh Tư bà bà — minh họa liên quan cho Tam hồn thất phách. Tư Bà Bà giảng mô hình tam hồn thất phách cho Tần Mục.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tư Bà Bà giảng mô hình tam hồn thất phách cho Tần Mục.",
+      "evidenceUrl": "https://www.webnovel.com/book/tales-of-herding-gods_8324027206000305/heavenly-devil-creation-technique_23262771588165216",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Tam hồn thất phách"
+    },
+    "nguyen-than-dan": {
+      "image": "linh-duc-tu",
+      "sourceSlug": "linh-duc-tu",
+      "sourceTitle": "Linh Dục Tú",
+      "relationPath": [
+        "nguyen-than-dan",
+        "linh-duc-tu"
+      ],
+      "label": "Ảnh Linh Dục Tú — minh họa liên quan cho Nguyên Thần Dẫn. Linh Dục Tú cùng Tần Mục nghiên cứu và phát triển Nguyên Thần Dẫn.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Linh Dục Tú cùng Tần Mục nghiên cứu và phát triển Nguyên Thần Dẫn.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Nguyên Thần Dẫn"
+    },
+    "tam-nguyen-than-hoi-quyet": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tam-nguyen-than-hoi-quyet",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tam Nguyên Thần Hội Quyết. Pháp môn nằm trong hệ thống nghiên cứu nguyên thần của Tần Mục.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Pháp môn nằm trong hệ thống nghiên cứu nguyên thần của Tần Mục.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Tam Nguyên Thần Hội Quyết"
+    },
+    "linh-nang-doi-thien-kieu": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "linh-nang-doi-thien-kieu",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Linh Năng Đối Thiên Kiều. Kỹ thuật thuộc thành tựu nghiên cứu của Tần Mục.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Kỹ thuật thuộc thành tựu nghiên cứu của Tần Mục.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Linh Năng Đối Thiên Kiều"
+    },
+    "vo-lau-tao-hoa-huyen-kinh": {
+      "image": "nguoi-cam",
+      "sourceSlug": "nguoi-cam",
+      "sourceTitle": "Người Câm",
+      "relationPath": [
+        "vo-lau-tao-hoa-huyen-kinh",
+        "nguoi-cam"
+      ],
+      "label": "Ảnh Người Câm — minh họa liên quan cho Vô Lậu Tạo Hóa Huyền Kinh. Người Câm tu luyện công pháp tạo hóa này để khôi phục lưỡi.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Người Câm tu luyện công pháp tạo hóa này để khôi phục lưỡi.",
+      "evidenceUrl": "https://bkso.baidu.com/item/哑巴/65036443",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Vô Lậu Tạo Hóa Huyền Kinh"
+    },
+    "vo-lau-dau-chien-than-cong": {
+      "image": "ban-cong-tho",
+      "sourceSlug": "ban-cong-tho",
+      "sourceTitle": "Ban Công Thố",
+      "relationPath": [
+        "vo-lau-dau-chien-than-cong",
+        "ban-cong-tho"
+      ],
+      "label": "Ảnh Ban Công Thố — minh họa liên quan cho Vô Lậu Đấu Chiến Thần Công. Ban Công Thố tu luyện Vô Lậu Đấu Chiến Thần Công, nhánh xuất từ Vô Lậu Tạo Hóa Huyền Kinh.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Ban Công Thố tu luyện Vô Lậu Đấu Chiến Thần Công, nhánh xuất từ Vô Lậu Tạo Hóa Huyền Kinh.",
+      "evidenceUrl": "https://www.hetushu.com/book/4402/3284589.html",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Vô Lậu Đấu Chiến Thần Công"
+    },
+    "dao-dan-cong": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "dao-dan-cong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Đạo Dẫn Công. Tần Mục thực hành Đạo Dẫn Công trong giai đoạn đầu tu luyện.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục thực hành Đạo Dẫn Công trong giai đoạn đầu tu luyện.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Đạo Dẫn Công"
+    },
+    "van-kiep-bat-diet-dai-phap-su": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "van-kiep-bat-diet-dai-phap-su",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Vạn Kiếp Bất Diệt Đại Pháp Sư. Đây là danh xưng gắn với Tần Mục.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Đây là danh xưng gắn với Tần Mục.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Vạn Kiếp Bất Diệt Đại Pháp Sư"
+    },
+    "thai-vi-toan-kinh": {
+      "image": "extra-46-342_5",
+      "sourceSlug": "lam-hien",
+      "sourceTitle": "Lâm Hiên",
+      "relationPath": [
+        "thai-vi-toan-kinh",
+        "lam-hien"
+      ],
+      "label": "Ảnh Lâm Hiên — minh họa liên quan cho Thái Vi Toán Kinh. Lâm Hiên thuộc Đạo môn, truyền thừa thuật số và Thái Vi Toán Kinh.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Lâm Hiên thuộc Đạo môn, truyền thừa thuật số và Thái Vi Toán Kinh.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Thái Vi Toán Kinh"
+    },
+    "thanh-do-tai-thien-huyen-cong": {
+      "image": "ba-son",
+      "sourceSlug": "ba-son",
+      "sourceTitle": "Bá Sơn",
+      "relationPath": [
+        "thanh-do-tai-thien-huyen-cong",
+        "ba-son"
+      ],
+      "label": "Ảnh Bá Sơn — minh họa liên quan cho Thành Đô Tái Thiên Huyền Công. Tần Mục tiếp xúc công pháp trong hành trình học truyền thừa cùng Bá Sơn Tế Tửu.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục tiếp xúc công pháp trong hành trình học truyền thừa cùng Bá Sơn Tế Tửu.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Thành Đô Tái Thiên Huyền Công"
+    },
+    "khien-hon-dan": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "khien-hon-dan",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Khiên Hồn Dẫn. Tần Mục tiếp xúc và học pháp môn trong quá trình sưu tập truyền thừa.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục tiếp xúc và học pháp môn trong quá trình sưu tập truyền thừa.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Khiên Hồn Dẫn"
+    },
+    "dieu-quy-khien-than-phu-tu-lenh": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "dieu-quy-khien-than-phu-tu-lenh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Điều Quỷ Khiển Thần Phù Tự Lệnh. Tần Mục vận dụng pháp môn phù tự khi thâm nhập quân phản loạn.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục vận dụng pháp môn phù tự khi thâm nhập quân phản loạn.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Điều Quỷ Khiển Thần Phù Tự Lệnh"
+    },
+    "hoan-long-kinh": {
+      "image": "tu-van-huong",
+      "sourceSlug": "tu-van-huong",
+      "sourceTitle": "Tư Vân Hương",
+      "relationPath": [
+        "hoan-long-kinh",
+        "tu-van-huong"
+      ],
+      "label": "Ảnh Tư Vân Hương — minh họa liên quan cho Hoạn Long Kinh. Tần Mục giao Hoạn Long Kinh cho Tư Vân Hương chăm sóc giao long.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục giao Hoạn Long Kinh cho Tư Vân Hương chăm sóc giao long.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Hoạn Long Kinh"
+    },
+    "nguyen-tu-than-thong": {
+      "image": "tu-ba-ba",
+      "sourceSlug": "tu-ba-ba",
+      "sourceTitle": "Tư bà bà",
+      "relationPath": [
+        "nguyen-tu-than-thong",
+        "tu-ba-ba"
+      ],
+      "label": "Ảnh Tư bà bà — minh họa liên quan cho Nguyên Từ Thần Thông. Tư Bà Bà nghiên cứu và phát triển thần thông nguyên từ.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tư Bà Bà nghiên cứu và phát triển thần thông nguyên từ.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Nguyên Từ Thần Thông"
+    },
+    "thien-thu-phat-da": {
+      "image": "ma-gia",
+      "sourceSlug": "ma-gia",
+      "sourceTitle": "Mã gia",
+      "relationPath": [
+        "thien-thu-phat-da",
+        "ma-gia"
+      ],
+      "label": "Ảnh Mã gia — minh họa liên quan cho Thiên Thủ Phật Đà. Một thức thuộc Lôi Âm Bát Thức của Mã gia.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Một thức thuộc Lôi Âm Bát Thức của Mã gia.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Thiên Thủ Phật Đà"
+    },
+    "kiem-thap-bat-thuc": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "kiem-thap-bat-thuc",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Kiếm Thập Bát Thức. Tần Mục sáng tạo kiếm thức.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục sáng tạo kiếm thức.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Kiếm Thập Bát Thức"
+    },
+    "kiem-thap-cuu-thuc": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "kiem-thap-cuu-thuc",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Kiếm Thập Cửu Thức. Tần Mục sáng tạo kiếm thức, gắn với Kiếp Kiếm.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục sáng tạo kiếm thức, gắn với Kiếp Kiếm.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Kiếm Thập Cửu Thức"
+    },
+    "kiem-kiep": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "kiem-kiep",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Kiếp Kiếm. Kiếp Kiếm thuộc kiếm đạo của Tần Mục.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Kiếp Kiếm thuộc kiếm đạo của Tần Mục.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Kiếp Kiếm"
+    },
+    "tu-thien-mon": {
+      "image": "tu-ba-ba",
+      "sourceSlug": "tu-ba-ba",
+      "sourceTitle": "Tư bà bà",
+      "relationPath": [
+        "tu-thien-mon",
+        "tu-ba-ba"
+      ],
+      "label": "Ảnh Tư bà bà — minh họa liên quan cho Tứ Thiên Môn. Tư Ấu U cùng Văn Nguyên và U Minh Thái Tử nghiên cứu hệ thống Tứ Thiên Môn.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tư Ấu U cùng Văn Nguyên và U Minh Thái Tử nghiên cứu hệ thống Tứ Thiên Môn.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Tứ Thiên Môn"
+    },
+    "thien-cung-canh": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thien-cung-canh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thiên Cung. Hệ thống Thiên Cung là một phần hành trình nghiên cứu tu luyện của Tần Mục.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Hệ thống Thiên Cung là một phần hành trình nghiên cứu tu luyện của Tần Mục.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Thiên Cung"
+    },
+    "dao-canh": {
+      "image": "hu-sinh-hoa",
+      "sourceSlug": "hu-sinh-hoa",
+      "sourceTitle": "Hư Sinh Hoa",
+      "relationPath": [
+        "dao-canh",
+        "hu-sinh-hoa"
+      ],
+      "label": "Ảnh Hư Sinh Hoa — minh họa liên quan cho Đạo Cảnh. Hư Sinh Hoa nghiên cứu con đường nhập đạo và hệ thống tu luyện mới.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Hư Sinh Hoa nghiên cứu con đường nhập đạo và hệ thống tu luyện mới.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Đạo Cảnh"
+    },
+    "nhap-dao": {
+      "image": "ba-son",
+      "sourceSlug": "ba-son",
+      "sourceTitle": "Bá Sơn",
+      "relationPath": [
+        "nhap-dao",
+        "ba-son"
+      ],
+      "label": "Ảnh Bá Sơn — minh họa liên quan cho Nhập Đạo. Bá Sơn theo con đường võ đạo nhập đạo, là ví dụ được liên kết trong hồ sơ võ đạo.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Bá Sơn theo con đường võ đạo nhập đạo, là ví dụ được liên kết trong hồ sơ võ đạo.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Nhập Đạo"
+    },
+    "trang-phuc-dien-khang": {
+      "image": "dien-phong-de",
+      "sourceSlug": "dien-phong-de",
+      "sourceTitle": "Diên Phong Đế",
+      "relationPath": [
+        "trang-phuc-dien-khang",
+        "dien-phong-de"
+      ],
+      "label": "Ảnh Diên Phong Đế — minh họa liên quan cho Quan phục và giáp phục Diên Khang. Diên Phong Đế là hoàng đế Diên Khang; ảnh cho thấy phục trang hoàng gia, không đại diện mọi loại giáp.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Diên Phong Đế là hoàng đế Diên Khang; ảnh cho thấy phục trang hoàng gia, không đại diện mọi loại giáp.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Quan phục và giáp phục Diên Khang"
+    },
+    "trang-phuc-dai-loi-am-tu": {
+      "image": "ma-gia",
+      "sourceSlug": "ma-gia",
+      "sourceTitle": "Mã gia",
+      "relationPath": [
+        "trang-phuc-dai-loi-am-tu",
+        "ma-gia"
+      ],
+      "label": "Ảnh Mã gia — minh họa liên quan cho Y phục Phật môn Đại Lôi Âm Tự. Mã gia thuộc truyền thừa Như Lai Đại Lôi Âm Tự; ảnh minh họa người liên quan, không gán mọi y phục của ông là pháp y.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Mã gia thuộc truyền thừa Như Lai Đại Lôi Âm Tự; ảnh minh họa người liên quan, không gán mọi y phục của ông là pháp y.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Y phục Phật môn Đại Lôi Âm Tự"
+    },
+    "long-thac-than-thuong": {
+      "image": "nguoi-mu",
+      "sourceSlug": "nguoi-mu",
+      "sourceTitle": "Người Mù",
+      "relationPath": [
+        "long-thac-than-thuong",
+        "nguoi-mu"
+      ],
+      "label": "Ảnh Người Mù — minh họa liên quan cho Long Thác Thần Thương. Người Mù là chủ nhân thần thương Long Thác.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Người Mù là chủ nhân thần thương Long Thác.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Long Thác Thần Thương"
+    },
+    "that-thien-ton": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "that-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Cửu Thiên Tôn. Tần Mục mang danh hiệu Mục Thiên Tôn, thuộc nhóm Cửu Thiên Tôn thời Dao Trì.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục mang danh hiệu Mục Thiên Tôn, thuộc nhóm Cửu Thiên Tôn thời Dao Trì.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Cửu Thiên Tôn"
+    },
+    "thoi-dai-xich-minh": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thoi-dai-xich-minh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thời đại Xích Minh. Tần Mục tiếp xúc Xích Hoàng và truyền thừa Xích Minh tại Huyền Không Giới.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục tiếp xúc Xích Hoàng và truyền thừa Xích Minh tại Huyền Không Giới.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Thời đại Xích Minh"
+    },
+    "thien-minh": {
+      "image": "hu-sinh-hoa",
+      "sourceSlug": "hu-sinh-hoa",
+      "sourceTitle": "Hư Sinh Hoa",
+      "relationPath": [
+        "thien-minh",
+        "hu-sinh-hoa"
+      ],
+      "label": "Ảnh Hư Sinh Hoa — minh họa liên quan cho Thiên Minh. Hư Sinh Hoa tham gia Thiên Minh cùng Tần Mục và các đồng minh cải cách.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Hư Sinh Hoa tham gia Thiên Minh cùng Tần Mục và các đồng minh cải cách.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Thiên Minh"
+    },
+    "thien-am-gioi": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thien-am-gioi",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thiên Âm Giới. Tần Mục tới Thiên Âm Giới và giúp Thiên Âm Nương Nương phục sinh.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục tới Thiên Âm Giới và giúp Thiên Âm Nương Nương phục sinh.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Thiên Âm Giới"
+    },
+    "kiem-dao-nhi-thap-tam-thuc": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "kiem-dao-nhi-thap-tam-thuc",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Kiếm Đạo Nhị Thập Tam Thức. Tần Mục đối chiếu kiếm đạo với Tử Tiêu Công Tử; ảnh nhân vật liên quan, không phải ảnh bộ kiếm thức.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục đối chiếu kiếm đạo với Tử Tiêu Công Tử; ảnh nhân vật liên quan, không phải ảnh bộ kiếm thức.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Kiếm Đạo Nhị Thập Tam Thức"
+    },
+    "nguyen-gioi": {
+      "image": "dien-phong-de",
+      "sourceSlug": "dien-phong-de",
+      "sourceTitle": "Diên Phong Đế",
+      "relationPath": [
+        "nguyen-gioi",
+        "dien-phong-de"
+      ],
+      "label": "Ảnh Diên Phong Đế — minh họa liên quan cho Nguyên Giới. Diên Phong Đế cai quản Diên Khang, quốc gia thuộc Nguyên Giới.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Diên Phong Đế cai quản Diên Khang, quốc gia thuộc Nguyên Giới.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Nguyên Giới"
+    },
+    "thuong-thuong-hoc-cung": {
+      "image": "hu-sinh-hoa",
+      "sourceSlug": "hu-sinh-hoa",
+      "sourceTitle": "Hư Sinh Hoa",
+      "relationPath": [
+        "thuong-thuong-hoc-cung",
+        "hu-sinh-hoa"
+      ],
+      "label": "Ảnh Hư Sinh Hoa — minh họa liên quan cho Thượng Thương Học Cung. Hư Sinh Hoa là người xây dựng Thượng Thương Học Cung.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Hư Sinh Hoa là người xây dựng Thượng Thương Học Cung.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Thượng Thương Học Cung"
+    },
+    "thuat-ngu": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thuat-ngu",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thuật ngữ Mục Thần Ký. Các thuật ngữ được giải thích theo hành trình tu luyện của Tần Mục.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Các thuật ngữ được giải thích theo hành trình tu luyện của Tần Mục.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Thuật ngữ Mục Thần Ký"
+    },
+    "khai-hoang-tan-nghiep": {
+      "image": "official-83-tieu-phu",
+      "sourceSlug": "tieu-phu",
+      "sourceTitle": "Tiều Phu",
+      "relationPath": [
+        "khai-hoang-tan-nghiep",
+        "tieu-phu"
+      ],
+      "label": "Ảnh Tiều Phu — minh họa liên quan cho Khai Hoàng Tần Nghiệp. Tiều Phu là một trong bốn Thiên Sư dưới quyền Khai Hoàng.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tiều Phu là một trong bốn Thiên Sư dưới quyền Khai Hoàng.",
+      "evidenceUrl": "https://tales-of-herding-gods.fandom.com/wiki/Founding_Emperor_Qin_Ye",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Khai Hoàng Tần Nghiệp"
+    },
+    "ngu-thien-ton": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "ngu-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Ngự Thiên Tôn. Tần Mục tìm cách phục sinh Ngự Thiên Tôn sau biến cố Dao Trì.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục tìm cách phục sinh Ngự Thiên Tôn sau biến cố Dao Trì.",
+      "evidenceUrl": "https://tales-of-herding-gods.fandom.com/wiki/Celestial_Venerable_Yu",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Ngự Thiên Tôn"
+    },
+    "lang-thien-ton": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "lang-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Lăng Thiên Tôn. Tần Mục là đạo hữu của Lăng Thiên Tôn và giúp giải thoát nàng khỏi dòng sông thời gian.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục là đạo hữu của Lăng Thiên Tôn và giúp giải thoát nàng khỏi dòng sông thời gian.",
+      "evidenceUrl": "https://tales-of-herding-gods.fandom.com/wiki/Celestial_Venerable_Ling",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Lăng Thiên Tôn"
+    },
+    "nguyet-thien-ton": {
+      "image": "duoc-su",
+      "sourceSlug": "duoc-su",
+      "sourceTitle": "Dược Sư",
+      "relationPath": [
+        "nguyet-thien-ton",
+        "duoc-su"
+      ],
+      "label": "Ảnh Dược Sư — minh họa liên quan cho Nguyệt Thiên Tôn. Dược Sư chữa trị cho Nguyệt Thiên Tôn trong tuyến phục hồi của nàng.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Dược Sư chữa trị cho Nguyệt Thiên Tôn trong tuyến phục hồi của nàng.",
+      "evidenceUrl": "https://tales-of-herding-gods.fandom.com/wiki/Celestial_Venerable_Yue",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Nguyệt Thiên Tôn"
+    },
+    "van-thien-ton": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "van-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Vân Thiên Tôn. Tần Mục cùng Vân Thiên Tôn tham gia tuyến cải cách và Thiên Minh thời Long Hán.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục cùng Vân Thiên Tôn tham gia tuyến cải cách và Thiên Minh thời Long Hán.",
+      "evidenceUrl": "https://tales-of-herding-gods.fandom.com/wiki/Celestial_Venerable_Yun",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Vân Thiên Tôn"
+    },
+    "u-thien-ton": {
+      "image": "official-77-tho-ba",
+      "sourceSlug": "tho-ba",
+      "sourceTitle": "Thổ Bá",
+      "relationPath": [
+        "u-thien-ton",
+        "tho-ba"
+      ],
+      "label": "Ảnh Thổ Bá — minh họa liên quan cho U Thiên Tôn. U Thiên Tôn làm việc tại U Đô cùng Thổ Bá.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "U Thiên Tôn làm việc tại U Đô cùng Thổ Bá.",
+      "evidenceUrl": "https://tales-of-herding-gods.fandom.com/wiki/Celestial_Venerable_You",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của U Thiên Tôn"
+    },
+    "thien-cong": {
+      "image": "official-77-tho-ba",
+      "sourceSlug": "tho-ba",
+      "sourceTitle": "Thổ Bá",
+      "relationPath": [
+        "thien-cong",
+        "tho-ba"
+      ],
+      "label": "Ảnh Thổ Bá — minh họa liên quan cho Thiên Công. Thiên Công và Thổ Bá là đạo hữu cổ thần, cùng can dự phong ấn trong mắt Tần Mục.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Thiên Công và Thổ Bá là đạo hữu cổ thần, cùng can dự phong ấn trong mắt Tần Mục.",
+      "evidenceUrl": "https://bkso.baidu.com/item/天公/23433665",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Thiên Công"
+    },
+    "tan-phuong-thanh": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tan-phuong-thanh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tần Phượng Thanh. Tần Phượng Thanh là anh trai của Tần Mục.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Phượng Thanh là anh trai của Tần Mục.",
+      "evidenceUrl": "https://thuvienanime.net/tan-phuong-thanh/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Tần Phượng Thanh"
+    },
+    "phuoc-nhat-la": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "phuoc-nhat-la",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Phược Nhật La. Phược Nhật La đối đầu và thương lượng với Tần Mục trong tuyến Thái Hoàng Thiên.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Phược Nhật La đối đầu và thương lượng với Tần Mục trong tuyến Thái Hoàng Thiên.",
+      "evidenceUrl": "https://tales-of-herding-gods.fandom.com/wiki/Fu_Riluo",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Phược Nhật La"
+    },
+    "triet-hoa-le": {
+      "image": "do-phu",
+      "sourceSlug": "do-phu",
+      "sourceTitle": "Đồ Phu",
+      "relationPath": [
+        "triet-hoa-le",
+        "do-phu"
+      ],
+      "label": "Ảnh Đồ Phu — minh họa liên quan cho Triết Hoa Lê. Triết Hoa Lê học đao đạo cùng Đồ Phu và nhóm đao khách.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Triết Hoa Lê học đao đạo cùng Đồ Phu và nhóm đao khách.",
+      "evidenceUrl": "https://tales-of-herding-gods.fandom.com/wiki/Zhe_Huali",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Triết Hoa Lê"
+    },
+    "bach-cu-nhi": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "bach-cu-nhi",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Bạch Cừ Nhi. Bạch Cừ Nhi gặp Tần Mục khi cậu trở về thời Thượng Hoàng.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Bạch Cừ Nhi gặp Tần Mục khi cậu trở về thời Thượng Hoàng.",
+      "evidenceUrl": "https://thuvienanime.net/bach-cu-nhi/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Bạch Cừ Nhi"
+    },
+    "hoa-thien-ton": {
+      "image": "dien-khang-quoc-su",
+      "sourceSlug": "dien-khang-quoc-su",
+      "sourceTitle": "Diên Khang quốc sư",
+      "relationPath": [
+        "hoa-thien-ton",
+        "dien-khang-quoc-su"
+      ],
+      "label": "Ảnh Diên Khang quốc sư — minh họa liên quan cho Hỏa Thiên Tôn. Hỏa Thiên Tôn xung đột với con đường cải cách của Diên Khang quốc sư.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Hỏa Thiên Tôn xung đột với con đường cải cách của Diên Khang quốc sư.",
+      "evidenceUrl": "https://thuvienanime.net/hoa-thien-ton/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Hỏa Thiên Tôn"
+    },
+    "so-to-nhan-hoang": {
+      "image": "thon-truong",
+      "sourceSlug": "thon-truong",
+      "sourceTitle": "Thôn trưởng",
+      "relationPath": [
+        "so-to-nhan-hoang",
+        "thon-truong"
+      ],
+      "label": "Ảnh Thôn trưởng — minh họa liên quan cho Sơ Tổ Nhân Hoàng. Thôn trưởng là Nhân Hoàng đời sau, thuộc truyền thừa do Sơ Tổ mở đầu.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Thôn trưởng là Nhân Hoàng đời sau, thuộc truyền thừa do Sơ Tổ mở đầu.",
+      "evidenceUrl": "https://thuvienanime.net/so-to-nhan-hoang/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Sơ Tổ Nhân Hoàng"
+    },
+    "chu-nhan-di-la-cung": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "chu-nhan-di-la-cung",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Chủ nhân Di La Cung. Tần Mục trở thành Thất Công Tử của Di La Cung, gắn trực tiếp với truyền thừa của chủ nhân cung.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục trở thành Thất Công Tử của Di La Cung, gắn trực tiếp với truyền thừa của chủ nhân cung.",
+      "evidenceUrl": "https://thuvienanime.net/di-la-huyen-co/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Chủ nhân Di La Cung"
+    },
+    "tan-linh-quan": {
+      "image": "linh-duc-tu",
+      "sourceSlug": "linh-duc-tu",
+      "sourceTitle": "Linh Dục Tú",
+      "relationPath": [
+        "tan-linh-quan",
+        "linh-duc-tu"
+      ],
+      "label": "Ảnh Linh Dục Tú — minh họa liên quan cho Tần Linh Quân. Linh Dục Tú là mẹ của Tần Linh Quân.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Linh Dục Tú là mẹ của Tần Linh Quân.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Tần Linh Quân"
+    },
+    "nguy-tu-phong": {
+      "image": "official-83-tieu-phu",
+      "sourceSlug": "tieu-phu",
+      "sourceTitle": "Tiều Phu",
+      "relationPath": [
+        "nguy-tu-phong",
+        "tieu-phu"
+      ],
+      "label": "Ảnh Tiều Phu — minh họa liên quan cho Ngụy Tùy Phong. Ngụy Tùy Phong là đệ tử Tiều Phu và đại sư huynh của Tần Mục.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Ngụy Tùy Phong là đệ tử Tiều Phu và đại sư huynh của Tần Mục.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Ngụy Tùy Phong"
+    },
+    "trac-tra": {
+      "image": "ba-son",
+      "sourceSlug": "ba-son",
+      "sourceTitle": "Bá Sơn",
+      "relationPath": [
+        "trac-tra",
+        "ba-son"
+      ],
+      "label": "Ảnh Bá Sơn — minh họa liên quan cho Trạc Trà. Bá Sơn theo học võ đạo Trạc Trà, Võ Đấu Thiên Sư.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Bá Sơn theo học võ đạo Trạc Trà, Võ Đấu Thiên Sư.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Trạc Trà"
+    },
+    "lac-vo-song": {
+      "image": "do-phu",
+      "sourceSlug": "do-phu",
+      "sourceTitle": "Đồ Phu",
+      "relationPath": [
+        "lac-vo-song",
+        "do-phu"
+      ],
+      "label": "Ảnh Đồ Phu — minh họa liên quan cho Lạc Vô Song. Lạc Vô Song cùng Đồ Phu và các đao khách tham gia tuyến nghiên cứu đao đạo.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Lạc Vô Song cùng Đồ Phu và các đao khách tham gia tuyến nghiên cứu đao đạo.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Lạc Vô Song"
+    },
+    "am-thien-tu": {
+      "image": "official-77-tho-ba",
+      "sourceSlug": "tho-ba",
+      "sourceTitle": "Thổ Bá",
+      "relationPath": [
+        "am-thien-tu",
+        "tho-ba"
+      ],
+      "label": "Ảnh Thổ Bá — minh họa liên quan cho Âm Thiên Tử. Âm Thiên Tử có quan hệ đối địch với Thổ Bá trong tranh chấp quyền lực linh hồn.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Âm Thiên Tử có quan hệ đối địch với Thổ Bá trong tranh chấp quyền lực linh hồn.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Âm Thiên Tử"
+    },
+    "xich-khe": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "xich-khe",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Xích Khê. Xích Khê gặp Tần Mục trong tuyến Huyền Không Giới và liên minh Xích Minh.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Xích Khê gặp Tần Mục trong tuyến Huyền Không Giới và liên minh Xích Minh.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Xích Khê"
+    },
+    "kinh-yen": {
+      "image": "hu-sinh-hoa",
+      "sourceSlug": "hu-sinh-hoa",
+      "sourceTitle": "Hư Sinh Hoa",
+      "relationPath": [
+        "kinh-yen",
+        "hu-sinh-hoa"
+      ],
+      "label": "Ảnh Hư Sinh Hoa — minh họa liên quan cho Kinh Yến. Kinh Yến là vợ của Hư Sinh Hoa, gắn với Thượng Thương Học Cung.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Kinh Yến là vợ của Hư Sinh Hoa, gắn với Thượng Thương Học Cung.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Kinh Yến"
+    },
+    "tran-vuong-phi": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tran-vuong-phi",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Trân Vương Phi. Trân Vương Phi là mẹ của Tần Mục và Tần Phượng Thanh.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Trân Vương Phi là mẹ của Tần Mục và Tần Phượng Thanh.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Trân Vương Phi"
+    },
+    "tinh-han": {
+      "image": "nguoi-mu",
+      "sourceSlug": "nguoi-mu",
+      "sourceTitle": "Người Mù",
+      "relationPath": [
+        "tinh-han",
+        "nguoi-mu"
+      ],
+      "label": "Ảnh Người Mù — minh họa liên quan cho Tinh Hãn. Tinh Hãn và Người Mù có liên hệ truyền thừa, giao lưu thần thương.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tinh Hãn và Người Mù có liên hệ truyền thừa, giao lưu thần thương.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Tinh Hãn"
+    },
+    "te-cuu-nghi": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "te-cuu-nghi",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tề Cửu Nghị. Tề Cửu Nghị nhiều lần giao đấu và cùng Tần Mục trải qua biến cố.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tề Cửu Nghị nhiều lần giao đấu và cùng Tần Mục trải qua biến cố.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Tề Cửu Nghị"
+    },
+    "thai-to-co-than": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thai-to-co-than",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thái Tố Thần Nữ. Tần Mục can dự biến cố liên quan Đại Đạo Thái Tố.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục can dự biến cố liên quan Đại Đạo Thái Tố.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Thái Tố Thần Nữ"
+    },
+    "han-duong": {
+      "image": "long-ky-lan",
+      "sourceSlug": "long-ky-lan",
+      "sourceTitle": "Long Kỳ Lân",
+      "relationPath": [
+        "han-duong",
+        "long-ky-lan"
+      ],
+      "label": "Ảnh Long Kỳ Lân — minh họa liên quan cho Hàn Đường. Hàn Đường quản lý tuyến thuần dưỡng yêu thú; Long Kỳ Lân là nhân vật liên hệ trong hồ sơ.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Hàn Đường quản lý tuyến thuần dưỡng yêu thú; Long Kỳ Lân là nhân vật liên hệ trong hồ sơ.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Hàn Đường"
+    },
+    "hu-thien-ton": {
+      "image": "official-77-tho-ba",
+      "sourceSlug": "tho-ba",
+      "sourceTitle": "Thổ Bá",
+      "relationPath": [
+        "hu-thien-ton",
+        "tho-ba"
+      ],
+      "label": "Ảnh Thổ Bá — minh họa liên quan cho Hư Thiên Tôn. Hư Thiên Tôn là con gái Thổ Bá và đối đầu cha trong tuyến U Đô.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Hư Thiên Tôn là con gái Thổ Bá và đối đầu cha trong tuyến U Đô.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Hư Thiên Tôn"
+    },
+    "tu-he-thien-su": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tu-he-thien-su",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tử Hề Thiên Sư. Tử Hề Thiên Sư thương lượng và can dự các biến cố Diên Khang với Tần Mục.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tử Hề Thiên Sư thương lượng và can dự các biến cố Diên Khang với Tần Mục.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Tử Hề Thiên Sư"
+    },
+    "lam-ngu-dien": {
+      "image": "hu-sinh-hoa",
+      "sourceSlug": "hu-sinh-hoa",
+      "sourceTitle": "Hư Sinh Hoa",
+      "relationPath": [
+        "lam-ngu-dien",
+        "hu-sinh-hoa"
+      ],
+      "label": "Ảnh Hư Sinh Hoa — minh họa liên quan cho Lam Ngự Điền. Hư Sinh Hoa cùng Lam Ngự Điền nghiên cứu hệ thống tu luyện mới.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Hư Sinh Hoa cùng Lam Ngự Điền nghiên cứu hệ thống tu luyện mới.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Lam Ngự Điền"
+    },
+    "tan-vu": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tan-vu",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tần Vũ. Tần Vũ thuộc tuyến tổ tiên Nhân Hoàng của Tần Mục.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Vũ thuộc tuyến tổ tiên Nhân Hoàng của Tần Mục.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Tần Vũ"
+    },
+    "ho-bat-quy": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "ho-bat-quy",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Hồ Bất Quy. Hồ Bất Quy cùng Tần Mục nghiên cứu con đường võ đạo.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Hồ Bất Quy cùng Tần Mục nghiên cứu con đường võ đạo.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Hồ Bất Quy"
+    },
+    "te-nhan-bang": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "te-nhan-bang",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tề Nhạn Băng. Tề Nhạn Băng thuộc tuyến đệ tử Ly Giang truy đuổi Tần Mục.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tề Nhạn Băng thuộc tuyến đệ tử Ly Giang truy đuổi Tần Mục.",
+      "evidenceUrl": "https://www.hetushu.com/book/4402/3283940.html",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Tề Nhạn Băng"
+    },
+    "moc-bi-phong": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "moc-bi-phong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Mộc Bi Phong. Mộc Bi Phong xuất hiện trong tuyến Tần Mục tới Trấn Ương Cung.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Mộc Bi Phong xuất hiện trong tuyến Tần Mục tới Trấn Ương Cung.",
+      "evidenceUrl": "https://www.hetushu.com/book/4402/3283940.html",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Mộc Bi Phong"
+    },
+    "trang-liep-ho": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "trang-liep-ho",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Trương Liệp Hộ. Trương Liệp Hộ gặp Tần Mục trong phần đầu hành trình Đại Khư.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Trương Liệp Hộ gặp Tần Mục trong phần đầu hành trình Đại Khư.",
+      "evidenceUrl": "https://www.hetushu.com/book/4402/3283940.html",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Trương Liệp Hộ"
+    },
+    "gio-kim-tu-ba-ba": {
+      "image": "tu-ba-ba",
+      "sourceSlug": "tu-ba-ba",
+      "sourceTitle": "Tư bà bà",
+      "relationPath": [
+        "gio-kim-tu-ba-ba",
+        "tu-ba-ba"
+      ],
+      "label": "Ảnh Tư bà bà — minh họa liên quan cho Giỏ kim chỉ của Tư Bà Bà. Giỏ kim chỉ là vật dụng của Tư Bà Bà.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Giỏ kim chỉ là vật dụng của Tư Bà Bà.",
+      "evidenceUrl": "https://www.bilibili.com/bangumi/play/ep1751634",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Giỏ kim chỉ của Tư Bà Bà"
+    },
+    "tinh-ngan": {
+      "image": "nguoi-mu",
+      "sourceSlug": "nguoi-mu",
+      "sourceTitle": "Người Mù",
+      "relationPath": [
+        "tinh-ngan",
+        "nguoi-mu"
+      ],
+      "label": "Ảnh Người Mù — minh họa liên quan cho Tinh Ngạn. Tinh Ngạn lấy đôi thần nhãn của Người Mù.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tinh Ngạn lấy đôi thần nhãn của Người Mù.",
+      "evidenceUrl": "https://www.webnovel.com/book/8324027206000305/32419011593557976",
+      "reviewNote": "Ảnh đúng người liên quan; chú thích không nhận đây là tạo hình của Tinh Ngạn"
+    },
+    "that-tinh": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "that-tinh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thất Tinh. Tần Mục tu luyện và nghiên cứu cấu trúc các thần tàng, trong đó có Thất Tinh.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục tu luyện và nghiên cứu cấu trúc các thần tàng, trong đó có Thất Tinh.",
+      "evidenceUrl": "https://tales-of-herding-gods.fandom.com/wiki/Seven_Stars_Realm",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "sinh-tu": {
+      "image": "official-77-tho-ba",
+      "sourceSlug": "tho-ba",
+      "sourceTitle": "Thổ Bá",
+      "relationPath": [
+        "sinh-tu",
+        "tho-ba"
+      ],
+      "label": "Ảnh Thổ Bá — minh họa liên quan cho Sinh Tử. Thần tàng Sinh Tử liên thông U Đô, lãnh địa do Thổ Bá cai quản.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Thần tàng Sinh Tử liên thông U Đô, lãnh địa do Thổ Bá cai quản.",
+      "evidenceUrl": "https://tales-of-herding-gods.fandom.com/wiki/Life_and_Death_Realm",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "phong-do": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "phong-do",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Phong Đô. Tần Mục đi vào Phong Đô trong hành trình tìm hiểu di sản Khai Hoàng.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục đi vào Phong Đô trong hành trình tìm hiểu di sản Khai Hoàng.",
+      "evidenceUrl": "https://tales-of-herding-gods.fandom.com/wiki/Tian_shu",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "tu-tieu-bich-lac-cong": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tu-tieu-bich-lac-cong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tử Tiêu Bích Lạc Công. Tần Mục đối chiếu Tử Tiêu Bích Lạc Công khi giao đấu với Vân Tiệm Ly; ảnh không phải người sáng tạo công pháp.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục đối chiếu Tử Tiêu Bích Lạc Công khi giao đấu với Vân Tiệm Ly; ảnh không phải người sáng tạo công pháp.",
+      "evidenceUrl": "https://www.biquge321.com/zhangjie/33624/63312331.html",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "vat-chat-bat-dich": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "vat-chat-bat-dich",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Vật Chất Bất Dịch. Tần Mục cùng Lăng Thiên Tôn nghiên cứu thần thông Bất Dịch và can dự tuyến thời gian của nàng.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục cùng Lăng Thiên Tôn nghiên cứu thần thông Bất Dịch và can dự tuyến thời gian của nàng.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "chat-nang-bat-dich": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "chat-nang-bat-dich",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Chất Năng Bất Dịch. Tần Mục là đạo hữu của Lăng Thiên Tôn trong tuyến nghiên cứu Bất Dịch; không nhận ảnh là tạo hình thần thông.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục là đạo hữu của Lăng Thiên Tôn trong tuyến nghiên cứu Bất Dịch; không nhận ảnh là tạo hình thần thông.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "de-toa-canh": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "de-toa-canh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Đế Tọa. Tần Mục nghiên cứu hệ thống Thiên Cung và công pháp Đế Tọa.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục nghiên cứu hệ thống Thiên Cung và công pháp Đế Tọa.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "ngoc-kinh-canh": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "ngoc-kinh-canh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Ngọc Kinh và Đạo Quả. Tần Mục khám phá Ngọc Kinh Thành và nghiên cứu Đạo Thụ, Đạo Quả.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục khám phá Ngọc Kinh Thành và nghiên cứu Đạo Thụ, Đạo Quả.",
+      "evidenceUrl": "https://www.hetushu.com/book/4402/3285563.html",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "trang-phuc-thien-dinh": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "trang-phuc-thien-dinh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Giáp phục Thiên Đình. Tần Mục nhiều lần tới Thiên Đình và đối đầu quân đội nơi này; đây là ảnh người liên quan, chưa phải mẫu giáp Thiên Đình.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục nhiều lần tới Thiên Đình và đối đầu quân đội nơi này; đây là ảnh người liên quan, chưa phải mẫu giáp Thiên Đình.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "phuc-trang-nguoi-sang-tao": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "phuc-trang-nguoi-sang-tao",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Phục trang Người Sáng Tạo. Tần Mục được tôn làm Thánh Anh của Người Sáng Tạo; ảnh không dùng để nhận diện y phục của chủng tộc.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục được tôn làm Thánh Anh của Người Sáng Tạo; ảnh không dùng để nhận diện y phục của chủng tộc.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "thap-thien-ton": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thap-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thập Thiên Tôn. Tần Mục trực tiếp đối đầu nhóm Thập Thiên Tôn trong tranh chấp với Thiên Đình.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục trực tiếp đối đầu nhóm Thập Thiên Tôn trong tranh chấp với Thiên Đình.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "nguoi-sang-tao": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "nguoi-sang-tao",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Người Sáng Tạo. Tần Mục mang thân phận Thánh Anh của Người Sáng Tạo.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục mang thân phận Thánh Anh của Người Sáng Tạo.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "thai-hu": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thai-hu",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thái Hư. Tần Mục tới Thái Hư và kết nối Người Sáng Tạo với Vô Ưu Hương.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục tới Thái Hư và kết nối Người Sáng Tạo với Vô Ưu Hương.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "long-han": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "long-han",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thời đại Long Hán. Tần Mục trở về Long Hán và mang danh Mục Thiên Tôn tại Dao Trì.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục trở về Long Hán và mang danh Mục Thiên Tôn tại Dao Trì.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "vu-lam-quan": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "vu-lam-quan",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Vũ Lâm Quân. Tần Mục tham gia giải cứu tuyến quỷ thuyền Vũ Lâm Quân do đại sư huynh Ngụy Tùy Phong chỉ huy.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục tham gia giải cứu tuyến quỷ thuyền Vũ Lâm Quân do đại sư huynh Ngụy Tùy Phong chỉ huy.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "hong-mong-phu-van": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "hong-mong-phu-van",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Hồng Mông phù văn. Tần Mục nghiên cứu Hồng Mông phù văn trong truyền thừa Di La Cung.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục nghiên cứu Hồng Mông phù văn trong truyền thừa Di La Cung.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "di-la-cung": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "di-la-cung",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Di La Cung. Tần Mục mang danh Thất Công Tử Hỗn Độn của Di La Cung.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục mang danh Thất Công Tử Hỗn Độn của Di La Cung.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "thien-dinh": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thien-dinh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thiên Đình. Tần Mục mang danh Mục Thiên Tôn và trực tiếp đối đầu trật tự Thiên Đình.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục mang danh Mục Thiên Tôn và trực tiếp đối đầu trật tự Thiên Đình.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "to-dinh": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "to-dinh",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tổ Đình. Tần Mục khám phá Tổ Đình và các mạch khoáng cổ thần.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục khám phá Tổ Đình và các mạch khoáng cổ thần.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "minh-do": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "minh-do",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Minh Đô. Tần Mục can dự các biến cố ở Minh Đô và đối đầu Âm Thiên Tử.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục can dự các biến cố ở Minh Đô và đối đầu Âm Thiên Tử.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "quy-khu": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "quy-khu",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Quy Khư. Tần Mục đi vào Quy Khư, đối mặt các thần nữ và tranh chấp Di La Cung.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục đi vào Quy Khư, đối mặt các thần nữ và tranh chấp Di La Cung.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "huyen-do": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "huyen-do",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Huyền Đô. Tần Mục tới Huyền Đô và giúp Thiên Công trong tuyến biến cố tại đây.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục tới Huyền Đô và giúp Thiên Công trong tuyến biến cố tại đây.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "the-gioi-thu": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "the-gioi-thu",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thế Giới Thụ. Tần Mục can dự việc trồng và bảo vệ Thế Giới Thụ tại Đại Hắc Sơn.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục can dự việc trồng và bảo vệ Thế Giới Thụ tại Đại Hắc Sơn.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "u-minh-thai-tu": {
+      "image": "tu-ba-ba",
+      "sourceSlug": "tu-ba-ba",
+      "sourceTitle": "Tư bà bà",
+      "relationPath": [
+        "u-minh-thai-tu",
+        "tu-ba-ba"
+      ],
+      "label": "Ảnh Tư bà bà — minh họa liên quan cho U Minh Thái Tử. U Minh Thái Tử cùng Tư Ấu U và Văn Nguyên nghiên cứu Tứ Thiên Môn.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "U Minh Thái Tử cùng Tư Ấu U và Văn Nguyên nghiên cứu Tứ Thiên Môn.",
+      "evidenceUrl": "https://big5.quanben5.com/n/mushenji/80946.html",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "tuyet-vo-tran": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tuyet-vo-tran",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tuyệt Vô Trần. Tần Mục tìm hiểu thân thể nhân tạo của Tuyệt Vô Trần trên quỷ thuyền.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục đối chiếu thân thể và hồn phách Tuyệt Vô Trần trên quỷ thuyền.",
+      "evidenceUrl": "https://www.biquge321.com/zhangjie/33624/65212321.html",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "bi-ngan-phuong-chau": {
+      "image": "nguoi-cam",
+      "sourceSlug": "nguoi-cam",
+      "sourceTitle": "Người Câm",
+      "relationPath": [
+        "bi-ngan-phuong-chau",
+        "nguoi-cam"
+      ],
+      "label": "Ảnh Người Câm — minh họa liên quan cho Bỉ Ngạn Phương Châu. Người Câm thuộc Thiên Công Thần Tộc, liên hệ kỹ nghệ đóng thuyền và di sản Vô Ưu Hương.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Người Câm thuộc Thiên Công Thần Tộc, liên hệ kỹ nghệ đóng thuyền và di sản Vô Ưu Hương.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "thai-so": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thai-so",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thái Sơ. Tần Mục đối đầu Thiên Đế Thái Sơ và tìm hiểu các cổ thần khởi nguyên.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": false,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục đối đầu Thiên Đế Thái Sơ và tìm hiểu các cổ thần khởi nguyên.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "cong-ton-yen": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "cong-ton-yen",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Công Tôn Yến. Công Tôn Yến trồng Thế Giới Thụ cùng tuyến Tần Mục tại Đại Hắc Sơn.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Công Tôn Yến trồng Thế Giới Thụ cùng tuyến Tần Mục tại Đại Hắc Sơn.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "lang-uyen-than-vuong": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "lang-uyen-than-vuong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Lãng Uyển Thần Vương. Lãng Uyển Thần Vương cùng Tần Mục kết nối Người Sáng Tạo và Vô Ưu Hương.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Lãng Uyển Thần Vương cùng Tần Mục kết nối Người Sáng Tạo và Vô Ưu Hương.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "yen-van-he": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "yen-van-he",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Yên Vân Hề. Yên Vân Hề thử tài và truyền dạy Tần Mục trong tuyến Vô Ưu Hương.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Yên Vân Hề thử tài và truyền dạy Tần Mục trong tuyến Vô Ưu Hương.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "diem-vuong": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "diem-vuong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Diêm Vương. Tần Mục gặp Diêm Vương trong tuyến Phong Đô và Khai Hoàng.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục gặp Diêm Vương trong tuyến Phong Đô và Khai Hoàng.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "dia-mau-nguyen-quan": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "dia-mau-nguyen-quan",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Địa Mẫu Nguyên Quân. Địa Mẫu Nguyên Quân và Tần Mục trực tiếp xung đột trong các biến cố Nguyên Giới.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Địa Mẫu Nguyên Quân và Tần Mục trực tiếp xung đột trong các biến cố Nguyên Giới.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "thuong-quan": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thuong-quan",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thương Quân. Thương Quân hỗ trợ Tần Mục trong các cuộc đối đầu cường giả tiền sử.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Thương Quân hỗ trợ Tần Mục trong các cuộc đối đầu cường giả tiền sử.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "hao-thien-ton": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "hao-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Hạo Thiên Tôn. Hạo Thiên Tôn là đối thủ chính của Tần Mục trong tranh chấp với Thiên Đình.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Hạo Thiên Tôn là đối thủ chính của Tần Mục trong tranh chấp với Thiên Đình.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "hieu-thien-ton": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "hieu-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Hiểu Thiên Tôn. Hiểu Thiên Tôn và Tần Mục đối đầu trong tuyến Thiên Đế Thái Sơ.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Hiểu Thiên Tôn và Tần Mục đối đầu trong tuyến Thiên Đế Thái Sơ.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "cung-thien-ton": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "cung-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Cung Thiên Tôn. Cung Thiên Tôn giao thiệp và đối đầu Tần Mục trong tuyến Tổ Đình.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Cung Thiên Tôn giao thiệp và đối đầu Tần Mục trong tuyến Tổ Đình.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "nguyen-mau-phu-nhan": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "nguyen-mau-phu-nhan",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Nguyên Mẫu Phu Nhân. Nguyên Mẫu Phu Nhân đối đầu Tần Mục trong tuyến Quy Khư và Thiên Đình.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Nguyên Mẫu Phu Nhân đối đầu Tần Mục trong tuyến Quy Khư và Thiên Đình.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "de-hau-nguyen-hi": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "de-hau-nguyen-hi",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Đế Hậu Nguyên Hi. Tần Mục can dự tranh chấp thân phận Đế Hậu và Nguyên Mẫu.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục can dự tranh chấp thân phận Đế Hậu và Nguyên Mẫu.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "thai-de": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thai-de",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thái Đế. Thái Đế trực tiếp đối đầu Tần Mục trong tranh chấp thần thức và Thiên Đình.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Thái Đế trực tiếp đối đầu Tần Mục trong tranh chấp thần thức và Thiên Đình.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "thai-dich": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thai-dich",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thái Dịch. Thái Dịch hỗ trợ Tần Mục trông giữ Đại Hắc Sơn.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Thái Dịch hỗ trợ Tần Mục trông giữ Đại Hắc Sơn.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "vo-nhai-lao-nhan": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "vo-nhai-lao-nhan",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Vô Nhai Lão Nhân. Vô Nhai Lão Nhân đối đầu Tần Mục trong tuyến Thế Giới Thụ và các kỷ nguyên.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Vô Nhai Lão Nhân đối đầu Tần Mục trong tuyến Thế Giới Thụ và các kỷ nguyên.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "thien-am-nuong-nuong": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thien-am-nuong-nuong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thiên Âm Nương Nương. Tần Mục giúp Thiên Âm Nương Nương phục sinh.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục giúp Thiên Âm Nương Nương phục sinh.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "thien-de-thai-so": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thien-de-thai-so",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thiên Đế Thái Sơ. Thiên Đế Thái Sơ trực tiếp đối đầu Tần Mục trong tranh chấp Thiên Đình.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Thiên Đế Thái Sơ trực tiếp đối đầu Tần Mục trong tranh chấp Thiên Đình.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "thai-thuy-co-than": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thai-thuy-co-than",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thái Thủy Cổ Thần. Tần Mục lấy trứng Thái Thủy khỏi nơi Thái Sơ giam giữ; Thái Thủy trở thành đồng hành của cậu.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục lấy trứng Thái Thủy khỏi nơi Thái Sơ giam giữ; Thái Thủy trở thành đồng hành của cậu.",
+      "evidenceUrl": "https://www.hetushu.com/book/4402/3285198.html",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "de-dich-nguyet": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "de-dich-nguyet",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Đế Dịch Nguyệt. Đế Dịch Nguyệt cùng Tần Mục tham gia chiến cuộc chống Thiên Đình.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Đế Dịch Nguyệt cùng Tần Mục tham gia chiến cuộc chống Thiên Đình.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "dien-thuc": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "dien-thuc",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Điền Thục. Tần Mục gặp Điền Thục và can dự tuyến Minh Đô Thiên Vương.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục gặp Điền Thục và can dự tuyến Minh Đô Thiên Vương.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "ly-du-nhien": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "ly-du-nhien",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Lý Du Nhiên. Tần Mục gặp Lý Du Nhiên, Đế Thích Thiên Vương Phật, trong tuyến Phật giới và Vô Ưu Hương.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục gặp Lý Du Nhiên, Đế Thích Thiên Vương Phật, trong tuyến Phật giới và Vô Ưu Hương.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "ta-vo-ky": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "ta-vo-ky",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tà Vô Kỳ. Tần Mục gặp Tà Vô Kỳ trong tuyến U Đô và bí mật Thiên Đế.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục gặp Tà Vô Kỳ trong tuyến U Đô và bí mật Thiên Đế.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "hong-thien-ton": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "hong-thien-ton",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Hồng Thiên Tôn. Tần Mục can dự biến cố tách Thiên Công khỏi Hồng Thiên Tôn.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục can dự biến cố tách Thiên Công khỏi Hồng Thiên Tôn.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "to-than-vuong": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "to-than-vuong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tổ Thần Vương. Tổ Thần Vương đối đầu Tần Mục và Diên Khang trong chiến cuộc Thiên Đình.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tổ Thần Vương đối đầu Tần Mục và Diên Khang trong chiến cuộc Thiên Đình.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "te-ha-du": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "te-ha-du",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tề Hã Dư. Tề Hã Dư giao thiệp với Tần Mục trong tuyến Phượng Hoàng và Thiên Đình.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tề Hã Dư giao thiệp với Tần Mục trong tuyến Phượng Hoàng và Thiên Đình.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "xich-minh-than-tu": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "xich-minh-than-tu",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Xích Minh Thần Tử. Xích Minh Thần Tử thương lượng liên minh với Tần Mục và Diên Khang.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Xích Minh Thần Tử thương lượng liên minh với Tần Mục và Diên Khang.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "xich-hoang": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "xich-hoang",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Xích Hoàng. Tần Mục tiếp nhận truyền thừa ý thức của Xích Hoàng tại Huyền Không Giới.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục tiếp nhận truyền thừa ý thức của Xích Hoàng tại Huyền Không Giới.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "thai-thuong-di-la": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thai-thuong-di-la",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thái Thượng Công Tử. Đại Công Tử Thái Thượng và Thất Công Tử Tần Mục cùng thuộc tuyến Di La Cung.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Đại Công Tử Thái Thượng và Thất Công Tử Tần Mục cùng thuộc tuyến Di La Cung.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "lang-tieu-cong-tu": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "lang-tieu-cong-tu",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Lăng Tiêu Công Tử. Tam Công Tử Lăng Tiêu đối đầu Thất Công Tử Tần Mục trong tranh chấp Di La Cung.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tam Công Tử Lăng Tiêu đối đầu Thất Công Tử Tần Mục trong tranh chấp Di La Cung.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "tu-tieu-cong-tu": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "tu-tieu-cong-tu",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Tử Tiêu Công Tử. Tứ Công Tử Tử Tiêu đối chiếu kiếm đạo và đối đầu Tần Mục.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tứ Công Tử Tử Tiêu đối chiếu kiếm đạo và đối đầu Tần Mục.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "vo-cuc-cong-tu": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "vo-cuc-cong-tu",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Vô Cực Công Tử. Nhị Công Tử Vô Cực đối đầu Tần Mục trong tuyến Quy Khư và Di La Cung.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Nhị Công Tử Vô Cực đối đầu Tần Mục trong tuyến Quy Khư và Di La Cung.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "ba-duong-than-vuong": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "ba-duong-than-vuong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Bá Dương Thần Vương. Tần Mục tìm thấy di cốt Bá Dương Thần Vương tại Quy Khư và tìm hiểu lịch sử của ông.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Tần Mục tìm thấy di cốt Bá Dương Thần Vương tại Quy Khư và tìm hiểu lịch sử của ông.",
+      "evidenceUrl": "https://www.luckynet.uzai.ca/xx/mushenji/165122902.html",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "dai-hong": {
+      "image": "tan-muc-poster",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "dai-hong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Đại Hồng. Đại Hồng giao chiến với Tần Mục trong quá khứ Long Hán.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "reviewedAt": "2026-11-05",
+      "relationDescription": "Đại Hồng giao chiến với Tần Mục trong quá khứ Long Hán.",
+      "evidenceUrl": "https://thuvienanime.net/muc-than-ky/",
+      "reviewNote": "Ảnh người liên quan được nêu tên rõ; không nhận là ảnh đúng chủ thể."
+    },
+    "thai-am-nuong-nuong": {
+      "image": "tan-muc",
+      "sourceSlug": "tan-muc",
+      "sourceTitle": "Tần Mục",
+      "relationPath": [
+        "thai-am-nuong-nuong",
+        "tan-muc"
+      ],
+      "label": "Ảnh Tần Mục — minh họa liên quan cho Thái Âm Nương Nương. Tần Mục giao thiệp và đối đầu hai Thái Cực Cổ Thần tại Ngọc Kinh.",
+      "verifiedRelation": true,
+      "allowCharacterFallback": true,
+      "relationDescription": "Tần Mục giao thiệp và đối đầu Thái Âm Nương Nương trong tuyến hai Thái Cực Cổ Thần tại Ngọc Kinh.",
+      "evidenceUrl": "https://luckynet.uzai.ca/xx/mushenji/163473151.html",
+      "reviewedAt": "2026-11-05"
     }
   }
 }

@@ -182,3 +182,10 @@ if($('#reader-chapters')){
 (()=>{const frame=document.getElementById('latest-review-player');if(!frame)return;fetchEpisodeVideos().then(sources=>{const url=sources.trailerVideo;if(!url)return;mountEpisodeVideo(frame,url,'Trailer Mục Thần Ký mới nhất')}).catch(()=>{const status=document.getElementById('latest-review-status');if(status)status.textContent='Không tải được video. Vui lòng thử lại sau.'})})();
 
 
+
+// Share the back-to-top label's appearance across all sorting arrows.
+const sortTip=document.createElement('span');sortTip.className='sort-tooltip';sortTip.setAttribute('aria-hidden','true');sortTip.hidden=true;document.body.append(sortTip);let sortTipAnchor;
+const hideSortTip=()=>{sortTip.hidden=true;sortTipAnchor=null};
+const showSortTip=button=>{sortTipAnchor=button;sortTip.textContent=button.dataset.sortTooltip;sortTip.hidden=false;const box=button.getBoundingClientRect(),tip=sortTip.getBoundingClientRect();sortTip.style.left=Math.max(8,Math.min(innerWidth-tip.width-8,box.left+(box.width-tip.width)/2))+'px';sortTip.style.top=(box.top>tip.height+16?box.top-tip.height-8:box.bottom+8)+'px'};
+$$('.sort-button,.sort-control-button').forEach(button=>{button.dataset.sortTooltip=button.title||button.getAttribute('aria-label')||'Sắp xếp';button.removeAttribute('title');button.addEventListener('pointerenter',()=>showSortTip(button));button.addEventListener('pointerleave',hideSortTip);button.addEventListener('focus',()=>showSortTip(button));button.addEventListener('blur',hideSortTip);button.addEventListener('click',hideSortTip)});
+window.addEventListener('scroll',()=>{if(!sortTipAnchor)return;const box=sortTipAnchor.getBoundingClientRect();if(box.bottom<0||box.top>innerHeight)hideSortTip();else showSortTip(sortTipAnchor)},{passive:true,capture:true});window.addEventListener('resize',hideSortTip);document.addEventListener('keydown',event=>{if(event.key==='Escape')hideSortTip()});

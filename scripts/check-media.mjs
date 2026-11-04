@@ -25,5 +25,5 @@ console.log('Media checks passed: '+entries.length+' profiles, subject filtering
 
 assert(!entryGallery(media,{slug:'thien-ma-giao'}).some(image=>image.subjects?.includes('ban-cong-tho')),'Ban Cong Tho must not appear in the Heavenly Saint Cult gallery');
 assert(entryImage(media,{slug:'kiem-hoan'}).src.endsWith('.webp'),'Sword pellet uses a verified animation still');
-for(const entry of entries.filter(e=>e.category==='nhan-vat'))assert(entryImage(media,entry)?.kind!=='related',entry.slug+': another character must not serve as the portrait');
+for(const entry of entries.filter(e=>e.category==='nhan-vat')){const image=entryImage(media,entry);if(image?.kind==='related'){const selection=media.relatedImages[entry.slug];assert(selection.allowCharacterFallback&&selection.relationDescription&&selection.evidenceUrl,entry.slug+': a related image needs a reviewed relationship');assert(image.alt.includes(selection.sourceTitle)&&image.alt.includes('minh họa liên quan'),entry.slug+': identify the actual person in the image');}}
 assert(!Object.values(media.images).some(image=>image.kind==='illustration'),'Concept diagrams must not replace verified subject images');
