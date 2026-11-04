@@ -145,11 +145,12 @@ async function handle(context){const {request,env}=context;const url=new URL(req
     return json({error:'Thao tác ghi danh không hợp lệ.'},400);
    }
    if(route==='admin/comments'&&request.method==='POST'){
+    const direction=body.sort==='oldest'?'ASC':'DESC';
     const requested=Number(body.limit),limit=[10,20,50].includes(requested)?requested:10,offset=Math.max(0,Math.min(100000,Number.parseInt(body.offset,10)||0)),query=clean(body.query).slice(0,100).toLowerCase(),category=clean(body.category)||'all';
     const categorySql={all:'1=1',film:"c.page='/phim/'",novel:"(c.page='/truyen/' OR c.page LIKE '/truyen/%')",encyclopedia:"(c.page='/bach-khoa/' OR c.page LIKE '/bach-khoa/%')",community:"c.page='/cong-dong/'"}[category]||'1=1',term=`%${query}%`;
     const where=`c.status IN ('approved','pending') AND ${categorySql} AND (?='' OR lower(c.name) LIKE ? OR lower(COALESCE(u.email,'')) LIKE ? OR lower(c.body) LIKE ?)`;
     const totalRow=await env.DB.prepare(`SELECT COUNT(*) AS total FROM comments c LEFT JOIN users u ON u.id=c.user_id WHERE ${where}`).bind(query,term,term,term).first();
-    const rows=await env.DB.prepare(`SELECT c.id,c.user_id,c.page,c.parent_id,c.name,c.body,c.status,c.created_at,u.email,COALESCE(u.chat_locked,0) AS chat_locked FROM comments c LEFT JOIN users u ON u.id=c.user_id WHERE ${where} ORDER BY julianday(c.created_at) DESC,c.id DESC LIMIT ? OFFSET ?`).bind(query,term,term,term,limit,offset).all();
+    const rows=await env.DB.prepare(`SELECT c.id,c.user_id,c.page,c.parent_id,c.name,c.body,c.status,c.created_at,u.email,COALESCE(u.chat_locked,0) AS chat_locked FROM comments c LEFT JOIN users u ON u.id=c.user_id WHERE ${where} ORDER BY julianday(c.created_at) ${direction},c.id ${direction} LIMIT ? OFFSET ?`).bind(query,term,term,term,limit,offset).all();
     return json({comments:rows.results,total:Number(totalRow?.total)||0,limit,offset,query,category});
    }
    if(route==='admin/users'&&request.method==='POST'){
@@ -190,12 +191,13 @@ async function handle(context){const {request,env}=context;const url=new URL(req
    }
    if(route==='admin/audit'&&request.method==='POST'){
     if(!ownerAuthorized)return json({error:'Nhật ký kiểm duyệt chỉ dành cho chủ website.'},403);
+    const direction=body.sort==='oldest'?'ASC':'DESC';
     const requested=Number(body.limit),limit=[10,20,50].includes(requested)?requested:10,offset=Math.max(0,Math.min(100000,Number.parseInt(body.offset,10)||0)),query=clean(body.query).slice(0,100).toLowerCase(),action=clean(body.action)||'all',category=clean(body.category)||'all',term=`%${query}%`;
     const actionSql={all:'1=1',comment_deleted:"a.action='comment_deleted'",chat_locked:"a.action='chat_locked'",chat_unlocked:"a.action='chat_unlocked'"}[action]||'1=1';
     const categorySql={all:'1=1',film:"a.target_page='/phim/'",novel:"(a.target_page='/truyen/' OR a.target_page LIKE '/truyen/%')",encyclopedia:"(a.target_page='/bach-khoa/' OR a.target_page LIKE '/bach-khoa/%' OR a.target_page='/nhan-vat/' OR a.target_page LIKE '/nhan-vat/%' OR a.target_page='/canh-gioi/' OR a.target_page LIKE '/canh-gioi/%')",community:"a.target_page='/cong-dong/'"}[category]||'1=1';
     const where=`${actionSql} AND ${categorySql} AND (?='' OR lower(a.actor_label) LIKE ? OR lower(a.details) LIKE ? OR lower(COALESCE(a.target_comment_id,'')) LIKE ?)`;
     const totalRow=await env.DB.prepare(`SELECT COUNT(*) AS total FROM admin_audit a WHERE ${where}`).bind(query,term,term,term).first();
-    const rows=await env.DB.prepare(`SELECT a.id,a.action,a.actor_type,a.actor_label,a.target_user_id,a.target_comment_id,COALESCE(a.target_page,CASE WHEN a.action IN ('chat_locked','chat_unlocked') THEN '/quan-tri/' END) AS target_page,a.details,a.created_at,u.name AS target_user_name,u.email AS target_user_email FROM admin_audit a LEFT JOIN users u ON u.id=a.target_user_id WHERE ${where} ORDER BY julianday(a.created_at) DESC,a.id DESC LIMIT ? OFFSET ?`).bind(query,term,term,term,limit,offset).all();
+    const rows=await env.DB.prepare(`SELECT a.id,a.action,a.actor_type,a.actor_label,a.target_user_id,a.target_comment_id,COALESCE(a.target_page,CASE WHEN a.action IN ('chat_locked','chat_unlocked') THEN '/quan-tri/' END) AS target_page,a.details,a.created_at,u.name AS target_user_name,u.email AS target_user_email FROM admin_audit a LEFT JOIN users u ON u.id=a.target_user_id WHERE ${where} ORDER BY julianday(a.created_at) ${direction},a.id ${direction} LIMIT ? OFFSET ?`).bind(query,term,term,term,limit,offset).all();
     return json({events:rows.results,total:Number(totalRow?.total)||0,limit,offset,query,action,category});
    }
    if(route==='admin/reports'){const rows=await env.DB.prepare('SELECT * FROM reports ORDER BY created_at DESC LIMIT 100').all();return json({reports:rows.results})}
