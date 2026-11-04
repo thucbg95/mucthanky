@@ -1604,7 +1604,6 @@ html[data-theme=dark] .novel-chapter-row.is-current .novel-chapter-number{backgr
   .novel-sort{grid-column:1;grid-row:2;display:flex;justify-content:flex-start;gap:5px}
   .novel-page-size{grid-column:2;grid-row:2;justify-self:end;gap:6px;font-size:11px}
   .novel-page-size select{min-width:88px;padding-inline:8px}
-  .top-progress{display:none!important}
 }
 @media(max-width:760px){
   .directory-toolbar-characters{grid-template-columns:minmax(0,1fr) minmax(108px,.56fr)}
