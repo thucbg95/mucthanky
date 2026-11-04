@@ -154,9 +154,9 @@ async function handle(context){const {request,env}=context;const url=new URL(req
    }
    if(route==='admin/users'&&request.method==='POST'){
     if(!ownerAuthorized)return json({error:'Chỉ chủ website mới được quản lý quyền tài khoản.'},403);
-    const requested=Number(body.limit),limit=[10,20,50].includes(requested)?requested:10,offset=Math.max(0,Math.min(100000,Number.parseInt(body.offset,10)||0)),query=clean(body.query).slice(0,100).toLowerCase(),term=`%${query}%`;
-    const totalRow=await env.DB.prepare("SELECT COUNT(*) AS total FROM users WHERE (?='' OR lower(name) LIKE ? OR lower(email) LIKE ?)").bind(query,term,term).first();
-    const rows=await env.DB.prepare("SELECT u.id,u.email,u.name,u.role,u.chat_locked,COALESCE(COUNT(c.id),0) AS comment_count FROM users u LEFT JOIN comments c ON c.user_id=u.id AND c.status='approved' WHERE (?='' OR lower(u.name) LIKE ? OR lower(u.email) LIKE ?) GROUP BY u.id ORDER BY u.created_at DESC LIMIT ? OFFSET ?").bind(query,term,term,limit,offset).all();return json({users:rows.results,total:Number(totalRow?.total)||0,limit,offset,query})
+    const requested=Number(body.limit),limit=[10,20,50].includes(requested)?requested:10,offset=Math.max(0,Math.min(100000,Number.parseInt(body.offset,10)||0)),query=clean(body.query).slice(0,100).toLowerCase(),term=`%${query}%`,role=['admin','member'].includes(body.role)?body.role:'all',direction=body.sort==='oldest'?'ASC':'DESC';
+    const totalRow=await env.DB.prepare("SELECT COUNT(*) AS total FROM users WHERE (?='' OR lower(name) LIKE ? OR lower(email) LIKE ?) AND (?='all' OR role=?)").bind(query,term,term,role,role).first();
+    const rows=await env.DB.prepare(`SELECT u.id,u.email,u.name,u.role,u.chat_locked,COALESCE(COUNT(c.id),0) AS comment_count FROM users u LEFT JOIN comments c ON c.user_id=u.id AND c.status='approved' WHERE (?='' OR lower(u.name) LIKE ? OR lower(u.email) LIKE ?) AND (?='all' OR u.role=?) GROUP BY u.id ORDER BY u.created_at ${direction},u.id ${direction} LIMIT ? OFFSET ?`).bind(query,term,term,role,role,limit,offset).all();return json({users:rows.results,total:Number(totalRow?.total)||0,limit,offset,query})
    }
    if(route==='admin/set-role'&&request.method==='POST'){
     if(!ownerAuthorized)return json({error:'Chỉ chủ website mới được cấp hoặc gỡ quyền quản trị.'},403);
