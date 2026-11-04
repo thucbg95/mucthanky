@@ -22,3 +22,8 @@ assert(fs.readFileSync('dist/phim/index.html','utf8').includes('/assets/verified
 assert.equal(entryVideos(media,{slug:'hu-sinh-hoa',videos:[{embedUrl:'https://player.bilibili.com/player.html?bvid=BV1Fvnh6VEcD'}]}).filter(v=>v.bvid==='BV1Fvnh6VEcD'||v.embedUrl?.includes('BV1Fvnh6VEcD')).length,1,'Prefer the local PV over duplicate embeds');
 assert(!entryGallery(media,{slug:'nguoi-cam'}).some(image=>image.sourceEpisode===2&&image.sourceTime===650),'The butcher must not appear in the blacksmith album');
 console.log('Media checks passed: '+entries.length+' profiles, subject filtering, galleries, local files and film poster.');
+
+assert(!entryGallery(media,{slug:'thien-ma-giao'}).some(image=>image.subjects?.includes('ban-cong-tho')),'Ban Cong Tho must not appear in the Heavenly Saint Cult gallery');
+assert(entryImage(media,{slug:'kiem-hoan'}).src.endsWith('.webp'),'Sword pellet uses a verified animation still');
+for(const entry of entries.filter(e=>e.category==='nhan-vat'))assert(entryImage(media,entry)?.kind!=='related',entry.slug+': another character must not serve as the portrait');
+assert(!Object.values(media.images).some(image=>image.kind==='illustration'),'Concept diagrams must not replace verified subject images');
