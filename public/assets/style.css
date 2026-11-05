@@ -2337,4 +2337,4 @@ html:not([data-theme=dark]) .play-action-button{background:#174c41!important;bor
 
 .sort-tooltip{position:fixed;z-index:1000;max-width:calc(100vw - 16px);white-space:nowrap;pointer-events:none;background:#173f49;color:#fff;padding:7px 11px;border-radius:8px;font-size:calc(11px * var(--font-scale,1));font-weight:400;line-height:1.8}
 
-.comment-reply-recipient{display:inline;padding:2px 7px;border-radius:6px;background:#e2eeeb;color:#17574b;font-weight:750;box-decoration-break:clone;-webkit-box-decoration-break:clone;overflow-wrap:anywhere;line-height:1.8}html[data-theme="dark"] .comment-reply-recipient{background:#31524e;color:#b8ead8}
+.comment-reply-recipient{display:inline;padding:2px 7px;border-radius:6px;background:rgba(23,87,75,.045);color:#315f54;font-weight:650;box-decoration-break:clone;-webkit-box-decoration-break:clone;overflow-wrap:anywhere;line-height:1.8}html[data-theme="dark"] .comment-reply-recipient{background:rgba(184,234,216,.045);color:#a6c8bc}
