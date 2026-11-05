@@ -2343,3 +2343,5 @@ html :is(.comment-pagination,.comment-reply-pagination,.directory-pagination,.sc
 
 /* Profile navigation shares the encyclopedia category controls. */
 .encyclopedia-profile-hero .entry-heading{padding-top:0;padding-bottom:0}.profile-category-nav{margin:22px 0 0}.profile-category-nav a{display:inline-flex;align-items:center;text-decoration:none;font-weight:700}
+
+.category-dropdown{display:none}.profile-category-section{margin-top:24px;margin-bottom:24px}.profile-category-section .profile-category-nav{margin:0}@media(max-width:760px){.directory-categories{display:none}.category-dropdown{display:flex;align-items:center;gap:12px;margin:20px 0;width:100%}.category-dropdown select{flex:1;min-width:0;width:100%}.profile-category-section .category-dropdown{margin:0}.profile-category-section{margin-top:22px;margin-bottom:22px}}
