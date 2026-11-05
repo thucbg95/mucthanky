@@ -2357,3 +2357,6 @@ html .discovery-bar>button[data-search]:is(:hover,:focus-visible){background:var
 .nav>[data-search]:hover::after,.nav>[data-search]:focus-visible::after{opacity:1;transform:translateY(0)}
 html[data-theme=dark] .nav>[data-search]::after{background:#e6c785;color:#1c2b2e}
 @media(prefers-reduced-motion:reduce){.nav>[data-search],.nav>[data-search]::after{transition:none}.nav>[data-search]:hover,.nav>[data-search]:focus-visible{transform:none}}
+
+/* Light surround for the film poster in light mode. */
+html:not([data-theme=dark]) .feature-art,html:not([data-theme=dark]) .feature-art img{background:#edf3f1}
