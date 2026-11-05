@@ -2360,3 +2360,9 @@ html[data-theme=dark] .nav>[data-search]::after{background:#e6c785;color:#1c2b2e
 
 /* Light surround for the film poster in light mode. */
 html:not([data-theme=dark]) .feature-art,html:not([data-theme=dark]) .feature-art img{background:#edf3f1}
+
+/* Consistent interaction feedback for admin filters and search fields. */
+html :is(.admin-page select,.admin-page .admin-list-toolbar input,input[type="search"]){transition:background-color .18s ease,border-color .18s ease,box-shadow .18s ease}
+html :is(.admin-page select,.admin-page .admin-list-toolbar input,input[type="search"]):not(:disabled):hover{border-color:var(--green);background-color:var(--panel);background-color:color-mix(in srgb,var(--green) 5%,var(--panel));box-shadow:0 0 0 1px color-mix(in srgb,var(--green) 18%,transparent)}
+html :is(.admin-page select,.admin-page .admin-list-toolbar input,input[type="search"]):not(:disabled):focus-visible{border-color:var(--green);box-shadow:0 0 0 3px color-mix(in srgb,var(--green) 16%,transparent)}
+@media(prefers-reduced-motion:reduce){html :is(.admin-page select,.admin-page .admin-list-toolbar input,input[type="search"]){transition:none}}
