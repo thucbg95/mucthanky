@@ -969,21 +969,6 @@
       "verified": true,
       "reviewedAt": "2026-11-03"
     },
-    "official-31-linh-duc-tu": {
-      "src": "/assets/profile-albums/official-31-linh-duc-tu.webp",
-      "width": 1440,
-      "height": 898,
-      "alt": "Linh Dục Tú — ảnh chính thức Bilibili",
-      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1564136",
-      "assetUrl": "https://i0.hdslb.com/bfs/archive/8c5d6656ea2e0278e44f6aaa19644dd66dd364e9.png",
-      "credit": "Bilibili / 玄机科技",
-      "kind": "frame",
-      "subjects": [
-        "linh-duc-tu"
-      ],
-      "verified": true,
-      "reviewedAt": "2026-11-03"
-    },
     "official-33-ho-linh-nhi": {
       "src": "/assets/profile-albums/official-33-ho-linh-nhi.webp",
       "width": 1440,
@@ -4497,6 +4482,22 @@
       "sourceTime": 462.5,
       "reviewedAt": "2026-11-05",
       "reviewNote": "Đối chiếu cảnh phim tập 6 và bài giới thiệu nhân vật Ly Giang; không dùng ảnh minh họa AI."
+    },
+    "official-viem-tinh-tinh-fire": {
+      "src": "/assets/profile-albums/official-31-linh-duc-tu.webp",
+      "width": 1440,
+      "height": 898,
+      "alt": "Viêm Tinh Tinh — dấu vết hỏa lực trên gương mặt",
+      "sourceUrl": "https://www.bilibili.com/bangumi/play/ep1564136",
+      "assetUrl": "https://i0.hdslb.com/bfs/archive/8c5d6656ea2e0278e44f6aaa19644dd66dd364e9.png",
+      "credit": "Bilibili / 玄机科技",
+      "kind": "frame",
+      "subjects": [
+        "viem-tinh-tinh"
+      ],
+      "verified": true,
+      "reviewedAt": "2026-11-06",
+      "reviewNote": "Sửa nhận diện theo đối chiếu hình và xác nhận của chủ website; không phải Linh Dục Tú."
     }
   },
   "gallery": [
@@ -4697,7 +4698,6 @@
     "linh-duc-tu": [
       "linh-duc-tu",
       "official-29-linh-duc-tu",
-      "official-31-linh-duc-tu",
       "ep53-29",
       "ep53-43",
       "ep53-44",
@@ -4792,7 +4792,8 @@
       "ep24-49",
       "ep24-53",
       "ep24-55",
-      "ep24-56"
+      "ep24-56",
+      "official-viem-tinh-tinh-fire"
     ],
     "thai-duong-thu": [
       "official-73-thai-duong-thu",
