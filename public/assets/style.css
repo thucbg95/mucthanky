@@ -2343,9 +2343,17 @@ html:not([data-theme=dark]) .play-action-button{background:#174c41!important;bor
 .episode-video-frame:has(iframe[data-stream-video]){aspect-ratio:16/9;background:#000}.episode-video-frame iframe[data-stream-video]{inset:0;width:100%;height:100%;border:0;border-radius:0}
 
 /* Search controls share a visible hover and keyboard-focus treatment. */
-.nav>[data-search],.discovery-bar>button[data-search]{transition:background-color .18s ease,border-color .18s ease,color .18s ease,box-shadow .18s ease,transform .18s ease}
-html .nav>[data-search]:is(:hover,:focus-visible),html .discovery-bar>button[data-search]:is(:hover,:focus-visible){background:var(--soft);background:color-mix(in srgb,var(--green) 9%,var(--panel));border-color:var(--green);color:var(--green);box-shadow:0 4px 12px #173b351a;transform:translateY(-1px)}
-.nav>[data-search] svg,.discovery-bar>button[data-search] svg{transition:transform .18s ease}
-.nav>[data-search]:hover svg,.discovery-bar>button[data-search]:hover svg{transform:scale(1.08)}
+.discovery-bar>button[data-search]{transition:background-color .18s ease,border-color .18s ease,color .18s ease,box-shadow .18s ease,transform .18s ease}
+html .discovery-bar>button[data-search]:is(:hover,:focus-visible){background:var(--soft);background:color-mix(in srgb,var(--green) 9%,var(--panel));border-color:var(--green);color:var(--green);box-shadow:0 4px 12px #173b351a;transform:translateY(-1px)}
+.discovery-bar>button[data-search] svg{transition:transform .18s ease}
+.discovery-bar>button[data-search]:hover svg{transform:scale(1.08)}
 .nav>.theme-toggle>span{transform:none}.theme-contrast-icon{transition:transform .22s ease}html[data-theme="dark"] .theme-contrast-icon{transform:rotate(180deg)}
-@media(prefers-reduced-motion:reduce){.nav>[data-search],.discovery-bar>button[data-search],.nav>[data-search] svg,.discovery-bar>button[data-search] svg,.theme-contrast-icon{transition:none}html .nav>[data-search]:is(:hover,:focus-visible),html .discovery-bar>button[data-search]:is(:hover,:focus-visible),.nav>[data-search]:hover svg,.discovery-bar>button[data-search]:hover svg{transform:none}}
+@media(prefers-reduced-motion:reduce){.discovery-bar>button[data-search],.discovery-bar>button[data-search] svg,.theme-contrast-icon{transition:none}html .discovery-bar>button[data-search]:is(:hover,:focus-visible),.discovery-bar>button[data-search]:hover svg{transform:none}}
+
+/* Match the main-menu search hover to the appearance toggle. */
+.nav>[data-search]{position:relative;overflow:visible;transition:transform .22s ease,color .22s ease,background-color .22s ease,box-shadow .22s ease}
+.nav>[data-search]::after{content:attr(aria-label);position:absolute;right:0;top:calc(100% + 9px);z-index:80;white-space:nowrap;padding:7px 11px;border-radius:9px;background:#174c47;color:#fffdf5;font-size:12px;font-weight:650;line-height:1.3;box-shadow:0 5px 16px #173b3535;opacity:0;transform:translateY(-5px);pointer-events:none;transition:opacity .18s ease,transform .18s ease}
+.nav>[data-search]:hover,.nav>[data-search]:focus-visible{transform:translateY(-2px);box-shadow:0 6px 16px #173b3525}
+.nav>[data-search]:hover::after,.nav>[data-search]:focus-visible::after{opacity:1;transform:translateY(0)}
+html[data-theme=dark] .nav>[data-search]::after{background:#e6c785;color:#1c2b2e}
+@media(prefers-reduced-motion:reduce){.nav>[data-search],.nav>[data-search]::after{transition:none}.nav>[data-search]:hover,.nav>[data-search]:focus-visible{transform:none}}
