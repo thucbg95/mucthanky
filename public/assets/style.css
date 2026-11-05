@@ -1866,8 +1866,8 @@ body:has(.account-page) #main{flex:1 0 auto}
 .comment-view-controls .comment-filter-field select:hover,.comment-view-controls .comment-page-size-field select:hover{border-color:var(--green);background-color:var(--soft);color:var(--text)}
 .comment-view-controls .comment-filter-field select:focus-visible,.comment-view-controls .comment-page-size-field select:focus-visible{border-color:var(--green);outline:2px solid color-mix(in srgb,var(--green) 34%,transparent);outline-offset:1px}
 .comment-sort-buttons{display:flex;align-items:center;gap:6px;margin:0;white-space:nowrap}
-.comment-sort-buttons .sort-control-button{transform:none}
-.comment-sort-buttons .sort-control-button:hover{transform:none}
+
+
 @media(max-width:620px){.comment-view-controls{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:7px;padding:8px}.comment-view-controls .comment-filter-field,.comment-view-controls .comment-page-size-field,.comment-view-controls .comment-sort-field{min-width:0;font-size:11px}.comment-view-controls .comment-filter-field select,.comment-view-controls .comment-page-size-field select{height:38px;min-height:38px;padding-left:8px;padding-right:26px;font-size:11px}.comment-view-controls .comment-filter-field::after,.comment-view-controls .comment-page-size-field::after{right:10px;bottom:14px}.comment-sort-buttons{gap:4px}.comment-sort-buttons .sort-control-button{width:36px;height:38px;min-width:36px;min-height:38px;border-radius:8px}.comment-sort-buttons .sort-direction-icon{width:17px;height:17px}}
 
 @media(max-width:620px){.comment-view-controls .comment-filter-field,.comment-view-controls .comment-page-size-field{grid-column:auto}.comment-view-controls .comment-filter-field select,.comment-view-controls .comment-page-size-field select{font-size:10.5px}}
