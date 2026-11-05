@@ -2341,3 +2341,11 @@ html:not([data-theme=dark]) .play-action-button{background:#174c41!important;bor
 
 .comment-actions button.comment-show-replies{transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease}.comment-actions button.comment-show-replies:hover,.comment-actions button.comment-show-replies:focus-visible{background:var(--soft);border-color:var(--green);transform:translateY(-1px)}.comment-just-posted{outline:1px solid var(--green);outline-offset:5px;border-radius:8px}@media(prefers-reduced-motion:reduce){.comment-actions button.comment-show-replies{transition:none}.comment-actions button.comment-show-replies:hover,.comment-actions button.comment-show-replies:focus-visible{transform:none}}
 .episode-video-frame:has(iframe[data-stream-video]){aspect-ratio:16/9;background:#000}.episode-video-frame iframe[data-stream-video]{inset:0;width:100%;height:100%;border:0;border-radius:0}
+
+/* Search controls share a visible hover and keyboard-focus treatment. */
+.nav>[data-search],.discovery-bar>button[data-search]{transition:background-color .18s ease,border-color .18s ease,color .18s ease,box-shadow .18s ease,transform .18s ease}
+html .nav>[data-search]:is(:hover,:focus-visible),html .discovery-bar>button[data-search]:is(:hover,:focus-visible){background:var(--soft);background:color-mix(in srgb,var(--green) 9%,var(--panel));border-color:var(--green);color:var(--green);box-shadow:0 4px 12px #173b351a;transform:translateY(-1px)}
+.nav>[data-search] svg,.discovery-bar>button[data-search] svg{transition:transform .18s ease}
+.nav>[data-search]:hover svg,.discovery-bar>button[data-search]:hover svg{transform:scale(1.08)}
+.nav>.theme-toggle>span{transform:none}.theme-contrast-icon{transition:transform .22s ease}html[data-theme="dark"] .theme-contrast-icon{transform:rotate(180deg)}
+@media(prefers-reduced-motion:reduce){.nav>[data-search],.discovery-bar>button[data-search],.nav>[data-search] svg,.discovery-bar>button[data-search] svg,.theme-contrast-icon{transition:none}html .nav>[data-search]:is(:hover,:focus-visible),html .discovery-bar>button[data-search]:is(:hover,:focus-visible),.nav>[data-search]:hover svg,.discovery-bar>button[data-search]:hover svg{transform:none}}
