@@ -104,3 +104,5 @@ html:not([data-theme="dark"]) :is(.comment-actions button,.comment-moderator-act
 html:not([data-theme="dark"]) :is(.like-button,.like-button.is-liked){background:#fff}
 html:not([data-theme="dark"]) :is(.like-button,.like-button.is-liked):is(:hover,:focus-visible):not(:disabled){background:#f4f4f4}
 html:not([data-theme="dark"]) .novel-chapter-list{background:none;box-shadow:none}
+
+html:not([data-theme="dark"]) .card-symbol{background:#ffffff}
