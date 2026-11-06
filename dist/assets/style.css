@@ -2389,3 +2389,5 @@ html:not([data-theme="dark"]) .quickbar>a:is(:hover,:focus-visible){background:#
 :is(.back-top,.float-menu-toggle)>.top-label{top:50%;right:calc(100% + 12px);line-height:1.8;transform:translate(5px,-50%)}
 :is(.back-top,.float-menu-toggle):is(:hover,:focus-visible)>.top-label{opacity:1;transform:translate(0,-50%)}
 @media(hover:none){:is(.back-top,.float-menu-toggle)>.top-label{display:none}}
+
+.comment-editor{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--text);font:inherit;line-height:1.8;white-space:pre-wrap;overflow-wrap:anywhere;cursor:text;outline:none}.comment-editor:focus{border-color:var(--green);box-shadow:0 0 0 2px color-mix(in srgb,var(--green) 16%,transparent)}.comment-editor.is-empty:before{content:attr(data-placeholder);color:var(--muted);pointer-events:none}.comment-editor img.fluent-emoji{pointer-events:auto}.comment-editor-error{display:block;color:var(--text);margin-top:5px}
