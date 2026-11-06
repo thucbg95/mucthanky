@@ -2368,3 +2368,12 @@ html:has(#search-dialog[open]),html:has(#search-dialog[open]) body{overflow:hidd
 .episode-search input{border-radius:inherit}
 
 .admin-analytics-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:16px 0 24px}.admin-analytics-cards .account-stat{min-width:0}.admin-analytics-pages{display:grid;gap:8px;margin-bottom:16px}.admin-analytics-pages a{overflow-wrap:anywhere;min-width:0}.admin-analytics-pages .admin-user-row{justify-content:space-between;gap:12px}@media(max-width:760px){.admin-analytics-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.admin-analytics-pages .admin-user-row{align-items:flex-start}.admin-analytics-pages strong{white-space:nowrap}}
+
+.schedule-summary{transition:background-color .18s ease,box-shadow .18s ease,color .18s ease}
+@media(hover:hover){
+.schedule-summary:hover{background:var(--soft);box-shadow:inset 0 0 0 1px var(--green)}
+html[data-theme=dark] .schedule-summary:hover{background:#293a42;color:#f1dcae;box-shadow:inset 0 0 0 1px #67847e}
+html:not([data-theme=dark]) .schedule-summary:hover{background:#eeeeee;color:#171717;box-shadow:inset 0 0 0 1px #aaaaaa}
+}
+.schedule-summary:focus-visible{outline:2px solid var(--green);outline-offset:-3px;background:var(--soft)}
+@media(prefers-reduced-motion:reduce){.schedule-summary{transition:none}}
