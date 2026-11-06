@@ -153,6 +153,13 @@ async function handle(context){const {request,env}=context;const url=new URL(req
     const rows=await env.DB.prepare(`SELECT c.id,c.user_id,c.page,c.parent_id,p.name AS parent_name,c.name,c.body,c.status,c.created_at,u.email,COALESCE(u.chat_locked,0) AS chat_locked FROM comments c LEFT JOIN users u ON u.id=c.user_id LEFT JOIN comments p ON p.id=c.parent_id WHERE ${where} ORDER BY julianday(c.created_at) ${direction},c.id ${direction} LIMIT ? OFFSET ?`).bind(query,term,term,term,limit,offset).all();
     return json({comments:rows.results,total:Number(totalRow?.total)||0,limit,offset,query,category});
    }
+   if(route==='admin/analytics'&&request.method==='POST'){
+    if(!ownerAuthorized)return json({error:'Thống kê truy cập chỉ dành cho chủ website.'},403);
+    const where="page NOT IN ('/quan-tri/','/nguyen-minh-duy/','/404/') AND page NOT LIKE '/api/%'";
+    const groups=await env.DB.prepare("SELECT CASE WHEN page='/' THEN 'home' WHEN page='/phim/' OR page LIKE '/phim/%' THEN 'film' WHEN page='/truyen/' OR page LIKE '/truyen/%' THEN 'novel' WHEN page='/bach-khoa/' OR page LIKE '/bach-khoa/%' OR page='/nhan-vat/' OR page LIKE '/nhan-vat/%' OR page='/canh-gioi/' OR page LIKE '/canh-gioi/%' THEN 'encyclopedia' WHEN page='/cong-dong/' OR page LIKE '/cong-dong/%' THEN 'community' ELSE 'other' END AS category,SUM(views) AS views,COUNT(*) AS pages FROM page_views WHERE "+where+" GROUP BY category").all();
+    const top=await env.DB.prepare('SELECT page,views,updated_at FROM page_views WHERE '+where+' ORDER BY views DESC,page ASC LIMIT 20').all();
+    return json({total:groups.results.reduce((n,r)=>n+Number(r.views),0),groups:groups.results,topPages:top.results,generatedAt:new Date().toISOString()});
+   }
    if(route==='admin/users'&&request.method==='POST'){
     if(!ownerAuthorized)return json({error:'Chỉ chủ website mới được quản lý quyền tài khoản.'},403);
     const requested=Number(body.limit),limit=[10,20,50].includes(requested)?requested:10,offset=Math.max(0,Math.min(100000,Number.parseInt(body.offset,10)||0)),query=clean(body.query).slice(0,100).toLowerCase(),term='%'+query+'%',role=['admin','member','locked'].includes(body.role)?body.role:'all',direction=body.sort==='oldest'?'ASC':'DESC',roleSql=role==='locked'?'u.chat_locked=1':role==='all'?'1=1':'u.role=?',args=[query,term,term,...(['admin','member'].includes(role)?[role]:[])],where="(?='' OR lower(u.name) LIKE ? OR lower(u.email) LIKE ?) AND "+roleSql;

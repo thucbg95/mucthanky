@@ -35,4 +35,8 @@ assert.equal(db.prepare("SELECT COUNT(*) AS n FROM likes WHERE target_type='comm
 assert.equal(db.prepare("SELECT COUNT(*) AS n FROM likes WHERE user_id='reader'").get().n,2);
 assert.equal(db.prepare("SELECT COUNT(*) AS n FROM admin_audit WHERE action='comment_deleted' AND target_user_id='reader'").get().n,1);
 console.log('Bulk deletion checks passed: owner-only, preview, stale count, replies preserved, related reports/likes cleaned and audit recorded.');
+for(const [page,views]of [['/',10],['/phim/',4],['/phim/tap-1/',6],['/truyen/chuong-1/',8],['/bach-khoa/tan-muc/',7],['/nhan-vat/',3],['/canh-gioi/',2],['/cong-dong/',5],['/tai-khoan/',1],['/nguyen-minh-duy/',999]])db.prepare('INSERT INTO page_views(page,views) VALUES(?,?)').run(page,views);
+assert.equal((await req('admin/analytics','reader',{})).status,401);assert.equal((await req('admin/analytics','moderator',{})).status,403);
+r=await req('admin/analytics','reader',{},true);assert.equal(r.status,200);assert.equal(r.data.total,46);assert.equal(r.data.groups.find(x=>x.category==='film').views,10);assert.equal(r.data.groups.find(x=>x.category==='encyclopedia').views,12);assert(!r.data.topPages.some(x=>x.page==='/nguyen-minh-duy/'));
+console.log('Analytics checks passed: owner-only, grouping, child pages, totals and private page exclusion.');
 db.close();console.log('Account participation checks passed: approved counts, active likes, rank boundaries, owner filter, admin locked list, access checks and unlock.');

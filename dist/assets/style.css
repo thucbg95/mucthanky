@@ -2366,3 +2366,5 @@ html:has(#search-dialog[open]),html:has(#search-dialog[open]) body{overflow:hidd
 /* Search wrapper paints the hover background, so it shares the input corners. */
 .episode-search{border-radius:12px}
 .episode-search input{border-radius:inherit}
+
+.admin-analytics-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:16px 0 24px}.admin-analytics-cards .account-stat{min-width:0}.admin-analytics-pages{display:grid;gap:8px;margin-bottom:16px}.admin-analytics-pages a{overflow-wrap:anywhere;min-width:0}.admin-analytics-pages .admin-user-row{justify-content:space-between;gap:12px}@media(max-width:760px){.admin-analytics-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.admin-analytics-pages .admin-user-row{align-items:flex-start}.admin-analytics-pages strong{white-space:nowrap}}
