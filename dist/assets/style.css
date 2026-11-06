@@ -2402,3 +2402,5 @@ html:not([data-theme="dark"]) .quickbar>a:is(:hover,:focus-visible){background:#
 
 .footer-links a{border-radius:6px;outline:1px solid transparent;outline-offset:5px;transition:background-color .18s ease,outline-color .18s ease,color .18s ease,box-shadow .18s ease}.footer-links a:is(:hover,:focus-visible){outline-color:var(--green);background:var(--soft);box-shadow:0 0 0 5px var(--soft);color:var(--text)}
 @media(prefers-reduced-motion:reduce){.footer-links a{transition:none}}
+
+.next-release-list{display:grid;gap:4px;margin:0;padding-left:1.6em;min-width:0}.next-release-list li{padding-left:2px}@media(max-width:760px){.next-release-list li:nth-child(n+2){display:none}}

@@ -1,0 +1,3 @@
+import assert from 'node:assert/strict';
+import {upcomingReleases} from '../public/assets/release-schedule.js';
+const rows=upcomingReleases(107);assert.equal(rows.length,10);assert.equal(rows[0].number,108);assert.equal(rows[0].date,'2026-11-08');assert.equal(rows[9].number,117);assert.equal(rows[9].date,'2027-01-10');for(let i=1;i<rows.length;i++)assert.equal(Date.parse(rows[i].date)-Date.parse(rows[i-1].date),7*86400000);assert.equal(upcomingReleases(108)[0].date,'2026-11-15');assert.equal(upcomingReleases(108)[9].number,118);console.log('Upcoming release schedule passed: next 10 episodes, weekly intervals, year rollover and newest episode advance.');
