@@ -2396,3 +2396,6 @@ html:not([data-theme="dark"]) .quickbar>a:is(:hover,:focus-visible){background:#
 #thao-luan #comment-form #comment-status{margin:0;line-height:1.5}
 #thao-luan #comment-form #comment-status:empty{display:none}
 #thao-luan .comment-editor-error{margin:0;line-height:1.5}
+
+/* Shared search typography must not inherit bold control labels. */
+.novel-search input,.novel-search input::placeholder{font-weight:400;font-style:normal;letter-spacing:normal}
