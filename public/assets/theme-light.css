@@ -106,3 +106,5 @@ html:not([data-theme="dark"]) :is(.like-button,.like-button.is-liked):is(:hover,
 html:not([data-theme="dark"]) .novel-chapter-list{background:none;box-shadow:none}
 
 html:not([data-theme="dark"]) .card-symbol{background:#ffffff}
+
+html:not([data-theme="dark"]) :is(.start-guide .guide-grid>a,.banner){background:#ffffff}
