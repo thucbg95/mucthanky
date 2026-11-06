@@ -131,3 +131,5 @@ html:not([data-theme="dark"]) #main :is(.guide-grid>a,.category-tile,.cultivatio
 
 html:not([data-theme="dark"]) #main .novel-reading-guide{background:#ffffff}
 html:not([data-theme="dark"]) body>footer{background:#ffffff}
+
+html:not([data-theme="dark"]) #account-saved-list,html:not([data-theme="dark"]) #account-saved-list>.empty{background:transparent;box-shadow:none}
