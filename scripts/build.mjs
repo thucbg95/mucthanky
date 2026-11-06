@@ -1,7 +1,7 @@
 import {neutralLightOverrides} from './neutral-light.mjs';
 import {adminListControls} from './list-controls.mjs';
 const streamEmbedUrl=value=>{try{const url=new URL(value);return url.origin==='https://streamfree.vip'&&!url.username&&!url.password&&/^\/embed\/v(?:t)?\/[A-Za-z0-9]+$/.test(url.pathname)&&!url.search&&!url.hash?url.href:''}catch{return ''}};
-const youtubeEmbedUrl=value=>{try{const url=new URL(value);if(url.protocol!=='https:')return '';const id=['youtube.com','www.youtube.com'].includes(url.hostname)?(url.pathname==='/watch'?url.searchParams.get('v'):url.pathname.match(/^\/embed\/([\w-]{11})$/)?.[1]):url.hostname==='youtu.be'?url.pathname.slice(1):'';return /^[\w-]{11}$/.test(id||'')?'https://www.youtube.com/embed/'+id:''}catch{return ''}};
+const youtubeEmbedUrl=value=>{try{const url=new URL(value);if(url.protocol!=='https:')return '';const id=['youtube.com','www.youtube.com'].includes(url.hostname)?(url.pathname==='/watch'?url.searchParams.get('v'):url.pathname.match(/^\/embed\/([\w-]{11})$/)?.[1]):url.hostname==='youtu.be'?url.pathname.slice(1):'';return /^[\w-]{11}$/.test(id||'')?'https://www.youtube.com/embed/'+id+'?cc_load_policy=0':''}catch{return ''}};
 import {createUI} from './ui.mjs';
 import {novelLibrary,novelReader} from './novel-pages.mjs';
 import fs from 'node:fs';
