@@ -2377,3 +2377,5 @@ html:not([data-theme=dark]) .schedule-summary:hover{background:#eeeeee;color:#17
 }
 .schedule-summary:focus-visible{outline:2px solid var(--green);outline-offset:-3px;background:var(--soft)}
 @media(prefers-reduced-motion:reduce){.schedule-summary{transition:none}}
+
+img.fluent-emoji{display:inline-block!important;width:1.4em;height:1.4em;max-width:none;margin:0 .04em;vertical-align:-.3em;object-fit:contain;pointer-events:none}.emoji-choice img.fluent-emoji{width:28px;height:28px;margin:0;vertical-align:middle}.emoji-choice{display:inline-grid;place-items:center}.emoji-picker-toggle img.fluent-emoji{width:22px;height:22px;vertical-align:middle}
