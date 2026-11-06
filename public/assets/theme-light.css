@@ -136,3 +136,17 @@ html:not([data-theme="dark"]) #account-saved-list,html:not([data-theme="dark"]) 
 
 /* Search text uses one regular weight across novel, directory and admin controls. */
 html:not([data-theme="dark"]) .novel-search input,html:not([data-theme="dark"]) .novel-search input::placeholder{font-weight:400;font-style:normal;letter-spacing:normal}
+
+/* White related-profile and footer surfaces in light mode. */
+html:not([data-theme="dark"]) #main .article-aside .aside,html:not([data-theme="dark"]) body>footer{background:#ffffff}
+/* A brighter rose accent identifies active likes. */
+html:not([data-theme="dark"]) .like-button.is-liked{color:#dc3e6b;border-color:#e887a2;background:#fff}
+html:not([data-theme="dark"]) .like-button.is-liked:is(:hover,:focus-visible):not(:disabled){color:#db3564;background:#f4f4f4;border-color:#4a4a4a}
+
+html:not([data-theme="dark"]) body>footer{background:#ffffff!important}
+
+/* Floating menu has no painted panel behind its individual circular controls. */
+html:not([data-theme="dark"]) .font-floater{opacity:1;background:transparent;backdrop-filter:none}
+html:not([data-theme="dark"]) .font-floater .float-menu{background:transparent;box-shadow:none;border:0;backdrop-filter:none}
+html:not([data-theme="dark"]) .font-floater :is(.float-menu-toggle,.float-menu>button,.float-menu>a){background:#fff;color:#4a4a4a;border-color:#cccccc;box-shadow:0 2px 6px #0000000d}
+html:not([data-theme="dark"]) .font-floater :is(.float-menu-toggle,.float-menu>button,.float-menu>a):is(:hover,:focus-visible){background:#f4f4f4;color:#171717;border-color:#4a4a4a;box-shadow:0 2px 6px #0000000d}
