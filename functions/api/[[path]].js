@@ -163,6 +163,22 @@ async function handle(context){const {request,env}=context;const url=new URL(req
     const requested=Number(body.limit),limit=[10,20,50].includes(requested)?requested:10,offset=Math.max(0,Math.min(100000,Number.parseInt(body.offset,10)||0)),query=clean(body.query).slice(0,100).toLowerCase(),term='%'+query+'%',where="u.chat_locked=1 AND (?='' OR lower(u.name) LIKE ? OR lower(u.email) LIKE ?)",totalRow=await env.DB.prepare('SELECT COUNT(*) AS total FROM users u WHERE '+where).bind(query,term,term).first();
     const rows=await env.DB.prepare(`SELECT u.id,u.name,u.email,u.role,u.chat_locked,u.chat_lock_reason,u.chat_locked_at,(SELECT COUNT(*) FROM comments c WHERE c.user_id=u.id AND c.status='approved') AS comment_count,(SELECT COUNT(*) FROM likes l WHERE l.user_id=u.id) AS like_count FROM users u WHERE ${where} ORDER BY u.chat_locked_at DESC,u.id DESC LIMIT ? OFFSET ?`).bind(query,term,term,limit,offset).all();return json({users:rows.results,total:Number(totalRow?.total)||0,limit,offset});
    }
+   if(route==='admin/delete-user-comments'&&request.method==='POST'){
+    if(!ownerAuthorized)return json({error:'Chỉ chủ website mới được xóa toàn bộ chat của tài khoản.'},403);
+    const userId=clean(body.userId);if(!userId)return json({error:'Hãy chọn tài khoản cần xóa chat.'},400);
+    const target=await env.DB.prepare('SELECT id,name,email FROM users WHERE id=?').bind(userId).first();if(!target)return json({error:'Không tìm thấy tài khoản.'},404);
+    const row=await env.DB.prepare('SELECT COUNT(*) AS total FROM comments WHERE user_id=?').bind(userId).first(),total=Number(row?.total)||0;
+    if(body.confirm!==true)return json({user:target,total});
+    if(!Number.isInteger(body.expectedCount)||body.expectedCount!==total)return json({error:'Số tin nhắn đã thay đổi. Hãy kiểm tra và xác nhận lại.'},409);
+    if(!total)return json({ok:true,deleted:0});
+    await env.DB.batch([
+     env.DB.prepare('DELETE FROM reports WHERE comment_id IN (SELECT id FROM comments WHERE user_id=?)').bind(userId),
+     env.DB.prepare("DELETE FROM likes WHERE target_type='comment' AND target_id IN (SELECT id FROM comments WHERE user_id=?)").bind(userId),
+     env.DB.prepare('UPDATE comments SET parent_id=NULL WHERE parent_id IN (SELECT id FROM comments WHERE user_id=?)').bind(userId),
+     env.DB.prepare('DELETE FROM comments WHERE user_id=?').bind(userId),
+     env.DB.prepare('INSERT INTO admin_audit(id,action,actor_type,actor_user_id,actor_label,target_user_id,target_page,details) VALUES(?,?,?,?,?,?,?,?)').bind(crypto.randomUUID(),'comment_deleted','owner_token',null,'Chủ website',userId,'/nguyen-minh-duy/',JSON.stringify({accountName:target.name,email:target.email,bulk:true,deletedCount:total,sourcePage:'/nguyen-minh-duy/'}))
+    ]);return json({ok:true,deleted:total});
+   }
    if(route==='admin/set-role'&&request.method==='POST'){
     if(!ownerAuthorized)return json({error:'Chỉ chủ website mới được cấp hoặc gỡ quyền quản trị.'},403);
     const email=clean(body.email).toLowerCase(),role=body.role;

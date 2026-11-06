@@ -4,7 +4,7 @@ import vm from 'node:vm';
 import {DatabaseSync} from 'node:sqlite';
 import {onRequest} from '../functions/api/[[path]].js';
 const db=new DatabaseSync(':memory:');db.exec(fs.readFileSync('db/schema.sql','utf8'));
-const DB={prepare(sql){return{args:[],bind(...args){this.args=args;return this},async first(){return db.prepare(sql).get(...this.args)||null},async all(){return{results:db.prepare(sql).all(...this.args)}},async run(){return db.prepare(sql).run(...this.args)}}}};
+const DB={async batch(statements){db.exec("BEGIN");try{const result=statements.map(s=>db.prepare(s.sql).run(...s.args));db.exec("COMMIT");return result}catch(error){db.exec("ROLLBACK");throw error}},prepare(sql){return{sql,args:[],bind(...args){this.args=args;return this},async first(){return db.prepare(sql).get(...this.args)||null},async all(){return{results:db.prepare(sql).all(...this.args)}},async run(){return db.prepare(sql).run(...this.args)}}}};
 const env={DB,ADMIN_TOKEN:'test-only-owner-key',RATE_LIMIT_SALT:'test-only-rate-key'};
 const digest=async text=>Buffer.from(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text))).toString('hex');
 for(const [id,role,locked] of [['reader','member',0],['moderator','admin',0],['locked','member',1]]){db.prepare('INSERT INTO users(id,google_sub,email,name,role,chat_locked) VALUES(?,?,?,?,?,?)').run(id,id,id+'@example.test',id,role,locked);db.prepare('INSERT INTO sessions(token_hash,user_id,expires_at) VALUES(?,?,?)').run(await digest(id+'-session'),id,Math.floor(Date.now()/1000)+3600)}
@@ -20,4 +20,19 @@ r=await req('admin/users','reader',{role:'locked'},true);assert.equal(r.status,2
 assert.equal((await req('admin/locked-users','moderator',{query:'not-present'})).data.total,0);
 assert.equal((await req('admin/set-lock','reader',{userId:'locked',locked:false})).status,401);assert.equal((await req('admin/set-lock','moderator',{userId:'locked',locked:false})).status,200);assert.equal((await req('admin/locked-users','moderator',{})).data.total,0);
 const source=fs.readFileSync('public/assets/app.js','utf8').split('\n')[0],context=vm.createContext({});vm.runInContext(source+';globalThis.rank=memberRank;',context);for(const [count,label] of [[0,'Thành viên mới'],[1,'Thành viên'],[99,'Thành viên'],[100,'Fan cứng'],[499,'Fan cứng'],[500,'Fan siêu cứng']])assert.equal(context.rank(count).label,label);
+assert.equal((await req('admin/delete-user-comments','reader',{userId:'reader'})).status,401);
+assert.equal((await req('admin/delete-user-comments','moderator',{userId:'reader'})).status,403);
+r=await req('admin/delete-user-comments','reader',{userId:'reader'},true);assert.equal(r.data.total,3);assert.equal(db.prepare("SELECT COUNT(*) AS n FROM comments WHERE user_id='reader'").get().n,3);
+assert.equal((await req('admin/delete-user-comments','reader',{userId:'reader',confirm:true,expectedCount:2},true)).status,409);
+db.prepare("UPDATE comments SET parent_id='r1' WHERE id='l1'").run();
+db.prepare("INSERT INTO reports(id,comment_id,reason) VALUES('report-test','r1','test')").run();
+db.prepare("INSERT INTO likes(target_type,target_id,user_id) VALUES('comment','r1','locked')").run();
+r=await req('admin/delete-user-comments','reader',{userId:'reader',confirm:true,expectedCount:3},true);assert.equal(r.status,200);assert.equal(r.data.deleted,3);
+assert.equal(db.prepare("SELECT COUNT(*) AS n FROM comments WHERE user_id='reader'").get().n,0);
+assert.equal(db.prepare("SELECT parent_id FROM comments WHERE id='l1'").get().parent_id,null);
+assert.equal(db.prepare("SELECT COUNT(*) AS n FROM reports WHERE id='report-test'").get().n,0);
+assert.equal(db.prepare("SELECT COUNT(*) AS n FROM likes WHERE target_type='comment' AND target_id='r1'").get().n,0);
+assert.equal(db.prepare("SELECT COUNT(*) AS n FROM likes WHERE user_id='reader'").get().n,2);
+assert.equal(db.prepare("SELECT COUNT(*) AS n FROM admin_audit WHERE action='comment_deleted' AND target_user_id='reader'").get().n,1);
+console.log('Bulk deletion checks passed: owner-only, preview, stale count, replies preserved, related reports/likes cleaned and audit recorded.');
 db.close();console.log('Account participation checks passed: approved counts, active likes, rank boundaries, owner filter, admin locked list, access checks and unlock.');
