@@ -2384,3 +2384,8 @@ img.fluent-emoji{display:inline-block!important;width:1.4em;height:1.4em;max-wid
 .quickbar>a{transition:background-color .18s ease,box-shadow .18s ease}
 html:not([data-theme="dark"]) .quickbar>a:is(:hover,:focus-visible){background:#f4f4f4;box-shadow:inset 0 0 0 1px #c6c6c6}
 @media(prefers-reduced-motion:reduce){.quickbar>a{transition:none}}
+
+/* Share the same tooltip surface for both floating controls. */
+:is(.back-top,.float-menu-toggle)>.top-label{top:50%;right:calc(100% + 12px);line-height:1.8;transform:translate(5px,-50%)}
+:is(.back-top,.float-menu-toggle):is(:hover,:focus-visible)>.top-label{opacity:1;transform:translate(0,-50%)}
+@media(hover:none){:is(.back-top,.float-menu-toggle)>.top-label{display:none}}
