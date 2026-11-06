@@ -116,3 +116,5 @@ html:not([data-theme="dark"]) .back-top:is(:hover,:focus-visible) .top-arrow{str
 
 html:not([data-theme="dark"]) .editorial-feature{background:#ffffff}
 html:not([data-theme="dark"]) .editorial-feature .feature-content{background:#ffffff}
+
+html:not([data-theme="dark"]) .definition-row .number{color:#171717}
