@@ -1,3 +1,4 @@
+import {neutralLightOverrides} from './neutral-light.mjs';
 import {adminListControls} from './list-controls.mjs';
 const streamEmbedUrl=value=>{try{const url=new URL(value);return url.origin==='https://streamfree.vip'&&!url.username&&!url.password&&/^\/embed\/v(?:t)?\/[A-Za-z0-9]+$/.test(url.pathname)&&!url.search&&!url.hash?url.href:''}catch{return ''}};
 const youtubeEmbedUrl=value=>{try{const url=new URL(value);if(url.protocol!=='https:')return '';const id=['youtube.com','www.youtube.com'].includes(url.hostname)?(url.pathname==='/watch'?url.searchParams.get('v'):url.pathname.match(/^\/embed\/([\w-]{11})$/)?.[1]):url.hostname==='youtu.be'?url.pathname.slice(1):'';return /^[\w-]{11}$/.test(id||'')?'https://www.youtube.com/embed/'+id:''}catch{return ''}};
@@ -8,7 +9,9 @@ import path from 'node:path';
 import {createHash} from 'node:crypto';
 const out='dist'; fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});fs.cpSync('public',out,{recursive:true});
 const assetHash=name=>createHash('sha256').update(fs.readFileSync(path.join('public/assets',name))).digest('hex').slice(0,12);
-const lightVersion=assetHash('theme-light.css');
+const lightCss=neutralLightOverrides(fs.readFileSync('public/assets/style.css','utf8'))+'\n'+fs.readFileSync('public/assets/theme-light.css','utf8');
+fs.writeFileSync(path.join(out,'assets/theme-light.css'),lightCss);
+const lightVersion=createHash('sha256').update(lightCss).digest('hex').slice(0,12);
 const cssVersion=assetHash('style.css'),appVersion=assetHash('app.js'),adminVersion=assetHash('admin.js');
 const lore=JSON.parse(fs.readFileSync('src/data/lore.json','utf8'));
 const records=new Map((Array.isArray(lore)?lore:lore.entries).map(e=>[e.slug,e]));

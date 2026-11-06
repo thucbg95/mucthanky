@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import {neutralLightOverrides} from './neutral-light.mjs';
+const result=neutralLightOverrides(`.badge:hover{color:#e0b66f;background:rgba(20,80,40,.2);padding:12px}.art{background:url('/poster-#abc123.png') #fc0}html[data-theme=dark] .badge{color:#ff0}@media(max-width:760px){.btn{border:1px solid #b68c55}}`);
+assert(result.includes('html:not([data-theme="dark"]) .badge:hover'));
+assert(!result.includes('padding:12px'));
+assert(!result.includes('html[data-theme=dark]'));
+assert(result.includes("url('/poster-#abc123.png')"));
+assert(result.includes('@media(max-width:760px)'));
+assert(!result.includes('color:#e0b66f'));
+assert(!result.includes('rgba(20,80,40,.2)'));
+console.log('Neutral legacy colors: hover, mobile, alpha and media preservation passed; dark rules excluded.');
