@@ -1,11 +1,11 @@
 /* Light theme palette. Dark mode keeps its existing palette. */
-html:not([data-theme="dark"]){color-scheme:light;--bg:#f4f6f3;--panel:#ffffff;--soft:#edf2ed;--text:#263e35;--muted:#62736a;--line:#d4dfd7;--green:#245e49;--gold:#896736}
+html:not([data-theme="dark"]){color-scheme:light;--bg:#f5f6f4;--panel:#ffffff;--soft:#eef2ef;--text:#202522;--muted:#4d5751;--line:#cfd8d2;--green:#20583f;--gold:#74521f}
 html:not([data-theme="dark"]) body{background:var(--bg);color:var(--text)}
 html:not([data-theme="dark"]) header{background:#ffffffed;border-bottom-color:var(--line);box-shadow:0 2px 12px #244b3510}
-html:not([data-theme="dark"]) :is(h1,h2,h3){color:#254534}
+html:not([data-theme="dark"]) :is(h1,h2,h3){color:#192d23}
 html:not([data-theme="dark"]) :is(.page-hero,.account-hero){background:#edf3ee;border-bottom:1px solid #dce5dd}
-html:not([data-theme="dark"]) :is(.page-hero h1,.entry-heading h1){color:#254534}
-html:not([data-theme="dark"]) :is(.eyebrow,.section-number){color:#896736}
+html:not([data-theme="dark"]) :is(.page-hero h1,.entry-heading h1){color:#192d23}
+html:not([data-theme="dark"]) :is(.eyebrow,.section-number){color:#74521f}
 html:not([data-theme="dark"]) :is(.card,.feature,.account-panel,.admin-login-card,.admin-comment-card,.admin-user-row,.toc,.aside,.overview-card,.community-links>a,.support-card,.support-impact-card,.supporter-hall-intro){background:var(--panel);border-color:var(--line);box-shadow:0 3px 16px #294b3510}
 html:not([data-theme="dark"]) :is(.card p,.entry-deck,.intro-note,.source-list,.account-rank-guide,.admin-comment-meta,.admin-lock-state,.facts dt){color:var(--muted)}
 html:not([data-theme="dark"]) :is(.prose,.facts dd,.comment-body,.admin-comment-body,.account-panel p){color:var(--text)}
@@ -13,8 +13,8 @@ html:not([data-theme="dark"]) :is(.btn,.icon-button,.menu-toggle){background:#ff
 html:not([data-theme="dark"]) :is(.btn,.icon-button,.menu-toggle):hover{background:#edf3ee;border-color:#83a58e}
 html:not([data-theme="dark"]) .btn.primary,html:not([data-theme="dark"]) .hero .hero-actions .btn.primary{background:#275f49;border-color:#275f49;color:#fff;box-shadow:0 4px 12px #28563d24}
 html:not([data-theme="dark"]) .btn.primary:hover,html:not([data-theme="dark"]) .hero .hero-actions .btn.primary:hover{background:#1d4b39;border-color:#1d4b39;color:#fff}
-html:not([data-theme="dark"]) .hero h1{color:#254534;text-shadow:none}
-html:not([data-theme="dark"]) .hero :is(.hero-kicker,.hero-caption,.hero-world-line){color:#405f4c}
+html:not([data-theme="dark"]) .hero h1{color:#192d23;text-shadow:none}
+html:not([data-theme="dark"]) .hero :is(.hero-kicker,.hero-caption,.hero-world-line){color:#384b40}
 html:not([data-theme="dark"]) .hero .hero-actions .btn:not(.primary){background:#ffffffeb;color:#28553f;border-color:#c3d3c7;box-shadow:0 3px 10px #234b3514}
 html:not([data-theme="dark"]) .episode-status-card{background:#edf3ee;border-color:#cbdacf;box-shadow:none}
 html:not([data-theme="dark"]) .latest-trailer-link{background:#e1ece4;border-color:#bdd0c2;color:#28553f;box-shadow:none}
@@ -25,9 +25,17 @@ html:not([data-theme="dark"]) :is(.novel-search,.episode-search,.directory-toolb
 html:not([data-theme="dark"]) :is(.novel-page-size select,.schedule-page-size select,.directory-page-size select,.sort-control-button){background:#fff;border-color:#cbd9cf;color:#2d4d3b}
 html:not([data-theme="dark"]) :is(.novel-page-size select,.schedule-page-size select,.directory-page-size select):hover{background:#edf3ee;border-color:#6d987e}
 html:not([data-theme="dark"]) .sort-control-button[aria-pressed="true"]{background:#2d6850;border-color:#2d6850;color:#fff;box-shadow:0 0 0 1px #c3af8059}
-html:not([data-theme="dark"]) input::placeholder,html:not([data-theme="dark"]) textarea::placeholder{color:#718177;opacity:1}
+html:not([data-theme="dark"]) input::placeholder,html:not([data-theme="dark"]) textarea::placeholder{color:#626c65;opacity:1}
 html:not([data-theme="dark"]) :is(.comment,.comment-root,.comment-view-controls,.account-bar,.post-reaction){background:#fff;border-color:var(--line)}
 html:not([data-theme="dark"]) .supporter-entry{background:linear-gradient(110deg,#fffdf7,#f2f6ef);border-color:#d7d9be}
-html:not([data-theme="dark"]) footer{background:#eaf0ea;color:#516b59;border-top:1px solid #d4dfd7}
+html:not([data-theme="dark"]) footer{background:#eaf0ea;color:#43554a;border-top:1px solid #cfd8d2}
 html:not([data-theme="dark"]) :is(dialog,.search-dialog,.community-confirm-card){background:#fff;color:var(--text);border-color:var(--line)}
 html:not([data-theme="dark"]) .comment-reply-recipient{background:#e3eee6;color:#315d44}
+
+/* Readable text on light surfaces, with restrained forest and bronze accents. */
+html:not([data-theme="dark"]) :is(.page-hero p,.breadcrumb,.toc nav a,.card-foot,.comment-meta,.comment-meta small,.supporter-entry time,.schedule-item span,.footer-links,.gallery-grid button>span){color:var(--muted)}
+html:not([data-theme="dark"]) :is(.nav nav a,.card h3,.supporter-entry strong,.admin-user-row strong,.account-stat strong,.search-results h3,.facts dd){color:var(--text)}
+html:not([data-theme="dark"]) :is(input,textarea,select){color:var(--text)}
+html:not([data-theme="dark"]) :is(.novel-search input,.episode-search input,.directory-search-field input){color:var(--text)}
+html:not([data-theme="dark"]) :is(.entry-tools .btn,.filters button:not(.selected),.profile-category-nav a:not(.selected)){color:#243d2f}
+html:not([data-theme="dark"]) :is(.prose a,.toc nav a):hover{color:#174c35}
