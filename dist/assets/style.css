@@ -2350,3 +2350,5 @@ html :is(.comment-pagination,.comment-reply-pagination,.directory-pagination,.sc
 html:has(#search-dialog[open]),html:has(#search-dialog[open]) body{overflow:hidden}
 #search-dialog,#search-results{overscroll-behavior:contain}
 .profile-category-section .entry-tools{justify-content:flex-end;margin:0 0 16px}
+
+.encyclopedia-profile-hero .entry-tools{justify-content:flex-end;margin:12px 0 0}
