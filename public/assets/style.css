@@ -2352,3 +2352,11 @@ html:has(#search-dialog[open]),html:has(#search-dialog[open]) body{overflow:hidd
 .profile-category-section .entry-tools{justify-content:flex-end;margin:0 0 16px}
 
 .encyclopedia-profile-hero .entry-tools{justify-content:flex-end;margin:12px 0 0}
+
+/* Desktop profile actions sit beside the heading rather than in a new row. */
+@media(min-width:761px){
+.encyclopedia-profile-hero>.wrap{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:24px}
+.encyclopedia-profile-hero .breadcrumb{grid-column:1/-1}
+.encyclopedia-profile-hero :is(.eyebrow,h1,.entry-deck){grid-column:1}
+.encyclopedia-profile-hero .entry-tools{grid-column:2;grid-row:2/5;align-self:center;justify-self:end;margin:0;flex-wrap:nowrap}
+}
