@@ -2382,6 +2382,5 @@ img.fluent-emoji{display:inline-block!important;width:1.4em;height:1.4em;max-wid
 
 /* Quick category tiles highlight independently without shifting their layout. */
 .quickbar>a{transition:background-color .18s ease,box-shadow .18s ease}
-.quickbar>a:is(:hover,:focus-visible){box-shadow:inset 0 0 0 1px var(--line-strong,var(--green))}
 html:not([data-theme="dark"]) .quickbar>a:is(:hover,:focus-visible){background:#f4f4f4;box-shadow:inset 0 0 0 1px #c6c6c6}
 @media(prefers-reduced-motion:reduce){.quickbar>a{transition:none}}
