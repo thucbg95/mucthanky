@@ -96,3 +96,11 @@ html:not([data-theme="dark"]) .like-button{color:#b52f50;border-color:#dfa0ae;ba
 html:not([data-theme="dark"]) .like-button:is(:hover,:focus-visible){color:#9c2140;border-color:#c55771;background:#ffe9ee;outline-color:#c55771}
 html:not([data-theme="dark"]) .like-button.is-liked{color:#b21f46;border-color:#d85c7c;background:#ffe4ec}
 html:not([data-theme="dark"]) .like-button.is-liked:is(:hover,:focus-visible){color:#951637;border-color:#bc365d;background:#ffd6e2}
+
+/* Light controls use quiet white surfaces and a shared pale-gray hover. */
+html:not([data-theme="dark"]) :is(.comment-actions button,.comment-moderator-actions button,.comment-show-replies,.comment-load-more,.comment-replies-toggle,.emoji-picker-toggle,.comment-reply-controls button:not(.primary)){background:#fff;border-color:#d6d6d6;box-shadow:none}
+html:not([data-theme="dark"]) :is(.btn:not(.primary),.icon-button,.menu-toggle,.reading-size button,.filters button:not(.selected),.profile-category-nav a:not(.selected),.novel-page-button:not(.is-current),.sort-control-button:not([aria-pressed="true"]),.emoji-choice,.emoji-picker-toggle):is(:hover,:focus-visible):not(:disabled){background:#f4f4f4;border-color:#c6c6c6;box-shadow:none}
+html:not([data-theme="dark"]) :is(.comment-actions button,.comment-moderator-actions button,.comment-show-replies,.comment-load-more,.comment-replies-toggle,.comment-reply-controls button:not(.primary)):is(:hover,:focus-visible):not(:disabled){background:#f4f4f4;border-color:#c6c6c6;box-shadow:none}
+html:not([data-theme="dark"]) :is(.like-button,.like-button.is-liked){background:#fff}
+html:not([data-theme="dark"]) :is(.like-button,.like-button.is-liked):is(:hover,:focus-visible):not(:disabled){background:#f4f4f4}
+html:not([data-theme="dark"]) .novel-chapter-list{background:none;box-shadow:none}
