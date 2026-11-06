@@ -118,3 +118,5 @@ html:not([data-theme="dark"]) .editorial-feature{background:#ffffff}
 html:not([data-theme="dark"]) .editorial-feature .feature-content{background:#ffffff}
 
 html:not([data-theme="dark"]) .definition-row .number{color:#171717}
+
+html:not([data-theme="dark"]) .novel-chapter-list .novel-chapter-row{background:transparent}
