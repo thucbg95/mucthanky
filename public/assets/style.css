@@ -2362,3 +2362,7 @@ html:has(#search-dialog[open]),html:has(#search-dialog[open]) body{overflow:hidd
 .encyclopedia-profile-hero :is(.eyebrow,h1,.entry-deck){grid-column:1}
 .encyclopedia-profile-hero .entry-tools{grid-column:2;grid-row:2/5;align-self:end;justify-self:end;margin:0;flex-wrap:nowrap}
 }
+
+/* Search wrapper paints the hover background, so it shares the input corners. */
+.episode-search{border-radius:12px}
+.episode-search input{border-radius:inherit}
