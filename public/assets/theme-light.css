@@ -133,3 +133,6 @@ html:not([data-theme="dark"]) #main .novel-reading-guide{background:#ffffff}
 html:not([data-theme="dark"]) body>footer{background:#ffffff}
 
 html:not([data-theme="dark"]) #account-saved-list,html:not([data-theme="dark"]) #account-saved-list>.empty{background:transparent;box-shadow:none}
+
+/* Search text uses one regular weight across novel, directory and admin controls. */
+html:not([data-theme="dark"]) .novel-search input,html:not([data-theme="dark"]) .novel-search input::placeholder{font-weight:400;font-style:normal;letter-spacing:normal}
