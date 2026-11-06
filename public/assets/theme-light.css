@@ -124,3 +124,7 @@ html:not([data-theme="dark"]) .novel-chapter-list .novel-chapter-row{background:
 /* Shared light border for white controls on hover or keyboard focus. */
 html:not([data-theme="dark"]) :is(.btn:not(.primary),.icon-button,.menu-toggle,.reading-size button,.filters button:not(.selected),.profile-category-nav a:not(.selected),.novel-page-button:not(.is-current),.sort-control-button:not([aria-pressed="true"]),.emoji-choice,.emoji-picker-toggle,.novel-page-size select,.schedule-page-size select,.comment-actions button,.comment-moderator-actions button,.comment-show-replies,.comment-load-more,.comment-replies-toggle,.comment-reply-controls button:not(.primary)):is(:hover,:focus-visible):not(:disabled){background:#f4f4f4;border-color:#4a4a4a}
 html:not([data-theme="dark"]) :is(.like-button,.like-button.is-liked):is(:hover,:focus-visible):not(:disabled){background:#f4f4f4;border-color:#4a4a4a}
+
+/* Home surfaces requested white; outrank legacy grouped component rules. */
+html:not([data-theme="dark"]) #main :is(.card-symbol,.guide-grid>a,.category-tile,.cultivation-steps>a,.editorial-feature,.editorial-feature .feature-content,.banner){background:#ffffff}
+html:not([data-theme="dark"]) #main :is(.guide-grid>a,.category-tile,.cultivation-steps>a):is(:hover,:focus-visible){background:#f4f4f4;border-color:#4a4a4a}
