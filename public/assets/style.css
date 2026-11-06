@@ -2391,3 +2391,8 @@ html:not([data-theme="dark"]) .quickbar>a:is(:hover,:focus-visible){background:#
 @media(hover:none){:is(.back-top,.float-menu-toggle)>.top-label{display:none}}
 
 .comment-editor{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--text);font:inherit;line-height:1.8;white-space:pre-wrap;overflow-wrap:anywhere;cursor:text;outline:none}.comment-editor:focus{border-color:var(--green);box-shadow:0 0 0 2px color-mix(in srgb,var(--green) 16%,transparent)}.comment-editor.is-empty:before{content:attr(data-placeholder);color:var(--muted);pointer-events:none}.comment-editor img.fluent-emoji{pointer-events:auto}.comment-editor-error{display:block;color:var(--text);margin-top:5px}
+
+/* Empty status text must not reserve a blank row below the submit button. */
+#thao-luan #comment-form #comment-status{margin:0;line-height:1.5}
+#thao-luan #comment-form #comment-status:empty{display:none}
+#thao-luan .comment-editor-error{margin:0;line-height:1.5}
