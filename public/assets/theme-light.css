@@ -90,3 +90,9 @@ html:not([data-theme="dark"]) .latest-watch-actions #latest-trailer-link:hover{b
 
 html:not([data-theme="dark"]) .nav nav a::after{background:#292929}
 html:not([data-theme="dark"]) :is(.episode-status-card .eyebrow,.schedule-toolbar .text-link){color:#262626}
+
+/* Likes are the deliberate colored exception in the neutral light theme. */
+html:not([data-theme="dark"]) .like-button{color:#b52f50;border-color:#dfa0ae;background:#fff9fa}
+html:not([data-theme="dark"]) .like-button:is(:hover,:focus-visible){color:#9c2140;border-color:#c55771;background:#ffe9ee;outline-color:#c55771}
+html:not([data-theme="dark"]) .like-button.is-liked{color:#b21f46;border-color:#d85c7c;background:#ffe4ec}
+html:not([data-theme="dark"]) .like-button.is-liked:is(:hover,:focus-visible){color:#951637;border-color:#bc365d;background:#ffd6e2}
