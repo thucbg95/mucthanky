@@ -1,5 +1,5 @@
 /* Ivory & jade: shared light-theme tokens and components. Dark mode is unchanged. */
-html:not([data-theme="dark"]){color-scheme:light;--bg:#f7f7f2;--panel:#fff;--soft:#edf2ed;--soft-blue:#edf2ef;--text:#242a26;--heading:#182c22;--muted:#515d54;--line:#d9dfd7;--line-strong:#bdcabe;--green:#255c47;--green-2:#386f59;--green-hover:#17432f;--gold:#795a24;--accent:#795a24;--surface-shadow:0 3px 15px #203c3408}
+html:not([data-theme="dark"]){color-scheme:light;--bg:#f7f7f2;--panel:#fff;--soft:#edf2ed;--soft-blue:#edf2ef;--text:#242a26;--heading:#182c22;--muted:#242a26;--line:#d9dfd7;--line-strong:#bdcabe;--green:#255c47;--green-2:#386f59;--green-hover:#17432f;--gold:#795a24;--accent:#795a24;--surface-shadow:0 3px 15px #203c3408}
 html:not([data-theme="dark"]) body{background:var(--bg);color:var(--text)}
 html:not([data-theme="dark"]) :is(h1,h2,h3,h4,.brand strong){color:var(--heading)}
 html:not([data-theme="dark"]) :is(p,li,dd){text-shadow:none}
@@ -18,7 +18,7 @@ html:not([data-theme="dark"]) :is(.card,.category-tile,.guide-grid>a,.community-
 html:not([data-theme="dark"]) :is(.banner,.notice,.quote-panel,.cultivation-steps,.quick-icon,.reading-note,.comment-context,.admin-comment-context,.admin-audit-detail,.admin-audit-extra,.support-bank-details,.supporter-hall-stat){background:var(--soft);color:var(--text);border-color:var(--line)}
 html:not([data-theme="dark"]) :is(.spoiler-notice,.support-safety){background:#faf3e5;border-color:#d9c49a;color:#63481f}
 html:not([data-theme="dark"]) :is(.feature-art,.feature-art img,.card-symbol,.image-pending){background:#edf1ed;color:var(--muted)}
-html:not([data-theme="dark"]) :is(.hero-kicker,.hero-caption,.hero-world-line){color:#3e544b}
+html:not([data-theme="dark"]) :is(.hero-kicker,.hero-caption,.hero-world-line){color:#242a26}
 html:not([data-theme="dark"]) :is(.episode-status-card,.novel-book-card){background:#edf3ef;border-color:#cbd9d0;box-shadow:none}
 html:not([data-theme="dark"]) :is(.novel-prose,.reader-chapters-section){color:var(--text);background:var(--panel);border-color:var(--line)}
 html:not([data-theme="dark"]) :is(.btn,.icon-button,.menu-toggle,.reading-size button,.gallery-step,.gallery-close,.dialog-head button,.comment-reply-button,.comment-load-more,.comment-show-replies,.comment-replies-toggle,.comment-moderator-actions button,.admin-password-toggle){background:var(--panel);color:var(--text);border-color:var(--line-strong)}
@@ -32,7 +32,7 @@ html:not([data-theme="dark"]) .latest-trailer-link:hover{background:#d8e8e0!impo
 html:not([data-theme="dark"]) :is(input,textarea,select){background:var(--panel);color:var(--text);border-color:var(--line-strong);accent-color:var(--green)}
 html:not([data-theme="dark"]) :is(input,textarea,select):hover{border-color:#8aab9d}
 html:not([data-theme="dark"]) :is(input,textarea,select):focus-visible{outline-color:var(--green);border-color:var(--green)}
-html:not([data-theme="dark"]) input::placeholder{color:#66716a;opacity:1}
+html:not([data-theme="dark"]) input::placeholder{color:#343b35;opacity:1}
 html:not([data-theme="dark"]) textarea::placeholder{color:#66716a;opacity:1}
 html:not([data-theme="dark"]) :is(.novel-search,.episode-search,.directory-search-field,.supporter-search-label){background:var(--panel);color:var(--muted);border-color:var(--line-strong)}
 html:not([data-theme="dark"]) :is(.novel-search,.episode-search,.directory-search-field):is(:hover,:focus-within){background:#f5f8f5;border-color:#6d9583}
@@ -75,3 +75,6 @@ html:not([data-theme="dark"]) .latest-watch-actions #latest-trailer-link:hover{b
 html:not([data-theme="dark"]) .latest-watch-actions #latest-episode-link{background:var(--green)!important;border-color:var(--green)!important;color:#fff!important}
 
 html:not([data-theme="dark"]) :is(.novel-reading-text p,.article-main .article-section p,.comment-body p,.admin-comment-body p){color:var(--text)}
+
+/* Secondary copy stays dark and readable on light surfaces. */
+html:not([data-theme="dark"]) :is(.novel-reading-text p,.card p,.feature p,.account-panel small,.account-stat small,.admin-user-info small,.admin-user-info p,.admin-audit-actor,.admin-audit-target,.admin-audit-detail,.search-hint,.search-results p,.novel-book-info p,.novel-book-info small,.novel-book-meta,.comment-meta small,.comment-meta time,.comment-section-intro,.supporter-entry time,.supporter-entry-date,.gallery-grid button>span,.schedule-summary,.schedule-page-state,.directory-page-state,.admin-list-pagination,.account-intro,.bookmark-status){color:var(--text)}
