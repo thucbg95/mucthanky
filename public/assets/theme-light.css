@@ -128,3 +128,6 @@ html:not([data-theme="dark"]) :is(.like-button,.like-button.is-liked):is(:hover,
 /* Home surfaces requested white; outrank legacy grouped component rules. */
 html:not([data-theme="dark"]) #main :is(.card-symbol,.guide-grid>a,.category-tile,.cultivation-steps>a,.editorial-feature,.editorial-feature .feature-content,.banner){background:#ffffff}
 html:not([data-theme="dark"]) #main :is(.guide-grid>a,.category-tile,.cultivation-steps>a):is(:hover,:focus-visible){background:#f4f4f4;border-color:#4a4a4a}
+
+html:not([data-theme="dark"]) #main .novel-reading-guide{background:#ffffff}
+html:not([data-theme="dark"]) body>footer{background:#ffffff}
