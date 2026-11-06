@@ -183,7 +183,7 @@ html[data-theme=dark] .episode-status-card{background:linear-gradient(115deg,#15
  .wrap{padding-left:16px;padding-right:16px}
  .nav>.icon-button{display:grid;place-items:center;width:42px;height:42px;padding:0}
  .nav>.icon-button svg{display:block;width:19px;height:19px;margin:0 auto;justify-self:center}
- .search-dialog{inset:calc(env(safe-area-inset-top) + 8px) 10px auto;width:auto;max-width:none;max-height:calc(100dvh - env(safe-area-inset-top) - 18px);transform:none;padding:19px}
+ .search-dialog{inset:calc(env(safe-area-inset-top) + 24px) 10px auto;width:auto;max-width:none;max-height:calc(100dvh - env(safe-area-inset-top) - 40px);transform:none;padding:19px}
  .search-dialog .search-results{max-height:42dvh;overflow:auto;overscroll-behavior:contain}
  .start-guide .guide-grid>a{background:#e7ecee;border-color:#cad4d8}
  .start-guide .guide-grid>a:nth-child(2){background:#eee8dd;border-color:#d9ccba}
@@ -2342,11 +2342,11 @@ html :is(.comment-pagination,.comment-reply-pagination,.directory-pagination,.sc
 .account-panel.account-participation{display:block}.account-participation .account-stat-grid{width:100%}.account-participation .section-head{display:block}
 
 /* Profile navigation shares the encyclopedia category controls. */
-.encyclopedia-profile-hero .entry-heading{padding-top:0;padding-bottom:0}.profile-category-nav{margin:22px 0 0}.profile-category-nav a{display:inline-flex;align-items:center;text-decoration:none;font-weight:700}
+.profile-category-nav{margin:22px 0 0}.profile-category-nav a{display:inline-flex;align-items:center;text-decoration:none;font-weight:700}
 
 .category-dropdown{display:none}.profile-category-section{margin-top:24px;margin-bottom:24px}.profile-category-section .profile-category-nav{margin:0}@media(max-width:760px){.directory-categories{display:none}.category-dropdown{display:flex;align-items:center;gap:12px;margin:20px 0;width:100%}.category-dropdown select{flex:1;min-width:0;width:100%}.profile-category-section .category-dropdown{margin:0}.profile-category-section{margin-top:22px;margin-bottom:22px}}
 
 /* Keep search scrolling inside the modal, without moving the page behind it. */
 html:has(#search-dialog[open]),html:has(#search-dialog[open]) body{overflow:hidden}
 #search-dialog,#search-results{overscroll-behavior:contain}
-.encyclopedia-profile-hero .entry-tools{margin-bottom:0}
+.profile-category-section .entry-tools{justify-content:flex-end;margin:0 0 16px}
