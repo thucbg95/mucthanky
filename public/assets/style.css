@@ -2477,3 +2477,17 @@ html[data-theme="dark"] .comment-badge.super{background:#49301e;color:#ffc38b;bo
 .comment-badge.admin::after{animation-delay:var(--badge-glint-delay,9s)}
 @keyframes badge-glint{0%,83%{opacity:0;transform:translateX(0) skewX(-18deg)}85%{opacity:.8}94%{opacity:0;transform:translateX(500%) skewX(-18deg)}100%{opacity:0;transform:translateX(500%) skewX(-18deg)}}
 @media(prefers-reduced-motion:reduce){.comment-badge:is(.fan,.super,.heart-fan,.heart-master,.admin)::after{animation:none;display:none}}
+
+/* Tier-specific glints retain the shared five-second rank clock. */
+.comment-badge.fan::after{background:linear-gradient(105deg,transparent,#fff7d7b3,transparent)}
+.comment-badge.super::after{animation-name:badge-double-glint;background:linear-gradient(105deg,transparent,#ffc58c80,#fff9eae6,transparent)}
+.comment-badge.heart-fan::after{animation-name:badge-rose-glint;background:linear-gradient(105deg,transparent,#ffa3c480,#fff1f8e6,transparent);width:48%}
+.comment-badge.heart-master::after{animation-name:badge-double-glint;background:linear-gradient(105deg,transparent,#ff859b99,#fff5f3f2,#ffb5c180,transparent)}
+.comment-badge.admin::after{animation-name:badge-prism-glint;background:linear-gradient(105deg,transparent,#c9bbff80,#ffffffeb,#b4d9ff99,transparent);width:48%}
+.comment-badge:is(.heart-master,.admin)::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;background:radial-gradient(ellipse at 18% 30%,#ffffffdb 0 1px,transparent 3px),radial-gradient(ellipse at 83% 72%,#ffffffc9 0 1px,transparent 3px);animation:badge-sparkle 5s ease-in-out infinite;animation-delay:var(--badge-glint-delay,0s)}
+.comment-badge.admin::before{background:radial-gradient(ellipse at 15% 70%,#d6c7ffeb 0 1px,transparent 3px),radial-gradient(ellipse at 82% 25%,#ffffffeb 0 1px,transparent 3px),radial-gradient(ellipse at 55% 60%,#d1ebffcc 0 1px,transparent 3px)}
+@keyframes badge-double-glint{0%,69%{opacity:0;transform:translateX(0) skewX(-18deg)}72%{opacity:.8}81%{opacity:0;transform:translateX(500%) skewX(-18deg)}82%{opacity:0;transform:translateX(0) skewX(-18deg)}85%{opacity:.65}97%,100%{opacity:0;transform:translateX(500%) skewX(-18deg)}}
+@keyframes badge-rose-glint{0%,76%{opacity:0;transform:translateX(0) skewX(-24deg)}80%{opacity:.85}96%,100%{opacity:0;transform:translateX(420%) skewX(-24deg)}}
+@keyframes badge-prism-glint{0%,67%{opacity:0;transform:translateX(0) skewX(-18deg)}72%,78%{opacity:.9}94%,100%{opacity:0;transform:translateX(420%) skewX(-18deg)}}
+@keyframes badge-sparkle{0%,72%,100%{opacity:0}78%{opacity:.85}83%{opacity:.15}89%{opacity:.7}96%{opacity:0}}
+@media(prefers-reduced-motion:reduce){.comment-badge:is(.fan,.super,.heart-fan,.heart-master,.admin)::after,.comment-badge:is(.heart-master,.admin)::before{animation:none;display:none}}
