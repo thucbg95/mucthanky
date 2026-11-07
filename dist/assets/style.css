@@ -2536,3 +2536,6 @@ html #main .comment-badge.is-user-hidden .supporter-badge-star{animation:none!im
 @keyframes admin-toast-enter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:760px){.admin-toast-region{left:20px;right:20px;bottom:calc(84px + env(safe-area-inset-bottom));width:auto}.admin-toast{padding:12px}}
 @media(prefers-reduced-motion:reduce){.admin-toast{animation:none}}
+
+/* Place registry save/delete actions together below both mobile fields. */
+@media(max-width:760px){#supporter-registry-section .admin-supporter-card{grid-template-columns:max-content minmax(0,1fr);align-items:center}#supporter-registry-section .admin-supporter-card>.admin-comment-heading{grid-column:1/-1}#supporter-registry-section .admin-supporter-card>.admin-supporter-edit{display:contents}#supporter-registry-section .admin-supporter-edit input{grid-column:1/-1;grid-row:auto}#supporter-registry-section .admin-supporter-edit .btn{grid-column:1;grid-row:4;justify-self:start}#supporter-registry-section .admin-supporter-card>.btn{grid-column:2;grid-row:4;justify-self:start;align-self:center}}
