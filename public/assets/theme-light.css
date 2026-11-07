@@ -175,5 +175,5 @@ html:not([data-theme="dark"]) .comment-editor:focus{border-color:#6d9999;box-sha
 html:not([data-theme="dark"]) #main .novel-chapter-panel{background:transparent;box-shadow:none}
 
 /* Teal accents for prominent titles while body copy stays neutral. */
-html:not([data-theme="dark"]) #main :is(h1,.section-head h2,.feature-content h2,.novel-book-info h2,.editorial-feature h2){color:#174f53}
-html:not([data-theme="dark"]) .brand strong{color:#174f53}
+html:not([data-theme="dark"]) #main :is(h1,.section-head h2,.feature-content h2,.novel-book-info h2,.editorial-feature h2){color:#20656a}
+html:not([data-theme="dark"]) .brand strong{color:#20656a}
