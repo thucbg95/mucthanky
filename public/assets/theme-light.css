@@ -173,3 +173,7 @@ html:not([data-theme="dark"]) #main .supporter-entry-seal{background:#faf4e6;bor
 html:not([data-theme="dark"]) .comment-editor:focus{border-color:#6d9999;box-shadow:0 0 0 2px #20656a1a}
 
 html:not([data-theme="dark"]) #main .novel-chapter-panel{background:transparent;box-shadow:none}
+
+/* Teal accents for prominent titles while body copy stays neutral. */
+html:not([data-theme="dark"]) #main :is(h1,.section-head h2,.feature-content h2,.novel-book-info h2,.editorial-feature h2){color:#20656a}
+html:not([data-theme="dark"]) .brand strong{color:#20656a}
