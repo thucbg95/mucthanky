@@ -2404,3 +2404,7 @@ html:not([data-theme="dark"]) .quickbar>a:is(:hover,:focus-visible){background:#
 @media(prefers-reduced-motion:reduce){.footer-links a{transition:none}}
 
 .next-release-list{display:grid;gap:4px;margin:0;padding-left:1.6em;min-width:0}.next-release-list li{padding-left:2px}@media(max-width:760px){.next-release-list li:nth-child(n+2){display:none}}
+
+/* The old caption space is no longer needed below the home hero content. */
+.hero .hero-content{bottom:28px}
+@media(max-width:760px){.hero .hero-content{bottom:24px}}
