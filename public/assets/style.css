@@ -2488,15 +2488,15 @@ html[data-theme="dark"] .comment-badge.super{background:#49301e;color:#ffc38b;bo
 .comment-badge.admin::before{background:radial-gradient(ellipse at 15% 70%,#d6c7ffeb 0 1px,transparent 3px),radial-gradient(ellipse at 82% 25%,#ffffffeb 0 1px,transparent 3px),radial-gradient(ellipse at 55% 60%,#d1ebffcc 0 1px,transparent 3px)}
 @keyframes badge-double-glint{0%,69%{opacity:0;transform:translateX(0) skewX(-18deg)}72%{opacity:.8}81%{opacity:0;transform:translateX(500%) skewX(-18deg)}82%{opacity:0;transform:translateX(0) skewX(-18deg)}85%{opacity:.65}97%,100%{opacity:0;transform:translateX(500%) skewX(-18deg)}}
 @keyframes badge-rose-glint{0%,76%{opacity:0;transform:translateX(0) skewX(-24deg)}80%{opacity:.85}96%,100%{opacity:0;transform:translateX(420%) skewX(-24deg)}}
-@keyframes badge-prism-glint{0%,57%{opacity:0;transform:translateX(0) skewX(-18deg)}65%,75%{opacity:.9}95%,100%{opacity:0;transform:translateX(420%) skewX(-18deg)}}
-@keyframes badge-sparkle{0%,60%,100%{opacity:0}72%{opacity:.75}83%{opacity:.5}96%{opacity:0}}
+@keyframes badge-prism-glint{0%,63%{opacity:0;transform:translateX(0) skewX(-18deg)}70%,78%{opacity:.9}94%,100%{opacity:0;transform:translateX(420%) skewX(-18deg)}}
+@keyframes badge-sparkle{0%,66%,100%{opacity:0}76%{opacity:.75}85%{opacity:.5}96%{opacity:0}}
 @media(prefers-reduced-motion:reduce){.comment-badge:is(.fan,.super,.heart-fan,.heart-master,.admin)::after,.comment-badge:is(.heart-master,.admin)::before{animation:none;display:none}}
 
 /* Confirmed supporters carry a separate star badge. */
 .comment-badge.supporter{position:relative;overflow:hidden;isolation:isolate;gap:3px;background:#243d36;border-color:#8b8550;color:#f0dda3}
 .supporter-badge-star{display:inline-block;color:#f4cc65;transform-origin:center;animation:supporter-star-glow 10s ease-in-out infinite;animation-delay:var(--badge-glint-delay,0s)}
 .comment-badge.supporter::after{content:"";position:absolute;inset:-30% auto -30% -65%;width:45%;pointer-events:none;background:linear-gradient(105deg,transparent,#fff0aa99,#ffffffdb,transparent);opacity:0;animation:badge-prism-glint 10s ease-in-out infinite;animation-delay:var(--badge-glint-delay,0s)}
-@keyframes supporter-star-glow{0%,55%,100%{transform:scale(1) rotate(0);text-shadow:none}70%{transform:scale(1.2) rotate(18deg);text-shadow:0 0 5px #f4cc6599}84%{transform:scale(1.12) rotate(-12deg);text-shadow:0 0 7px #f4cc6577}98%{transform:scale(1) rotate(0);text-shadow:none}}
+@keyframes supporter-star-glow{0%,61%,100%{transform:scale(1) rotate(0);text-shadow:none}74%{transform:scale(1.2) rotate(18deg);text-shadow:0 0 5px #f4cc6599}86%{transform:scale(1.12) rotate(-12deg);text-shadow:0 0 7px #f4cc6577}98%{transform:scale(1) rotate(0);text-shadow:none}}
 #account-supporter-badge{display:inline-flex;margin-left:8px}
 #account-supporter-badge:empty{display:none}
 #supporter-registry-section .admin-supporter-edit{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto;gap:8px;width:100%}
