@@ -2445,3 +2445,6 @@ html[data-theme="dark"] .gallery-close:is(:hover,:focus-visible){background:#293
 #search-dialog[open]{display:flex;flex-direction:column}
 #search-dialog>:not(#search-results){flex-shrink:0}
 #search-dialog #search-results{min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}
+
+/* Separate the rank legend from the activity summary above it. */
+#main .account-rank-guide{padding-top:14px;margin-top:0}
