@@ -2448,3 +2448,7 @@ html[data-theme="dark"] .gallery-close:is(:hover,:focus-visible){background:#293
 
 /* Separate the rank legend from the activity summary above it. */
 #main .account-rank-guide{padding-top:14px;margin-top:0}
+
+.comment-badge.heart-fan{background:#482a3c;color:#ffc0d4;border-color:#925771}
+.comment-badge.heart-master{background:#493323;color:#ffd99f;border-color:#a27b48}
+#account-heart-badge:empty{display:none}
