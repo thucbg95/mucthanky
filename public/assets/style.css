@@ -2549,8 +2549,8 @@ html #main .comment-badge.is-user-hidden .supporter-badge-star{animation:none!im
 
 /* Reveal a brighter copy of the artwork through a moving diagonal band. */
 :is(.brand-art,.hero-logo):has(>img[src="/assets/logo-transparent.png"]){position:relative}
-:is(.brand-art,.hero-logo):has(>img[src="/assets/logo-transparent.png"])::after{content:"";position:absolute;inset:0;pointer-events:none;background:url('/assets/logo-transparent.png') center/contain no-repeat;filter:brightness(1.6) saturate(1.08);opacity:0;clip-path:polygon(-45% 0,-25% 0,-45% 100%,-65% 100%);animation:logo-brighten-sweep 10s ease-in-out infinite;animation-delay:var(--site-sheen-delay,0s)}
-@keyframes logo-brighten-sweep{0%,32.75%{opacity:0;clip-path:polygon(-45% 0,-25% 0,-45% 100%,-65% 100%)}44%,57%{opacity:.8}94%,100%{opacity:0;clip-path:polygon(145% 0,165% 0,145% 100%,125% 100%)}}
+:is(.brand-art,.hero-logo):has(>img[src="/assets/logo-transparent.png"])::after{content:"";position:absolute;inset:0;pointer-events:none;background:url('/assets/logo-transparent.png') center/contain no-repeat;filter:brightness(1.4) saturate(1.05);opacity:0;-webkit-mask-image:linear-gradient(110deg,transparent 37%,#00000015 43%,#00000080 48%,#000 50%,#00000080 52%,#00000015 57%,transparent 63%);mask-image:linear-gradient(110deg,transparent 37%,#00000015 43%,#00000080 48%,#000 50%,#00000080 52%,#00000015 57%,transparent 63%);-webkit-mask-size:300% 100%;mask-size:300% 100%;-webkit-mask-position:150% 0;mask-position:150% 0;animation:logo-brighten-sweep 10s ease-in-out infinite;animation-delay:var(--site-sheen-delay,0s)}
+@keyframes logo-brighten-sweep{0%,32.75%{opacity:0;-webkit-mask-position:150% 0;mask-position:150% 0}44%,57%{opacity:.8}94%,100%{opacity:0;-webkit-mask-position:-50% 0;mask-position:-50% 0}}
 @media(prefers-reduced-motion:reduce){:is(.brand-art,.hero-logo):has(>img[src="/assets/logo-transparent.png"])::after{animation:none;display:none}}
 
 /* Faster badge sweeps, independent from the approved button and logo timing. */
