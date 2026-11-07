@@ -54,3 +54,6 @@ CREATE TABLE IF NOT EXISTS episode_schedule (
 );
 CREATE INDEX IF NOT EXISTS episode_schedule_date ON episode_schedule(date DESC);
 CREATE TABLE IF NOT EXISTS sync_runs (id TEXT PRIMARY KEY,status TEXT NOT NULL,details TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
+
+CREATE TABLE IF NOT EXISTS supporter_accounts (supporter_id TEXT PRIMARY KEY REFERENCES supporter_registry(id) ON DELETE CASCADE,email TEXT NOT NULL);
+CREATE INDEX IF NOT EXISTS supporter_accounts_email ON supporter_accounts(email);

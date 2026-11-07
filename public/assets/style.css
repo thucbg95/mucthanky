@@ -2491,3 +2491,18 @@ html[data-theme="dark"] .comment-badge.super{background:#49301e;color:#ffc38b;bo
 @keyframes badge-prism-glint{0%,67%{opacity:0;transform:translateX(0) skewX(-18deg)}72%,78%{opacity:.9}94%,100%{opacity:0;transform:translateX(420%) skewX(-18deg)}}
 @keyframes badge-sparkle{0%,72%,100%{opacity:0}78%{opacity:.85}83%{opacity:.15}89%{opacity:.7}96%{opacity:0}}
 @media(prefers-reduced-motion:reduce){.comment-badge:is(.fan,.super,.heart-fan,.heart-master,.admin)::after,.comment-badge:is(.heart-master,.admin)::before{animation:none;display:none}}
+
+/* Confirmed supporters carry a separate star badge. */
+.comment-badge.supporter{position:relative;overflow:hidden;isolation:isolate;gap:3px;background:#243d36;border-color:#8b8550;color:#f0dda3}
+.supporter-badge-star{display:inline-block;color:#f4cc65;transform-origin:center;animation:supporter-star-glow 5s ease-in-out infinite;animation-delay:var(--badge-glint-delay,0s)}
+.comment-badge.supporter::after{content:"";position:absolute;inset:-30% auto -30% -65%;width:45%;pointer-events:none;background:linear-gradient(105deg,transparent,#fff0aa99,#ffffffdb,transparent);opacity:0;animation:badge-prism-glint 5s ease-in-out infinite;animation-delay:var(--badge-glint-delay,0s)}
+@keyframes supporter-star-glow{0%,66%,100%{transform:scale(1) rotate(0);text-shadow:none}77%{transform:scale(1.2) rotate(18deg);text-shadow:0 0 5px #f4cc6599}86%{transform:scale(1.12) rotate(-12deg);text-shadow:0 0 7px #f4cc6577}95%{transform:scale(1) rotate(0);text-shadow:none}}
+#account-supporter-badge{display:inline-flex;margin-left:8px}
+#account-supporter-badge:empty{display:none}
+#supporter-registry-section .admin-supporter-edit{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto;gap:8px;width:100%}
+#supporter-registry-section .admin-supporter-edit input{width:100%;min-width:0}
+@media(max-width:760px){#supporter-registry-section .admin-supporter-edit{grid-column:1/-1;grid-template-columns:minmax(0,1fr);display:grid}#supporter-registry-section .admin-supporter-edit input,#supporter-registry-section .admin-supporter-edit .btn{grid-column:1;grid-row:auto}#supporter-registry-section .admin-supporter-edit .btn{justify-self:start}#supporter-registry-section .admin-supporter-card>.btn{grid-column:1;grid-row:auto}}
+@media(prefers-reduced-motion:reduce){.comment-badge.supporter::after,.supporter-badge-star{animation:none}}
+
+#supporter-registry-section .admin-supporter-add-form{grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto}
+@media(max-width:760px){#supporter-registry-section .admin-supporter-add-form{grid-template-columns:minmax(0,1fr)}#supporter-registry-section .admin-supporter-add-form .admin-role-field,#supporter-registry-section .admin-supporter-add-form button{grid-column:1;grid-row:auto}}

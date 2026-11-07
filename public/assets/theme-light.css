@@ -194,3 +194,6 @@ html:not([data-theme="dark"]) #main .account-badge-table thead th{background:#f7
 
 html:not([data-theme="dark"]) #main .comment-badge.heart-master{background:#fff0f1;color:#b42335;border-color:#e8a1aa}
 html:not([data-theme="dark"]) #main .comment-badge.super{background:#fff2e5;color:#ad4b0b;border-color:#e6b07e}
+
+html:not([data-theme="dark"]) #main .comment-badge.supporter{background:#f0f8ef;color:#45612d;border-color:#b7cc96}
+html:not([data-theme="dark"]) .supporter-badge-star{color:#97700e}
