@@ -2470,7 +2470,7 @@ html[data-theme="dark"] .comment-badge.super{background:#49301e;color:#ffc38b;bo
 
 /* An occasional soft glint for earned and administrator badges. */
 .comment-badge:is(.fan,.super,.heart-fan,.heart-master,.admin){position:relative;overflow:hidden;isolation:isolate}
-.comment-badge:is(.fan,.super,.heart-fan,.heart-master,.admin)::after{content:"";position:absolute;inset:-30% auto -30% -65%;width:38%;pointer-events:none;background:linear-gradient(105deg,transparent,#ffffffa6,transparent);transform:translateX(0) skewX(-18deg);opacity:0;animation:badge-glint 11s ease-in-out infinite;animation-delay:1s}
+.comment-badge:is(.fan,.super,.heart-fan,.heart-master,.admin)::after{content:"";position:absolute;inset:-30% auto -30% -65%;width:38%;pointer-events:none;background:linear-gradient(105deg,transparent,#ffffffa6,transparent);transform:translateX(0) skewX(-18deg);opacity:0;animation:badge-glint 5s ease-in-out infinite;animation-delay:1s}
 .comment-badge.super::after{animation-delay:var(--badge-glint-delay,3s)}
 .comment-badge.heart-fan::after{animation-delay:var(--badge-glint-delay,5s)}
 .comment-badge.heart-master::after{animation-delay:var(--badge-glint-delay,7s)}
