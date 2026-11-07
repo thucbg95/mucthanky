@@ -191,3 +191,6 @@ html:not([data-theme="dark"]) #main .account-badge-table{background:#fff}
 html:not([data-theme="dark"]) #main .account-badge-table :is(th,td){border-color:#e8e8e8;background:#fff;color:#262626}
 html:not([data-theme="dark"]) #main .account-badge-table thead th{background:#f7f7f7;color:#4a4a4a}
 
+
+html:not([data-theme="dark"]) #main .comment-badge.heart-master{background:#fff0f1;color:#b42335;border-color:#e8a1aa}
+html:not([data-theme="dark"]) #main .comment-badge.super{background:#fff2e5;color:#ad4b0b;border-color:#e6b07e}

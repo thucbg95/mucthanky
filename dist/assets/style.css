@@ -2463,3 +2463,7 @@ html[data-theme="dark"] .gallery-close:is(:hover,:focus-visible){background:#293
 .account-badge-table tbody th{font-weight:400}
 .account-badge-guide .account-badge-note{margin:12px 0 0;font-size:12px}
 @media(max-width:760px){.account-badge-table th,.account-badge-table td{padding:11px 5px}.account-badge-guide{padding-top:18px}}
+
+/* Distinct top-tier badge colors. */
+html[data-theme="dark"] .comment-badge.heart-master{background:#492529;color:#ffb8bf;border-color:#a7515b}
+html[data-theme="dark"] .comment-badge.super{background:#49301e;color:#ffc38b;border-color:#a56835}
