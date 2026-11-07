@@ -2413,11 +2413,11 @@ html:not([data-theme="dark"]) .quickbar>a:is(:hover,:focus-visible){background:#
 html[data-theme="dark"] .card-symbol>span{background:#26363b;border-color:#50615b;color:#e4c88f}
 
 /* Shared film-style chapter panels on the library and reader pages. */
-.novel-chapter-panel{padding:0;max-height:620px}
+.novel-chapter-panel{padding:0;max-height:none;overflow:visible}
 .novel-chapter-panel-content{padding:0 12px 12px}
 .novel-chapter-panel-content>.source-list{margin:12px 0}
 .novel-chapter-panel .novel-expand-label,.novel-chapter-panel:not([open]) .novel-collapse-label{display:none}
 .novel-chapter-panel:not([open]) .novel-expand-label{display:inline}
 .novel-chapter-panel:not([open])>.schedule-summary{border-bottom:0}
 .novel-chapter-panel .novel-chapter-list{background:transparent;box-shadow:none}
-@media(max-width:760px){.novel-chapter-panel{max-height:540px}.novel-chapter-panel-content{padding:0 10px 10px}}
+@media(max-width:760px){.novel-chapter-panel{max-height:none}.novel-chapter-panel-content{padding:0 10px 10px}}
