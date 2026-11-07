@@ -187,11 +187,7 @@ html:not([data-theme="dark"]) .comment-badge.heart-fan{background:#fff0f5;color:
 html:not([data-theme="dark"]) .comment-badge.heart-master{background:#fff6e8;color:#865116;border-color:#ddbd8c}
 
 /* A clean, even surface for the account badge guide. */
-html:not([data-theme="dark"]) #main .account-badge-table{border-collapse:separate;border-spacing:0;border:1px solid #dedede;border-radius:12px;overflow:hidden;background:#fff}
-html:not([data-theme="dark"]) #main .account-badge-table :is(th,td){padding:14px 18px;border:0;border-bottom:1px solid #e8e8e8;background:#fff;color:#262626}
-html:not([data-theme="dark"]) #main .account-badge-table thead th{background:#f7f7f7;color:#4a4a4a;font-size:12px;letter-spacing:.02em}
-html:not([data-theme="dark"]) #main .account-badge-table tbody th{width:45%}
-html:not([data-theme="dark"]) #main .account-badge-table tbody tr:last-child>*{border-bottom:0}
-html:not([data-theme="dark"]) #main .account-badge-table tbody tr:nth-child(5)>*{border-top:1px solid #d8d8d8}
-html:not([data-theme="dark"]) #main .account-badge-table .comment-badge{font-size:12px;padding:4px 10px;line-height:1.4}
-@media(max-width:760px){html:not([data-theme="dark"]) #main .account-badge-table :is(th,td){padding:12px 10px}html:not([data-theme="dark"]) #main .account-badge-table .comment-badge{font-size:11px;padding:4px 8px}}
+html:not([data-theme="dark"]) #main .account-badge-table{background:#fff}
+html:not([data-theme="dark"]) #main .account-badge-table :is(th,td){border-color:#e8e8e8;background:#fff;color:#262626}
+html:not([data-theme="dark"]) #main .account-badge-table thead th{background:#f7f7f7;color:#4a4a4a}
+

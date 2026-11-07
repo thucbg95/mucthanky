@@ -2461,6 +2461,5 @@ html[data-theme="dark"] .gallery-close:is(:hover,:focus-visible){background:#293
 .account-badge-table th,.account-badge-table td{padding:12px 10px;border-bottom:1px solid var(--line)}
 .account-badge-table thead th{font-weight:650;color:var(--muted)}
 .account-badge-table tbody th{font-weight:400}
-.account-badge-table tbody tr:nth-child(5)>*{border-top:2px solid var(--line)}
 .account-badge-guide .account-badge-note{margin:12px 0 0;font-size:12px}
 @media(max-width:760px){.account-badge-table th,.account-badge-table td{padding:11px 5px}.account-badge-guide{padding-top:18px}}
