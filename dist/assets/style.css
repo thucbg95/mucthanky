@@ -2436,6 +2436,6 @@ html[data-theme="dark"] .gallery-close:is(:hover,:focus-visible){background:#293
 #search-dialog>label{margin-bottom:5px}
 #search-dialog .search-hint{margin:7px 0 0;line-height:1.6}
 #search-results:empty{padding:0}
-#search-results>a{padding-block:11px}
+#search-results>a{padding-block:7px}
 #search-results p{margin-block:3px 0}
 @media(max-width:760px){#search-dialog{padding-block:12px}}
