@@ -2408,3 +2408,6 @@ html:not([data-theme="dark"]) .quickbar>a:is(:hover,:focus-visible){background:#
 /* The old caption space is no longer needed below the home hero content. */
 .hero .hero-content{bottom:28px}
 @media(max-width:760px){.hero .hero-content{bottom:24px}}
+
+/* Chinese-character badges should blend with dark profile cards. */
+html[data-theme="dark"] .card-symbol>span{background:#26363b;border-color:#50615b;color:#e4c88f}
