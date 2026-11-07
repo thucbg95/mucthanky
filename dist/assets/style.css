@@ -2470,7 +2470,7 @@ html[data-theme="dark"] .comment-badge.super{background:#49301e;color:#ffc38b;bo
 
 /* An occasional soft glint for earned and administrator badges. */
 .comment-badge:is(.fan,.super,.heart-fan,.heart-master,.admin){position:relative;overflow:hidden;isolation:isolate}
-.comment-badge:is(.fan,.super,.heart-fan,.heart-master,.admin)::after{content:"";position:absolute;inset:-30% auto -30% -65%;width:38%;pointer-events:none;background:linear-gradient(105deg,transparent,#ffffffa6,transparent);transform:translateX(0) skewX(-18deg);opacity:0;animation:badge-glint 5s ease-in-out infinite;animation-delay:1s}
+.comment-badge:is(.fan,.super,.heart-fan,.heart-master,.admin)::after{content:"";position:absolute;inset:-30% auto -30% -65%;width:38%;pointer-events:none;background:linear-gradient(105deg,transparent,#ffffffa6,transparent);transform:translateX(0) skewX(-18deg);opacity:0;animation:badge-glint 10s ease-in-out infinite;animation-delay:1s}
 .comment-badge.super::after{animation-delay:var(--badge-glint-delay,3s)}
 .comment-badge.heart-fan::after{animation-delay:var(--badge-glint-delay,5s)}
 .comment-badge.heart-master::after{animation-delay:var(--badge-glint-delay,7s)}
@@ -2484,7 +2484,7 @@ html[data-theme="dark"] .comment-badge.super{background:#49301e;color:#ffc38b;bo
 .comment-badge.heart-fan::after{animation-name:badge-rose-glint;background:linear-gradient(105deg,transparent,#ffa3c480,#fff1f8e6,transparent);width:48%}
 .comment-badge.heart-master::after{animation-name:badge-double-glint;background:linear-gradient(105deg,transparent,#ff859b99,#fff5f3f2,#ffb5c180,transparent)}
 .comment-badge.admin::after{animation-name:badge-prism-glint;background:linear-gradient(105deg,transparent,#c9bbff80,#ffffffeb,#b4d9ff99,transparent);width:48%}
-.comment-badge:is(.heart-master,.admin)::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;background:radial-gradient(ellipse at 18% 30%,#ffffffdb 0 1px,transparent 3px),radial-gradient(ellipse at 83% 72%,#ffffffc9 0 1px,transparent 3px);animation:badge-sparkle 5s ease-in-out infinite;animation-delay:var(--badge-glint-delay,0s)}
+.comment-badge:is(.heart-master,.admin)::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;background:radial-gradient(ellipse at 18% 30%,#ffffffdb 0 1px,transparent 3px),radial-gradient(ellipse at 83% 72%,#ffffffc9 0 1px,transparent 3px);animation:badge-sparkle 10s ease-in-out infinite;animation-delay:var(--badge-glint-delay,0s)}
 .comment-badge.admin::before{background:radial-gradient(ellipse at 15% 70%,#d6c7ffeb 0 1px,transparent 3px),radial-gradient(ellipse at 82% 25%,#ffffffeb 0 1px,transparent 3px),radial-gradient(ellipse at 55% 60%,#d1ebffcc 0 1px,transparent 3px)}
 @keyframes badge-double-glint{0%,69%{opacity:0;transform:translateX(0) skewX(-18deg)}72%{opacity:.8}81%{opacity:0;transform:translateX(500%) skewX(-18deg)}82%{opacity:0;transform:translateX(0) skewX(-18deg)}85%{opacity:.65}97%,100%{opacity:0;transform:translateX(500%) skewX(-18deg)}}
 @keyframes badge-rose-glint{0%,76%{opacity:0;transform:translateX(0) skewX(-24deg)}80%{opacity:.85}96%,100%{opacity:0;transform:translateX(420%) skewX(-24deg)}}
@@ -2494,8 +2494,8 @@ html[data-theme="dark"] .comment-badge.super{background:#49301e;color:#ffc38b;bo
 
 /* Confirmed supporters carry a separate star badge. */
 .comment-badge.supporter{position:relative;overflow:hidden;isolation:isolate;gap:3px;background:#243d36;border-color:#8b8550;color:#f0dda3}
-.supporter-badge-star{display:inline-block;color:#f4cc65;transform-origin:center;animation:supporter-star-glow 5s ease-in-out infinite;animation-delay:var(--badge-glint-delay,0s)}
-.comment-badge.supporter::after{content:"";position:absolute;inset:-30% auto -30% -65%;width:45%;pointer-events:none;background:linear-gradient(105deg,transparent,#fff0aa99,#ffffffdb,transparent);opacity:0;animation:badge-prism-glint 5s ease-in-out infinite;animation-delay:var(--badge-glint-delay,0s)}
+.supporter-badge-star{display:inline-block;color:#f4cc65;transform-origin:center;animation:supporter-star-glow 10s ease-in-out infinite;animation-delay:var(--badge-glint-delay,0s)}
+.comment-badge.supporter::after{content:"";position:absolute;inset:-30% auto -30% -65%;width:45%;pointer-events:none;background:linear-gradient(105deg,transparent,#fff0aa99,#ffffffdb,transparent);opacity:0;animation:badge-prism-glint 10s ease-in-out infinite;animation-delay:var(--badge-glint-delay,0s)}
 @keyframes supporter-star-glow{0%,66%,100%{transform:scale(1) rotate(0);text-shadow:none}77%{transform:scale(1.2) rotate(18deg);text-shadow:0 0 5px #f4cc6599}86%{transform:scale(1.12) rotate(-12deg);text-shadow:0 0 7px #f4cc6577}95%{transform:scale(1) rotate(0);text-shadow:none}}
 #account-supporter-badge{display:inline-flex;margin-left:8px}
 #account-supporter-badge:empty{display:none}
@@ -2541,7 +2541,7 @@ html #main .comment-badge.is-user-hidden .supporter-badge-star{animation:none!im
 @media(max-width:760px){#supporter-registry-section .admin-supporter-card{grid-template-columns:max-content minmax(0,1fr);align-items:center}#supporter-registry-section .admin-supporter-card>.admin-comment-heading{grid-column:1/-1}#supporter-registry-section .admin-supporter-card>.admin-supporter-edit{display:contents}#supporter-registry-section .admin-supporter-edit input{grid-column:1/-1;grid-row:auto}#supporter-registry-section .admin-supporter-edit .btn{grid-column:1;grid-row:4;justify-self:start}#supporter-registry-section .admin-supporter-card>.btn{grid-column:2;grid-row:4;justify-self:start;align-self:center}}
 
 /* Match supporter glint timing while retaining each badge's own tint. */
-.comment-badge:is(.fan,.super,.heart-fan,.heart-master)::after{animation-name:badge-prism-glint;animation-duration:5s;animation-timing-function:ease-in-out;width:45%}
+.comment-badge:is(.fan,.super,.heart-fan,.heart-master)::after{animation-name:badge-prism-glint;animation-duration:10s;animation-timing-function:ease-in-out;width:45%}
 .comment-badge.heart-master::before{display:none}
 :is(.support-shimmer,#latest-episode-link){position:relative;isolation:isolate;overflow:hidden}
 :is(.support-shimmer,#latest-episode-link)::after{content:"";position:absolute;inset:-30% auto -30% -65%;width:45%;pointer-events:none;background:linear-gradient(105deg,transparent,#bfe9df80,#ffffffdb,transparent);opacity:0;animation:badge-prism-glint 5s ease-in-out infinite}
