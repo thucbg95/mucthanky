@@ -218,3 +218,8 @@ html:not([data-theme="dark"]) #main .support-page .supporter-entry-identity stro
 html:not([data-theme="dark"]) #main .support-page .supporter-entry-seal{background:#f5f8ed;border-color:#c5cca2;box-shadow:none}
 
 html:not([data-theme="dark"]) #quiz-options button:is(:hover,:focus-visible):not(:disabled){background:#f4f4f4;border-color:#4a4a4a;color:#174f53;box-shadow:none}
+
+/* Keep the light home hero photographic, with a shorter muted lower fade. */
+html:not([data-theme="dark"]) #main .hero{background:#e9efed;border-color:#d4dfdb}
+html:not([data-theme="dark"]) #main .hero-shade{inset:auto 0 0;height:190px;background:linear-gradient(0deg,#e9efedf5 0%,#e9efedc2 40%,#e9efed33 75%,transparent 100%)}
+@media(max-width:760px){html:not([data-theme="dark"]) #main .hero{min-height:500px}html:not([data-theme="dark"]) #main .hero-image{height:320px}html:not([data-theme="dark"]) #main .hero-shade{inset:0 0 auto;height:320px;background:linear-gradient(180deg,transparent 0%,transparent 74%,#e9efed33 84%,#e9efedbf 94%,#e9efed 100%)}}
