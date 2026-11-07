@@ -2587,3 +2587,8 @@ html[data-theme="dark"] #main .support-page :is(.support-intro,.support-card,.su
 html[data-theme="dark"] #main .support-page .supporter-entry{background:#223139;border-color:#45595e}
 html[data-theme="dark"] #main .support-page .supporter-entry:hover{background:#2a3c43;border-color:#799a91}
 @media(max-width:760px){#main .support-page .supporter-instructions{padding:15px}#main .support-page .supporter-hall-intro{gap:18px}}
+
+/* Answer feedback before a quiz choice is committed. */
+#quiz-options button{transition:background-color .18s ease,border-color .18s ease,color .18s ease,box-shadow .18s ease}
+html[data-theme="dark"] #quiz-options button:is(:hover,:focus-visible):not(:disabled){background:#293a42;border-color:#789b91;color:#f1dcae;box-shadow:0 0 0 1px #789b9126}
+@media(prefers-reduced-motion:reduce){#quiz-options button{transition:none}}
