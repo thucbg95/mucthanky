@@ -2555,9 +2555,9 @@ html #main .comment-badge.is-user-hidden .supporter-badge-star{animation:none!im
 
 /* Faster badge sweeps, independent from the approved button and logo timing. */
 .comment-badge:is(.fan,.super,.heart-fan,.heart-master,.admin,.supporter)::after{animation-name:badge-fast-sheen}
-@keyframes badge-fast-sheen{0%,89%{opacity:0;transform:translateX(0) skewX(-18deg)}90.5%,92%{opacity:.9}96%,100%{opacity:0;transform:translateX(420%) skewX(-18deg)}}
-@keyframes badge-sparkle{0%,89%,100%{opacity:0}91.5%{opacity:.75}93.5%{opacity:.5}96.5%{opacity:0}}
-@keyframes supporter-star-glow{0%,88%,100%{transform:scale(1) rotate(0);text-shadow:none}91.5%{transform:scale(1.2) rotate(18deg);text-shadow:0 0 5px #f4cc6599}94.5%{transform:scale(1.12) rotate(-12deg);text-shadow:0 0 7px #f4cc6577}97%{transform:scale(1) rotate(0);text-shadow:none}}
+@keyframes badge-fast-sheen{0%,85.5%{opacity:0;transform:translateX(0) skewX(-18deg)}87.75%,90%{opacity:.9}96%,100%{opacity:0;transform:translateX(420%) skewX(-18deg)}}
+@keyframes badge-sparkle{0%,85.25%,100%{opacity:0}89%{opacity:.75}92%{opacity:.5}96.5%{opacity:0}}
+@keyframes supporter-star-glow{0%,83.5%,100%{transform:scale(1) rotate(0);text-shadow:none}88.75%{transform:scale(1.2) rotate(18deg);text-shadow:0 0 5px #f4cc6599}93.25%{transform:scale(1.12) rotate(-12deg);text-shadow:0 0 7px #f4cc6577}97%{transform:scale(1) rotate(0);text-shadow:none}}
 @media(prefers-reduced-motion:reduce){.comment-badge:is(.fan,.super,.heart-fan,.heart-master,.admin,.supporter)::after{animation:none;display:none}}
 
 /* A slower ten-second sheen for the latest-episode action only. */
