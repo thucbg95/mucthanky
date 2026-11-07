@@ -2421,3 +2421,6 @@ html[data-theme="dark"] .card-symbol>span{background:#26363b;border-color:#50615
 .novel-chapter-panel:not([open])>.schedule-summary{border-bottom:0}
 .novel-chapter-panel .novel-chapter-list{background:transparent;box-shadow:none}
 @media(max-width:760px){.novel-chapter-panel{max-height:none}.novel-chapter-panel-content{padding:0 10px 10px}}
+
+.schedule-more[open] .schedule-expand-label,.schedule-more:not([open]) .schedule-collapse-label{display:none}
+.schedule-result-count{margin:12px 12px 0}
