@@ -57,3 +57,5 @@ CREATE TABLE IF NOT EXISTS sync_runs (id TEXT PRIMARY KEY,status TEXT NOT NULL,d
 
 CREATE TABLE IF NOT EXISTS supporter_accounts (supporter_id TEXT PRIMARY KEY REFERENCES supporter_registry(id) ON DELETE CASCADE,email TEXT NOT NULL);
 CREATE INDEX IF NOT EXISTS supporter_accounts_email ON supporter_accounts(email);
+
+CREATE TABLE IF NOT EXISTS user_badge_preferences (user_id TEXT PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,preferences TEXT NOT NULL DEFAULT '{}');

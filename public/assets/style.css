@@ -2506,3 +2506,19 @@ html[data-theme="dark"] .comment-badge.super{background:#49301e;color:#ffc38b;bo
 
 #supporter-registry-section .admin-supporter-add-form{grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto}
 @media(max-width:760px){#supporter-registry-section .admin-supporter-add-form{grid-template-columns:minmax(0,1fr)}#supporter-registry-section .admin-supporter-add-form .admin-role-field,#supporter-registry-section .admin-supporter-add-form button{grid-column:1;grid-row:auto}}
+
+.account-badge-controls{padding-top:22px}
+.account-badge-controls h3{font-size:18px;margin:0 0 7px}
+.account-badge-controls>p{font-size:13px;color:var(--muted);margin-bottom:12px}
+.badge-settings-form{display:grid;gap:9px}
+.badge-setting-row{display:flex;align-items:center;gap:12px;padding:11px 13px;border:1px solid var(--line);border-radius:10px;font-size:13px}
+.badge-setting-row>span{margin-right:auto}
+.badge-setting-row input{width:18px;height:18px;min-height:0;padding:0;accent-color:var(--green);cursor:pointer}
+.badge-setting-row small{color:var(--muted);font-size:11px}
+.badge-settings-form>.btn{justify-self:start;margin-top:3px}
+.badge-settings-status{font-size:12px;margin:0}
+.badge-settings-status:empty{display:none}
+html #main .comment-badge.is-user-hidden{background:#e6e6e6!important;border-color:#bdbdbd!important;color:#626262!important}
+html[data-theme="dark"] #main .comment-badge.is-user-hidden{background:#30373a!important;border-color:#62696c!important;color:#bfc4c6!important}
+html #main .comment-badge.is-user-hidden::after,html #main .comment-badge.is-user-hidden::before{animation:none!important;display:none!important}
+html #main .comment-badge.is-user-hidden .supporter-badge-star{animation:none!important;color:inherit!important;text-shadow:none!important}
