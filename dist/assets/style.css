@@ -2452,3 +2452,15 @@ html[data-theme="dark"] .gallery-close:is(:hover,:focus-visible){background:#293
 .comment-badge.heart-fan{background:#482a3c;color:#ffc0d4;border-color:#925771}
 .comment-badge.heart-master{background:#493323;color:#ffd99f;border-color:#a27b48}
 #account-heart-badge:empty{display:none}
+
+/* Account badge guide: independent comment and heart milestones. */
+.account-badge-guide{padding-top:22px}
+.account-badge-guide h3{font-size:18px;margin:0 0 7px}
+.account-badge-guide>p{font-size:13px;color:var(--muted);margin:0 0 12px}
+.account-badge-table{width:100%;border-collapse:collapse;text-align:left;font-size:13px}
+.account-badge-table th,.account-badge-table td{padding:12px 10px;border-bottom:1px solid var(--line)}
+.account-badge-table thead th{font-weight:650;color:var(--muted)}
+.account-badge-table tbody th{font-weight:400}
+.account-badge-table tbody tr:nth-child(5)>*{border-top:2px solid var(--line)}
+.account-badge-guide .account-badge-note{margin:12px 0 0;font-size:12px}
+@media(max-width:760px){.account-badge-table th,.account-badge-table td{padding:11px 5px}.account-badge-guide{padding-top:18px}}
