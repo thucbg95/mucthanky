@@ -204,3 +204,7 @@ html:not([data-theme="dark"]) .admin-toast-error{background:#fff5f5;border-color
 html:not([data-theme="dark"]) .admin-toast-error .admin-toast-icon{background:#fbe2e4;color:#b23340}
 html:not([data-theme="dark"]) .admin-toast-info{border-color:#bacbd3;color:#365562}
 html:not([data-theme="dark"]) .admin-toast-close:is(:hover,:focus-visible){background:#f4f4f4;border-color:#4a4a4a}
+
+/* Preserve the locked-chat warning accent over neutral light buttons. */
+html:not([data-theme="dark"]) #main :is(.admin-row-actions,.admin-user-row,.comment-moderator-actions) .btn.is-chat-locked{background:#fff0f1;color:#a62c3a;border-color:#db929d}
+html:not([data-theme="dark"]) #main :is(.admin-row-actions,.admin-user-row,.comment-moderator-actions) .btn.is-chat-locked:is(:hover,:focus-visible):not(:disabled){background:#fbe1e5;color:#86212d;border-color:#b95262}
