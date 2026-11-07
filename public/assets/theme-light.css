@@ -197,3 +197,10 @@ html:not([data-theme="dark"]) #main .comment-badge.super{background:#fff2e5;colo
 
 html:not([data-theme="dark"]) #main .comment-badge.supporter{background:#f0f8ef;color:#45612d;border-color:#b7cc96}
 html:not([data-theme="dark"]) .supporter-badge-star{color:#97700e}
+
+html:not([data-theme="dark"]) .admin-toast{background:#fff;border-color:#a9c8b5;color:#234b36;box-shadow:0 8px 28px #0000001f}
+html:not([data-theme="dark"]) .admin-toast .admin-toast-icon{background:#eaf5ee;color:#287246}
+html:not([data-theme="dark"]) .admin-toast-error{background:#fff5f5;border-color:#e1a5aa;color:#9f2935}
+html:not([data-theme="dark"]) .admin-toast-error .admin-toast-icon{background:#fbe2e4;color:#b23340}
+html:not([data-theme="dark"]) .admin-toast-info{border-color:#bacbd3;color:#365562}
+html:not([data-theme="dark"]) .admin-toast-close:is(:hover,:focus-visible){background:#f4f4f4;border-color:#4a4a4a}

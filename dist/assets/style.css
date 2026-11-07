@@ -2522,3 +2522,17 @@ html #main .comment-badge.is-user-hidden{background:#e6e6e6!important;border-col
 html[data-theme="dark"] #main .comment-badge.is-user-hidden{background:#30373a!important;border-color:#62696c!important;color:#bfc4c6!important}
 html #main .comment-badge.is-user-hidden::after,html #main .comment-badge.is-user-hidden::before{animation:none!important;display:none!important}
 html #main .comment-badge.is-user-hidden .supporter-badge-star{animation:none!important;color:inherit!important;text-shadow:none!important}
+
+/* Non-blocking feedback for owner and moderator actions. */
+.admin-toast-region{position:fixed;z-index:120;right:24px;bottom:88px;width:min(380px,calc(100vw - 40px));pointer-events:none}
+.admin-toast{display:flex;align-items:center;gap:11px;padding:13px 14px;border:1px solid #456e60;border-radius:12px;background:#20382f;color:#eaf7ee;box-shadow:0 10px 30px #0003;pointer-events:auto;font-size:13px;line-height:1.5;animation:admin-toast-enter .18s ease-out}
+.admin-toast-icon{display:grid;place-items:center;flex:0 0 24px;width:24px;height:24px;border-radius:50%;background:#91c7a62b;color:#a4e3bc;font-weight:800;font-size:16px}
+.admin-toast-message{flex:1;min-width:0;overflow-wrap:anywhere}
+.admin-toast-error{background:#44292c;border-color:#97575c;color:#ffe7e9}
+.admin-toast-error .admin-toast-icon{background:#ffb3bd26;color:#ffb3bd}
+.admin-toast-info{background:#29383f;border-color:#5f7a85;color:#edf5f7}
+.admin-toast-close{display:grid;place-items:center;flex:0 0 30px;width:30px;height:30px;padding:0;border:1px solid transparent;border-radius:7px;background:transparent;color:inherit;font-size:22px;line-height:1;cursor:pointer}
+.admin-toast-close:is(:hover,:focus-visible){background:#ffffff16;border-color:currentColor}
+@keyframes admin-toast-enter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:760px){.admin-toast-region{left:20px;right:20px;bottom:calc(84px + env(safe-area-inset-bottom));width:auto}.admin-toast{padding:12px}}
+@media(prefers-reduced-motion:reduce){.admin-toast{animation:none}}
