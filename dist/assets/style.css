@@ -2428,3 +2428,14 @@ html[data-theme="dark"] .card-symbol>span{background:#26363b;border-color:#50615
 .gallery-close{cursor:pointer;transition:background .18s,border-color .18s,color .18s}
 html[data-theme="dark"] .gallery-close:is(:hover,:focus-visible){background:#293a42;border-color:#67847e;color:#f1dcae}
 .gallery-close:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+
+/* Compact search popup spacing without restricting result scrolling. */
+#search-dialog{padding-block:14px}
+#search-dialog .dialog-head{min-height:32px;margin-bottom:5px}
+#search-dialog .dialog-head button{line-height:1;padding-block:0}
+#search-dialog>label{margin-bottom:5px}
+#search-dialog .search-hint{margin:7px 0 0;line-height:1.6}
+#search-results:empty{padding:0}
+#search-results>a{padding-block:11px}
+#search-results p{margin-block:3px 0}
+@media(max-width:760px){#search-dialog{padding-block:12px}}
