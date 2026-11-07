@@ -171,7 +171,3 @@ html:not([data-theme="dark"]) #main .comment-badge.admin{background:#edf3fa;bord
 html:not([data-theme="dark"]) #main .comment-badge:is(.fan,.super){background:#faf4e6;border-color:#dfcfa7;color:#795b1f}
 html:not([data-theme="dark"]) #main .supporter-entry-seal{background:#faf4e6;border-color:#d8c390;color:#84621e}
 html:not([data-theme="dark"]) .comment-editor:focus{border-color:#6d9999;box-shadow:0 0 0 2px #20656a1a}
-
-/* Both home knowledge groups share the same Chinese-character badge. */
-html:not([data-theme="dark"]) #main :is(.card-symbol>span,.category-grid .category-tile>span:first-child){display:grid;place-items:center;flex:0 0 43px;width:43px;height:43px;border:1px solid #d1e1dd;border-radius:11px;background:#edf5f4;color:#356b70;font:calc(25px * var(--font-scale,1)) Georgia,serif}
-@media(max-width:760px){html:not([data-theme="dark"]) #main :is(.card-symbol>span,.category-grid .category-tile>span:first-child){flex-basis:34px;width:34px;height:34px;border-radius:8px;font-size:calc(22px * var(--font-scale,1))}}
