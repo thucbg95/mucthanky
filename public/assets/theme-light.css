@@ -208,3 +208,11 @@ html:not([data-theme="dark"]) .admin-toast-close:is(:hover,:focus-visible){backg
 /* Preserve the locked-chat warning accent over neutral light buttons. */
 html:not([data-theme="dark"]) #main :is(.admin-row-actions,.admin-user-row,.comment-moderator-actions) .btn.is-chat-locked{background:#fff0f1;color:#a62c3a;border-color:#db929d}
 html:not([data-theme="dark"]) #main :is(.admin-row-actions,.admin-user-row,.comment-moderator-actions) .btn.is-chat-locked:is(:hover,:focus-visible):not(:disabled){background:#fbe1e5;color:#86212d;border-color:#b95262}
+
+html:not([data-theme="dark"]) #main .support-page :is(.support-intro,.support-card,.supporter-registry,.supporter-hall-intro,.support-impact-card,.support-thanks,.supporter-instructions){background:#fff;color:#171717;border-color:#d9e1df}
+html:not([data-theme="dark"]) #main .support-page .support-intro{border-left-color:#20656a}
+html:not([data-theme="dark"]) #main .support-page .supporter-hall-stat{background:#f3f8f7;border-color:#c6dad6}
+html:not([data-theme="dark"]) #main .support-page .supporter-entry{background:#fff;border-color:#cbd9d6;box-shadow:none}
+html:not([data-theme="dark"]) #main .support-page .supporter-entry:hover{background:#f4f4f4;border-color:#6e9994}
+html:not([data-theme="dark"]) #main .support-page .supporter-entry-identity strong{color:#171717}
+html:not([data-theme="dark"]) #main .support-page .supporter-entry-seal{background:#f5f8ed;border-color:#c5cca2;box-shadow:none}
