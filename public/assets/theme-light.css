@@ -151,7 +151,7 @@ html:not([data-theme="dark"]) .font-floater .float-menu{background:transparent;b
 html:not([data-theme="dark"]) .font-floater :is(.float-menu-toggle,.float-menu>button,.float-menu>a){background:#fff;color:#4a4a4a;border-color:#cccccc;box-shadow:0 2px 6px #0000000d}
 html:not([data-theme="dark"]) .font-floater :is(.float-menu-toggle,.float-menu>button,.float-menu>a):is(:hover,:focus-visible){background:#f4f4f4;color:#171717;border-color:#4a4a4a;box-shadow:0 2px 6px #0000000d}
 
-html:not([data-theme="dark"]) footer .footer-links a:is(:hover,:focus-visible){background:#f4f4f4;color:#171717;outline-color:#4a4a4a;box-shadow:0 0 0 5px #f4f4f4}
+html:not([data-theme="dark"]) footer .footer-links a:hover{background:transparent;color:#20656a;outline-color:transparent;box-shadow:none}
 
 /* Restrained accents on the existing white/gray light surfaces. */
 html:not([data-theme="dark"]){--green:#20656a;--green-2:#347b7d;--green-hover:#164d51;--gold:#84621e;--accent:#84621e;--light-accent-soft:#edf5f4;--light-accent-line:#9abfbd}
