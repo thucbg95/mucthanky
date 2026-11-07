@@ -152,3 +152,22 @@ html:not([data-theme="dark"]) .font-floater :is(.float-menu-toggle,.float-menu>b
 html:not([data-theme="dark"]) .font-floater :is(.float-menu-toggle,.float-menu>button,.float-menu>a):is(:hover,:focus-visible){background:#f4f4f4;color:#171717;border-color:#4a4a4a;box-shadow:0 2px 6px #0000000d}
 
 html:not([data-theme="dark"]) footer .footer-links a:is(:hover,:focus-visible){background:#f4f4f4;color:#171717;outline-color:#4a4a4a;box-shadow:0 0 0 5px #f4f4f4}
+
+/* Restrained accents on the existing white/gray light surfaces. */
+html:not([data-theme="dark"]){--green:#20656a;--green-2:#347b7d;--green-hover:#164d51;--gold:#84621e;--accent:#84621e;--light-accent-soft:#edf5f4;--light-accent-line:#9abfbd}
+html:not([data-theme="dark"]) #main :is(.eyebrow,.section-number){color:#84621e}
+html:not([data-theme="dark"]) #main :is(.btn.primary,.play-action-button:not(.latest-trailer-link)){background:#20656a!important;border-color:#20656a!important;color:#fff!important}
+html:not([data-theme="dark"]) #main :is(.btn.primary,.play-action-button:not(.latest-trailer-link)):is(:hover,:focus-visible):not(:disabled){background:#164d51!important;border-color:#164d51!important;color:#fff!important}
+html:not([data-theme="dark"]) #main .latest-watch-actions #latest-trailer-link{background:#edf5f4!important;color:#20585c!important;border-color:#b4cecb!important}
+html:not([data-theme="dark"]) #main .latest-watch-actions #latest-trailer-link:is(:hover,:focus-visible){background:#e0eeec!important;color:#164d51!important;border-color:#80aaa5!important}
+html:not([data-theme="dark"]) #main :is(.sort-control-button[aria-pressed="true"],.filters button.selected,.profile-category-nav a.selected,.novel-page-button.is-current,.pagination-number[aria-current="page"],.schedule-page-button[aria-current="page"],.admin-page-number[aria-current="page"]){background:#20656a;border-color:#20656a;color:#fff}
+html:not([data-theme="dark"]) .nav nav a[aria-current="page"]{color:#20656a}
+html:not([data-theme="dark"]) .nav nav a::after{background:#20656a}
+html:not([data-theme="dark"]) #main :is(.text-link,.novel-reading-guide .actions a,.guide-grid>a b){color:#20656a}
+html:not([data-theme="dark"]) #main :is(.card-symbol>span,.category-tile>span:first-child,.quick-icon){color:#356b70;background:#edf5f4;border-color:#d1e1dd}
+html:not([data-theme="dark"]) #main .realm-no{color:#84621e;border-color:#c8b482;background:#fbf7ed}
+html:not([data-theme="dark"]) #main :is(.comment-reply-recipient,.admin-comment-body .comment-reply-recipient){background:#edf5f4;color:#20585c;border-color:#c6dcd7}
+html:not([data-theme="dark"]) #main .comment-badge.admin{background:#edf3fa;border-color:#c8d7e7;color:#355c84}
+html:not([data-theme="dark"]) #main .comment-badge:is(.fan,.super){background:#faf4e6;border-color:#dfcfa7;color:#795b1f}
+html:not([data-theme="dark"]) #main .supporter-entry-seal{background:#faf4e6;border-color:#d8c390;color:#84621e}
+html:not([data-theme="dark"]) .comment-editor:focus{border-color:#6d9999;box-shadow:0 0 0 2px #20656a1a}
