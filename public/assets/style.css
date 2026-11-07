@@ -2544,13 +2544,13 @@ html #main .comment-badge.is-user-hidden .supporter-badge-star{animation:none!im
 .comment-badge:is(.fan,.super,.heart-fan,.heart-master)::after{animation-name:badge-prism-glint;animation-duration:10s;animation-timing-function:ease-in-out;width:45%}
 .comment-badge.heart-master::before{display:none}
 :is(.support-shimmer,#latest-episode-link){position:relative;isolation:isolate;overflow:hidden}
-:is(.support-shimmer,#latest-episode-link)::after{content:"";position:absolute;inset:-30% auto -30% -65%;width:45%;pointer-events:none;background:linear-gradient(105deg,transparent,#bfe9df80,#ffffffdb,transparent);opacity:0;animation:badge-prism-glint 5s ease-in-out infinite}
+:is(.support-shimmer,#latest-episode-link)::after{content:"";position:absolute;inset:-30% auto -30% -65%;width:45%;pointer-events:none;background:linear-gradient(105deg,transparent,#bfe9df80,#ffffffdb,transparent);opacity:0;animation:support-action-sheen 10s ease-in-out infinite;animation-delay:var(--site-sheen-delay,0s)}
 @media(prefers-reduced-motion:reduce){.comment-badge:is(.fan,.super,.heart-fan,.heart-master)::after,:is(.support-shimmer,#latest-episode-link)::after{animation:none;display:none}}
 
 /* A masked sheen follows the transparent logo, leaving its empty pixels clear. */
 :is(.brand-art,.hero-logo):has(>img[src="/assets/logo-transparent.png"]){position:relative}
-:is(.brand-art,.hero-logo):has(>img[src="/assets/logo-transparent.png"])::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(110deg,transparent 40%,#fff7d9e6 49%,#ffffffed 50%,transparent 60%);background-size:300% 100%;background-position:150% 0;-webkit-mask:url('/assets/logo-transparent.png') center/contain no-repeat;mask:url('/assets/logo-transparent.png') center/contain no-repeat;animation:logo-sheen 18s ease-in-out infinite}
-@keyframes logo-sheen{0%,67%{opacity:0;background-position:150% 0}72%,78%{opacity:.425}94%,100%{opacity:0;background-position:-50% 0}}
+:is(.brand-art,.hero-logo):has(>img[src="/assets/logo-transparent.png"])::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(110deg,transparent 40%,#fff7d9e6 49%,#ffffffed 50%,transparent 60%);background-size:300% 100%;background-position:150% 0;-webkit-mask:url('/assets/logo-transparent.png') center/contain no-repeat;mask:url('/assets/logo-transparent.png') center/contain no-repeat;animation:logo-sheen 10s ease-in-out infinite;animation-delay:var(--site-sheen-delay,0s)}
+@keyframes logo-sheen{0%,45%{opacity:0;background-position:150% 0}54%,65%{opacity:.8}94%,100%{opacity:0;background-position:-50% 0}}
 @media(prefers-reduced-motion:reduce){:is(.brand-art,.hero-logo):has(>img[src="/assets/logo-transparent.png"])::after{animation:none;display:none}}
 
 /* Faster badge sweeps, independent from the approved button and logo timing. */
@@ -2561,6 +2561,11 @@ html #main .comment-badge.is-user-hidden .supporter-badge-star{animation:none!im
 @media(prefers-reduced-motion:reduce){.comment-badge:is(.fan,.super,.heart-fan,.heart-master,.admin,.supporter)::after{animation:none;display:none}}
 
 /* A slower ten-second sheen for the latest-episode action only. */
-#latest-episode-link::after{animation:latest-episode-sheen 10s ease-in-out infinite}
+#latest-episode-link::after{animation:latest-episode-sheen 10s ease-in-out infinite;animation-delay:var(--site-sheen-delay,0s)}
 @keyframes latest-episode-sheen{0%,86%{opacity:0;transform:translateX(0) skewX(-18deg)}89%,92%{opacity:.9}98%,100%{opacity:0;transform:translateX(420%) skewX(-18deg)}}
 @media(prefers-reduced-motion:reduce){#latest-episode-link::after{animation:none;display:none}}
+
+#main .hero-actions .support-shimmer::after{animation:latest-episode-sheen 10s ease-in-out infinite;animation-delay:var(--site-sheen-delay,0s)}
+@media(prefers-reduced-motion:reduce){#main .hero-actions .support-shimmer::after{animation:none;display:none}}
+
+@keyframes support-action-sheen{0%,89%{opacity:0;transform:translateX(0) skewX(-18deg)}90.5%,92%{opacity:.9}96%,100%{opacity:0;transform:translateX(420%) skewX(-18deg)}}
