@@ -2539,3 +2539,10 @@ html #main .comment-badge.is-user-hidden .supporter-badge-star{animation:none!im
 
 /* Place registry save/delete actions together below both mobile fields. */
 @media(max-width:760px){#supporter-registry-section .admin-supporter-card{grid-template-columns:max-content minmax(0,1fr);align-items:center}#supporter-registry-section .admin-supporter-card>.admin-comment-heading{grid-column:1/-1}#supporter-registry-section .admin-supporter-card>.admin-supporter-edit{display:contents}#supporter-registry-section .admin-supporter-edit input{grid-column:1/-1;grid-row:auto}#supporter-registry-section .admin-supporter-edit .btn{grid-column:1;grid-row:4;justify-self:start}#supporter-registry-section .admin-supporter-card>.btn{grid-column:2;grid-row:4;justify-self:start;align-self:center}}
+
+/* Match supporter glint timing while retaining each badge's own tint. */
+.comment-badge:is(.fan,.super,.heart-fan,.heart-master)::after{animation-name:badge-prism-glint;animation-duration:5s;animation-timing-function:ease-in-out;width:45%}
+.comment-badge.heart-master::before{display:none}
+:is(.support-shimmer,#latest-episode-link){position:relative;isolation:isolate;overflow:hidden}
+:is(.support-shimmer,#latest-episode-link)::after{content:"";position:absolute;inset:-30% auto -30% -65%;width:45%;pointer-events:none;background:linear-gradient(105deg,transparent,#bfe9df80,#ffffffdb,transparent);opacity:0;animation:badge-prism-glint 5s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.comment-badge:is(.fan,.super,.heart-fan,.heart-master)::after,:is(.support-shimmer,#latest-episode-link)::after{animation:none;display:none}}
