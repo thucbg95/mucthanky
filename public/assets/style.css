@@ -2439,3 +2439,9 @@ html[data-theme="dark"] .gallery-close:is(:hover,:focus-visible){background:#293
 #search-results>a{padding-block:7px}
 #search-results p{margin-block:3px 0}
 @media(max-width:760px){#search-dialog{padding-block:12px}}
+
+/* Keep scrollbars inside the rounded search shell. */
+#search-dialog{overflow:hidden}
+#search-dialog[open]{display:flex;flex-direction:column}
+#search-dialog>:not(#search-results){flex-shrink:0}
+#search-dialog #search-results{min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}
