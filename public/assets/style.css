@@ -2592,3 +2592,7 @@ html[data-theme="dark"] #main .support-page .supporter-entry:hover{background:#2
 #quiz-options button{transition:background-color .18s ease,border-color .18s ease,color .18s ease,box-shadow .18s ease}
 html[data-theme="dark"] #quiz-options button:is(:hover,:focus-visible):not(:disabled){background:#293a42;border-color:#789b91;color:#f1dcae;box-shadow:0 0 0 1px #789b9126}
 @media(prefers-reduced-motion:reduce){#quiz-options button{transition:none}}
+
+/* Slightly larger home navigation actions on both screen sizes. */
+@media(min-width:761px){.hero .hero-actions .btn{min-height:56px;padding:15px 24px;font-size:calc(15px * var(--font-scale,1))}.hero .hero-actions .hero-action-icon{width:22px;height:22px}}
+@media(max-width:760px){.hero .hero-actions .btn{font-size:calc(12px * var(--font-scale,1))}}
