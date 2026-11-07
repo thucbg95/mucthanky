@@ -2424,3 +2424,7 @@ html[data-theme="dark"] .card-symbol>span{background:#26363b;border-color:#50615
 
 .schedule-more[open] .schedule-expand-label,.schedule-more:not([open]) .schedule-collapse-label{display:none}
 .schedule-result-count{margin:12px 12px 0}
+
+.gallery-close{cursor:pointer;transition:background .18s,border-color .18s,color .18s}
+html[data-theme="dark"] .gallery-close:is(:hover,:focus-visible){background:#293a42;border-color:#67847e;color:#f1dcae}
+.gallery-close:focus-visible{outline:2px solid var(--green);outline-offset:2px}

@@ -177,3 +177,8 @@ html:not([data-theme="dark"]) #main .novel-chapter-panel{background:transparent;
 /* Teal accents for prominent titles while body copy stays neutral. */
 html:not([data-theme="dark"]) #main :is(h1,.section-head h2,.feature-content h2,.novel-book-info h2,.editorial-feature h2){color:#20656a}
 html:not([data-theme="dark"]) .brand strong{color:#20656a}
+
+/* White canvas behind transparent and letterboxed gallery images. */
+html:not([data-theme="dark"]) .gallery-lightbox img{background:#ffffff}
+html:not([data-theme="dark"]) .gallery-close{background:#ffffff;color:#171717;transition:background .18s,border-color .18s,color .18s}
+html:not([data-theme="dark"]) .gallery-close:is(:hover,:focus-visible){background:#f4f4f4;border-color:#4a4a4a;color:#171717}
