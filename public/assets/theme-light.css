@@ -103,7 +103,7 @@ html:not([data-theme="dark"]) :is(.btn:not(.primary),.icon-button,.menu-toggle,.
 html:not([data-theme="dark"]) :is(.comment-actions button,.comment-moderator-actions button,.comment-show-replies,.comment-load-more,.comment-replies-toggle,.comment-reply-controls button:not(.primary)):is(:hover,:focus-visible):not(:disabled){background:#f4f4f4;border-color:#c6c6c6;box-shadow:none}
 html:not([data-theme="dark"]) :is(.like-button,.like-button.is-liked){background:#fff}
 html:not([data-theme="dark"]) :is(.like-button,.like-button.is-liked):is(:hover,:focus-visible):not(:disabled){background:#f4f4f4}
-html:not([data-theme="dark"]) .novel-chapter-list{background:none;box-shadow:none}
+html:not([data-theme="dark"]) #main .novel-chapter-list{background:transparent;box-shadow:none}
 
 html:not([data-theme="dark"]) .card-symbol{background:#ffffff}
 
