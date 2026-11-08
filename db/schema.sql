@@ -61,3 +61,5 @@ CREATE INDEX IF NOT EXISTS supporter_accounts_email ON supporter_accounts(email)
 CREATE TABLE IF NOT EXISTS user_badge_preferences (user_id TEXT PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,preferences TEXT NOT NULL DEFAULT '{}');
 
 CREATE TABLE IF NOT EXISTS user_display_names (user_id TEXT PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,display_name TEXT NOT NULL,changed_at INTEGER NOT NULL);
+
+CREATE TABLE IF NOT EXISTS user_display_name_claims (name_key TEXT PRIMARY KEY,user_id TEXT NOT NULL UNIQUE REFERENCES users(id) ON DELETE CASCADE);

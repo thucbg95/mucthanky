@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS user_display_name_claims (name_key TEXT PRIMARY KEY,user_id TEXT NOT NULL UNIQUE REFERENCES users(id) ON DELETE CASCADE);
