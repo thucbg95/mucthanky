@@ -2607,3 +2607,18 @@ html[data-theme="dark"] #quiz-options button:is(:hover,:focus-visible):not(:disa
 .film-release-info>h2{margin-top:8px}
 .film-release-info>p{margin-bottom:12px}
 @media(max-width:760px){.film-release-info{margin-top:20px}}
+
+.account-name-settings h2{font-size:24px;margin:0 0 8px}
+.account-name-settings>p{font-size:13px;color:var(--muted);margin-bottom:16px}
+#account-name-form{max-width:680px}
+#account-name-form>label{display:block;font-size:13px;font-weight:600;margin-bottom:6px}
+.account-name-fields{display:flex;gap:10px;align-items:stretch}
+.account-name-fields input{flex:1;min-width:0;width:100%}
+.account-name-fields .btn{white-space:nowrap;flex:none}
+#account-name-hint{font-size:12px;margin:8px 0 0}
+.account-name-status{font-size:13px;margin:9px 0 0;color:var(--green)}
+.account-name-status:empty{display:none}
+.account-name-status.is-error{color:#ffb3bd}
+@media(max-width:420px){.account-name-fields{flex-direction:column}.account-name-fields .btn{align-self:flex-start}}
+
+.account-panel.account-name-settings{display:block}
