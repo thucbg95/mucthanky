@@ -82,7 +82,7 @@ async function handle(context){const {request,env}=context;const url=new URL(req
    const limit=[10,20,50].includes(requestedLimit)?requestedLimit:10,offset=Math.max(0,Math.min(100000,Number.parseInt(url.searchParams.get('offset')||'0',10)||0));
    const sort=url.searchParams.get('sort')==='oldest'?'oldest':'newest',direction=sort==='oldest'?'ASC':'DESC';
    const category=url.searchParams.get('category')||'all';
-   const categorySql={all:'1=1',film:"c.page='/phim/'",novel:"(c.page='/truyen/' OR c.page LIKE '/truyen/%')",encyclopedia:"(c.page='/bach-khoa/' OR c.page LIKE '/bach-khoa/%')",community:"c.page='/cong-dong/'",characters:"c.page='/nhan-vat/'",cultivation:"c.page='/canh-gioi/'"}[category]||'1=1';
+   const categorySql={all:'1=1',film:"c.page='/phim/'",novel:"(c.page='/truyen/' OR c.page LIKE '/truyen/%')",encyclopedia:"(c.page='/bach-khoa/' OR c.page LIKE '/bach-khoa/%' OR c.page='/nhan-vat/')",community:"c.page='/cong-dong/'",characters:"c.page='/nhan-vat/'",cultivation:"c.page='/canh-gioi/'"}[category]||'1=1';
    const totalRow=await env.DB.prepare(`SELECT COUNT(*) AS total FROM comments c WHERE c.parent_id IS NULL AND c.status IN ('approved','pending') AND ${categorySql}`).first(),total=Number(totalRow?.total)||0;
    const rootRows=await env.DB.prepare(`SELECT c.id FROM comments c WHERE c.parent_id IS NULL AND c.status IN ('approved','pending') AND ${categorySql} ORDER BY julianday(c.created_at) ${direction},c.id ${direction} LIMIT ? OFFSET ?`).bind(limit,offset).all();
    const rootIds=(rootRows.results||[]).map(row=>row.id);
