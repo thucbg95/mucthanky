@@ -219,9 +219,12 @@ html:not([data-theme="dark"]) #main .support-page .supporter-entry-seal{backgrou
 
 html:not([data-theme="dark"]) #quiz-options button:is(:hover,:focus-visible):not(:disabled){background:#f4f4f4;border-color:#4a4a4a;color:#174f53;box-shadow:none}
 
-/* A soft white fade retains some image detail even at the lower edge. */
+/* Keep the artwork clear, with a soft light surface behind the hero copy. */
 html:not([data-theme="dark"]) #main .hero{background:#f5f5f5;border-color:#dedede}
-html:not([data-theme="dark"]) #main .hero-shade{inset:0;height:auto;background:linear-gradient(0deg,#f5f5f5f2 0%,#f5f5f555 28%,transparent 62%)}
+html:not([data-theme="dark"]) #main .hero-shade{inset:0;height:auto;background:linear-gradient(0deg,#f5f5f5f5 0%,#f5f5f5e6 9%,#f5f5f5ad 18%,#f5f5f54d 27%,#f5f5f514 35%,transparent 43%)}
 @media(max-width:760px){html:not([data-theme="dark"]) #main .hero-shade{inset:0;height:auto;background:linear-gradient(0deg,#f5f5f5 43%,transparent 72%)}}
 
 html:not([data-theme="dark"]) .account-name-status.is-error{color:#ad2537}
+
+html:not([data-theme="dark"]) #main .hero h1{color:#243b3d;text-shadow:0 1px 12px #ffffff70}
+html:not([data-theme="dark"]) #main .hero p{color:#333d3f}
