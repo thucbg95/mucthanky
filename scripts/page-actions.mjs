@@ -1,0 +1,1 @@
+export function pageActions(slug){return '<div class="entry-tools"><button class="btn small" type="button" data-bookmark="'+slug+'" aria-pressed="false">☆ Lưu vào tài khoản</button><span class="bookmark-status" aria-live="polite" hidden></span><button class="btn small" type="button" data-copy-link>Sao chép liên kết</button></div>'}

@@ -2353,14 +2353,14 @@ html:has(#search-dialog[open]),html:has(#search-dialog[open]) body{overflow:hidd
 #search-dialog,#search-results{overscroll-behavior:contain}
 .profile-category-section .entry-tools{justify-content:flex-end;margin:0 0 16px}
 
-.encyclopedia-profile-hero .entry-tools{justify-content:flex-end;margin:12px 0 0}
+:is(.encyclopedia-profile-hero,.detail-page-hero) .entry-tools{justify-content:flex-end;margin:12px 0 0}
 
 /* Desktop profile actions sit beside the heading rather than in a new row. */
 @media(min-width:761px){
-.encyclopedia-profile-hero>.wrap{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:24px}
-.encyclopedia-profile-hero .breadcrumb{grid-column:1/-1}
-.encyclopedia-profile-hero :is(.eyebrow,h1,.entry-deck){grid-column:1}
-.encyclopedia-profile-hero .entry-tools{grid-column:2;grid-row:2/5;align-self:end;justify-self:end;margin:0;flex-wrap:nowrap}
+:is(.encyclopedia-profile-hero,.detail-page-hero)>.wrap{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:24px}
+:is(.encyclopedia-profile-hero,.detail-page-hero) .breadcrumb{grid-column:1/-1}
+:is(.encyclopedia-profile-hero,.detail-page-hero) :is(.eyebrow,h1,.entry-deck){grid-column:1}
+:is(.encyclopedia-profile-hero,.detail-page-hero) .entry-tools{grid-column:2;grid-row:2/5;align-self:end;justify-self:end;margin:0;flex-wrap:nowrap}
 }
 
 /* Search wrapper paints the hover background, so it shares the input corners. */
@@ -2600,3 +2600,5 @@ html[data-theme="dark"] #quiz-options button:is(:hover,:focus-visible):not(:disa
 /* A small logo size increase on phones. */
 @media(max-width:760px){.brand-art{width:76px;flex-basis:76px}}
 @media(max-width:380px){.brand-art{width:61px;flex-basis:61px}}
+
+@media(min-width:761px){.detail-page-hero .entry-tools{grid-row:2/4}}
