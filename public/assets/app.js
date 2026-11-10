@@ -194,12 +194,20 @@ if($('#reader-chapters')){
 
 
 
-// Share the back-to-top label's appearance across all sorting arrows.
-const sortTip=document.createElement('span');sortTip.className='sort-tooltip';sortTip.setAttribute('aria-hidden','true');sortTip.hidden=true;document.body.append(sortTip);let sortTipAnchor;
-const hideSortTip=()=>{sortTip.hidden=true;sortTipAnchor=null};
-const showSortTip=button=>{sortTipAnchor=button;sortTip.textContent=button.dataset.sortTooltip;sortTip.hidden=false;const box=button.getBoundingClientRect(),tip=sortTip.getBoundingClientRect();sortTip.style.left=Math.max(8,Math.min(innerWidth-tip.width-8,box.left+(box.width-tip.width)/2))+'px';sortTip.style.top=(box.top>tip.height+16?box.top-tip.height-8:box.bottom+8)+'px'};
-$$('.sort-button,.sort-control-button').forEach(button=>{button.dataset.sortTooltip=button.title||button.getAttribute('aria-label')||'Sắp xếp';button.removeAttribute('title');button.addEventListener('pointerenter',()=>showSortTip(button));button.addEventListener('pointerleave',hideSortTip);button.addEventListener('focus',()=>showSortTip(button));button.addEventListener('blur',hideSortTip);button.addEventListener('click',hideSortTip)});
-window.addEventListener('scroll',()=>{if(!sortTipAnchor)return;const box=sortTipAnchor.getBoundingClientRect();if(box.bottom<0||box.top>innerHeight)hideSortTip();else showSortTip(sortTipAnchor)},{passive:true,capture:true});window.addEventListener('resize',hideSortTip);document.addEventListener('keydown',event=>{if(event.key==='Escape')hideSortTip()});
+// One shared tooltip for native titles, sorting arrows and icon controls.
+(()=>{
+ const tip=document.createElement('span');tip.className='site-tooltip';tip.id='site-tooltip';tip.setAttribute('role','tooltip');document.body.append(tip);let anchor=null;
+ const hide=()=>{tip.classList.remove('is-visible');if(anchor){const ids=(anchor.getAttribute('aria-describedby')||'').split(/\s+/).filter(id=>id&&id!==tip.id);if(ids.length)anchor.setAttribute('aria-describedby',ids.join(' '));else anchor.removeAttribute('aria-describedby')}anchor=null};
+ const prepare=node=>{if(node.hasAttribute('title')){node.dataset.siteTooltip=node.getAttribute('title');node.removeAttribute('title')}};
+ document.querySelectorAll('[title]').forEach(prepare);
+ new MutationObserver(records=>{for(const record of records){if(record.type==='attributes')prepare(record.target);else for(const node of record.addedNodes)if(node.nodeType===1){prepare(node);node.querySelectorAll('[title]').forEach(prepare)}}}).observe(document.body,{subtree:true,childList:true,attributes:true,attributeFilter:['title']});
+ const find=target=>target instanceof Element?target.closest('[data-site-tooltip],[data-sort-tooltip],.theme-toggle,.nav>[data-search],.back-top,.float-menu-toggle'):null;
+ const show=node=>{const text=node.dataset.siteTooltip||node.dataset.sortTooltip||node.querySelector('.top-label')?.textContent||node.getAttribute('aria-label');if(!text||node.disabled)return;hide();anchor=node;(node.closest('dialog[open]')||document.body).append(tip);tip.textContent=text;tip.classList.remove('is-visible');tip.style.left='0px';tip.style.top='0px';const box=node.getBoundingClientRect(),rect=tip.getBoundingClientRect(),side=!!node.closest('.font-floater,.back-top');let left=side?box.left-rect.width-12:box.left+(box.width-rect.width)/2;let top=side?box.top+(box.height-rect.height)/2:box.top>rect.height+16?box.top-rect.height-8:box.bottom+8;tip.style.left=Math.max(8,Math.min(innerWidth-rect.width-8,left))+'px';tip.style.top=Math.max(8,Math.min(innerHeight-rect.height-8,top))+'px';node.setAttribute('aria-describedby',[(node.getAttribute('aria-describedby')||''),tip.id].filter(Boolean).join(' '));void tip.offsetWidth;tip.classList.add('is-visible')};
+ document.addEventListener('pointerover',event=>{if(event.pointerType==='touch')return;const node=find(event.target);if(node&&node!==anchor)show(node)});
+ document.addEventListener('pointerout',event=>{if(anchor&&event.target instanceof Node&&anchor.contains(event.target)&&!anchor.contains(event.relatedTarget))hide()});
+ document.addEventListener('focusin',event=>{const node=find(event.target);if(node&&node.matches(':focus-visible'))show(node)});
+ document.addEventListener('focusout',hide);document.addEventListener('click',hide);document.addEventListener('keydown',event=>{if(event.key==='Escape')hide()});window.addEventListener('scroll',hide,{passive:true,capture:true});window.addEventListener('resize',hide);
+})();
 
 document.querySelector('[data-profile-category-select]')?.addEventListener('change',event=>{location.href=event.target.value});
 
