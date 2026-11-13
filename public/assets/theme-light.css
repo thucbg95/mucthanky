@@ -1,4 +1,4 @@
-/* Neutral white, gray & charcoal: shared light-theme tokens and components. Dark mode is unchanged. */
+/* Light theme with porcelain surfaces and jade accents. */
 html:not([data-theme="dark"]){color-scheme:light;--bg:#ffffff;--panel:#ffffff;--soft:#f4f4f4;--soft-blue:#f4f4f4;--text:#171717;--heading:#171717;--muted:#262626;--line:#e5e5e5;--line-strong:#cccccc;--green:#292929;--green-2:#444444;--green-hover:#111111;--gold:#333333;--accent:#333333;--surface-shadow:0 3px 15px #35353508}
 html:not([data-theme="dark"]) body{background:var(--bg);color:var(--text)}
 html:not([data-theme="dark"]) :is(h1,h2,h3,h4,.brand strong){color:var(--heading)}
@@ -156,8 +156,8 @@ html:not([data-theme="dark"]) footer .footer-links a:hover{background:transparen
 /* Restrained accents on the existing white/gray light surfaces. */
 html:not([data-theme="dark"]){--green:#20656a;--green-2:#347b7d;--green-hover:#164d51;--gold:#84621e;--accent:#84621e;--light-accent-soft:#edf5f4;--light-accent-line:#9abfbd}
 html:not([data-theme="dark"]) #main :is(.eyebrow,.section-number){color:#84621e}
-html:not([data-theme="dark"]) #main :is(.btn.primary,.play-action-button:not(.latest-trailer-link)){background:#20656a!important;border-color:#20656a!important;color:#fff!important}
-html:not([data-theme="dark"]) #main :is(.btn.primary,.play-action-button:not(.latest-trailer-link)):is(:hover,:focus-visible):not(:disabled){background:#164d51!important;border-color:#164d51!important;color:#fff!important}
+html:not([data-theme="dark"]) #main :is(.btn.primary,.play-action-button:not(.latest-trailer-link)){background:var(--green)!important;border-color:var(--green)!important;color:#fff!important}
+html:not([data-theme="dark"]) #main :is(.btn.primary,.play-action-button:not(.latest-trailer-link)):is(:hover,:focus-visible):not(:disabled){background:var(--green-hover)!important;border-color:var(--green-hover)!important;color:#fff!important}
 html:not([data-theme="dark"]) #main .latest-watch-actions #latest-trailer-link{background:#edf5f4!important;color:#20585c!important;border-color:#b4cecb!important}
 html:not([data-theme="dark"]) #main .latest-watch-actions #latest-trailer-link:is(:hover,:focus-visible){background:#e0eeec!important;color:#164d51!important;border-color:#80aaa5!important}
 html:not([data-theme="dark"]) #main :is(.sort-control-button[aria-pressed="true"],.filters button.selected,.profile-category-nav a.selected,.novel-page-button.is-current,.pagination-number[aria-current="page"],.schedule-page-button[aria-current="page"],.admin-page-number[aria-current="page"]){background:#20656a;border-color:#20656a;color:#fff}
@@ -228,3 +228,54 @@ html:not([data-theme="dark"]) .account-name-status.is-error{color:#ad2537}
 
 html:not([data-theme="dark"]) #main .hero h1{color:#243b3d;text-shadow:0 1px 12px #ffffff70}
 html:not([data-theme="dark"]) #main .hero p{color:#333d3f}
+
+/* Light surfaces and accent colors, loaded after the shared stylesheet. */
+html:root:not([data-theme="dark"]) {
+  --bg: #f5faf9;
+  --panel: #fff;
+  --text: #163139;
+  --heading: #163139;
+  --muted: #445d65;
+  --line: #cbdedc;
+  --line-strong: #a9c8c4;
+  --green: #08766a;
+  --green-2: #087d70;
+  --green-hover: #056257;
+  --gold: #845011;
+  --accent: #a56515;
+  --soft: #e8f6f1;
+  --soft-blue: #e8f4f8;
+}
+html:root:not([data-theme="dark"]) body {
+  background: var(--bg);
+  color: var(--text);
+}
+html:not([data-theme="dark"]) :is(.page-hero,.account-hero) {
+  background: linear-gradient(110deg, #dff5ee, #eef9f7 55%, #fff4df);
+}
+html:not([data-theme="dark"]) #main .hero {
+  background: #e5f6ef;
+  border-color: var(--line);
+}
+html:not([data-theme="dark"]) #main .hero-shade {
+  background: linear-gradient(0deg, #e5f6effa 0%, #e5f6efe8 10%, #e5f6efb3 20%, #e5f6ef40 31%, transparent 43%);
+}
+html:not([data-theme="dark"]) #main .hero h1 { color: #164b45; }
+html:not([data-theme="dark"]) :is(.hero .hero-actions .btn.primary,.latest-watch-actions #latest-episode-link) {
+  background: var(--green) !important;
+  border-color: var(--green) !important;
+}
+html:not([data-theme="dark"]) :is(.hero .hero-actions .btn.primary,.latest-watch-actions #latest-episode-link):is(:hover,:focus-visible) {
+  background: var(--green-hover) !important;
+  border-color: var(--green-hover) !important;
+}
+html:not([data-theme="dark"]) .nav nav a::after { background: var(--green); }
+html:not([data-theme="dark"]) .episode-status-card { background: var(--soft); border-color: var(--line); }
+html:not([data-theme="dark"]) .episode-status-card .eyebrow { color: var(--gold); }
+html:not([data-theme="dark"]) .site-tooltip { background: #146457; }
+
+@media (max-width: 760px) {
+  html:not([data-theme="dark"]) #main .hero-shade {
+    background: linear-gradient(0deg, #e5f6ef 40%, #e5f6efc9 49%, transparent 72%);
+  }
+}
